@@ -1,0 +1,104 @@
+.card {
+    color:white;
+    font-family:"Raleway",sans-serif;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .card-bottom {
+    text-align: center;
+    height: 0px;
+    transition: all 0.9s ease-out;
+    background-color:#2980b9;
+    overflow: hidden;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.card .card-bottom:hover {
+    background-color: #262727;
+}
+
+.card .card-bottom a {
+    color: white;
+    text-decoration: none;  
+    display: block;
+}
+
+.card .card-top {
+    position: relative;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #262727;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.card .card-top span {
+    position: relative;
+    top: -5px;
+    transition: 0.3s ease-out all;   
+}
+
+.card .card-top img {
+    width: 30px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card .card-content {
+    color: black;
+    font-size: 15px;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.9s ease-out all;
+}
+
+.card .card-content div.card-content-div {
+    padding: 15px 20px;
+}
+
+.card .card-content ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card .card-content ul li a {
+    color: #2980b9;   
+}
+
+.card .card-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.card .card-content ul li {
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.card .card-content ul li i {
+    margin-right: 10px;
+}
+
+.card .card-content .sep {
+    width: 100%;
+    height: 1px;
+    background: #2980B9;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card .card-bottom i {
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.cards .col {
+    margin-bottom: 20px;
+}
+
