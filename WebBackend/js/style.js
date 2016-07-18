@@ -1,7 +1,38 @@
 $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-              {
+             
+                 {
+                    title: 'Azure App Services',
+                    image: 'images/cardslogo/azure.png',
+                    content: 'Codez dans votre langage favoris (.NET, NodeJS, PHP, Python ou Java) pour créer rapidement des applications web et des API.',
+                    list: [
+                    ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/',
+                    type: 'build',
+                    label: 'Codez, ne gérez plus la plomberie'
+                },
+                 {
+                    title: 'Azure container service',
+                    image: 'images/cardslogo/azure.png',
+                    content: 'Déployer et gérer des conteneurs à l’aide des outils que vous choisissez.',
+                    list: [
+                    ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/container-service/',
+                    type: 'build',
+                    label: 'Exploitez la puissance des containers'
+                },
+           
+                 {
+                    title: 'Azure API Management',
+                    image: 'images/cardslogo/azure.png',
+                    content: 'Créez une passerelle d’API et un portail de développement en quelques minutes',
+                    list: [],
+                    link: 'https://azure.microsoft.com/fr-fr/services/api-management/',
+                    type: 'build',
+                    label: 'Publier, gérer, sécuriser et analyser vos APIs en quelques minutes'
+                },
+                 {
                     title: 'Azure SQL Database',
                     image: 'images/cardslogo/azure.png',
                     content: 'LOREM IPSUM DOLOR SIT AMET',
@@ -50,36 +81,6 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Donnez un côté plus humain à vos applications'
                 },
-                 {
-                    title: 'Azure App Services',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Codez dans votre langage favoris (.NET, NodeJS, PHP, Python ou Java) pour créer rapidement des applications web et des API.',
-                    list: [
-                    ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/',
-                    type: 'build',
-                    label: 'Codez, ne gérez plus la plomberie'
-                },
-                 {
-                    title: 'Azure container service',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Déployer et gérer des conteneurs à l’aide des outils que vous choisissez.',
-                    list: [
-                    ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/container-service/',
-                    type: 'build',
-                    label: 'Exploitez la puissance des containers'
-                },
-           
-                 {
-                    title: 'Azure API Management',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Créez une passerelle d’API et un portail de développement en quelques minutes',
-                    list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/services/api-management/',
-                    type: 'build',
-                    label: 'Publier, gérer, sécuriser et analyser vos APIs en quelques minutes'
-                },
                      {
                     title: 'Visual Studio App Insigths',
                     image: 'images/cardslogo/vsts.png',
@@ -93,7 +94,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     {
                     title: 'Shell Bash',
                     image: 'images/cardslogo/windows.png',
-                    content: 'Supporté nativement sisi',
+                    content: 'Dans Windows 10, vous avez désormais accès nativement aux fonctionnalités Bash d\'\Ubuntu. Et donc <i> apt, ssh, rsync, find, grep, awk, sed, curl, wget, apache, mysql, python, perl, ruby, php, emacs, vim, diff,...</i>',
                     list: [
                           {
                             link: 'http://aka.ms/vscomemudownload',
@@ -103,7 +104,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
                     type: 'outil',
-                    label: 'Le Bash dans Windows'
+                    label: 'Bash dans Windows'
                 },
                          {
                     title: 'Visual Studio Team Services',
@@ -117,7 +118,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Visual Studio Code',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Un éditeur de code léger, open source, et cross-plateforme, qui permet de faire du debug node.js.',
+                    content: 'Un éditeur de code léger, open source, cross plateforme. Le tout avec des fonctionnalités de débogage, et connexion GitHub.',
                     list: [],
                     link: 'https://code.visualstudio.com/',
                     type: 'outil',
@@ -126,26 +127,58 @@ $('a[data-toggle="tooltip"]').tooltip();
                     {
                     title: 'Visual Studio',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Téléchargez-là dès maintenant !',
+                    content: 'Découvrez les extensions pour vos langages préférés.',
                     list: [
                         {
-                            link: 'https://code.visualstudio.com/Docs/languages/php',
-                            list: 'VSCode',
+                            link: 'https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5',
+                            list: 'PHP',
                             icon: 'fa-download'
                         },
+                        {
+                           link: 'https://www.visualstudio.com/en-us/features/node-js-vs.aspx',
+                            list: 'Node.js',
+                            icon: 'fa-film'
+                        },
                     ],
-                    link: 'https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5',
+                    link: 'https://www.visualstudio.com/en-us/features/python-vs.aspx',
                     type: 'outil',
-                    label: 'L\'extension PHP pour Visual Studio.'
+                    label: 'Les extensions web pour Visual Studio'
+                },
+                 {
+                    title: 'JAVA',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'LOREM',
+                    list: [],
+                    link: '/Java/index.html',
+                    type: 'outil',
+                    label: 'Nos solutions sur JAVA'
                 },
                   {
-                    title: 'ASP.NET Core',
+                    title: 'macOS',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'et surtout tout neuf : il est sorti le 27 juin 2016',
+                    content: 'Découvrez comment réaliser votre première application sous ASP.NET Core avec Visual Studio Code.',
                     list: [ ],
-                    link: 'https://docs.asp.net/en/latest/',
+                    link: 'https://docs.asp.net/en/latest/tutorials/your-first-mac-aspnet.html',
                     type: 'plateforme',
-                    label: 'Découvre un autre framework backend cool'
+                    label: 'Vous développez sous mac ?'
+                },
+                {
+                    title: 'Linux',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Publiez dans un environnement de production Linux.',
+                    list: [ ],
+                    link: 'https://docs.asp.net/en/latest/publishing/linuxproduction.html',
+                    type: 'plateforme',
+                    label: 'Vous déployez sur Linux ?'
+                },
+                {
+                    title: 'Windows',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Publiez vers IIS avec Web Deploy en utilisant Visual Studio.',
+                    list: [ ],
+                    link: 'https://docs.asp.net/en/latest/publishing/iis-with-msdeploy.html',
+                    type: 'plateforme',
+                    label: 'Et ça marche aussi sous Windows'
                 },
             ];
 

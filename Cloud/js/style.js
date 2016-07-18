@@ -47,19 +47,6 @@ $(document).ready(function () {
                     type: 'build',
                     label: 'Exploitez la puissance des containers'
                 },
-
-                        {
-                    title: 'Azure Container Services',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Déployer et gérer des conteneurs à l’aide des outils que vous choisissez. Cette solution offre une grande flexibilité pour la migration de vos applications vers Azure et à partir d\'Azure.',
-                    list: [
-                          {
-                        },
-                     ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/container-service/',
-                    type: 'build',
-                    label: 'Créer un conteneur optimisé hébergeant une solution'
-                },
                     {
                     title: 'Azure Functions',
                     image: 'images/cardslogo/azure.png',
@@ -73,10 +60,10 @@ $(document).ready(function () {
 
                   {
                     title: 'Données',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'La plateforme Microsoft Azure offre de nombreuses solutions pour l\'hébergement de données applicatives : de MySQL ou MongoDB sur une machine virtuelle Linux, de consommer une base de données SQL Azure Database ou encore d\'utiliser Azure DocumentDb...',
+                    image: 'images/cardslogo/sql.png',
+                    content: 'Microsoft Azure offre de nombreuses solutions pour le stockage de données : de MySQL ou MongoDB sur une machine virtuelle Linux, en passant par Azure SQL Database ou encore Azure DocumentDB.',
                     list: [ ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
+                    link: 'https://azure.microsoft.com/fr-fr/services/?sort=popular&filter=data-storage',
                     type: 'plateforme',
                     label: 'Plutôt SQL ou NoSQL ?'
                 },
@@ -92,7 +79,7 @@ $(document).ready(function () {
                         },
                         {
                            link: 'https://azure.microsoft.com/fr-fr/services/media-services/',
-                            list: 'Media Sce',
+                            list: 'Media',
                             icon: 'fa-film'
                         },
                      ],  
@@ -103,20 +90,20 @@ $(document).ready(function () {
                      {
                     title: 'Intégration',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Développez et fournissez aisément des solutions d’intégration puissantes. Automatisez les processus d’entreprise rapidement.',
+                    content: 'Développez et fournissez aisément des solutions d’intégration puissantes. Automatisez les processus d’entreprise.',
                     list: [ ],
                     link: 'https://azure.microsoft.com/fr-fr/services/app-service/logic/',
                     type: 'plateforme',
-                    label: 'Intégrez différents services entre eux'
+                    label: 'Intégration entre services'
                 },
                                                   {
                     title: 'IDEs & SDKs',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Node.js, Java, Eclipse : Azure parle votre langage.',
+                    content: 'Nodejs, PHP, Java, Eclipse, IntilliJ : pas besoin de changer, ça marche aussi avec Azure.',
                     list: [ 
                                                 {
                            link: 'https://experiences.microsoft.fr/channel/hello-azure-la-plateforme-aux-multiples-langages/42a2c02e-566c-4297-aad3-3141c27197c9#34vYwomFiTOpMcqE.97',
-                            list: 'Cache',
+                            list: 'Vidéo',
                             icon: 'fa-film'
                         },
                     ],
@@ -127,12 +114,12 @@ $(document).ready(function () {
                  {
                     title: 'Azure CLI',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Bénéficier d’un ensemble de commandes shell open source permettant de créer et gérer les ressources dans Microsoft Azure.',
+                    content: 'Que vous soyez sous Linux, macOS ou sous Windows c\'est LA ligne de commande qui vous permettra de créer, gérer les ressources dans le cloud Microsoft Azure.',
                     list: [
                      ],
                     link: 'https://azure.microsoft.com/fr-fr/documentation/articles/xplat-cli-install/#excution-des-commandes-azure-cli',
                     type: 'outil',
-                    label: 'L’interface de ligne de commande Azure'
+                    label: 'Interface de ligne de commande'
                 },
                   {
                     title: 'VS Team Services',

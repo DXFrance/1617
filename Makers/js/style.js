@@ -1,9 +1,19 @@
 $(document).ready(function () {
       $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
+               
                {
-                    title: 'Cognitive Services',
+                    title: 'Azure Web Apps',
                     image: 'images/cardslogo/azure.png',
+                    content: 'Commencez par connecter votre carte pour lui faire découvrir un nouveau monde.',
+                    list: [],
+                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
+                    type: 'build',
+                    label: 'Envoyez et traitez simplement vos données sur le web'
+                },
+                {
+                    title: 'Cognitive Services',
+                    image: 'images/cardslogo/cognitive.png',
                     content: 'Offrez de l\'intelligence à vos projets : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
                     list: [
                            {
@@ -16,48 +26,48 @@ $(document).ready(function () {
                     type: 'build',
                     label: 'Offrez la voix et la vue à votre carte'
                 },
-               {
-                    title: 'Azure Web Apps',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Commencez par connecter votre carte pour lui faire découvrir un nouveau monde.',
-                    list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
-                    type: 'build',
-                    label: 'Envoyez et traitez simplement vos données sur le web'
-                },
-
                     {
                     title: 'IoT Hub',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Connectez, surveillez et contrôlez des millions de ressources IoT.',
+                    image: 'images/cardslogo/iot.png',
+                    content: 'Connectez, surveillez, et contrôlez des millions de ressources IoT. Puis récoltez l\'ensemble des données facilement.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/iot-hub/',
                     type: 'outil',
-                    label: 'Connectez plein de ressources IoT'
+                    label: 'Gérez vos ressources IoT'
+                },                
+                  {
+                    title: 'STOCKAGE',
+                    image: 'images/cardslogo/azure.png',
+                    content: 'Conservez de manière durable vos données dans le cloud grâce à un service évolutif et adapté à vos besoins.',
+                    list: [
+                        {
+                        link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
+                        list: 'SQL Database',
+                        icon: 'fa-film'
+                         },
+                         {
+                        link: 'https://azure.microsoft.com/fr-fr/services/documentdb/',
+                        list: 'DocumentDB',
+                        icon: 'fa-film'
+                         },
+                          ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
+                    type: 'outil',
+                    label: 'Stocker vos données'
                 },
-
                         {
                     title: 'Machine Learning',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/machinelearning.png',
                     content: 'Puissant outil de Machine Learning dans le cloud.',
                     list: [ ],
                     link: 'https://azure.microsoft.com/fr-fr/services/machine-learning/',
                     type: 'outil',
                     label: 'Prédisez le futur'
                 },
-                  {
-                    title: 'SQL Database',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Stocker de manière durable vos données dans le cloud grâce à un service disponible et évolutif.',
-                    list: [ ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
-                    type: 'outil',
-                    label: 'Stocker la donnée'
-                },
                     {
                     title: 'Stream Analytics',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/stream.png',
                     content: 'Analyser des flux de données à chaud, à partir de millions d’appareils IoT.',
                     list: [ ],
                     link: 'https://azure.microsoft.com/fr-fr/services/stream-analytics/',
@@ -65,9 +75,9 @@ $(document).ready(function () {
                     label: 'Traiter les données en temps réel'
                 },
                     {
-                    title: 'Concentrateurs de notification',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Moteur de notifications Push évolutif permettant d’envoyer rapidement des messages.',
+                    title: 'Notification hubs',
+                    image: 'images/cardslogo/notification.png',
+                    content: 'Moteur de notifications évolutif permettant d’envoyer rapidement des messages.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/notification-hubs/',
@@ -76,8 +86,8 @@ $(document).ready(function () {
                 },
                   {
                     title: 'PowerBI',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Visualisez vos données sur une interface qui roxx du poney, avec notamment des diagrammes de flux.',
+                    image: 'images/cardslogo/powerbi.gif',
+                    content: 'Visualisez vos données sur une interface qui déboite, avec notamment des diagrammes de flux.',
                     list: [ ],
                     link: 'https://powerbi.microsoft.com/fr-fr/',
                     type: 'outil',
@@ -85,36 +95,49 @@ $(document).ready(function () {
                 },
                  {
                     title: 'Windows 10 IoT Core',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'La solution qu\'il vous faut pour faire tourner des apps Windows 10 UWP sur Raspberry, Arduino ou Minowboard.',
+                    image: 'images/cardslogo/rasp.png',
+                    content: 'Installez et faites tourner vos applications Windows 10 UWP sur Raspberry pi 2 et 3.',
                     list: [
                         {
                         link: 'https://www.hackster.io/windowsiot',
                         list: 'Démos',
                         icon: 'fa-film'
                          },
+                         {
+                        link: 'https://developer.microsoft.com/en-us/windows/iot/getstarted',
+                        list: 'Télécharger',
+                        icon: 'fa-film'
+                         },
                      ],
                     link: 'https://developer.microsoft.com/en-us/windows/iot/',
                     type: 'plateforme',
-                    label: 'Faire tourner des apps Windows 10'
+                    label: 'Sur Raspberry'
                 },
                  {
-                    title: 'Windows Virtual Shield pour Arduino',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Cette extension fourni La possibilité d’utiliser un téléphone sous Windows comme capteur et de le connecter en bluetooth avec votre carte Arduino.',
-                    list: [ ],
+                    title: 'Windows 10 IoT Core',
+                    image: 'images/cardslogo/dragon.png',
+                    content: 'Installez et faites tourner vos applications Windows 10 UWP sur Dragonboard 410c.',
+                    list: [ {
+                        link: 'https://developer.microsoft.com/en-us/windows/iot/getstarted',
+                        list: 'Télécharger',
+                        icon: 'fa-film'
+                         },],
                     link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
                     type: 'plateforme',
-                    label: 'Utiliser les capteurs de son téléphone'
+                    label: 'Sur DragonBoard'
                 },
                  {
-                    title: 'Windows Remote pour Arduino',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Contrôler, directement depuis Windows et à distance, sa carte.',
-                    list: [ ],
+                    title: 'Windows 10 IoT Core',
+                    image: 'images/cardslogo/minnowboard.png',
+                    content: 'Installez et faites tourner vos applications Windows 10 UWP sur Minnowboard Max.',
+                    list: [ {
+                        link: 'https://developer.microsoft.com/en-us/windows/iot/getstarted',
+                        list: 'Télécharger',
+                        icon: 'fa-film'
+                         },],
                     link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
                     type: 'plateforme',
-                    label: 'Controler sa carte à distance'
+                    label: 'Sur Minnowboard'
                 },
             ];
 

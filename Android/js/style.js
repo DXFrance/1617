@@ -41,13 +41,8 @@ $('a[data-toggle="tooltip"]').tooltip();
                             icon: 'fa-film'
                         },
                         {
-                            link: 'https://mva.microsoft.com/fr-fr/training-courses/dvelopper-avec-le-microsoft-graph-16293?l=ClJag4ZNC_7105192810',
-                            list: 'Cours',
-                            icon: 'fa-graduation-cap'
-                        },
-                                     {
                             link: 'https://graph.microsoft.io/en-us/partners',
-                            list: 'démo',
+                            list: 'Références',
                             icon: 'fa-pied-piper'
                         },
                     ],
@@ -95,7 +90,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 {
                     title: 'Xamarin test cloud',
                     image: 'images/cardslogo/xamagon.png',
-                    content: 'Testez votre application sur plus de 2000 types de devices à la demande. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
+                    content: 'Testez votre application sur plus de 2000 périphériques mobile. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
                     list: [],
                     link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
                     type: 'test',
@@ -118,7 +113,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/services/mobile-engagement/',
                     type: 'test',
-                    label: 'Analysez comment vos utilisateurs utilisent votre application'
+                    label: 'Engagez vos utilisateurs'
                 },
 
                     {
@@ -173,7 +168,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                   {
                     title: 'Visual C++ Mobile',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Ou bien partagez et réutilisez du code C++ existant. La fonction débug est aussi dispo.',
+                    content: 'Partagez et réutilisez du code C++ existant pour cibler les utilisateurs Android et iOS. La fonction débug est aussi dispo.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
                     type: 'plateforme',
