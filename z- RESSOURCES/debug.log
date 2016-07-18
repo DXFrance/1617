@@ -1,0 +1,5 @@
+[0613/151921:WARNING:dns_config_service_win.cc(654)] Failed to read DnsConfig.
+[0613/151921:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[0613/151921:ERROR:renderer_main.cc(207)] Running without renderer sandbox
+[0613/151922:ERROR:ipc_channel_win.cc(460)] pipe error: 232
+[0613/151922:ERROR:ipc_channel_win.cc(460)] pipe error: 232
