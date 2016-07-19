@@ -29,18 +29,18 @@ $(document).ready(function () {
                {
                     title: 'Azure Service Fabric',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Développer et exploiter des applications distribuées, évolutives et toujours disponibles.',
+                    content: 'Développez et exploitez des applications distribuées, évolutives et toujours disponibles.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/service-fabric/',
                     type: 'build',
-                    label: 'Utiliser des microservices pour votre appli'
+                    label: 'Utilisez des microservices pour votre appli'
                 },
 
                     {
                     title: 'Azure container service',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Déployer et gérer des conteneurs à l’aide des outils que vous choisissez.',
+                    content: 'Déployez et gérez des conteneurs à l’aide des outils que vous choisissez.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/container-service/',
@@ -50,7 +50,7 @@ $(document).ready(function () {
                     {
                     title: 'Azure Functions',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Listen and react to events across your stack.',
+                    content: 'Ecoutez les événements dans votre pile et y réagir',
                     list: [
                      ],
                     link: 'https://azure.microsoft.com/en-us/services/functions/',

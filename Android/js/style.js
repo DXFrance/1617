@@ -177,7 +177,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'React Native Tools',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Cette extension fourni un environement de développement pour vos projets React Native.',
+                    content: 'Cette extension fournit un environement de développement pour vos projets React Native.',
                     list: [ ],
                     link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
                     type: 'plateforme',
