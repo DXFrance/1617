@@ -50,7 +50,7 @@ $(document).ready(function () {
                     {
                     title: 'Azure Functions',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Ecoutez les événements dans votre pile et réagissez-y',
+                    content: 'Ecoutez les événements dans votre pile et réagissez-y.',
                     list: [
                      ],
                     link: 'https://azure.microsoft.com/en-us/services/functions/',
