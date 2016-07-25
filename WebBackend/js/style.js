@@ -1,7 +1,7 @@
 $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-             
+
                  {
                     title: 'Azure App Services',
                     image: 'images/cardslogo/appservice.png',
@@ -22,7 +22,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Exploitez la puissance des containers'
                 },
-           
+
                  {
                     title: 'Azure API Management',
                     image: 'images/cardslogo/api.png',
@@ -56,7 +56,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                             list: 'Media Sce',
                             icon: 'fa-film'
                         },
-                     ],  
+                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/search/',
                     type: 'build',
                     label: 'Activez le mode search Engine as a Service'
@@ -144,7 +144,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'outil',
                     label: 'Les extensions web pour Visual Studio'
                 },
-                
+
                   {
                     title: 'macOS',
                     image: 'images/cardslogo/vsts.png',

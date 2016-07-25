@@ -3,6 +3,14 @@
 	margin:0;
 	padding:0
 }
+
+.banderole {
+	width: 65%;
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+}
+
 .circle:hover {
     background: #3f3f3f;
 	color:black;
@@ -389,13 +397,7 @@ li.w3-card-4
 	color:#fff;
 	background-color:#34495e;
 }
-	section.header img
-{
-	position:absolute;
-	right:0;
-	bottom:-5em;
-	display:block
-}
+
 	section.header .slogan
 {
 	font-size:3.7em;
@@ -985,10 +987,7 @@ section.content_with_pictures_2
 {
 	width:100%
 }
-	section.header img
-{
-	display:none
-}
+
 	section.header .logo
 {
 	margin:0 auto
