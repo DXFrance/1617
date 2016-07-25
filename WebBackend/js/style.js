@@ -1,40 +1,70 @@
 $(document).ready(function () {
-            $('a[data-toggle="tooltip"]').tooltip();
+$('a[data-toggle="tooltip"]').tooltip();
             var cards = [
+             
+                 {
+                    title: 'Azure App Services',
+                    image: 'images/cardslogo/appservice.png',
+                    content: 'Codez dans votre langage favoris (.NET, NodeJS, PHP, Python ou Java) pour créer rapidement des applications web et des API.',
+                    list: [
+                    ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/',
+                    type: 'build',
+                    label: 'Codez, ne gérez plus la plomberie'
+                },
+                 {
+                    title: 'Azure container service',
+                    image: 'images/cardslogo/conteneur.png',
+                    content: 'Déployer et gérer des conteneurs sur le Cloud à l’aide des outils que vous choisissez comme Docker Swarm ou DC/OS.',
+                    list: [
+                    ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/container-service/',
+                    type: 'build',
+                    label: 'Exploitez la puissance des containers'
+                },
+           
+                 {
+                    title: 'Azure API Management',
+                    image: 'images/cardslogo/api.png',
+                    content: 'Créez une passerelle d’API aux fonctionnalités avancées (cache, throttling, transformations, sécurité, …) et un portail de développement pour vos utilisateurs en quelques minutes.',
+                    list: [],
+                    link: 'https://azure.microsoft.com/fr-fr/services/api-management/',
+                    type: 'build',
+                    label: 'Publiez, gérez, sécurisez et analysez vos APIs en quelques minutes'
+                },
+                 {
+                    title: 'Azure SQL Database',
+                    image: 'images/cardslogo/sql.png',
+                    content: 'Vous souhaitez une base de données relationnelle clé en main, hautement disponible et performante ? Découvrez Azure SQL Database.',
+                    list: [ ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
+                    type: 'build',
+                    label: 'Votre base de données relationnelles clé en main'
+                },
+             {
+                    title: 'Azure Search',
+                    image: 'images/cardslogo/search.png',
+                    content: 'Azure offre de nombreux services applicatifs prêts à consommer : du cache Redis en passant par Azure Search ou encore Azure Media Service.',
+                    list: [
+                        {
+                           link: 'https://azure.microsoft.com/fr-fr/services/cache/',
+                            list: 'Cache',
+                            icon: 'fa-film'
+                        },
+                        {
+                           link: 'https://azure.microsoft.com/fr-fr/services/media-services/',
+                            list: 'Media Sce',
+                            icon: 'fa-film'
+                        },
+                     ],  
+                    link: 'https://azure.microsoft.com/fr-fr/services/search/',
+                    type: 'build',
+                    label: 'Activez le mode search Engine as a Service'
+                },
                   {
-                    title: 'Bot Builder',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Ce SDK pour Node.js permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
-                    list: [
-                           {
-                            link: 'https://experiences.microsoft.fr/channel/prenez-votre-pied-avec-les-bots/9e6aa5d5-14e6-4d2b-ab6a-14f8032a638b#8R2CEPaRCxdViL8I.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                    ],
-                    link: 'http://docs.botframework.com/builder/node/overview/',
-                    type: 'build',
-                    label: 'Vous faites du Node.js ?'
-                },
-                                  {
-                    title: 'Bot Builder',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Ce SDK pour ASP.NET permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
-                    list: [
-                           {
-                            link: 'https://experiences.microsoft.fr/channel/prenez-votre-pied-avec-les-bots/9e6aa5d5-14e6-4d2b-ab6a-14f8032a638b#8R2CEPaRCxdViL8I.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                    ],
-                    link: 'http://docs.botframework.com/sdkreference/csharp/',
-                    type: 'build',
-                    label: 'Vous êtes plutôt ASP.NET ?'
-                },
-               {
                     title: 'Cognitive Services',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
+                    content: 'Offrez de l\'intelligence à vos applications : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
                     list: [
                            {
                             link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
@@ -42,87 +72,106 @@ $(document).ready(function () {
                             icon: 'fa-film'
                         },
                          {
-                            link: 'https://www.microsoft.com/cognitive-services/en-us/luis-api/documentation/home',
-                            list: 'Doc',
-                            icon: 'fa-film'
+                            link: 'https://www.microsoft.com/cognitive-services/en-us/applications',
+                            list: 'Exemples',
+                            icon: 'fa-pied-piper'
                         },
                     ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
                     type: 'build',
-                    label: 'Rendez votre bot plus intelligent'
+                    label: 'Donnez un côté plus humain à vos applications'
+                },
+                     {
+                    title: 'Visual Studio Application Insigths',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Optimisez l\’utilisation des applications et la rétention des utilisateurs.',
+                    list: [],
+                    link: 'https://azure.microsoft.com/fr-fr/services/application-insights/',
+                    type: 'build',
+                    label: 'Détectez, hiérarchisez et diagnostiquez les problèmes dans vos applications et services web.'
                 },
 
                     {
-                    title: 'Bot Connector',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Votre Bot devient accessible depuis des services comme Slack, Telegram, Facebook Messenger, Skype...',
+                    title: 'Shell Bash',
+                    image: 'images/cardslogo/windows.png',
+                    content: 'Dans Windows 10, vous avez désormais accès nativement aux fonctionnalités Bash d\'\Ubuntu. Et donc <i> apt, ssh, rsync, find, grep, awk, sed, curl, wget, apache, mysql, python, perl, ruby, php, emacs, vim, diff,...</i>',
                     list: [
                           {
-                            link: 'https://www.nuget.org/packages/Microsoft.Bot.Connector/',
-                            list: 'Installer',
-                            icon: 'fa-download'
-                        },
-                    ],
-                    link: 'http://docs.botframework.com/connector/getstarted/',
-                    type: 'plateforme',
-                    label: 'Rendre votre bot accessible au plus grand nombre'
-                },
-
-                        {
-                    title: 'Azure Web App',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Déployez votre bot node.js ou ASP.NET dans une web app simplement.',
-                    list: [
-                     ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
-                    type: 'plateforme',
-                    label: 'Hébergez simplement votre bot dans le cloud'
-                },
-                    {
-                    title: 'Bot Directory',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Publiez votre bot sur le Bot Directory.',
-                    list: [
-                     ],
-                    link: 'https://bots.botframework.com/',
-                    type: 'plateforme',
-                    label: 'Diffuser son bot pour accroitre sa visibilité'
-                },
-{
-                    title: 'Bot Framework Emulator',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'L\'emulateur permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows uniquement.',
-                    list: [
-                     {
-                            link: 'https://aka.ms/bf-bc-emulator',
+                            link: 'http://aka.ms/vscomemudownload',
                             list: 'Télécharger',
                             icon: 'fa-download'
                         },
-                     ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#use-the-bot-framework-emulator-to-test-your-bot-application',
+                    ],
+                    link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
                     type: 'outil',
-                    label: 'Tester son bot facilement avec l\'émulateur'
+                    label: 'Bash dans Windows'
+                },
+                         {
+                    title: 'Visual Studio Team Services',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre IDE.',
+                    list: [],
+                    link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
+                    type: 'outil',
+                    label: 'Partager son code et suivre ses projets efficacement'
+                },
+                 {
+                    title: 'Visual Studio Code',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Un éditeur de code léger, open source, cross plateforme. Le tout avec des fonctionnalités de débogage, et connexion GitHub.',
+                    list: [],
+                    link: 'https://code.visualstudio.com/',
+                    type: 'outil',
+                    label: 'Un éditeur de code tout neuf !'
                 },
                     {
                     title: 'Visual Studio',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Téléchargez-le gratuitement dès maintenant !',
+                    content: 'Si vous préférez l’environnement de développement complet de Visual Studio, n’oubliez pas d’installer les extensions propres à vos plateformes !',
                     list: [
+                        {
+                            link: 'https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5',
+                            list: 'PHP',
+                            icon: 'fa-download'
+                        },
+                        {
+                           link: 'https://www.visualstudio.com/en-us/features/node-js-vs.aspx',
+                            list: 'Node.js',
+                            icon: 'fa-film'
+                        },
                     ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#getting-started-in-net',
+                    link: 'https://www.visualstudio.com/en-us/features/python-vs.aspx',
                     type: 'outil',
-                    label: 'Télécharger le template .NET pour Visual Studio'
+                    label: 'Les extensions web pour Visual Studio'
                 },
+                
                   {
-                    title: 'VS Code',
+                    title: 'macOS',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'L\'éditeur de code gratuit, léger et cross-plateforme de Microsoft. En plus c\'est Open Source !',
+                    content: 'Découvrez comment réaliser votre première application sous ASP.NET Core avec Visual Studio Code.',
                     list: [ ],
-                    link: 'https://code.visualstudio.com/',
-                    type: 'outil',
-                    label: 'Un éditeur de code léger pour développer en Node.js'
+                    link: 'https://docs.asp.net/en/latest/tutorials/your-first-mac-aspnet.html',
+                    type: 'plateforme',
+                    label: 'Vous développez sous mac ?'
                 },
-                 
+                {
+                    title: 'Linux',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Publiez dans un environnement de production Linux.',
+                    list: [ ],
+                    link: 'https://docs.asp.net/en/latest/publishing/linuxproduction.html',
+                    type: 'plateforme',
+                    label: 'Vous déployez sur Linux ?'
+                },
+                {
+                    title: 'Windows',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Publiez vers IIS avec Web Deploy en utilisant Visual Studio.',
+                    list: [ ],
+                    link: 'https://docs.asp.net/en/latest/publishing/iis-with-msdeploy.html',
+                    type: 'plateforme',
+                    label: 'Et ça marche aussi sous Windows'
+                },
             ];
 
 
@@ -137,7 +186,7 @@ $(document).ready(function () {
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div><a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
