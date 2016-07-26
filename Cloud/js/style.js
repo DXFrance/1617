@@ -68,10 +68,15 @@ $(document).ready(function () {
                     label: 'Plutôt SQL ou NoSQL ?'
                 },
                  {
+                    more: false,
                     title: 'Services applicatifs',
                     image: 'images/cardslogo/azure.png',
                     content: 'Azure offre de nombreux services applicatifs prêts à consommer : Du cache Redis en passant par Azure Search ou encore Azure Media Service.',
-                    list: [
+                    list: [ {
+                           link: 'https://azure.microsoft.com/fr-fr/services/search/',
+                            list: 'Search',
+                            icon: 'fa-film'
+                        },
                         {
                            link: 'https://azure.microsoft.com/fr-fr/services/cache/',
                             list: 'Cache',
@@ -145,7 +150,9 @@ $(document).ready(function () {
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div><a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+                var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
+                
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
