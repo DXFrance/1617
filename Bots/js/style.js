@@ -3,7 +3,7 @@ $(document).ready(function () {
             var cards = [
                   {
                     title: 'Bot Builder',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/tool.png',
                     content: 'Ce SDK pour Node.js permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
                     list: [
                            {
@@ -18,7 +18,7 @@ $(document).ready(function () {
                 },
                                   {
                     title: 'Bot Builder',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/tool.png',
                     content: 'Ce SDK pour ASP.NET permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
                     list: [
                            {
@@ -33,7 +33,7 @@ $(document).ready(function () {
                 },
                {
                     title: 'Cognitive Services',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/cerveau.png',
                     content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
                     list: [
                            {
@@ -54,7 +54,7 @@ $(document).ready(function () {
 
                     {
                     title: 'Bot Connector',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/connect.png',
                     content: 'Votre Bot devient accessible depuis des services comme Slack, Telegram, Facebook Messenger, Skype...',
                     list: [
                           {
@@ -70,7 +70,7 @@ $(document).ready(function () {
 
                         {
                     title: 'Azure Web App',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/webapp.png',
                     content: 'Déployez votre bot node.js ou ASP.NET dans une web app simplement.',
                     list: [
                      ],
@@ -80,7 +80,7 @@ $(document).ready(function () {
                 },
                     {
                     title: 'Bot Directory',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/meet.png',
                     content: 'Publiez votre bot sur le Bot Directory.',
                     list: [
                      ],

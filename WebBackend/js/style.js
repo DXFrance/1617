@@ -125,6 +125,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Un éditeur de code tout neuf !'
                 },
                     {
+                    more: false,
                     title: 'Visual Studio',
                     image: 'images/cardslogo/vsts.png',
                     content: 'Si vous préférez l’environnement de développement complet de Visual Studio, n’oubliez pas d’installer les extensions propres à vos plateformes !',
@@ -139,6 +140,11 @@ $('a[data-toggle="tooltip"]').tooltip();
                             list: 'Node.js',
                             icon: 'fa-film'
                         },
+                        {
+                           link: 'https://www.visualstudio.com/en-us/features/python-vs.aspx',
+                            list: 'Python',
+                            icon: 'fa-film'
+                        },
                     ],
                     link: 'https://www.visualstudio.com/en-us/features/python-vs.aspx',
                     type: 'outil',
@@ -147,7 +153,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                   {
                     title: 'macOS',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/apple.png',
                     content: 'Découvrez comment réaliser votre première application sous ASP.NET Core avec Visual Studio Code.',
                     list: [ ],
                     link: 'https://docs.asp.net/en/latest/tutorials/your-first-mac-aspnet.html',
@@ -156,7 +162,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
                 {
                     title: 'Linux',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/linux.png',
                     content: 'Publiez dans un environnement de production Linux.',
                     list: [ ],
                     link: 'https://docs.asp.net/en/latest/publishing/linuxproduction.html',
@@ -165,7 +171,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
                 {
                     title: 'Windows',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/windows.png',
                     content: 'Publiez vers IIS avec Web Deploy en utilisant Visual Studio.',
                     list: [ ],
                     link: 'https://docs.asp.net/en/latest/publishing/iis-with-msdeploy.html',
@@ -186,7 +192,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+                var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
+                
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
