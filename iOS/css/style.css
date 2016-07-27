@@ -134,6 +134,7 @@ section.items
   position: relative;
   height: 200px;
   background-size: cover;
+  background-position: center 0px;
 }
 
 	body,html

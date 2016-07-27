@@ -101,7 +101,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'test',
                     label: 'Testez l\'interface de vos applis sur 2000 devices'
                 },
-           
+
                  {
                     title: 'Visual Studio Team Services',
                     image: 'images/cardslogo/vsts.png',
@@ -195,13 +195,13 @@ $('a[data-toggle="tooltip"]').tooltip();
         cards[i].list_html = '';
                 if (cards[i].list.length) {
                     for (var z = 0; z < cards[i].list.length; z++) {
-                        cards[i].list_html += '<li><a href="'+ cards[i].list[z].link +'" title="'+ cards[i].list[z].list +'">'+ cards[i].list[z].list +' <i class="fa '+ cards[i].list[z].icon +'"></i></a></li>';
+                        cards[i].list_html += '<li><a href="'+ cards[i].list[z].link +'" title="'+ cards[i].list[z].list +'">'+ cards[i].list[z].list +'</a></li>';
                     }
                 } else {
                     cards[i].list_html = '';
                 }
-                
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].title +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"><p><span class="label">'+cards[i].title +'</span> '+ cards[i].content +'</p><div class="sep"></div><ul>'+ cards[i].list_html +'<li><a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus <i class="fa fa-angle-right"></i></a></li></ul> </div> </div></div> </div> </div>');
+
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-6 col-sm-12 col-lg-4"> <div class="card card-ios"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <p><span class="label">'+ cards[i].title +'</span> '+ cards[i].content +'</p> <ul style="margin-top: 3px;">'+ cards[i].list_html +'  <li><a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus <i class="fa fa-angle-right"></i></a></li> </ul> </div> </div> </div> </div>');
             }
 
 

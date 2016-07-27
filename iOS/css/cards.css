@@ -24,7 +24,7 @@
 
 .card .card-bottom a {
     color: #2980b9;
-    text-decoration: none;  
+    text-decoration: none;
     display: block;
 }
 .card-content .label {
@@ -54,7 +54,7 @@
 .card .card-top span {
     position: relative;
     top: -5px;
-    transition: 0.3s ease-out all;   
+    transition: 0.3s ease-out all;
 }
 
 .card .card-top img {
@@ -84,7 +84,7 @@
 }
 
 .card .card-content  a {
-    color: #2980b9;   
+    color: #2980b9;
 }
 
 .card .card-content  a:hover {
@@ -119,12 +119,33 @@
     margin-bottom: 30px;
 }
 
-.contact-team 
+.contact-team
 {
 text-align: center;
 }
-.contact-people 
+.contact-people
 {
 display: inline-block;
 margin:0 10px;
+}
+
+.card-ios .card-top {
+  font: roboto, sans-serif;
+  position: relative;
+  text-align: left;
+  padding: 15px 10px 10px 20px;
+  color: #272727;
+  font-size: 23px;
+}
+
+.card-ios img {
+  width: 60px !important;
+  position: absolute !important;
+  left: -40px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.card-ios .card-content-div ul li {
+    display: inline;
 }
