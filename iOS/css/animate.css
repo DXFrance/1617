@@ -1069,7 +1069,13 @@ Copyright (c) 2014 Daniel Eden
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
-  }
+  display: block;
+    position: absolute;
+    height: 745px;
+    width: 1275px;
+    background-repeat: no-repeat;
+    top: -269px;
+    left: 46%;}
 
   100% {
     opacity: 1;
@@ -1083,7 +1089,13 @@ Copyright (c) 2014 Daniel Eden
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
             transform: translate3d(0, -100%, 0);
-  }
+  display: block;
+    position: absolute;
+    height: 745px;
+    width: 1275px;
+    background-repeat: no-repeat;
+    top: -269px;
+    left: 46%;}
 
   100% {
     opacity: 1;
@@ -1095,7 +1107,13 @@ Copyright (c) 2014 Daniel Eden
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
-}
+display: block;
+    position: absolute;
+    height: 745px;
+    width: 1275px;
+    background-repeat: no-repeat;
+    top: -269px;
+    left: 46%;}
 
 @-webkit-keyframes fadeInDownBig {
   0% {

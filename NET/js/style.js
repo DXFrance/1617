@@ -25,7 +25,7 @@ $(document).ready(function () {
                {
                     title: 'ASP.NET Core',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Profitez d\'un framework léger, modulable. Pour créer des applications web hébergées sur Linux, Mac ou Windows.',
+                    content: 'Profitez d\'un framework léger et modulable, pour créer des applications web hébergées sur Linux, Mac ou Windows.',
                     list: [
                     ],
                     link: 'http://www.asp.net/core',
@@ -36,73 +36,73 @@ $(document).ready(function () {
         
 
                   {
-                    title: 'txt',
+                    title: 'UWA',
                     image: 'images/cardslogo/sql.png',
-                    content: 'LOREM.',
+                    content: 'Développez des applications pour tous les périphériques Windows et: mobiles, tablettes, desktop, HoloLens, Surface Hub et Xbox et profitez d\'un écosystème de plus de 200 millions de périphériques Windows.',
                     list: [ ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/?sort=popular&filter=data-storage',
+                    link: 'https://developer.microsoft.com/fr-fr/windows/getstarted',
                     type: 'plateforme',
-                    label: 'Les applications universelles'
+                    label: 'Applications universelles'
                 },
                  {
                     
-                    title: 'txt',
+                    title: 'WPF',
                     image: 'images/cardslogo/azure.png',
-                    content: 'LOREM.',
+                    content: 'Profitez des API natives Windows pour développer des applications client WPF (Windows Presentation Foundation).',
                     list: [ 
                            
                      ],  
-                    link: 'https://azure.microsoft.com/fr-fr/services/search/',
+                    link: 'https://developer.microsoft.com/fr-fr/windows/desktop/getstarted',
                     type: 'plateforme',
                     label: 'Applications desktop win32'
                 },
                      {
-                    title: 'txt',
+                    title: 'WEB',
                     image: 'images/cardslogo/azure.png',
-                    content: 'LOREM.',
+                    content: 'Creez des applications web HTML, CSS et JavaScript supportées par un ensemble d\'API riches et d\'un écosystème éprouvé grace à ASP.NET 4.6.',
                     list: [ ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/logic/',
+                    link: 'http://www.asp.net/get-started/framework',
                     type: 'plateforme',
                     label: 'ASP.NET web app'
                 },
                                                   {
-                    title: 'Txt',
+                    title: 'Xamarin',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM.',
+                    content: 'Développez des applications natives iOS ou Android en utilisant vos compétences C#.',
                     list: [ 
                             
                     ],
-                    link: 'https://azure.microsoft.com/fr-fr/downloads',
+                    link: 'https://www.xamarin.com/',
                     type: 'outil',
                     label: 'Des applications natives avec le support de C#'
                 },
                  {
-                    title: 'txt',
+                    title: 'Xamarin Forms',
                     image: 'images/cardslogo/azure.png',
-                    content: 'LOREM.',
+                    content: 'Construisez des interfaces natives pour iOS, Android et Windows Phone grace à plus de 40 controls natifs. Partagez ainsi 100% de votre code C# quelle que soit la plateforme.',
                     list: [
                      ],
-                    link: 'https://azure.microsoft.com/fr-fr/documentation/articles/xplat-cli-install/#excution-des-commandes-azure-cli',
+                    link: 'https://www.xamarin.com/forms',
                     type: 'outil',
-                    label: 'Des interfaces unifiées avec Xamarin Forms'
+                    label: 'Des interfaces unifiées'
                 },
                   {
-                    title: 'txt',
+                    title: 'Xamarin IDE',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM.',
+                    content: 'Choisissez l\'IDE qui convient à votre machine: Xamarin Studio sur Mac ou Visual Studio sur PC.',
                     list: [
                      ],
-                    link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
+                    link: 'https://www.xamarin.com/download',
                     type: 'outil',
-                    label: 'Quelle que soit votre plateforme avec Xamarin Studio et Visual studio'
+                    label: 'En travaillant sur Mac ou PC'
                 },
 
 
                 {
                     more: false,
-                    title: 'txt',
+                    title: 'VS 2015',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM.',
+                    content: 'Quelle que soit la taille de vos équipes, il y a une version de Visual Studio qui répond à vos besoins.',
                     list: [
                         {
                             link: 'https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs',
@@ -120,9 +120,9 @@ $(document).ready(function () {
                     label: 'VS 2015 Pro et Enterprise'
                 },
                 {
-                    title: 'txt',
+                    title: 'VS 2015',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Gratuit pour les PME, indépendants, startups.',
+                    content: 'Un Visual Studio complet, gratuit pour les PME, indépendants, startups et étudiants.',
                     list: [
                      ],
                     link: 'https://www.visualstudio.com/products/visual-studio-community-vs',
@@ -132,17 +132,17 @@ $(document).ready(function () {
                 {
                     title: 'VS Code',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Un éditeur de code léger, cross-plateforme, gratuit, open source. Plugin C#',
+                    content: 'Un éditeur de code léger, cross-plateforme (Linux, macOS, Windows), open source et 100% gratuit.',
                     list: [
                      ],
                     link: 'https://code.visualstudio.com',
                     type: 'last',
-                    label: 'Edition de code et debug'
+                    label: 'VS Code'
                 },
                 {
-                    title: 'VS15',
+                    title: 'VS 15',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM',
+                    content: 'En avant-première, testez les fonctionnalités du futur Visual Studio.',
                     list: [ 
                         {
                             link: 'https://blogs.msdn.microsoft.com/visualstudio/2016/07/07/visual-studio-15-preview-3/',
@@ -152,7 +152,7 @@ $(document).ready(function () {
                      ],
                     link: 'https://blogs.msdn.microsoft.com/visualstudio/',
                     type: 'last',
-                    label: '"VS15" - Testez le futur Visual Studio'
+                    label: '"VS 15" - Le futur Visual Studio'
                 },
             ];
 

@@ -48,7 +48,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://graph.microsoft.io',
                     type: 'build',
-                    label: 'Enrichir l\'expérience de vos utilisateurs avec leurs données'
+                    label: 'Enrichissez l\'expérience de vos utilisateurs avec leurs données'
                 }, /*
                 {
                     title: 'Bing Map platform',
@@ -104,7 +104,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [],
                     link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
                     type: 'test',
-                    label: 'Partager son code et suivre ses projets efficacement'
+                    label: 'Partagez votre code et suivez vos projets efficacement'
                 },
                      {
                     title: 'Azure Mobile Engagement',
