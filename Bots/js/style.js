@@ -3,7 +3,7 @@ $(document).ready(function () {
             var cards = [
                   {
                     title: 'Bot Builder',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/tool.png',
                     content: 'Ce SDK pour Node.js permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
                     list: [
                            {
@@ -18,7 +18,7 @@ $(document).ready(function () {
                 },
                                   {
                     title: 'Bot Builder',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/tool.png',
                     content: 'Ce SDK pour ASP.NET permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
                     list: [
                            {
@@ -33,7 +33,7 @@ $(document).ready(function () {
                 },
                {
                     title: 'Cognitive Services',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/cerveau.png',
                     content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
                     list: [
                            {
@@ -54,7 +54,7 @@ $(document).ready(function () {
 
                     {
                     title: 'Bot Connector',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/connect.png',
                     content: 'Votre Bot devient accessible depuis des services comme Slack, Telegram, Facebook Messenger, Skype...',
                     list: [
                           {
@@ -70,22 +70,17 @@ $(document).ready(function () {
 
                         {
                     title: 'Azure Web App',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/webapp.png',
                     content: 'Déployez votre bot node.js ou ASP.NET dans une web app simplement.',
                     list: [
-                          {
-                            link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
-                            list: 'Essayer',
-                            icon: 'fa-download'
-                        },
                      ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#publishing-your-bot-application-to-microsoft-azure',
+                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
                     type: 'plateforme',
                     label: 'Hébergez simplement votre bot dans le cloud'
                 },
                     {
                     title: 'Bot Directory',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/meet.png',
                     content: 'Publiez votre bot sur le Bot Directory.',
                     list: [
                      ],
@@ -93,7 +88,21 @@ $(document).ready(function () {
                     type: 'plateforme',
                     label: 'Diffuser son bot pour accroitre sa visibilité'
                 },
-
+{
+                    title: 'Bot Framework Emulator',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'L\'emulateur permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows uniquement.',
+                    list: [
+                     {
+                            link: 'https://aka.ms/bf-bc-emulator',
+                            list: 'Télécharger',
+                            icon: 'fa-download'
+                        },
+                     ],
+                    link: 'http://docs.botframework.com/connector/getstarted/#use-the-bot-framework-emulator-to-test-your-bot-application',
+                    type: 'outil',
+                    label: 'Tester son bot facilement avec l\'émulateur'
+                },
                     {
                     title: 'Visual Studio',
                     image: 'images/cardslogo/vsts.png',
@@ -113,21 +122,7 @@ $(document).ready(function () {
                     type: 'outil',
                     label: 'Un éditeur de code léger pour développer en Node.js'
                 },
-                 {
-                    title: 'Bot Framework Emulator',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'L\'emulateur permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows uniquement.',
-                    list: [
-                     {
-                            link: 'https://aka.ms/bf-bc-emulator',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
-                     ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#use-the-bot-framework-emulator-to-test-your-bot-application',
-                    type: 'outil',
-                    label: 'Tester son bot facilement avec l\'émulateur'
-                },
+                 
             ];
 
 

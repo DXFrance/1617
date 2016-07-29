@@ -1,7 +1,7 @@
 $(document).ready(function () {
       $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-               
+
                {
                     title: 'Azure Web Apps',
                     image: 'images/cardslogo/azure.png',
@@ -35,23 +35,27 @@ $(document).ready(function () {
                     link: 'https://azure.microsoft.com/fr-fr/services/iot-hub/',
                     type: 'outil',
                     label: 'Gérez vos ressources IoT'
-                },                
+                },
                   {
+                    more: false,
                     title: 'STOCKAGE',
                     image: 'images/cardslogo/azure.png',
                     content: 'Conservez de manière durable vos données dans le cloud grâce à un service évolutif et adapté à vos besoins.',
-                    list: [
-                        {
-                        link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
-                        list: 'SQL Database',
-                        icon: 'fa-film'
-                         },
-                         {
-                        link: 'https://azure.microsoft.com/fr-fr/services/documentdb/',
-                        list: 'DocumentDB',
-                        icon: 'fa-film'
-                         },
-                          ],
+                    list: [{
+                      link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
+                      list: 'SQL Database',
+                      icon: 'fa-film'
+                     },
+                     {
+                      link: 'https://azure.microsoft.com/fr-fr/services/documentdb/',
+                      list: 'DocumentDB',
+                      icon: 'fa-film'
+                     },
+                     {
+                      link: 'https://azure.microsoft.com/fr-fr/services/storage/',
+                      list: 'Azure Storage',
+                      icon: 'fa-film'
+                     }],
                     link: 'https://azure.microsoft.com/fr-fr/services/sql-database/',
                     type: 'outil',
                     label: 'Stocker vos données'
@@ -153,7 +157,9 @@ $(document).ready(function () {
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div><a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+
+                var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
