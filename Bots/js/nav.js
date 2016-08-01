@@ -43,7 +43,7 @@
                 menu = target;
             $target = $(target);
             $('html, body').stop().animate({
-                'scrollTop': $("div#" + $(this).data("menu")).offset().top - 78
+                'scrollTop': $("div#" + $(this).data("menu")).offset().top - 150
             }, 500, 'swing', function () {
                 window.location.hash = target;
                 $(document).on("scroll", onScroll);
@@ -55,9 +55,8 @@
         var scrollPos = $(document).scrollTop();
         $('nav .content a').each(function () {
             var currLink = $(this);
-            var refElementTop = $("div#" + currLink.data("menu")).position().top;
+            var refElementTop = $("div#" + currLink.data("menu")).position().top - 300;
             var refElementHeight = $("div#" + currLink.data("menu")).height();
-            console.log(refElementTop);
             if (refElementTop <= scrollPos && refElementTop + refElementHeight > scrollPos) {
                 $('nav .content a').removeClass("active");
                 currLink.addClass("active");

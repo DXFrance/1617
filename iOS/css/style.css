@@ -109,6 +109,11 @@ section.items
     bottom: -95px;
     left: 52%;
 }
+div.sticky-wrapper nav .container .image a {
+	display: block;
+	width: 100%;
+	height: 100%;
+} 
 .imageheader {
     display: block;
     position: absolute;
