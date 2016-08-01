@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
             $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                   {
@@ -6,7 +7,7 @@ $(document).ready(function () {
                     image: 'images/cardslogo/azure.png',
                     content: 'Un Shell, un éditeur de code, 10 minutes, et vous avez tout pour créer votre 1er projet pour Windows, Linux ou Mac.',
                     list: [
-                    
+
                     ],
                     link: 'https://www.microsoft.com/net/core',
                     type: 'build',
@@ -33,7 +34,7 @@ $(document).ready(function () {
                     label: 'Une nouvelle façon de créer des applis web'
                 },
 
-        
+
 
                   {
                     title: 'UWA',
@@ -45,13 +46,13 @@ $(document).ready(function () {
                     label: 'Applications universelles'
                 },
                  {
-                    
+
                     title: 'WPF',
                     image: 'images/cardslogo/azure.png',
                     content: 'Profitez des API natives Windows pour développer des applications client WPF (Windows Presentation Foundation).',
-                    list: [ 
-                           
-                     ],  
+                    list: [
+
+                     ],
                     link: 'https://developer.microsoft.com/fr-fr/windows/desktop/getstarted',
                     type: 'plateforme',
                     label: 'Applications desktop win32'
@@ -69,8 +70,8 @@ $(document).ready(function () {
                     title: 'Xamarin',
                     image: 'images/cardslogo/vsts.png',
                     content: 'Développez des applications natives iOS ou Android en utilisant vos compétences C#.',
-                    list: [ 
-                            
+                    list: [
+
                     ],
                     link: 'https://www.xamarin.com/',
                     type: 'outil',
@@ -143,7 +144,7 @@ $(document).ready(function () {
                     title: 'VS 15',
                     image: 'images/cardslogo/vsts.png',
                     content: 'En avant-première, testez les fonctionnalités du futur Visual Studio.',
-                    list: [ 
+                    list: [
                         {
                             link: 'https://blogs.msdn.microsoft.com/visualstudio/2016/07/07/visual-studio-15-preview-3/',
                             list: 'Télécharger',
@@ -169,7 +170,7 @@ $(document).ready(function () {
                     cards[i].list_html = '';
                 }
                 var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
-                
+
                 $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
