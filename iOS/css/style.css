@@ -85,6 +85,11 @@ position: relative;
     -ms-user-select: none;
     user-select: none;
 }
+div.sticky-wrapper nav .container .image a {
+	display: block;
+	width: 100%;
+	height: 100%;
+} 
 section.items
 {
     background-color: #fafafa;
@@ -485,7 +490,6 @@ section.services
 	background-color:#fafafa;
 	text-align:center
 }
-}
 	section.items
 {
 	background-color:#fafafa;
@@ -784,7 +788,6 @@ section.content_with_pictures_2
 	height: 32px;
 	text-decoration:none;
 	fill:#000;
-}
 }
 	footer ul li:last-child
 {
