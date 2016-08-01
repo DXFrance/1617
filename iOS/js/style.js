@@ -3,7 +3,7 @@ $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
                     title: 'Cognitive Services',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/cerveau.png',
                     content: 'Offrez de l\'intelligence à vos applications : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
                     list: [
                            {
