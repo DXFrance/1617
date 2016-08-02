@@ -89,7 +89,7 @@ div.sticky-wrapper nav .container .image a {
 	display: block;
 	width: 100%;
 	height: 100%;
-} 
+}
 section.items
 {
     background-color: #fafafa;
@@ -118,7 +118,7 @@ div.sticky-wrapper nav .container .image a {
 	display: block;
 	width: 100%;
 	height: 100%;
-} 
+}
 .imageheader {
     display: block;
     position: absolute;
@@ -147,9 +147,12 @@ div.sticky-wrapper nav .container .image a {
   background-position: center 0px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 	body,html
 {
-  overflow-x: hidden;
 	margin:0;
 	padding:0;
 	height:100%;
