@@ -1,4 +1,4 @@
-﻿<!-- 
+﻿<!--
                              \
                               \
                                \\
@@ -8,12 +8,12 @@
                             (=___._/` \
                                  )  \ |
                                 /   / |
-                               /    > /      
-                              j    < _\    
-                          _.-' :      ``.  
-                          \ r=._\        `.    
-                         <`\\_  \         .`-.     
-                          \ r-7  `-. ._  ' .  `\       
+                               /    > /
+                              j    < _\
+                          _.-' :      ``.
+                          \ r=._\        `.
+                         <`\\_  \         .`-.
+                          \ r-7  `-. ._  ' .  `\
                            \`,      `-.`7  7)   )
                             \/         \|  \'  / `-._
                                        ||    .'
@@ -65,16 +65,34 @@
     <link href="css/cards.css" rel="stylesheet">
 </head>
 
+<script type="text/javascript">
+    var varAutoFirePV = 1;
+    var varClickTracking = 1;
+    var varCustomerTracking = 1;
+    var Route = "17825";
+    var Ctrl = "";
+    document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
+</script>
+
+
 <body>
 
     <!-- Début section HEADER -->
+
+    <div class="badge-home" >
+      <a onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"  href="https://twitter.com/home?status=Je%20suis%20sur%20la%20page%20.NET%20c%27est%20%20de%20Microsoft%20!%20Viens%20faire%20un%20tour%20http://dev.microsoft.fr/NET/index.html" title="Partage la page sur twitter!">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </div>
 
     <section id="header" class="header">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="transitionFadeInDown firstTransition">
+                        <a href="../index.html" alt="Home page">
                         <div class="logoWhite"></div>
+                        </a>
                         <div class="slogan">Il n'a jamais fait aussi bon d'être développeur .NET !</div>
                         <div class="subtitle">Vous pouvez (presque) tout faire ;-)</div>
                         <br/>
@@ -95,7 +113,9 @@
             <div class="container">
                 <div class="row">
                     <div class="image">
+                      <a href="../index.html" alt="Home page">
                         <div class="logo"></div>
+                      </a>
                     </div>
 
                     <div class="content">
@@ -103,7 +123,7 @@
                             <li><a href="#" class="services" data-menu="services-menu">.NET Core</a></li>
                             <li><a href="#" class="outils" data-menu="outils-menu">.NET pour Windows</a></li>
                             <li><a href="#" class="plateformes" data-menu="plateformes-menu">Xamarin</a></li>
-                            <li><a href="#" class="newsletter" data-menu="newsletter-menu">Visual Studio</a></li> 
+                            <li><a href="#" class="newsletter" data-menu="last-menu">Visual Studio</a></li>
                         </ul>
                         <div class="menu-button" id="menu-button">
                             <img class="icone responsive-menu" src="images/icons/responsive-menu.svg" alt="Icone menu" />
@@ -167,19 +187,19 @@
                     <p>Suivez nos tutos pas à pas !</p>
                 </div>
             </div>
-      -->  
+      -->
         </div>
-    
+
         <a class="left carousel-control" href="#carousel-top" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
         <a class="right carousel-control" href="#carousel-top" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
-    </div> 
-    
-    
-    
+    </div>
+
+
+
 
     <!-- Fin section CAROUSSEL SLIDER  -->
 
@@ -224,13 +244,13 @@
                             </div>
                         </div>
     </section>
-    
+
  </div>
             <!-- Fin section OUTILS -->
 
            <!-- Début section 3 -->
-           <div id="plateformes-menu ">
-      <section id="plateforme " class="services ">
+           <div id="plateformes-menu">
+      <section id="plateforme" class="services ">
        <h1>Xamarin</h1>
         <p class="content_description "> Profitez de vos compétences C# pour développer des applis natives iOS et Android.</p>
    </section>
@@ -242,14 +262,14 @@
                                 </div>
                             </div>
                         </div>
-                        
+
     </section>
   </div>
 
 
               <!-- Début section 4 -->
-           <div id="last-menu ">
-   <section id="last " style="background-color:#d8dfe2; " class="services ">
+           <div id="last-menu">
+   <section id="last" style="background-color:#d8dfe2; " class="services ">
        <h1>Visual Studio</h1>
         <p class="content_description ">La Rolls des IDE :-)  Pour tous vos projets !</p>
    </section>
@@ -340,7 +360,7 @@
 
                             <p>Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
                                 <br /><br /><a class="btn" href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" alt="S'inscrire à la NL MSDN"
-                                    target=":blank">En savoir plus</a></p> 
+                                    target=":blank">En savoir plus</a></p>
                         </div>
                     </div>
                 </div>
