@@ -5,7 +5,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Azure App Services',
                     image: 'images/cardslogo/appservice.png',
-                    content: 'Codez dans votre langage favoris (.NET, NodeJS, PHP, Python ou Java) pour créer rapidement des applications web et des API.',
+                    content: 'Déployez vos applications web et vos APIs sur le Cloud quelque soit votre langage favori (.NET, Node.js, PHP, Python ou Java).',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/app-service/',
@@ -26,11 +26,16 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Azure API Management',
                     image: 'images/cardslogo/api.png',
-                    content: 'Créez une passerelle d’API aux fonctionnalités avancées (cache, throttling, transformations, sécurité, …) et un portail de développement pour vos utilisateurs en quelques minutes.',
-                    list: [],
+                    content: 'Créez une passerelle d’API aux fonctionnalités avancées (cache, throttling, transformations, sécurité, portail développeur, …) en quelques minutes.',
+                    list: [{
+                           link: 'https://experiences.microsoft.fr/channel/amliorez-vos-apis-avec-azure-api-management/13d56210-eb20-4ac8-9f1b-b6595d23491c#rlkoe4Otx2Yf684Z.97',
+                            list: 'Vidéo',
+                            icon: 'fa-film'
+                        },
+                        ],
                     link: 'https://azure.microsoft.com/fr-fr/services/api-management/',
                     type: 'build',
-                    label: 'Publiez, gérez, sécurisez et analysez vos APIs en quelques minutes'
+                    label: 'Gérez tous les aspects de vos APIs simplement'
                 },
                  {
                     title: 'Azure SQL Database',
@@ -42,10 +47,16 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Votre base de données relationnelles clé en main'
                 },
              {
-                    title: 'Azure Search',
+                    more: false,
+                    title: 'Azure',
                     image: 'images/cardslogo/search.png',
                     content: 'Azure offre de nombreux services applicatifs prêts à consommer : du cache Redis en passant par Azure Search ou encore Azure Media Service.',
                     list: [
+                        {
+                           link: 'https://azure.microsoft.com/fr-fr/services/search/',
+                            list: 'Search',
+                            icon: 'fa-film'
+                        },
                         {
                            link: 'https://azure.microsoft.com/fr-fr/services/cache/',
                             list: 'Cache',
@@ -53,13 +64,13 @@ $('a[data-toggle="tooltip"]').tooltip();
                         },
                         {
                            link: 'https://azure.microsoft.com/fr-fr/services/media-services/',
-                            list: 'Media Sce',
+                            list: 'Streaming',
                             icon: 'fa-film'
                         },
                      ],
                     link: 'https://azure.microsoft.com/fr-fr/services/search/',
                     type: 'build',
-                    label: 'Activez le mode search Engine as a Service'
+                    label: 'Services applicatifs avancés'
                 },
                   {
                     title: 'Cognitive Services',
@@ -84,11 +95,11 @@ $('a[data-toggle="tooltip"]').tooltip();
                      {
                     title: 'Visual Studio Application Insigths',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Optimisez l\’utilisation des applications et la rétention des utilisateurs.',
+                    content: 'Surveillez vos applications webs et vos APIs pour améliorer leurs performances et détecter les problèmes de manière proactive.',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/services/application-insights/',
                     type: 'build',
-                    label: 'Détectez, hiérarchisez et diagnostiquez les problèmes dans vos applications et services web.'
+                    label: 'Détectez, hiérarchisez et diagnostiquez les problèmes dans vos applications et services web'
                 },
 
                     {
@@ -96,20 +107,16 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/windows.png',
                     content: 'Dans Windows 10, vous avez désormais accès nativement aux fonctionnalités Bash d\'\Ubuntu. Et donc <i> apt, ssh, rsync, find, grep, awk, sed, curl, wget, apache, mysql, python, perl, ruby, php, emacs, vim, diff,...</i>',
                     list: [
-                          {
-                            link: 'http://aka.ms/vscomemudownload',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
+                          
                     ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
+                    link: 'https://blogs.msdn.microsoft.com/commandline/2016/04/06/bash-on-ubuntu-on-windows-download-now-3/',
                     type: 'outil',
                     label: 'Bash dans Windows'
                 },
                          {
                     title: 'Visual Studio Team Services',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre IDE.',
+                    content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre éditeur de code.',
                     list: [],
                     link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
                     type: 'outil',
@@ -118,7 +125,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Visual Studio Code',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Un éditeur de code léger, open source, cross plateforme. Le tout avec des fonctionnalités de débogage, et connexion GitHub.',
+                    content: 'Un éditeur de code léger, open source et cross plateforme. Le tout avec des fonctionnalités de débogage, une intégration Git et un système d’extensions.',
                     list: [],
                     link: 'https://code.visualstudio.com/',
                     type: 'outil',
