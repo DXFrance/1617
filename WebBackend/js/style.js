@@ -26,8 +26,13 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Azure API Management',
                     image: 'images/cardslogo/api.png',
-                    content: 'Créez une passerelle d’API aux fonctionnalités avancées (cache, throttling, transformations, sécurité, …) et un portail de développement pour vos utilisateurs en quelques minutes.',
-                    list: [],
+                    content: 'Créez une passerelle d’API aux fonctionnalités avancées (cache, throttling, transformations, sécurité, portail développeur, …) en quelques minutes.',
+                    list: [{
+                           link: 'https://experiences.microsoft.fr/channel/amliorez-vos-apis-avec-azure-api-management/13d56210-eb20-4ac8-9f1b-b6595d23491c#rlkoe4Otx2Yf684Z.97',
+                            list: 'Vidéo',
+                            icon: 'fa-film'
+                        },
+                        ],
                     link: 'https://azure.microsoft.com/fr-fr/services/api-management/',
                     type: 'build',
                     label: 'Publiez, gérez, sécurisez et analysez vos APIs en quelques minutes'
@@ -42,10 +47,16 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Votre base de données relationnelles clé en main'
                 },
              {
-                    title: 'Azure Search',
+                    more: false,
+                    title: 'Azure',
                     image: 'images/cardslogo/search.png',
                     content: 'Azure offre de nombreux services applicatifs prêts à consommer : du cache Redis en passant par Azure Search ou encore Azure Media Service.',
                     list: [
+                        {
+                           link: 'https://azure.microsoft.com/fr-fr/services/search/',
+                            list: 'Search',
+                            icon: 'fa-film'
+                        },
                         {
                            link: 'https://azure.microsoft.com/fr-fr/services/cache/',
                             list: 'Cache',
@@ -53,13 +64,13 @@ $('a[data-toggle="tooltip"]').tooltip();
                         },
                         {
                            link: 'https://azure.microsoft.com/fr-fr/services/media-services/',
-                            list: 'Media Sce',
+                            list: 'Streaming',
                             icon: 'fa-film'
                         },
                      ],
                     link: 'https://azure.microsoft.com/fr-fr/services/search/',
                     type: 'build',
-                    label: 'Activez le mode search Engine as a Service'
+                    label: 'Services applicatifs avancés'
                 },
                   {
                     title: 'Cognitive Services',
@@ -96,13 +107,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/windows.png',
                     content: 'Dans Windows 10, vous avez désormais accès nativement aux fonctionnalités Bash d\'\Ubuntu. Et donc <i> apt, ssh, rsync, find, grep, awk, sed, curl, wget, apache, mysql, python, perl, ruby, php, emacs, vim, diff,...</i>',
                     list: [
-                          {
-                            link: 'http://aka.ms/vscomemudownload',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
+                          
                     ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
+                    link: 'https://blogs.msdn.microsoft.com/commandline/2016/04/06/bash-on-ubuntu-on-windows-download-now-3/',
                     type: 'outil',
                     label: 'Bash dans Windows'
                 },
