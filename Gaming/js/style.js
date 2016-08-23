@@ -11,7 +11,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                             list: 'Vidéo',
                             icon: 'fa-film'
                         },
-                        
+
                     ],
                     link: 'https://msdn.microsoft.com/windows/uwp/gaming/e2e',
                     type: 'build',
@@ -37,7 +37,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/office.png',
                     content: 'Chiffres sur le store.',
                     list: [
-                       
+
                     ],
                     link: 'https://graph.microsoft.io',
                     type: 'build',
@@ -71,7 +71,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Créer'
                 }, */
-                       
+
               {
                     title: 'Visual Studio',
                     image: 'images/cardslogo/vsts.png',
@@ -87,7 +87,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Plus d\'objets, des scènes plus riches, des effets améliorés pour le matériel le plus récent.',
                     list: [
-                          
+
                     ],
                     link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
                     type: 'outil',
@@ -132,62 +132,12 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Offrez des expriences de jeu étendues et inédites grace à la réalité mixte.',
                     list: [
-                        
+
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
                     type: 'plateforme',
                     label: 'Des jeux au-delà l\'écran'
-                },
-                 
-
-
-                {
-                    title: '',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Changer les cards par des logos flotants',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'tooling',
-                    label: 'Avec Unity 3D'
-                },
-                {
-                    title: '',
-                    image: 'images/cardslogo/vsts.png',
-                    content: '',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'tooling',
-                    label: 'Avec Monogame'
-                },
-                {
-                    title: '',
-                    image: 'images/cardslogo/vsts.png',
-                    content: '',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'tooling',
-                    label: 'Avec Coco 2D'
-                },
-               
-                 {
-                    title: '',
-                    image: 'images/cardslogo/vsts.png',
-                    content: '',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'tooling',
-                    label: 'Unreal Engine'
-                },
-                {
-                    title: '',
-                    image: 'images/cardslogo/vsts.png',
-                    content: '',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'tooling',
-                    label: 'Coco 2DX'
-                },
-                
+                }
             ];
 
 
@@ -434,5 +384,16 @@ $('a[data-toggle="tooltip"]').tooltip();
            $('div.sticky-wrapper.is-sticky nav').hide('drop', { direction: 'up' }, 400);
        }
     }
+
+    var resizeTools = function() {
+      $('#items .tool div').each(function() {
+        console.log($(this).width());
+        $(this).css('height', $(this).parent().width() + 'px')
+      });
+    };
+
+    $(window).on('resize', resizeTools);
+
+    resizeTools();
 
 });
