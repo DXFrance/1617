@@ -92,7 +92,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/xamagon.png',
                     content: 'Testez votre application sur plus de 2000 périphériques mobile. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
                     list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
+                    link: 'https://www.xamarin.com/test-cloud',
                     type: 'test',
                     label: 'Testez l\'interface de vos applis sur 2000 devices'
                 },

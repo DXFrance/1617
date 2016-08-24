@@ -97,7 +97,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/xamagon.png',
                     content: 'Testez votre application sur plus de 2000 types de devices à la demande. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
                     list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
+                    link: 'https://www.xamarin.com/test-cloud',
                     type: 'test',
                     label: 'Testez l\'interface de vos applis sur 2000 devices'
                 },
@@ -153,7 +153,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
                     type: 'plateforme',
-                    label: 'L\'outil ultime pour faire du développement cross-plateforme'
+                    label: 'L\'outil ultime pour faire du cross-plateforme'
                 },
                     {
                     title: 'Apache Cordova Tools',
