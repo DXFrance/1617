@@ -17,7 +17,7 @@ div.sticky-wrapper nav .container .image a {
 	display: block;
 	width: 100%;
 	height: 100%;
-} 
+}
 .circle {
     width: 40px;
     height: 40px;
@@ -1305,4 +1305,31 @@ section.content_with_pictures_2
 @media only screen and (max-width: 480px)
 body.sidebar nav .content ul {
     width: 150px !important;
+}
+
+#items .tool {
+	text-align: center;
+	font-size: 18px;
+}
+
+#items .tool img {
+	width: 60%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#items .tool span {
+	background: #3f3f3f;
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-radius: 4px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#items .tool div {
+	background-color: #107c10;
+	border-radius: 50%;
 }

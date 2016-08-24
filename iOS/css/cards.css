@@ -83,6 +83,10 @@
     padding: 0 5px;
 }
 
+.card .card-content ul li:first-child a {
+  padding-left: 0px !important;
+}
+
 .card .card-content  a {
     color: #2980b9;
 }
