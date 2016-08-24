@@ -66,6 +66,12 @@
 </head>
 <body>
 
+  <div class="badge-home">
+      <a onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"  href="https://twitter.com/home?status=Nice!%20Microsoft%20parle%20aux%20devs%20iOS%20http://dev.microsoft.fr/iOS/index.html" title="Partagez cette page sur twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </div>
+
     <!-- Début section HEADER -->
 
     <section id="header" class="header">
@@ -102,7 +108,6 @@
                         <div class="content">
                             <ul>
                                 <li><a href="#" class="services" data-menu="services-menu">Services</a></li>
-                                <li><a href="#" class="outils" data-menu="outils-menu">Outils</a></li>
                                 <li><a href="#" class="plateformes" data-menu="plateformes-menu">Plateformes</a></li>
                                 <li><a href="#" class="newsletter" data-menu="newsletter-menu">Contact</a></li>
                             </ul>
@@ -131,10 +136,10 @@
            <!-- Début section CAROUSSEL SLIDER  -->
 
               <div id="slider-apple" class="row">
-                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('../iOS/images/general/cognitive.png');"><a href="http://google.fr" target="_blank"></a></div>
-                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('http://img15.hostingpics.net/pics/494401visuiOS.png');"><a href="http://google.fr" target="_blank"></a></div>
-                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('http://img15.hostingpics.net/pics/494401visuiOS.png');"><a href="http://google.fr" target="_blank"></a></div>
-                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('http://img15.hostingpics.net/pics/494401visuiOS.png');"><a href="http://google.fr" target="_blank"></a></div>
+                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('../iOS/images/general/cognitive.png');"><a href="https://www.microsoft.com/cognitive-services/en-us/apis" target="_blank"></a></div>
+                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('../iOS/images/general/hockeyapp.png');"><a href="https://www.hockeyapp.net/#s" target="_blank"></a></div>
+                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('../iOS/images/general/xamarin.png');"><a href="https://www.xamarin.com/test-cloud" target="_blank"></a></div>
+                <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12" style="background-image:url('../iOS/images/general/experiences.png');"><a href="https://experiences.microsoft.fr/Home/Event#" target="_blank"></a></div>
               </div>
 
             <!-- Fin section CAROUSSEL SLIDER  -->
@@ -168,33 +173,18 @@
                 <!-- FIN SECTION SERVICES -->
 
            <!-- Début section OUTILS -->
-           <div id="outils-menu">
-   <section id="outils" style="background:#fff;" class="services">
-       <h2 class="eyebrow">Outils</h2>
-       <h1>Outils de développement pour iOS</h1>
-        <p class="content_description">Déployez, testez et déboguez plus rapidement vos applications iOS.</p>
-   </section>
 
-    <section id="items" style="background:#fff;" class="items">
-                        <div class="container cards">
-                            <div class="row-outil row">
-                                <div class="col-md-2">
-                                </div>
-                            </div>
-                        </div>
-    </section>
- </div>
             <!-- Fin section OUTILS -->
 
            <!-- Début section plateformes -->
            <div id="plateformes-menu">
-      <section id="plateformes" class="services">
+      <section style="background:#fff;" id="plateformes" class="services">
                  <h2 class="eyebrow">Plateformes</h2>
        <h1>Découvrez un nouveau monde</h1>
         <p class="content_description">Ciblez une audience plus large grâce aux outils cross-plateforme de Microsoft</p>
    </section>
 
-        <section id="items" class="items">
+        <section id="items" style="background:#fff;" class="items">
                         <div class="container cards">
                             <div class="row-plateforme row">
                                 <div class="col-md-12">
@@ -332,14 +322,16 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
-<script type="text/javascript">
-    var varAutoFirePV = 1;
+<script type="text/JavaScript">
+    var varSegmentation = 0;
     var varClickTracking = 1;
     var varCustomerTracking = 1;
     var Route = "17825";
     var Ctrl = "";
     document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
 </script>
+<noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx"/></noscript>
+
 
 </body>
 </html>
