@@ -3,7 +3,7 @@ $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
                     title: 'UWP (Universal Windows Platform)',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/UWP.png',
                     content: 'La plateforme contient une collection d\'API communes pour tous vos développements windows. Plus d\'outils et d\'options pour une experience optimale sur chaque appareil.',
                     list: [
                            {
@@ -19,7 +19,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
                {
                     title: 'ID @ XBOX',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/xbox.png',
                     content: 'Permet aux studios de toute taille et aux indépendants de libérer leur créativité en publiant leurs contenus digitaux sur Windows 10 et sur Xbox One par le Xbox Live.',
                     list: [
                         {
@@ -84,7 +84,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                     {
                     title: 'DirectX 12',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/windows.png',
                     content: 'Plus d\'objets, des scènes plus riches, des effets améliorés pour le matériel le plus récent.',
                     list: [
 
@@ -96,7 +96,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
              {
                     title: 'Microsoft AZURE',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/azure.png',
                     content: 'Puissance, élasticité et agilité: au service de l\'hébergement et du déploiment multiplayer, de l\'intelligence de vos jeux et d\'optimisation de vos coûts.',
                     list: [ ],
                     link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
@@ -112,7 +112,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                     {
                     title: 'VR',
-                    image: 'images/cardslogo/xamagon.png',
+                    image: 'images/cardslogo/holo.png',
                     content: 'Sur HTC Vive ou Oculus Rift, créez de nouvelles expériences grâce à Windows.',
                     list: [{
                             link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools',
@@ -129,7 +129,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
                     {
                     title: 'HoloLens',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/holo.png',
                     content: 'Offrez des expriences de jeu étendues et inédites grace à la réalité mixte.',
                     list: [
 
