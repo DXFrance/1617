@@ -1,7 +1,7 @@
 .card {
     color:white;
     background-color: #fff;
-    font-family:"Raleway",sans-serif;
+    font-family:"Segoe UI",sans-serif;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.25), 0 0px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -22,7 +22,7 @@
 
 .card .card-bottom a {
     color: #2980b9;
-    text-decoration: none;  
+    text-decoration: none;
     display: block;
 }
 .card-content .label {
@@ -39,6 +39,7 @@
 }
 
 .card .card-top {
+  min-height: 70px;
       font: roboto, sans-serif;
     position: relative;
     text-align: left;
@@ -55,15 +56,14 @@ section.items
 .card .card-top span {
     position: relative;
     top: -5px;
-    transition: 0.3s ease-out all;   
+    transition: 0.3s ease-out all;
 }
 
 .card .card-top img {
     width: 30px;
     position: absolute;
     left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 7px;
 }
 
 .card .card-content {
@@ -86,7 +86,7 @@ section.items
 }
 
 .card .card-content  a {
-    color: #2980b9;   
+    color: #2980b9;
     text-transform: uppercase;
 }
 
@@ -122,11 +122,11 @@ section.items
     margin-bottom: 30px;
 }
 
-.contact-team 
+.contact-team
 {
 text-align: center;
 }
-.contact-people 
+.contact-people
 {
 display: inline-block;
 margin:0 10px;
