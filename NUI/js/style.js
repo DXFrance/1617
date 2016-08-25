@@ -3,7 +3,7 @@ $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
                     title: 'Microsoft Design',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/interaction.png',
                     content: 'Retrouvez les fondamentaux du design Microsoft',
                     list: [
                         
@@ -15,7 +15,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                
                 {
                     title: 'Guidelines Microsoft',
-                    image: 'images/cardslogo/office.png',
+                    image: 'images/cardslogo/guidelines.png',
                     content: 'Apprenez à concevoir et à coder l’interface utilisateur d’une application UWP.',
                     list: [
                      
@@ -23,38 +23,12 @@ $('a[data-toggle="tooltip"]').tooltip();
                     link: 'https://developer.microsoft.com/fr-fr/windows/design',
                     type: 'build',
                     label: 'Concevez des expériences enrichies'
-                }, /*
-                {
-                    title: 'Bing Map platform',
-                    image: 'images/cardslogo/bing.png',
-                    content: 'De nombreuses APIs pour intégrer une dimention spaciale et géographique dans vos applications : Geocoding, calcul d\'itinéraire, cartographie, cartes routières, et plus encore.',
-                    list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
-                    type: 'build',
-                    label: 'Créer'
-                },
+                }, 
 
-                  {
-                    title: 'Microsoft Translator',
-                    image: 'images/cardslogo/translator.png',
-                    content: 'Une API de traduction automatique de texte et voix sur le Cloud (Machine Translation). Elle supporte plus de 50 langages pour la traduction de textes et 8 pour la voix.',
-                    list: [],
-                    link: 'https://www.microsoft.com/en-us/translator/default.aspx',
-                    type: 'build',
-                    label: 'Créer'
-                },
-                {
-                    title: 'Groove Service',
-                    image: 'images/cardslogo/groove.svg',
-                    content: 'Intégrez de la musique dans votre application. Accéder au catalogue musical de Groove et en particulier sa riche banque d\'images.',
-                    list: [],
-                    link: 'https://music.microsoft.com/developer?NewToGroove=true',
-                    type: 'build',
-                    label: 'Créer'
-                }, */
                         {
+                    more: false,
                     title: 'Interfaces naturelles',
-                    image: 'images/cardslogo/hockeyapp.png',
+                    image: 'images/cardslogo/cerveau.png',
                     content: 'Interagissez avec votre matériel de manière plus naturelle plus productive et plus connectée grace aux intelligences artificielles.',
                     list: [{
                             link: 'https://www.microsoft.com/fr-fr/windows/Cortana',
@@ -66,12 +40,12 @@ $('a[data-toggle="tooltip"]').tooltip();
                             icon: 'fa-download'
                         },],
                     link: 'https://www.hockeyapp.net/features/',
-                    type: 'test',
+                    type: 'build',
                     label: 'Le language humain au coeur de vos interfaces'
                 },
                 {
                     title: 'HoloLens',
-                    image: 'images/cardslogo/xamagon.png',
+                    image: 'images/cardslogo/holo.png',
                     content: 'Un moyen plus naturel d\'interagir avec le futur. Découvrez les interfaces holographiques.',
                     list: [],
                     link: 'https://www.microsoft.com/microsoft-hololens/en-us',
@@ -82,8 +56,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 
 
                     {
+                    more: false,
                     title: 'UWP',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/windows.png',
                     content: 'Profitez de la puissance de vos devices Windows pour créer les interfaces innovantes de demain.',
                     list: [
                           {
@@ -93,7 +68,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                         },
                           {
                             link: 'https://msdn.microsoft.com/en-us/library/jj129478.aspx',
-                            list: 'Blend pas de en savoir plus',
+                            list: 'Blend',
                             icon: 'fa-download'
                         },
                     ],
@@ -104,7 +79,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                         {
                     title: 'Xamarin Forms',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/cardslogo/xamagon.png',
                     content: 'Une API pour construire rapidement des applications natives iOS, Android et Windows complètement C#.',
                     list: [ ],
                     link: 'https://www.xamarin.com/forms',
@@ -116,16 +91,16 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                 {
                     title: 'Mircrosoft design',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/MS.png',
                     content: 'Retrouvez le channel vidéo de Microsoft Design',
                     list: [],
                     link: 'https://www.youtube.com/playlist?list=PLFPUGjQjckXHGoDYt8IkkN32fECBrl-_n ',
                     type: 'plateforme',
-                    label: ''
+                    label: 'Microsoft Design on YouTube'
                 },
                     {
                     title: 'App Design',
-                    image: 'images/cardslogo/xamagon.png',
+                    image: 'images/cardslogo/appdesign.png',
                     content: 'Des conseils, des suggestions et des experts: retrouvez tout ceci sur la page Facebok de la communauté d\'aide au design.',
                     list: [ ],
                     link: 'https://www.facebook.com/groups/WinAppDesign/ ',
@@ -158,7 +133,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
+
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
