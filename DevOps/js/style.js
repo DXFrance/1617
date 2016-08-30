@@ -2,9 +2,9 @@ $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
-                    title: 'Cognitive Services',
+                    title: 'titre',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Offrez de l\'intelligence à vos applications : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
+                    content: ' !',
                     list: [
                            {
                             link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
@@ -24,16 +24,16 @@ $('a[data-toggle="tooltip"]').tooltip();
                {
                     title: 'Azure Mobile Apps',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Authentification, connexion et synchronisation offline de votre base de données, notifications push : tout ce dont vous avez besoin !',
+                    content: ' !',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
                     type: 'build',
-                    label: 'Un backend complet pour vos applications'
+                    label: 'Label'
                 },
                 {
                     title: 'Microsoft graph',
                     image: 'images/cardslogo/office.png',
-                    content: 'Offrez une expérience personalisée en vous basant sur les informations qui comptent pour vos utilisateurs : leurs emails, rendez-vous, tâches ou notes d’Office.',
+                    content: '.',
                     list: [
                         {
                             link: 'https://experiences.microsoft.fr/channel/le-microsoft-graph-ou-comment-developper-en-utilisant-ce-big-data-de-lorganisation/ebab200a-4fbf-4f6c-8b33-26f52c56e023#EjoYTR3PPRDkPlPl.97',
@@ -53,78 +53,33 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://graph.microsoft.io',
                     type: 'build',
-                    label: 'Enrichir l\'expérience de vos utilisateurs avec leurs données'
-                }, /*
-                {
-                    title: 'Bing Map platform',
-                    image: 'images/cardslogo/bing.png',
-                    content: 'De nombreuses APIs pour intégrer une dimention spaciale et géographique dans vos applications : Geocoding, calcul d\'itinéraire, cartographie, cartes routières, et plus encore.',
-                    list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
-                    type: 'build',
-                    label: 'Créer'
-                },
-
-                  {
-                    title: 'Microsoft Translator',
-                    image: 'images/cardslogo/translator.png',
-                    content: 'Une API de traduction automatique de texte et voix sur le Cloud (Machine Translation). Elle supporte plus de 50 langages pour la traduction de textes et 8 pour la voix.',
-                    list: [],
-                    link: 'https://www.microsoft.com/en-us/translator/default.aspx',
-                    type: 'build',
-                    label: 'Créer'
-                },
-                {
-                    title: 'Groove Service',
-                    image: 'images/cardslogo/groove.svg',
-                    content: 'Intégrez de la musique dans votre application. Accéder au catalogue musical de Groove et en particulier sa riche banque d\'images.',
-                    list: [],
-                    link: 'https://music.microsoft.com/developer?NewToGroove=true',
-                    type: 'build',
-                    label: 'Créer'
-                }, */
+                    label: 'Label'
+                }, 
                         {
                     title: 'HockeyApp',
                     image: 'images/cardslogo/hockeyapp.png',
-                    content: 'Développez, distribuez et testez vos applications mobiles. Recueillez les commentaires de vos utilisateurs, obtenez des rapports sur les incidents, etc...',
+                    content: '...',
                     list: [],
                     link: 'https://www.hockeyapp.net/features/',
                     type: 'test',
-                    label: 'Développez, distribuez et testez vos applis'
+                    label: 'Label'
                 },
                 {
                     title: 'Xamarin test cloud',
                     image: 'images/cardslogo/xamagon.png',
-                    content: 'Testez votre application sur plus de 2000 types de devices à la demande. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
+                    content: ' détaillé.',
                     list: [],
                     link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
                     type: 'test',
-                    label: 'Testez l\'interface de vos applis sur 2000 devices'
+                    label: 'Label'
                 },
            
-                 {
-                    title: 'Visual Studio Team Services',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre IDE.',
-                    list: [],
-                    link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
-                    type: 'test',
-                    label: 'Partager son code et suivre ses projets efficacement'
-                },
-                     {
-                    title: 'Azure Mobile Engagement',
-                    image: 'images/cardslogo/azure.png',
-                    content: 'Optimisez l\’utilisation des applications et la rétention des utilisateurs.',
-                    list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/services/mobile-engagement/',
-                    type: 'test',
-                    label: 'Analysez comment vos utilisateurs utilisent votre application'
-                },
+                
 
                     {
                     title: 'Émulateur Android',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Déployez, testez et débuguez des applications avec notre émulateur Android gratuit et rapide.',
+                    content: ' et rapide.',
                     list: [
                           {
                             link: 'http://aka.ms/vscomemudownload',
@@ -134,29 +89,29 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
                     type: 'outil',
-                    label: 'L\'émulateur Android gratuit, basé sur Hyper-V'
+                    label: 'Label'
                 },
 
                         {
-                    title: 'VSTS Plug-in Android Studio',
+                    title: 'Studio',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Le plug-in de Visual Studio Team Services pour IntelliJ IDEA et Android Studio',
+                    content: 'o',
                     list: [ ],
                     link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
                     type: 'outil',
-                    label: 'Plug-in de Visual Studio pour Android Studio'
+                    label: 'label'
                 },
                     {
                     title: 'Xamarin',
                     image: 'images/cardslogo/xamagon.png',
-                    content: 'Construisez des applications Android, iOS et Windows natives, avec une seule base de code C# partagée.',
+                    content: 'C# partagée.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
                     type: 'plateforme',
-                    label: 'L\'outil ultime pour faire du développement cross-plateforme'
+                    label: 'cross-plateforme'
                 },
                     {
-                    title: 'Apache Cordova Tools',
+                    title: ' Tools',
                     image: 'images/cardslogo/vsts.png',
                     content: 'Téléchargez-là dès maintenant !',
                     list: [
@@ -171,23 +126,15 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'L\'extension Apache Cordova pour VSCode et Visual Studio.'
                 },
                   {
-                    title: 'Visual C++ Mobile',
+                    title: 'Mobile',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Ou bien partagez et réutilisez du code C++ existant. La fonction débug est aussi dispo.',
+                    content: ' aussi dispo.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
                     type: 'plateforme',
-                    label: 'Développez du code mobile interplateforme en C++'
+                    label: 'label'
                 },
-                 {
-                    title: 'React Native Tools',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Cette extension fourni un environement de développement pour vos projets React Native.',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'plateforme',
-                    label: 'L\'extension React Native Tools pour VSCode'
-                },
+                
             ];
 
 
