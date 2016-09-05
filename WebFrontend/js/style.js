@@ -48,17 +48,17 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [],
                     link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
                     type: 'build',
-                    label: 'Babylon js'
+                    label: 'Babylon.js'
                 },
            
                  {
-                    title: 'EDGE',
+                    title: 'Microsoft EDGE',
                     image: 'images/cardslogo/vsts.png',
                     content: 'On renvoie vers Alsacréation.',
                     list: [],
                     link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
                     type: 'build',
-                    label: 'EDGE'
+                    label: 'Microsoft EDGE'
                 },
                      {
                     title: 'best practice',
@@ -93,7 +93,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [ ],
                     link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
                     type: 'outil',
-                    label: 'Admin office'
+                    label: 'Addins office'
                 },
                  {
                     title: 'titre',
@@ -102,7 +102,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [ ],
                     link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
                     type: 'outil',
-                    label: 'MariSold.js'
+                    label: 'Manifold.js'
                 },
                     {
                     title: 'Visual studio code',
@@ -126,7 +126,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
                     type: 'plateforme',
-                    label: 'Vorlonjs'
+                    label: 'Vorlon.js'
                 },
                   {
                     title: 'titre',
