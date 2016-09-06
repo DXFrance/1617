@@ -9,6 +9,42 @@
     -webkit-animation: pulse 0.7s;
     animation: pulse 0.7s;
 }
+.badge-home {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    z-index: 123;
+    color: #1da1f2;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    -moz-box-shadow: 0px 0px 5px 0px #656565;
+    -webkit-box-shadow: 0px 0px 5px 0px #656565;
+    -o-box-shadow: 0px 0px 5px 0px #656565;
+    box-shadow: 0px 0px 5px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+		transition: linear all 0.2s;
+}
+
+.badge-home:hover {
+	bottom: 25px;
+}
+
+.badge-home a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.badge-home i {
+	color: #1da1f2;
+}
 .crossSell {
 	text-align: left;
 	display: inline-block;
@@ -83,7 +119,7 @@ fa {
 	font-size:1em;
 	width:auto;
 	color:#3f3f3f;
-	font-family:"Raleway",sans-serif;
+	font-family:"Segoe UI",sans-serif;
 	background-color:#fff
 }
 
@@ -404,7 +440,7 @@ li.w3-card-4
 	section.header .slogan
 {
 	font-size:3.7em;
-	font-family:"Open Sans",sans-serif;
+	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
 	line-height:110%;
 	margin-top:0.1em;
@@ -439,7 +475,7 @@ section.services
 }
 	section.items h2
 {
-	font-family:"Open Sans",sans-serif
+	font-family:"Segoe UI",sans-serif
 }
 div.w3-card-4
 {
@@ -547,7 +583,7 @@ section.content_with_pictures_2
 }
 	section.content_middle_picture h2
 {
-	font-family:"Open Sans",sans-serif
+	font-family:"Segoe UI",sans-serif
 }
 	section.content_middle_picture h3
 {
@@ -1310,6 +1346,7 @@ body.sidebar nav .content ul {
 #items .tool {
 	text-align: center;
 	font-size: 18px;
+	margin-bottom: 15px;
 }
 
 #items .tool img {
@@ -1330,6 +1367,15 @@ body.sidebar nav .content ul {
 }
 
 #items .tool div {
-	background-color: #107c10;
-	border-radius: 50%;
+	background-color: white;
+	    border-radius: 50%;
+	    -moz-box-shadow: 0px 0px 5px 0px #656565;
+	    -webkit-box-shadow: 0px 0px 5px 0px #656565;
+	    -o-box-shadow: 0px 0px 5px 0px #656565;
+	    box-shadow: 0px 0px 5px 0px #656565;
+	    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
+
+.row-tooling {
+	margin-bottom: 100px;
 }

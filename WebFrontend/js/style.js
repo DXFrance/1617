@@ -4,7 +4,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                {
                     title: 'Angular 2',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Authentification, connexion et synchronisation offline de votre base de données, notifications push : tout ce dont vous avez besoin !',
+                    content: 'LOREM IPSUM.',
                     list: [
                                                 {
                             link: 'https://experiences.microsoft.fr/channel/le-microsoft-graph-ou-comment-developper-en-utilisant-ce-big-data-de-lorganisation/ebab200a-4fbf-4f6c-8b33-26f52c56e023#EjoYTR3PPRDkPlPl.97',
@@ -26,63 +26,54 @@ $('a[data-toggle="tooltip"]').tooltip();
                             list: 'Vidéo',
                             icon: 'fa-film'
                         },
-                        {
-                            link: 'https://mva.microsoft.com/fr-fr/training-courses/dvelopper-avec-le-microsoft-graph-16293?l=ClJag4ZNC_7105192810',
-                            list: 'Cours',
-                            icon: 'fa-graduation-cap'
-                        },
-                                     {
-                            link: 'https://graph.microsoft.io/en-us/partners',
-                            list: 'démo',
-                            icon: 'fa-pied-piper'
-                        },
+                        
                     ],
                     link: 'https://graph.microsoft.io',
                     type: 'build',
-                    label: 'React'
+                    label: 'Type Script'
                 }, 
                         {
-                    title: 'React Native',
+                    title: 'React',
                     image: 'images/cardslogo/hockeyapp.png',
-                    content: 'Développez, distribuez et testez vos applications mobiles. Recueillez les commentaires de vos utilisateurs, obtenez des rapports sur les incidents, etc...',
+                    content: 'LOREM IPSUM.',
                     list: [],
                     link: 'https://www.hockeyapp.net/features/',
-                    type: 'test',
-                    label: 'React Native'
+                    type: 'build',
+                    label: 'React'
                 },
                 {
-                    title: 'Xamarin test cloud',
+                    title: 'X',
                     image: 'images/cardslogo/xamagon.png',
-                    content: 'Testez votre application sur plus de 2000 types de devices à la demande. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
+                    content: 'LOREM IPSUM.',
                     list: [],
                     link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
-                    type: 'test',
-                    label: 'Testez l\'interface de vos applis sur 2000 devices'
+                    type: 'build',
+                    label: 'Babylon.js'
                 },
            
                  {
-                    title: 'Visual Studio Team Services',
+                    title: 'Microsoft EDGE',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre IDE.',
+                    content: 'On renvoie vers Alsacréation.',
                     list: [],
                     link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
-                    type: 'test',
-                    label: 'Partager son code et suivre ses projets efficacement'
+                    type: 'build',
+                    label: 'Microsoft EDGE'
                 },
                      {
-                    title: 'Azure Mobile Engagement',
+                    title: 'best practice',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Optimisez l\’utilisation des applications et la rétention des utilisateurs.',
+                    content: 'Peut être pas cohérent de mettre ça ici sachant que l\'on a le formulaire à la place du header',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/services/mobile-engagement/',
-                    type: 'test',
-                    label: 'Analysez comment vos utilisateurs utilisent votre application'
+                    type: 'build',
+                    label: 'Best practice/conformité (link)'
                 },
 
                     {
-                    title: 'Émulateur Android',
+                    title: 'titre',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Déployez, testez et débuguez des applications avec notre émulateur Android gratuit et rapide.',
+                    content: 'LOREM IPSUM.',
                     list: [
                           {
                             link: 'http://aka.ms/vscomemudownload',
@@ -92,29 +83,38 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
                     type: 'outil',
-                    label: 'L\'émulateur Android gratuit, basé sur Hyper-V'
+                    label: 'React Native'
                 },
 
                         {
-                    title: 'VSTS Plug-in Android Studio',
+                    title: 'titre',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Le plug-in de Visual Studio Team Services pour IntelliJ IDEA et Android Studio',
+                    content: 'LOREM.',
                     list: [ ],
                     link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
                     type: 'outil',
-                    label: 'Plug-in de Visual Studio pour Android Studio'
+                    label: 'Addins office'
+                },
+                 {
+                    title: 'titre',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'LOREM.',
+                    list: [ ],
+                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    type: 'outil',
+                    label: 'Manifold.js'
                 },
                     {
-                    title: 'Xamarin',
-                    image: 'images/cardslogo/xamagon.png',
-                    content: 'Construisez des applications Android, iOS et Windows natives, avec une seule base de code C# partagée.',
+                    title: 'Visual studio code',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Un éditeur de code léger, open source et cross plateforme. Le tout avec des fonctionnalités de débogage, une intégration Git et un système d’extensions.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
                     type: 'plateforme',
-                    label: 'L\'outil ultime pour faire du développement cross-plateforme'
+                    label: 'Un éditeur de code tout neuf !'
                 },
                     {
-                    title: 'Apache Cordova Tools',
+                    title: 'titre',
                     image: 'images/cardslogo/vsts.png',
                     content: 'Téléchargez-là dès maintenant !',
                     list: [
@@ -126,26 +126,18 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
                     type: 'plateforme',
-                    label: 'L\'extension Apache Cordova pour VSCode et Visual Studio.'
+                    label: 'Vorlon.js'
                 },
                   {
-                    title: 'Visual C++ Mobile',
+                    title: 'titre',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Ou bien partagez et réutilisez du code C++ existant. La fonction débug est aussi dispo.',
+                    content: 'LOREM.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
                     type: 'plateforme',
-                    label: 'Développez du code mobile interplateforme en C++'
+                    label: 'VIsual studio'
                 },
-                 {
-                    title: 'React Native Tools',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Cette extension fourni un environement de développement pour vos projets React Native.',
-                    list: [ ],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
-                    type: 'plateforme',
-                    label: 'L\'extension React Native Tools pour VSCode'
-                },
+                 
             ];
 
 

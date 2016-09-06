@@ -66,6 +66,12 @@
 </head>
 <body>
 
+ <div class="badge-home">
+      <a onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"  href="https://twitter.com/home?status=Toute%20l%27info%20pour%20les%20développeurs%20de%20jeux%20c%27est%20ici!%20http://dev.microsoft.fr/gaming/" title="Partagez cette page sur twitter">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </div>
+
     <!-- Début section HEADER -->
 
     <section id="header" class="header">
@@ -132,17 +138,17 @@
 
            <!-- Début section CAROUSSEL SLIDER  -->
 
-            <div id="carousel-top" class="carousel slide" data-ride="carousel">
+           <div id="carousel-top" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-top" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-top" data-slide-to="1"></li>
-                    <li data-target="#carousel-top" data-slide-to="2"></li>
-                    <li data-target="#carousel-top" data-slide-to="3"></li>
+      <!--              <li data-target="#carousel-top" data-slide-to="2"></li>
+                    <li data-target="#carousel-top" data-slide-to="3"></li>    -->
                 </ol>
 
                 <div class="carousel-inner">
                     <!-- Slide 1 -->
-                    <div class="item active">
+                <div class="item active">
                     <a style="background: #27ae60;" href="https://www.microsoft.com/cognitive-services/en-us/apis" target=":blank" alt="Découvrir les APIs Cognitive Services"></a>
                     <div class="carousel-caption" style="color:#fff;">
                         <h3>La plateforme unifiée pour vos jeux</h3>
@@ -150,7 +156,7 @@
                     </div>
                     </div>
                     <!-- Slide 2 -->
-                     <div class="item">
+                 <div class="item">
                     <a target=":blank" style="background: #2980b9;" href="https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/" alt="Azure Mobile Apps">
                     </a>
                     <div class="carousel-caption" style="color:#fff;">
@@ -159,7 +165,7 @@
                     </div>
                     </div>
                     <!-- Slide 3 -->
-                    <div class="item">
+<!--                  <div class="item">
                     <a target=":blank" style="background: #c0392b;')" href="https://azure.microsoft.com/fr-fr/services/mobile-engagement/" alt="Azure Mobile Engagement">
                     </a>
                     <div class="carousel-caption" style="color:#fff;">
@@ -168,13 +174,15 @@
                     </div>
                     </div>
                     <!-- Slide 4 -->
-                    <div class="item">
+<!--                 <div class="item">
                     <a style="background: #d35400;" target=":blank" href="https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx" alt="Découvrir l'émulateur Android"></a>
                     <div class="carousel-caption" style="color:#fff;">
                         <h3>Des expériences gaming plus personnelles et connectées</h3>
                         <p>Engagez vos joueurs en leur offrant une expérience gaming incomparable</p>
                     </div>
                     </div>
+
+            
                    <!-- Fin Slides -->
                 </div>
 
@@ -184,7 +192,7 @@
                 <a class="right carousel-control" href="#carousel-top" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-            </div>
+            </div>  
 
             <!-- Fin section CAROUSSEL SLIDER  -->
 
@@ -224,7 +232,7 @@
     <section id="items" style="background-color:#d8dfe2;" class="items">
                         <div class="container cards">
                             <div class="row-outil row">
-                                <div class="col-md-2">
+                                
                                 </div>
                             </div>
                         </div>
@@ -242,7 +250,8 @@
         <section id="items" class="items">
                         <div class="container cards">
                             <div class="row-plateforme row">
-                                <div class="col-md-12">
+                                <div class="col-md-2">
+                                
                                 </div>
                             </div>
                         </div>
@@ -262,26 +271,39 @@
         <section id="items" style="background-color:#d8dfe2;" class="items">
           <div class="container cards">
               <div class="row-tooling row">
-                <div class="col-md-2 tool">
-                  <div><img src="images/tools/unity.png" alt="Unity"></div>
+                <div>
+                <div class="col-md-offset-1 col-md-2 tool col-sm-4 col-xs-6">
+                    <a href="https://unity3d.com/" style="display:block;">
+                  <div><img src="images/tools/unity.png" alt="Unity 3D"></div>
+                  </a>
                   <span>Unity 3D</span>
                 </div>
-                <div class="col-md-2 tool">
-                  <div><img src="images/tools/monogame.png" alt="Unity"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tool">
+                     <a href="http://www.monogame.net/" style="display:block;">
+                  <div><img  src="images/tools/monogame.png" alt="Monogame"></div>
+                     </a>
                   <span>Monogame</span>
                 </div>
-                <div class="col-md-2 tool">
-                  <div><img src="images/tools/coco2d.png" alt="Unity"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tool">
+                    <a href="http://www.cocos2d.org/" style="display:block;">
+                  <div><img  src="images/tools/coco2d.png" alt="Coco 2D"></div>
+                    </a>
                   <span>Coco 2D</span>
                 </div>
-                <div class="col-md-2 tool">
-                  <div><img src="images/tools/ut.png" alt="Unity"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tool">
+                    <a href="https://www.unrealengine.com/blog" style="display:block;">
+                  <div><img  src="images/tools/ut.png" alt="Unreal Engine"></div>
+                    </a>
                   <span>Unreal Engine</span>
                 </div>
-                <div class="col-md-2 tool">
-                  <div><img src="images/tools/coco2dx.png" alt="Unity"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tool">
+                    <a href="http://www.cocos2d-x.org/" style="display:block;">
+                  <div><img  src="images/tools/coco2dx.png" alt="Coco 2DX"></div>
+                    </a>
                   <span>Coco 2DX</span>
                 </div>
+                <div style="clear: both;"></div>
+              </div>
               </div>
           </div>
     </section>
@@ -426,7 +448,6 @@
     var varCustomerTracking = 1;
     var Route = "17825";
     var Ctrl = "";
-    document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
 </script>
 <noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx"/></noscript>
 
