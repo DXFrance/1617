@@ -9,6 +9,31 @@
     -webkit-animation: pulse 0.7s;
     animation: pulse 0.7s;
 }
+
+.footer__sitecta__form {
+	text-align: center;
+}
+
+.btn-w3c {
+  background-color: #34495e !important;
+}
+
+.btn-w3c:hover {
+	background-color: #3b3e41 !important;
+}
+
+.url-w3c {
+	margin-right: 5px;
+    width: 50%;
+    border-radius: 5px;
+    /* border: 0px; */
+    border-radius: 3px;
+    padding: 9px 5px;
+    border: 1px solid #34495e;
+    position: relative;
+    top: 2px;
+}
+
 .crossSell {
 	text-align: left;
 	display: inline-block;
@@ -17,7 +42,7 @@ div.sticky-wrapper nav .container .image a {
 	display: block;
 	width: 100%;
 	height: 100%;
-} 
+}
 .circle {
     width: 40px;
     height: 40px;
