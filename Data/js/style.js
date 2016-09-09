@@ -1,49 +1,7 @@
 $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-               {
-                    title: 'txt',
-                    image: 'images/cardslogo/azure.png',
-                    content: ' !',
-                    list: [
-                         
-                    ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
-                    type: 'build',
-                    label: 'Le brocker'
-                },
-               {
-                    title: 'txt',
-                    image: 'images/cardslogo/azure.png',
-                    content: ' !',
-                    list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
-                    type: 'build',
-                    label: 'Le stockage non structuré (data lake)'
-                },
-                {
-                    title: 'txt',
-                    image: 'images/cardslogo/office.png',
-                    content: '.',
-                    list: [
-                       
-                    ],
-                    link: 'https://graph.microsoft.io',
-                    type: 'build',
-                    label: 'Les moteurs de traitement (processing engine)'
-                }, 
-                {
-                    title: 'txt',
-                    image: 'images/cardslogo/office.png',
-                    content: '.',
-                    list: [
-                       
-                    ],
-                    link: 'https://graph.microsoft.io',
-                    type: 'build',
-                    label: 'Les bases de données relationnelles ou noSQL'
-                }, 
-                     
+         
 
             ];
 
