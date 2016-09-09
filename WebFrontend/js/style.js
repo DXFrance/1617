@@ -4,105 +4,99 @@ $('a[data-toggle="tooltip"]').tooltip();
                {
                     title: 'Angular 2',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM IPSUM.',
+                    content: 'Découvrez comment construire des applications en profitant des dernières fonctionalités du web moderne.',
                     list: [
-                                                {
-                            link: 'https://experiences.microsoft.fr/channel/le-microsoft-graph-ou-comment-developper-en-utilisant-ce-big-data-de-lorganisation/ebab200a-4fbf-4f6c-8b33-26f52c56e023#EjoYTR3PPRDkPlPl.97',
-                            list: 'Typescript',
-                            icon: 'fa-film'
-                        },
+                       
                     ],
-                    link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
+                    link: 'https://angular.io/',
                     type: 'build',
-                    label: 'Angular 2'
+                    label: 'Créez des applications riches'
                 },
                 {
-                    title: 'React',
+                    title: 'TypeScript',
                     image: 'images/cardslogo/office.png',
-                    content: 'LOREM IPSUM.',
+                    content: 'Profitez de l\'efficacité d\'un language typé pour générer du javascript moderne',
                     list: [
-                        {
-                            link: 'https://experiences.microsoft.fr/channel/le-microsoft-graph-ou-comment-developper-en-utilisant-ce-big-data-de-lorganisation/ebab200a-4fbf-4f6c-8b33-26f52c56e023#EjoYTR3PPRDkPlPl.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
                         
                     ],
-                    link: 'https://graph.microsoft.io',
+                    link: 'http://www.typescriptlang.org/',
                     type: 'build',
-                    label: 'Type Script'
+                    label: 'Le futur de javascript, aujourd\'hui'
                 }, 
                         {
                     title: 'React',
                     image: 'images/cardslogo/hockeyapp.png',
-                    content: 'LOREM IPSUM.',
+                    content: 'La librairie légère qui permet dde créer des intefaces web modulaires.',
                     list: [],
-                    link: 'https://www.hockeyapp.net/features/',
+                    link: 'https://facebook.github.io/react/',
                     type: 'build',
-                    label: 'React'
+                    label: 'L\'efficacité à son maximum'
                 },
                 {
-                    title: 'X',
+                    title: 'Babylon.js',
                     image: 'images/cardslogo/xamagon.png',
-                    content: 'LOREM IPSUM.',
-                    list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
+                    content: 'Est le framework qui vous permet d\'utiliser WebGL pour obtenir une expérience 3D digne d\'un jeu vidéo.',
+                    list: [
+                       
+                        {
+                            link: 'https://xboxdesignlab.xbox.com/en-US/customize',
+                            list: 'Exemple',
+                            icon: 'fa-download'
+                        },
+                        ],
+                    link: 'http://babylonjs.com/',
                     type: 'build',
-                    label: 'Babylon.js'
+                    label: 'La 3D dans le navigateur sans plugin'
                 },
            
                  {
                     title: 'Microsoft EDGE',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'On renvoie vers Alsacréation.',
+                    content: 'Il a été pensé dans le but de simplifier la vie des developpeurs.',
                     list: [],
-                    link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
+                    link: 'https://www.microsoft.com/fr-fr/windows/microsoft-edge',
                     type: 'build',
-                    label: 'Microsoft EDGE'
+                    label: 'Un navigateur créé pour le web moderne'
                 },
                      {
                     title: 'best practice',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Peut être pas cohérent de mettre ça ici sachant que l\'on a le formulaire à la place du header',
+                    content: 'Aujourd\'hui le web est suffisament mature pour qu\'un ensemble de bonnes pratiques émergent. En les respectant vous assurez la pérénité de votre site.',
                     list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/services/mobile-engagement/',
+                    link: 'http://www.lewebmoderne.fr/',
                     type: 'build',
-                    label: 'Best practice/conformité (link)'
+                    label: 'Développez pour le web moderne'
                 },
 
                     {
-                    title: 'titre',
+                    title: 'React Native',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM IPSUM.',
+                    content: 'Vous permet de construire des applications en utilisant Javascript et React. Le tout en bénéficiant de la puissance de la techno sous-jacente.',
                     list: [
-                          {
-                            link: 'http://aka.ms/vscomemudownload',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
+                         
                     ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
+                    link: 'https://facebook.github.io/react-native/',
                     type: 'outil',
-                    label: 'React Native'
+                    label: 'Le web au service du natif'
                 },
 
                         {
-                    title: 'titre',
+                    title: 'Addins office',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM.',
+                    content: 'Développez des addins pour office en mode webpour toutes les plateformes et les devices.',
                     list: [ ],
-                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    link: 'http://dev.office.com/',
                     type: 'outil',
-                    label: 'Addins office'
+                    label: 'Etendez les possibilités d\'office'
                 },
                  {
-                    title: 'titre',
+                    title: 'Manifold.js',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM.',
+                    content: 'Simplifiez la création de projet Cordova ou Hosted Web App qui vous permettront d\'accèder au monde natif à partir de votre web sans efforts.',
                     list: [ ],
-                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    link: 'http://manifoldjs.com/',
                     type: 'outil',
-                    label: 'Manifold.js'
+                    label: 'Transformez votre site web en application'
                 },
                     {
                     title: 'Visual studio code',
@@ -114,28 +108,23 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Un éditeur de code tout neuf !'
                 },
                     {
-                    title: 'titre',
+                    title: 'Vorlon.js',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Téléchargez-là dès maintenant !',
+                    content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Débuguez à distance téléphones, tablettes et autres voitures connectées',
                     list: [
-                        {
-                            link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools',
-                            list: 'VSCode',
-                            icon: 'fa-download'
-                        },
                     ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
+                    link: 'http://vorlonjs.io/',
                     type: 'plateforme',
-                    label: 'Vorlon.js'
+                    label: 'Débuguez votre site web, partout'
                 },
                   {
-                    title: 'titre',
+                    title: 'Visual studio',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'LOREM.',
+                    content: 'Utilisez le meilleur IDE du marché pour développer votre site web en utilisant les dernières technologies ASP.NET.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
                     type: 'plateforme',
-                    label: 'VIsual studio'
+                    label: 'Un éditeur professionel pour votre site web'
                 },
                  
             ];
