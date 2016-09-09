@@ -77,7 +77,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'La Rolls des IDE :-) Quels que soient vos projets de jeu, il sera votre ami pour la vie.',
                     list: [ ],
-                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    link: 'https://www.visualstudio.com/',
                     type: 'outil',
                     label: 'Un IDE complet pour vos projets.'
                 },
@@ -99,7 +99,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/azure.png',
                     content: 'Puissance, élasticité et agilité: au service de l\'hébergement et du déploiment multiplayer, de l\'intelligence de vos jeux et d\'optimisation de vos coûts.',
                     list: [ ],
-                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    link: 'https://azure.microsoft.com/fr-fr/',
                     type: 'outil',
                     label: 'Exploitez la puissance du cloud.'
                 },
@@ -115,15 +115,15 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/holo.png',
                     content: 'Sur HTC Vive ou Oculus Rift, créez de nouvelles expériences grâce à Windows.',
                     list: [{
-                            link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools',
+                            link: 'http://www.htcvive.com/fr/',
                             list: 'HTC',
                             icon: 'fa-download'
                         },{
-                            link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools',
+                            link: 'https://www3.oculus.com/en-us/rift/',
                             list: 'Oculus',
                             icon: 'fa-download'
                         }, ],
-                    link: 'https://www3.oculus.com/en-us/rift/',
+                    link: '',
                     type: 'plateforme',
                     label: 'Windows <3 VR'
                 },
@@ -134,7 +134,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [
 
                     ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
+                    link: 'https://www.microsoft.com/microsoft-hololens/en-us',
                     type: 'plateforme',
                     label: 'Des jeux au-delà l\'écran'
                 }
