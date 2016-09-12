@@ -15,7 +15,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 {
                     title: 'TypeScript',
                     image: 'images/cardslogo/office.png',
-                    content: 'Profitez de l\'efficacité d\'un language typé pour générer du javascript moderne',
+                    content: 'Profitez de l\'efficacité d\'un language typé pour générer du javascript moderne.',
                     list: [
                         
                     ],
@@ -110,7 +110,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     {
                     title: 'Vorlon.js',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Débuguez à distance téléphones, tablettes et autres voitures connectées',
+                    content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Débuguez à distance téléphones, tablettes et autres voitures connectées.',
                     list: [
                     ],
                     link: 'http://vorlonjs.io/',
