@@ -81,7 +81,7 @@ position: relative;
 	font-size:1em;
 	width:auto;
 	color:#3f3f3f;
-	font-family:"Raleway",sans-serif;
+	font-family:"Segoe UI",sans-serif;
 	background-color:#fff
 }
 
@@ -323,7 +323,7 @@ li.w3-card-4
 {
 	margin-bottom: 0;
 	color: #fff;
-	font-size: 60px;
+	font-size: 40px;
 }
 	p
 {
@@ -401,7 +401,7 @@ li.w3-card-4
 	section.header .slogan
 {
 	font-size:2.7em;
-	font-family:"Open Sans",sans-serif;
+	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
 	line-height:110%;
 	margin-top:0.1em;
@@ -436,7 +436,7 @@ section.services
 }
 	section.items h2
 {
-	font-family:"Open Sans",sans-serif
+	font-family:"Segoe UI",sans-serif
 }
 div.w3-card-4
 {
@@ -544,7 +544,7 @@ section.content_with_pictures_2
 }
 	section.content_middle_picture h2
 {
-	font-family:"Open Sans",sans-serif
+	font-family:"Segoe UI",sans-serif
 }
 	section.content_middle_picture h3
 {

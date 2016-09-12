@@ -1,38 +1,7 @@
 $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-               {
-                    title: 'txt',
-                    image: 'images/cardslogo/azure.png',
-                    content: ' !',
-                    list: [
-                         
-                    ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
-                    type: 'build',
-                    label: 'Possibilité de garder la présentation par card pour cette partie'
-                },
-               {
-                    title: 'txt',
-                    image: 'images/cardslogo/azure.png',
-                    content: ' !',
-                    list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
-                    type: 'build',
-                    label: '2b'
-                },
-                {
-                    title: 'txt',
-                    image: 'images/cardslogo/office.png',
-                    content: '.',
-                    list: [
-                       
-                    ],
-                    link: 'https://graph.microsoft.io',
-                    type: 'build',
-                    label: '2c'
-                }, 
-                     
+         
 
             ];
 

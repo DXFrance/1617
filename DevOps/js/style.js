@@ -2,105 +2,47 @@ $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
-                    title: 'titre',
+                    title: '',
                     image: 'images/cardslogo/azure.png',
-                    content: ' !',
+                    content: 'Réduisez les cycles de livraison par l\'industrialisation de la chaîne complète de production logicielle.',
                     list: [
-                           {
-                            link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                         {
-                            link: 'https://www.microsoft.com/cognitive-services/en-us/applications',
-                            list: 'Exemples',
-                            icon: 'fa-pied-piper'
-                        },
+                         
                     ],
                     link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
                     type: 'build',
-                    label: 'Donnez un côté plus humain à vos applications'
+                    label: 'Automatisez tout'
                 },
                {
-                    title: 'Azure Mobile Apps',
+                    title: '',
                     image: 'images/cardslogo/azure.png',
-                    content: ' !',
+                    content: 'Améliorez la qualité et la disponibilité par l\'instrumentation, la supervision et les tests.',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
                     type: 'build',
-                    label: 'Label'
+                    label: 'Confiance'
                 },
                 {
-                    title: 'Microsoft graph',
+                    title: '',
                     image: 'images/cardslogo/office.png',
-                    content: '.',
+                    content: 'Une nouvelle culture fondée sur la collaboration et une recherche permanente de l\'amélioration par l\'apprentissage en continu.',
                     list: [
-                        {
-                            link: 'https://experiences.microsoft.fr/channel/le-microsoft-graph-ou-comment-developper-en-utilisant-ce-big-data-de-lorganisation/ebab200a-4fbf-4f6c-8b33-26f52c56e023#EjoYTR3PPRDkPlPl.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                        {
-                            link: 'https://mva.microsoft.com/fr-fr/training-courses/dvelopper-avec-le-microsoft-graph-16293?l=ClJag4ZNC_7105192810',
-                            list: 'Cours',
-                            icon: 'fa-graduation-cap'
-                        },
-                                     {
-                            link: 'https://graph.microsoft.io/en-us/partners',
-                            list: 'démo',
-                            icon: 'fa-pied-piper'
-                        },
                     ],
                     link: 'https://graph.microsoft.io',
                     type: 'build',
-                    label: 'Label'
+                    label: 'Un cercle vertueux'
                 }, 
                         {
-                    title: 'HockeyApp',
+                    title: '',
                     image: 'images/cardslogo/hockeyapp.png',
-                    content: '...',
+                    content: 'Optimisez les ressources grâce au cloud.' ,
                     list: [],
                     link: 'https://www.hockeyapp.net/features/',
                     type: 'test',
-                    label: 'Label'
+                    label: 'DevOps ❤ Cloud'
                 },
-                {
-                    title: 'Xamarin test cloud',
-                    image: 'images/cardslogo/xamagon.png',
-                    content: ' détaillé.',
-                    list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
-                    type: 'test',
-                    label: 'Label'
-                },
-           
+               
                 
 
-                    {
-                    title: 'Émulateur Android',
-                    image: 'images/cardslogo/vsts.png',
-                    content: ' et rapide.',
-                    list: [
-                          {
-                            link: 'http://aka.ms/vscomemudownload',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
-                    ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
-                    type: 'outil',
-                    label: 'Label'
-                },
-
-                        {
-                    title: 'Studio',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'o',
-                    list: [ ],
-                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
-                    type: 'outil',
-                    label: 'label'
-                },
                     {
                     title: 'Xamarin',
                     image: 'images/cardslogo/xamagon.png',

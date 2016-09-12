@@ -109,7 +109,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
                     {
                     title: 'Michel Rousseau',
-                    image: 'images/cardslogo/vsts.png',
+                    image: 'images/general/jsd.png',
                     content: 'Retrouvez l\'actualité du design applicatif sur son blog.',
                     list: [
                         

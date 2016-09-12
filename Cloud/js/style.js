@@ -19,7 +19,7 @@ $(document).ready(function () {
                                   {
                     title: 'Azure App Services',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Codez dans votre langage favoris (.NET, NodeJS, PHP, Python ou Java) pour créer rapidement des applications web et des API.',
+                    content: 'Codez dans votre langage favoris (.NET, Node.js, PHP, Python ou Java) pour créer rapidement des applications web et des API.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/app-service/',
@@ -40,7 +40,7 @@ $(document).ready(function () {
                     {
                     title: 'Azure container service',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Déployez et gérez des conteneurs à l’aide des outils que vous choisissez.',
+                    content: 'Déployez et gérez des conteneurs à l’aide des outils que vous êtes habitués à utiliser.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/container-service/',
@@ -50,7 +50,7 @@ $(document).ready(function () {
                     {
                     title: 'Azure Functions',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Ecoutez les événements dans votre pile et réagissez-y.',
+                    content: 'Ne vous occupez plus de l’infrastructure et des serveurs, vos applications réagissent à des événements !',
                     list: [
                      ],
                     link: 'https://azure.microsoft.com/en-us/services/functions/',
@@ -104,7 +104,7 @@ $(document).ready(function () {
                                                   {
                     title: 'IDEs & SDKs',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Nodejs, PHP, Java, Eclipse, IntilliJ : pas besoin de changer, ça marche aussi avec Azure.',
+                    content: 'Node.js, PHP, Java, Eclipse, IntilliJ : pas besoin de changer, ça marche aussi avec Azure.',
                     list: [ 
                                                 {
                            link: 'https://experiences.microsoft.fr/channel/hello-azure-la-plateforme-aux-multiples-langages/42a2c02e-566c-4297-aad3-3141c27197c9#34vYwomFiTOpMcqE.97',
