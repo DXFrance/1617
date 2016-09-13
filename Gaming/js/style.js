@@ -32,7 +32,8 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Pour les développeurs indépendants'
                 },
-                {
+                 /*
+               {
                     title: '',
                     image: 'images/cardslogo/office.png',
                     content: 'Chiffres sur le store.',
@@ -42,15 +43,6 @@ $('a[data-toggle="tooltip"]').tooltip();
                     link: 'https://graph.microsoft.io',
                     type: 'build',
                     label: 'Un store riche en opportunités'
-                }, /*
-                {
-                    title: 'Bing Map platform',
-                    image: 'images/cardslogo/bing.png',
-                    content: 'De nombreuses APIs pour intégrer une dimention spaciale et géographique dans vos applications : Geocoding, calcul d\'itinéraire, cartographie, cartes routières, et plus encore.',
-                    list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
-                    type: 'build',
-                    label: 'Créer'
                 },
 
                   {
@@ -111,6 +103,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
 
                     {
+                    more: false,
                     title: 'VR',
                     image: 'images/cardslogo/holo.png',
                     content: 'Sur HTC Vive ou Oculus Rift, créez de nouvelles expériences grâce à Windows.',
@@ -152,7 +145,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+                var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
+                
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
