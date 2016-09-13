@@ -301,7 +301,7 @@ li.w3-card-4
 	filter:alpha(opacity=0);
 	-moz-opacity:0;
 	-khtml-opacity:0;
-	opacity:0
+	opacity:1
 }
 	h2
 {
