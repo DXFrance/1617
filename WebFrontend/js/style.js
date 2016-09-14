@@ -52,7 +52,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Microsoft EDGE',
                     image: 'images/cardslogo/edge.png',
-                    content: 'Il a été pensé dans le but de simplifier la vie des developpeurs.',
+                    content: 'A été pensé dans le but de simplifier la vie des developpeurs.',
                     list: [],
                     link: 'https://www.microsoft.com/fr-fr/windows/microsoft-edge',
                     type: 'build',
@@ -103,7 +103,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Un éditeur de code léger, open source et cross plateforme. Le tout avec des fonctionnalités de débogage, une intégration Git et un système d’extensions.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
+                    link: 'https://code.visualstudio.com/',
                     type: 'plateforme',
                     label: 'Un éditeur de code tout neuf !'
                 },
@@ -122,7 +122,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Utilisez le meilleur IDE du marché pour développer votre site web en utilisant les dernières technologies ASP.NET.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
+                    link: 'https://www.visualstudio.com/',
                     type: 'plateforme',
                     label: 'Un éditeur professionel pour votre site web'
                 },
