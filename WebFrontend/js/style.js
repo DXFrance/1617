@@ -26,7 +26,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                         {
                     title: 'React',
                     image: 'images/cardslogo/react.png',
-                    content: 'La librairie légère qui permet dde créer des intefaces web modulaires.',
+                    content: 'La librairie légère qui permet de créer des intefaces web modulaires.',
                     list: [],
                     link: 'https://facebook.github.io/react/',
                     type: 'build',
@@ -35,7 +35,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 {
                     title: 'Babylon.js',
                     image: 'images/cardslogo/babylon.png',
-                    content: 'Est le framework qui vous permet d\'utiliser WebGL pour obtenir une expérience 3D digne d\'un jeu vidéo.',
+                    content: 'Le framework qui vous permet d\'utiliser WebGL pour obtenir une expérience 3D digne d\'un jeu vidéo.',
                     list: [
                        
                         {
@@ -52,7 +52,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Microsoft EDGE',
                     image: 'images/cardslogo/edge.png',
-                    content: 'A été pensé dans le but de simplifier la vie des developpeurs.',
+                    content: 'Pensé dans le but de simplifier la vie des developpeurs.',
                     list: [],
                     link: 'https://www.microsoft.com/fr-fr/windows/microsoft-edge',
                     type: 'build',
@@ -83,7 +83,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                         {
                     title: 'Addins office',
                     image: 'images/cardslogo/office.png',
-                    content: 'Développez des addins pour office en mode webpour toutes les plateformes et les devices.',
+                    content: 'Développez des addins pour office en mode web pour toutes les plateformes et les devices.',
                     list: [ ],
                     link: 'http://dev.office.com/',
                     type: 'outil',
@@ -92,7 +92,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Manifold.js',
                     image: 'images/cardslogo/manifold.png',
-                    content: 'Simplifiez la création de projet Cordova ou Hosted Web App qui vous permettront d\'accèder au monde natif à partir de votre web sans efforts.',
+                    content: 'Packagez votre application web de manière simple pour créer des applications natives Cordova ou Hosted Web App.',
                     list: [ ],
                     link: 'http://manifoldjs.com/',
                     type: 'outil',
@@ -110,12 +110,12 @@ $('a[data-toggle="tooltip"]').tooltip();
                     {
                     title: 'Vorlon.js',
                     image: 'images/cardslogo/vorlon.png',
-                    content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Débuguez à distance téléphones, tablettes et autres voitures connectées.',
+                    content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Déboguez à distance téléphones, tablettes et autres voitures connectées.',
                     list: [
                     ],
                     link: 'http://vorlonjs.io/',
                     type: 'plateforme',
-                    label: 'Débuguez votre site web, partout'
+                    label: 'Déboguez votre site web, partout'
                 },
                   {
                     title: 'Visual studio',
