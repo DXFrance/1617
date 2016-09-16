@@ -1302,3 +1302,44 @@ section.content_with_pictures_2
 body.sidebar nav .content ul {
     width: 150px !important;
 }
+
+.tabs-data {
+	background-color: #eeeeee;
+}
+
+.tab-data {
+	cursor: pointer;
+	position: relative;
+  padding-bottom: 20px;
+}
+
+.tab-data img {
+	display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.tab-data span.tab-title {
+	color: black;
+  font-size: 22px;
+}
+
+.tabs-content {
+	background: #0078d7;
+	color: white;
+	padding: 20px 25px;
+	text-align: center;
+}
+
+.arrow-up {
+	width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 10px solid #0072c6;
+	display: none;
+}
