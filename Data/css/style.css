@@ -1314,8 +1314,8 @@ body.sidebar nav .content ul {
 }
 
 .tab-data img {
-	display: block;
-  width: 50%;
+  display: block;
+  width: 30%;
   margin: auto;
 }
 
@@ -1325,8 +1325,8 @@ body.sidebar nav .content ul {
 }
 
 .tabs-content {
-	background: #0078d7;
-	color: white;
+	background: #ffffff;
+	color: black;
 	padding: 20px 25px;
 	text-align: center;
 }

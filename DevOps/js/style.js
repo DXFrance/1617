@@ -44,37 +44,37 @@ $('a[data-toggle="tooltip"]').tooltip();
                 
 
                     {
-                    title: 'Xamarin',
+                    title: 'Azure',
                     image: 'images/cardslogo/xamagon.png',
-                    content: 'C# partagée.',
+                    content: 'Qu\'est-ce qui va être différent dans cette card par rapport à la card "devops love cloud" plus haut ?',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
                     type: 'plateforme',
-                    label: 'cross-plateforme'
+                    label: 'titre'
                 },
                     {
-                    title: ' Tools',
+                    title: 'Visual Studio Team Services',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Téléchargez-là dès maintenant !',
+                    content: 'Services de collaboration dans le cloud pour le contrôle de version, la planification agile, l\'intégration continue, le déploiement continu, la supervision applicative - pour Visual Studio, Eclipse, Xcode ou tout autre IDE ou éditeur de code.',
                     list: [
                         {
-                            link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools',
+                            link: 'https://www.visualstudio.com/products/visual-studio-team-services-vs',
                             list: 'VSCode',
                             icon: 'fa-download'
                         },
                     ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
                     type: 'plateforme',
-                    label: 'L\'extension Apache Cordova pour VSCode et Visual Studio.'
+                    label: 'texte plus court'
                 },
                   {
                     title: 'Mobile',
                     image: 'images/cardslogo/vsts.png',
-                    content: ' aussi dispo.',
+                    content: 'Vorlons.js, a journey to devops par exemple ?',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
                     type: 'plateforme',
-                    label: 'label'
+                    label: 'Autres topics'
                 },
                 
             ];
