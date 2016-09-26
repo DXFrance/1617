@@ -10,7 +10,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
                     type: 'build',
-                    label: 'Automatisez tout'
+                    label: 'Automatisez... TOUT'
                 },
                {
                     title: '',
@@ -19,7 +19,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
                     type: 'build',
-                    label: 'Confiance'
+                    label: 'Rétablissez la confiance entre tous les acteurs'
                 },
                 {
                     title: '',
@@ -29,7 +29,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     ],
                     link: 'https://graph.microsoft.io',
                     type: 'build',
-                    label: 'Un cercle vertueux'
+                    label: 'Mettez en place un cercle vertueux'
                 }, 
                         {
                     title: '',

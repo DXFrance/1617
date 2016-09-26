@@ -218,10 +218,20 @@ $('a[data-toggle="tooltip"]').tooltip();
     }
 
     var tabs = [
-     '<h1>TEST</h1>',
-     'Salut toto <span>SALUT</span>',
-     'LE 3EME',
-     'HELLO <p>A LA LIGNE</p>'
+
+
+     '<h1>Données poussées vers:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-1-dessin-1.png"></td><td style="width:25%">Un brocker</td><td>Approche de type streaming</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Un stockage</td><td>Approche compatible avec la plupart des systèmes existants</td></tr>',
+
+
+     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+
+
+     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+
+
+    '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+
+
    ];
 
     $('.tab-data').click(function() {
