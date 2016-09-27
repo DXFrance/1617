@@ -1,39 +1,6 @@
 $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
-            var cards = [
-         
 
-            ];
-
-
-            for (var i = 0; i < cards.length; i++) {
-                if (cards[i].list.length) {
-                    cards[i].list_html = '';
-                    for (var z = 0; z < cards[i].list.length; z++) {
-                        cards[i].list_html += '<a href="'+ cards[i].list[z].link +'" target="_blank" title="'+ cards[i].list[z].list +'">'+ cards[i].list[z].list +'</a>';
-                    }
-                    cards[i].list_html += '';
-
-                } else {
-                    cards[i].list_html = '';
-                }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
-            }
-            cardShowed = false;
-            var targetOffset = $(".card").offset().top - 490;
-
-            $w = $(window).scroll(function() {
-                if(cardShowed){ return; }
-                if ( $w.scrollTop() > targetOffset ) {
-                    cardShowed = true;
-                    $('.card .card-top span').css('top', 0);
-                    $('.card .card-content').css('height', 210);
-                    setTimeout(function() {
-                        $('.card .card-bottom').css('height', 40);
-                        $('.card .card-abs').css('opacity', 1);
-                    }, 400);
-                }
-            });
     jQuery('img.icone').each(function () {
         var $img = jQuery(this);
         var imgID = $img.attr('id');
@@ -249,5 +216,28 @@ $('a[data-toggle="tooltip"]').tooltip();
            $('div.sticky-wrapper.is-sticky nav').hide('drop', { direction: 'up' }, 400);
        }
     }
+
+    var tabs = [
+
+
+     '<h1>Données poussées vers:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-1-dessin-1.png"></td><td style="width:25%">Un brocker</td><td>Approche de type streaming</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Un stockage</td><td>Approche compatible avec la plupart des systèmes existants</td></tr>',
+
+
+     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+
+
+     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+
+
+    '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+
+
+   ];
+
+    $('.tab-data').click(function() {
+      $('.arrow-up').hide();
+      $(this).find('.arrow-up').show();
+      $('.tabs-content .container').html(tabs[$('.tab-data').index(this)]);
+    });
 
 });
