@@ -70,11 +70,20 @@ $('a[data-toggle="tooltip"]').tooltip();
                   {
                     title: 'Mobile',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Vorlons.js, a journey to devops par exemple ?',
+                    content: '',
                     list: [ ],
                     link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
                     type: 'plateforme',
                     label: 'Autres topics'
+                },
+                {
+                    title: 'Vorlon.js',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Retrouvez dans une série d\articles l\'aventure devops vu à travers le prisme d\'un cas pratique !',
+                    list: [ ],
+                    link: 'https://blogs.technet.microsoft.com/devops/2016/01/12/vorlonjs-a-journey-to-devops-introducing-the-blog-post-series/',
+                    type: 'plateforme',
+                    label: 'Retour d\expérience sur un cas pratique', 
                 },
                 
             ];
