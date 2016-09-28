@@ -9,7 +9,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [
                          
                     ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
+                    link: '',
                     type: 'build',
                     label: 'Automatisez... TOUT'
                 },
@@ -19,7 +19,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/confiance.png',
                     content: 'Améliorez la qualité et la disponibilité par l\'instrumentation, la supervision et les tests.',
                     list: [],
-                    link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
+                    link: '',
                     type: 'build',
                     label: 'Rétablissez la confiance entre tous les acteurs'
                 },
@@ -30,7 +30,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Une nouvelle culture fondée sur la collaboration et une recherche permanente de l\'amélioration par l\'apprentissage en continu.',
                     list: [
                     ],
-                    link: 'https://graph.microsoft.io',
+                    link: '',
                     type: 'build',
                     label: 'Mettez en place un cercle vertueux'
                 }, 
@@ -38,9 +38,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                     more: false,
                     title: '',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Et inversement ! Le Cloud et DevOps se renforcent mutuellement, que ce soit au niveau de la gestion automatisée des ressources ou...' ,
+                    content: 'Le niveau d’automatisation et d’API fourni par les plateformes Cloud simplifie la mise à disposition d’infrastructure des opérationnels pour les développeurs et permet d’accélérer la mise en place d’une démarche DevOps dans l’entreprise.',
                     list: [],
-                    link: 'https://www.hockeyapp.net/features/',
+                    link: '',
                     type: 'test',
                     label: 'DevOps ❤ Cloud'
                 },
