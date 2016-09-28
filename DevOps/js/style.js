@@ -38,7 +38,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     more: false,
                     title: '',
                     image: 'images/cardslogo/azure.png',
-                    content: 'Le niveau d’automatisation et d’API fourni par les plateformes Cloud simplifie la mise à disposition d’infrastructure des opérationnels pour les développeurs et permet d’accélérer la mise en place d’une démarche DevOps dans l’entreprise.',
+                    content: 'Le niveau d’automatisation et d’API fournis par les plateformes Cloud simplifie la mise à disposition d’infrastructure des opérationnels pour les développeurs et permet d’accélérer la mise en place d’une démarche DevOps dans l’entreprise.',
                     list: [],
                     link: '',
                     type: 'test',
