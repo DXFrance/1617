@@ -2,8 +2,9 @@ $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
+                    more: false, 
                     title: '',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/auto.png',
                     content: 'Réduisez les cycles de livraison par l\'industrialisation de la chaîne complète de production logicielle.',
                     list: [
                          
@@ -13,8 +14,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Automatisez... TOUT'
                 },
                {
+                    more: false,
                     title: '',
-                    image: 'images/cardslogo/azure.png',
+                    image: 'images/cardslogo/confiance.png',
                     content: 'Améliorez la qualité et la disponibilité par l\'instrumentation, la supervision et les tests.',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
@@ -22,8 +24,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Rétablissez la confiance entre tous les acteurs'
                 },
                 {
+                    more: false,
                     title: '',
-                    image: 'images/cardslogo/office.png',
+                    image: 'images/cardslogo/cercle.png',
                     content: 'Une nouvelle culture fondée sur la collaboration et une recherche permanente de l\'amélioration par l\'apprentissage en continu.',
                     list: [
                     ],
@@ -32,9 +35,10 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Mettez en place un cercle vertueux'
                 }, 
                         {
+                    more: false,
                     title: '',
-                    image: 'images/cardslogo/hockeyapp.png',
-                    content: 'Optimisez les ressources grâce au cloud.' ,
+                    image: 'images/cardslogo/azure.png',
+                    content: 'Et inversement ! Le Cloud et DevOps se renforcent mutuellement, que ce soit au niveau de la gestion automatisée des ressources ou...' ,
                     list: [],
                     link: 'https://www.hockeyapp.net/features/',
                     type: 'test',
@@ -44,47 +48,64 @@ $('a[data-toggle="tooltip"]').tooltip();
                 
 
                     {
-                    title: 'Azure',
-                    image: 'images/cardslogo/xamagon.png',
-                    content: 'Qu\'est-ce qui va être différent dans cette card par rapport à la card "devops love cloud" plus haut ?',
+                    title: 'Devops by microsoft',
+                    image: 'images/cardslogo/dday.png',
+                    content: 'La division développement de Microsoft vous explique sa transformation vers des méthodes plus agiles et DevOps.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
+                    link: 'https://experiences.microsoft.fr/channel/transformation-agile-et-devops-chez-microsoft/f8fb48e3-b0ab-4860-99d0-2fd1c3a77e94#17uhVTQCEMKojRj9.97',
                     type: 'plateforme',
-                    label: 'titre'
+                    label: 'DevOps by Microsoft: ',
                 },
                     {
                     title: 'Visual Studio Team Services',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Services de collaboration dans le cloud pour le contrôle de version, la planification agile, l\'intégration continue, le déploiement continu, la supervision applicative - pour Visual Studio, Eclipse, Xcode ou tout autre IDE ou éditeur de code.',
-                    list: [
-                        {
-                            link: 'https://www.visualstudio.com/products/visual-studio-team-services-vs',
-                            list: 'VSCode',
-                            icon: 'fa-download'
-                        },
+                    content: 'Facilitez le contrôle de version, la planification agile, l\'intégration continue, le déploiement continu, et la supervision applicative.',
+                    list: [ 
                     ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cordova-vs.aspx',
+                    link: 'https://www.visualstudio.com/fr/team-services/',
                     type: 'plateforme',
-                    label: 'texte plus court'
+                    label: 'Un service de collaboration pour vos projets !'
                 },
                   {
-                    title: 'Mobile',
-                    image: 'images/cardslogo/vsts.png',
-                    content: '',
+                    title: 'Découvrir Devops',
+                    image: 'images/cardslogo/livre.png',
+                    content: 'Ce livre s’adresse à tous ceux qui s’intéressent aux systèmes d’informations innovants, ainsi qu’aux familiers de la notion d’agilité dans le monde de l’informatique.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
+                    link: 'https://info.microsoft.com/FR-Azure-CNTNT-FY16-02Feb-29-Decouvrir-DevOps.html',
                     type: 'plateforme',
-                    label: 'Autres topics'
+                    label: 'Téléchargez notre livre blanc !'
                 },
                 {
                     title: 'Vorlon.js',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Retrouvez dans une série d\articles l\'aventure devops vu à travers le prisme d\'un cas pratique !',
+                    image: 'images/cardslogo/vorlon.png',
+                    content: 'Retrouvez dans une série d\'articles l\'aventure devops vu à travers le prisme d\'un cas pratique !',
                     list: [ ],
                     link: 'https://blogs.technet.microsoft.com/devops/2016/01/12/vorlonjs-a-journey-to-devops-introducing-the-blog-post-series/',
                     type: 'plateforme',
-                    label: 'Retour d\expérience sur un cas pratique', 
+                    label: 'Retours d\'expérience sur un cas pratique', 
                 },
+                {
+                    more: false,
+                    title: 'Devops day',
+                    image: 'images/cardslogo/dday.png',
+                    content: 'Vivez à nouveau le deux éditions du DevOps Day et découvrez comment Microsoft applique en interne les pratiques agiles et DevOps !',
+                    list: [
+                        {
+                           link: 'https://channel9.msdn.com/Events/Microsoft-et-les-pratiques-agiles-et-DevOps/Dcouvrez-comment-Microsoft-applique-en-interne-les-pratiques-agiles-et-DevOps',
+                            list: 'DevOpsDay #1',
+                            icon: 'fa-film'
+                        },
+                        {
+                           link: 'https://channel9.msdn.com/events/France/Devops-Day-2',
+                            list: 'DevOpsDay #2',
+                            icon: 'fa-film'
+                        },
+                     ],
+                    link: '',
+                    type: 'plateforme',
+                    label: 'Rencontres à DevOps day', 
+                },
+                
                 
             ];
 
@@ -100,7 +121,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 } else {
                     cards[i].list_html = '';
                 }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+                var more = (typeof cards[i].more === 'undefined') ? '<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a>' : '' ;
+                
+                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div> ' + more + ' '+ cards[i].list_html +'</div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
             }
             cardShowed = false;
             var targetOffset = $(".card").offset().top - 490;
