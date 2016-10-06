@@ -72,7 +72,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     more: false,
                     title: 'REPLAY',
                     image: 'images/cardslogo/devops.png',
-                    content: 'Revivez les deux évènements pour ne rien rater de l\'actualité DevOps.',
+                    content: 'Ne ratez rien de l\'actualité DevOps en regardant le replay des deux évènements.',
                     list: [
                         {
                            link: 'http://xamarinday.cellenza.com/#replay',
