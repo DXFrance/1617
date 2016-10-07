@@ -49,13 +49,15 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                     {
                     title: 'Devops by microsoft',
-                    image: 'images/cardslogo/dday.png',
+                    image: 'images/cardslogo/devops.png',
                     content: 'La division développement de Microsoft vous explique sa transformation vers des méthodes plus agiles et DevOps.',
                     list: [ ],
                     link: 'https://experiences.microsoft.fr/channel/transformation-agile-et-devops-chez-microsoft/f8fb48e3-b0ab-4860-99d0-2fd1c3a77e94#17uhVTQCEMKojRj9.97',
                     type: 'plateforme',
                     label: 'DevOps by Microsoft: ',
                 },
+
+                
                     {
                     title: 'Visual Studio Team Services',
                     image: 'images/cardslogo/vsts.png',
@@ -66,6 +68,27 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'plateforme',
                     label: 'Un service de collaboration pour vos projets !'
                 },
+                                {
+                    more: false,
+                    title: 'REPLAY',
+                    image: 'images/cardslogo/devops.png',
+                    content: 'Ne ratez rien de l\'actualité DevOps en regardant le replay des deux évènements.',
+                    list: [
+                        {
+                           link: 'http://xamarinday.cellenza.com/#replay',
+                            list: 'Xamarin Day',
+                            icon: 'fa-film'
+                        },
+                        {
+                           link: 'http://relaiswebcasting.mediasite.com/mediasite/Play/fad6a3365aba4ce6a6484284c3a0a23e1d?catalog=5851449f-8a30-4984-b3c1-31c51f698a30',
+                            list: 'IDC DevOps',
+                            icon: 'fa-film'
+                        },
+                     ],
+                    link: '',
+                    type: 'plateforme',
+                    label: 'IDC DevOps et le Xamarin day, comme si vous y étiez !', 
+                    },
                   {
                     title: 'Découvrir Devops',
                     image: 'images/cardslogo/livre.png',
