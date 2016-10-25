@@ -5,8 +5,12 @@ $('a[data-toggle="tooltip"]').tooltip();
                  {
                     title: 'Azure App Services',
                     image: 'images/cardslogo/appservice.png',
-                    content: 'Déployez vos applications web et vos APIs sur le Cloud quelque soit votre langage favori (.NET, Node.js, PHP, Python ou Java).',
-                    list: [
+                    content: 'Déployez vos applications web et vos APIs sur le Cloud quelque soit votre langage favori (.NET, Node.js, PHP, Python ou Java), sur des serveurs Windows ou Linux automatiquement gérés par Azure !',
+                    list: [{
+                           link: 'https://aka.ms/webapp-linux',
+                            list: 'Preview Linux',
+                            icon: 'fa-film'
+                        },
                     ],
                     link: 'https://azure.microsoft.com/fr-fr/services/app-service/',
                     type: 'build',
