@@ -220,16 +220,16 @@ $('a[data-toggle="tooltip"]').tooltip();
     var tabs = [
 
 
-     '<h1>Données poussées vers:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-1-dessin-1.png"></td><td style="width:25%">Un brocker</td><td>Approche de type streaming</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Un stockage</td><td>Approche compatible avec la plupart des systèmes existants</td></tr>',
+     '<h1>Données poussées vers:</h1><table style="width:100%"><th><tr><td><img style="width:55%" src="images/general/slide-1-dessin-1.png"></td><td style="width:60%">Un brocker: approche de type streaming</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Un stockage: approche compatible avec la plupart des systèmes existants</td></tr></table>',
 
 
-     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%" text-align="left"><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td>Travailler sur le même brocker</td><td style="width:40%">- Indexation pour des tableaux de bord opérationnels<br>- Transformation avant stockage<br>- File d\'attente en amont d\'un autre stockage</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>- Moteurs relationnels<br>- Solutions Big Data<br>- Autre</td></tr></table>',
 
 
-     '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+     '<h1>Préparation:</h1><table style="width:100%" text-align="left"></th></tr><tr><td rowspan="2"><img style="width:70%" src="images/general/slide-3.png"></td><td>Le broker peut être vu comme un log</td><td style="width:40%">Utile pour l\'ELT, le traitement en continu et la réduction de la latence d\'observation</td></tr><tr><td>Dans du stockage non structuré, plusieurs moteurs peuvent effectuer leurs traitements</td><td>Utile pour l\'ELT, le batch et l\'exploration de données</td></tr></table>',
 
 
-    '<h1>Plusieurs instances de traitement peuvent:</h1><table style="width:100%"><tr><th></th><th colspan="2"></th></tr><tr><td><img style="width:45%" src="images/general/slide-2-dessin-1.png"></td><td style="width:25%">Travailler sur le même brocker</td><td>Cas d\'usage: avec trois bullet points</td></tr><tr><td><img style="width:60%" src="images/general/slide-2-dessin-2.png"></td><td>Un stockage</td><td>Beaucoup d\'options se présentent: 3 bullet points encore</td></tr>',
+    '<h1>La mise a disposition a des contraintes sur:</h1><table style="width:100%" text-align="left"><tr><td><img style="width:45%" src="images/general/slide-4-dessin-1.png"></td><td>Des scénarios de tableaux de bord et certains types d\'accès</td><td colspan="2" style="width:40%">Elle est optimisée ici pour la latence d\'observation</td></tr><tr><td><img style="width:60%" src="images/general/slide-4-dessin-2.png"></td><td>Ici peu de contraintes:</td><td>- Tableaux de bords<br>- BI interactive<td>- Machine learning<br>- Utilisé pour partager librement</td></tr></table>',
 
 
    ];

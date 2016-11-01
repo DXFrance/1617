@@ -1,5 +1,4 @@
-﻿
-<!-- 
+﻿<!--
                              \
                               \
                                \\
@@ -9,12 +8,12 @@
                             (=___._/` \
                                  )  \ |
                                 /   / |
-                               /    > /      
-                              j    < _\    
-                          _.-' :      ``.  
-                          \ r=._\        `.    
-                         <`\\_  \         .`-.     
-                          \ r-7  `-. ._  ' .  `\       
+                               /    > /
+                              j    < _\
+                          _.-' :      ``.
+                          \ r=._\        `.
+                         <`\\_  \         .`-.
+                          \ r-7  `-. ._  ' .  `\
                            \`,      `-.`7  7)   )
                             \/         \|  \'  / `-._
                                        ||    .'
@@ -34,8 +33,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" 
-      type="image/ico" 
+    <link rel="icon"
+      type="image/ico"
       href="favicon.ico">
     <title>Microsoft ❤ Data</title>
 
@@ -65,7 +64,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/cards.css" rel="stylesheet">
 </head>
-<body> 
+<body>
 
     <!-- Début section HEADER -->
 
@@ -97,16 +96,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="image">
-                            <div class="logo"></div>
+                            <a href="../index.html" alt="Home page">
+                                <div class="logo"></div>
+                            </a> 
                         </div>
 
                         <div class="content">
                             <ul>
-                                <li><a href="#" class="services" data-menu="services-menu">Services</a></li>
-                                <li><a href="#" class="outils" data-menu="outils-menu">Outils</a></li>
-                                <li><a href="#" class="plateformes" data-menu="plateformes-menu">Plateformes</a></li>
+                                <li><a href="#" class="services" data-menu="services-menu">Etapes</a></li>
+                                <li><a href="#" class="outils" data-menu="outils-menu">En images</a></li>
                                 <li><a href="#" class="newsletter" data-menu="newsletter-menu">Contact</a></li>
-                            </ul>
+                             </ul>
                             <div class="menu-button" id="menu-button">
                                 <img class="icone responsive-menu" src="images/icons/responsive-menu.svg" alt="Icone menu" /><p>Menu</p>
                            </div>
@@ -127,95 +127,55 @@
                 <i style="margin-right: 5px;" class="fa fa-info"></i>
                 <span class="sr-only">Error:</span>
                 <a style="color:inherit; text-decoration" target=":blank" href="http://www.meetup.com/fr-FR/Android-Paris/" alt="Actu">Actu : Microsoft participe au Meet-up PAUG le 23 Mai à Paris</a>
-            </div>    --> 
+            </div>    -->
 
  <!-- Début section plateformes -->
-           <div id="plateformes-menu">
-      <section id="plateformes" class="services">
-       <h1>Les problèmatiques classiques rencontrées:</h1>
-        <p class="content_description">En big data et en machine learning: </p>
-        <img src="images/general/etapes.png">
-   </section>
+           <div id="services-menu">
+              <section id="services" class="services" style="padding-bottom: 0px;">
+                <div class="row tabs-data">
+                  <div class="col-md-3 col-sm-3 col-xs-6 tab-data">
+                    <img src="images/general/ingestion.png">
+                    <span class="tab-title">Ingestion</span>
+                    <span class="arrow-up" style="display: block;"></span>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6 tab-data">
+                    <img src="images/general/processing.png">
+                    <span class="tab-title">Traitement</span>
+                    <span class="arrow-up"></span>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6 tab-data">
+                    <img src="images/general/staging.png">
+                    <span class="tab-title">Préparation</span>
+                    <span class="arrow-up"></span>
+                  </div>
+                  <div class="col-md-3 col-sm-3 col-xs-6 tab-data">
+                    <img src="images/general/serving.png">
+                    <span class="tab-title">Mise à disposition</span>
+                    <span class="arrow-up"></span>
+                  </div>
+                </div>
+              </section>
+          </div>
+          <div class="tabs-content">
+            <div class="container">
 
-        <section id="items" class="items">
-                        <div class="container cards">
-                            <div class="row-plateforme row">
-                                <div class="col-md-12">
-                                </div>
-                            </div>
-                        </div>
-    </section>
-  </div>
+             <h1>Données poussées vers:</h1><table style="width:100%"><th><tr><td><img style="width:55%" src="images/general/slide-1-dessin-1.png"></td><td style="width:60%">Un brocker: approche de type streaming</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Un stockage: approche compatible avec la plupart des systèmes existants</td></tr></table>
 
-  
+             </div>
+          </div>
+
            <!-- Fin section plateformes -->
 
-           <!-- Début section CAROUSSEL SLIDER  -->
-
-            <div id="carousel-top" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-top" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-top" data-slide-to="1"></li>
-                    <li data-target="#carousel-top" data-slide-to="2"></li>
-                    <li data-target="#carousel-top" data-slide-to="3"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                    <!-- Slide 1 -->
-                    <div class="item active">
-                    <a style="background: url('images/general/ingestionslide.png')"></a>
-                    <div class="carousel-caption" style="color:#fff;">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    </div>
-                    <!-- Slide 2 -->
-                     <div class="item">
-                    <a target=":blank" style="background: url('images/general/traitementslide.png')">
-                    </a>
-                    <div class="carousel-caption" style="color:#fff;">
-                        <h3 style="color:#fff;"></h3>
-                        <p></p>
-                    </div>
-                    </div> 
-                    <!-- Slide 3 -->
-                    <div class="item">
-                    <a target=":blank" style="background: url('images/general/stagingslide.png')">
-                    </a>
-                    <div class="carousel-caption" style="color:#fff;">
-                        <h3 style="color:#fff;"></h3>
-                        <p></p>
-                    </div>
-                    </div> 
-                    <!-- Slide 4 -->
-                    <div class="item">
-                    <a style="background: url('images/general/servingslide.png')" target=":blank"></a>
-                    <div class="carousel-caption" style="color:#fff;">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    </div>
-                   <!-- Fin Slides -->
-                </div>
-
-                <a class="left carousel-control" href="#carousel-top" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-top" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
-
-            <!-- Fin section CAROUSSEL SLIDER  -->
-
+          
+<!-- A LIRE :Cette section on ne veut pas qu'elle apparaisse dans la navigation -->
 <div id="plateformes-menu">
       <section id="plateformes" class="services">
        <h1></h1>
         <p class="content_description">Les scénarios mettent en jeu différents composants tels que le broker, le stockage non structuré (data lake), les moteurs de traitement (processing engine) au fil de l’eau ou en batch, les bases de données relationnelles ou noSQL, la dataviz, etc. Les composants sont accessibles dans la data visualisation.</p>
-      
+
    </section>
 
-       
+
   </div>
 
            <!-- Début section OUTILS -->
@@ -228,10 +188,13 @@
     <section id="items" style="background-color:#d8dfe2;" class="items">
                         <div class="container cards">
                             <div class="row-outil row">
-                                <div class="col-md-2">
+                                <div class="hidden-xs col-md-2">
                                     <iframe width="1200" height="600" src="https://msit.powerbi.com/view?r=eyJrIjoiMTExZjcwNzktZWZlYy00NGNhLTllMjYtMmViNjI3YTc2ODYzIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true">
                                     </iframe>
-
+                                </div>
+                                <div class="hidden-sm hidden-md hidden-lg col-xs-2">
+                                    <iframe width="350" height="800" src="https://msit.powerbi.com/view?r=eyJrIjoiODgzMTlmMmMtYzlmMS00ZmY3LTg3N2EtYjM4N2I3MDI2ZmYzIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +203,7 @@
             <!-- Fin section OUTILS -->
 
 
-            <!-- FOOTER --> 
+            <!-- FOOTER -->
 
             <!-- Début section CONTACT -->
             <div id="newsletter-menu">
@@ -317,10 +280,10 @@
                             </div>
                         </div>
                     </div>
-                   <p>© 2016 Microsoft - <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;" target=":blank">Contactez Microsoft</a> -     
-                   <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;" target=":blank">Confidentialité et Cookies</a> -     
-                   <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation" style="text-decoration:underline;" target=":blank">Conditions d'utilisation</a> -  
-                   <a href="https://www.microsoft.com/trademarks" alt="Marques" style="text-decoration:underline;" target=":blank">Marques</a> -     
+                   <p>© 2016 Microsoft - <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;" target=":blank">Contactez Microsoft</a> -
+                   <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;" target=":blank">Confidentialité et Cookies</a> -
+                   <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation" style="text-decoration:underline;" target=":blank">Conditions d'utilisation</a> -
+                   <a href="https://www.microsoft.com/trademarks" alt="Marques" style="text-decoration:underline;" target=":blank">Marques</a> -
                    <a href="http://choice.microsoft.com/" alt="A propos" style="text-decoration:underline;" target=":blank">À propos de nos annonces</a></p>
                 </footer>
 
