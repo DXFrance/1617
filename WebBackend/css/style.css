@@ -213,6 +213,12 @@ fa {
 	letter-spacing: .5px;
 	font-size:1.1em
 }
+.toto 
+{
+	background-image: url('../images/general/bg.jpg');
+	transition: .2s ease-out;
+	
+}
 .btn:hover
 {
 	color:#fff;

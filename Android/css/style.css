@@ -55,6 +55,20 @@ div.sticky-wrapper nav .container .image a {
 	text-align: left;
 	display: inline-block;
 }
+.cercle {
+    width: 40px;
+    height: 40px;
+	color:#3f3f3f;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	position: relative;
+}
 .circle {
     width: 40px;
     height: 40px;
@@ -66,15 +80,20 @@ div.sticky-wrapper nav .container .image a {
     display: inline-block;
     text-align: center;
     margin: auto 5px;
-position: relative;
+	position: relative;
 }
-.circle i {
+.circle i { 
     font-size: 25px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-
+.cercle i { 
+    font-size: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .badge-link .tooltiptext {
     visibility: hidden;
