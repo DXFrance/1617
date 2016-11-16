@@ -126,7 +126,7 @@ $(document).ready(function () {
                         list: 'Télécharger',
                         icon: 'fa-film'
                          },],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
+                    link: 'https://developer.microsoft.com/en-us/windows/iot/',
                     type: 'plateforme',
                     label: 'Sur DragonBoard'
                 },
@@ -139,9 +139,22 @@ $(document).ready(function () {
                         list: 'Télécharger',
                         icon: 'fa-film'
                          },],
-                    link: 'https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native',
+                    link: 'https://developer.microsoft.com/en-us/windows/iot/',
                     type: 'plateforme',
                     label: 'Sur Minnowboard'
+                },
+                {
+                    title: 'Windows 10 IoT Core',
+                    image: 'images/cardslogo/joule.png',
+                    content: 'Installez et faites tourner vos applications Windows 10 UWP sur Intel Joule.',
+                    list: [ {
+                        link: 'https://developer.microsoft.com/en-us/windows/iot/getstarted',
+                        list: 'Télécharger',
+                        icon: 'fa-film'
+                         },],
+                    link: 'https://developer.microsoft.com/en-us/windows/iot/',
+                    type: 'plateforme',
+                    label: 'Sur Intel Joule'
                 },
             ];
 
