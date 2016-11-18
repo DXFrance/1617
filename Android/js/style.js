@@ -170,7 +170,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Partagez et réutilisez du code C++ existant pour cibler les utilisateurs Android et iOS. La fonction débug est aussi dispo.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
+                    link: 'https://www.visualstudio.com/fr/vs/cplusplus-mdd/',
                     type: 'plateforme',
                     label: 'Développez du code mobile interplateforme en C++'
                 },
