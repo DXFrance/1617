@@ -8,7 +8,12 @@ div.sticky-wrapper nav .container .image a {
 	width: 100%;
 	height: 100%;
 } 
-
+.carousel-caption h3
+{
+	margin-bottom: 0;
+	font-size: 55px;
+	color: #fff;
+}
 .circle:hover {
     background: #3498db;
     -webkit-animation: pulse 0.7s;

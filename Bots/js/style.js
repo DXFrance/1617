@@ -31,6 +31,16 @@ $(document).ready(function () {
                     type: 'build',
                     label: 'Vous êtes plutôt ASP.NET ?'
                 },
+                {
+                    title: 'Azure Bot Service',
+                    image: 'images/cardslogo/azure.png',
+                    content: 'Accélérez votre développement et enrichissez vos bots dans un environnement serverless. Azure Bot Service: le meilleur d\'Azure Functions et de Microsoft Bot Framework !',
+                    list: [
+                    ],
+                    link: 'https://azure.microsoft.com/en-us/services/bot-service/',
+                    type: 'build',
+                    label: 'Une solution clé en main pour le développement de votre bot !'
+                },
                {
                     title: 'Cognitive Services',
                     image: 'images/cardslogo/cerveau.png',
@@ -55,7 +65,7 @@ $(document).ready(function () {
                     {
                     title: 'Bot Connector',
                     image: 'images/cardslogo/connect.png',
-                    content: 'Votre Bot devient accessible depuis des services comme Slack, Telegram, Facebook Messenger, Skype...',
+                    content: 'Votre Bot devient accessible depuis des services comme Slack, Teams, Telegram, Facebook Messenger, Skype...',
                     list: [
                           {
                             link: 'https://www.nuget.org/packages/Microsoft.Bot.Connector/',
@@ -90,8 +100,8 @@ $(document).ready(function () {
                 },
 {
                     title: 'Bot Framework Emulator',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'L\'emulateur permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows uniquement.',
+                    image: 'images/cardslogo/tool.png',
+                    content: 'L\'emulateur open source qui permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows, Mac et Linux !',
                     list: [
                      {
                             link: 'https://aka.ms/bf-bc-emulator',
@@ -99,10 +109,11 @@ $(document).ready(function () {
                             icon: 'fa-download'
                         },
                      ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#use-the-bot-framework-emulator-to-test-your-bot-application',
+                    link: 'https://github.com/microsoft/botframework-emulator/wiki/Getting-Started',
                     type: 'outil',
                     label: 'Tester son bot facilement avec l\'émulateur'
                 },
+                
                     {
                     title: 'Visual Studio',
                     image: 'images/cardslogo/vsts.png',
