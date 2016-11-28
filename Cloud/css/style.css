@@ -466,7 +466,6 @@ section.services
 	background-color:#ECF0F1;
 	text-align:center
 }
-}
 	section.items
 {
 	background-color:#fff;
@@ -965,7 +964,7 @@ section.content_with_pictures_2
 }
 	div.sticky-wrapper nav .container .content .menu-button
 {
-	top:1em;
+	top:0em;
 	right:0;
 	position:absolute;
 	display:block;

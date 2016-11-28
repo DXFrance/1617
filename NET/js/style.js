@@ -88,14 +88,14 @@ $(document).ready(function () {
                     label: 'Des interfaces unifiées'
                 },
                   {
-                    title: 'Xamarin IDE',
+                    title: 'VISUAL STUDIO FOR MAC',
                     image: 'images/cardslogo/vsts.png',
-                    content: 'Choisissez l\'IDE qui convient à votre machine: Xamarin Studio sur Mac ou Visual Studio sur PC.',
+                    content: 'Il n\'a jamais été aussi simple de développer son backend ou de démarrer des projets cross-plateforme en C# !',
                     list: [
                      ],
-                    link: 'https://www.xamarin.com/download',
+                    link: 'https://www.visualstudio.com/vs/visual-studio-mac/',
                     type: 'outil',
-                    label: 'En travaillant sur Mac ou PC'
+                    label: 'Visual Studio for Mac: élargissez votre champ des possibles'
                 },
 
 
@@ -118,7 +118,7 @@ $(document).ready(function () {
                      ],
                     link: 'https://www.visualstudio.com/products/visual-studio-enterprise-vs',
                     type: 'last',
-                    label: 'VS 2015 Pro et Enterprise'
+                    label: 'Visual Studio Pro et Enterprise'
                 },
                 {
                     title: 'VS 2015',
@@ -128,7 +128,7 @@ $(document).ready(function () {
                      ],
                     link: 'https://www.visualstudio.com/products/visual-studio-community-vs',
                     type: 'last',
-                    label: 'VS 2015 Community'
+                    label: 'Visual Studio Community'
                 },
                 {
                     title: 'VS Code',
@@ -138,22 +138,22 @@ $(document).ready(function () {
                      ],
                     link: 'https://code.visualstudio.com',
                     type: 'last',
-                    label: 'VS Code'
+                    label: 'Visual Studio Code'
                 },
                 {
-                    title: 'VS 15',
+                    title: 'Visual Studio 2017 RC',
                     image: 'images/cardslogo/vsts.png',
                     content: 'En avant-première, testez les fonctionnalités du futur Visual Studio.',
                     list: [
                         {
-                            link: 'https://blogs.msdn.microsoft.com/visualstudio/2016/07/07/visual-studio-15-preview-3/',
+                            link: 'https://www.visualstudio.com/vs/visual-studio-2017-rc/',
                             list: 'Télécharger',
                             icon: 'fa-download'
                         },
                      ],
                     link: 'https://blogs.msdn.microsoft.com/visualstudio/',
                     type: 'last',
-                    label: '"VS 15" - Le futur Visual Studio'
+                    label: 'Le futur Visual Studio',
                 },
             ];
 

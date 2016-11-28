@@ -54,15 +54,24 @@ $('a[data-toggle="tooltip"]').tooltip();
                     link: 'https://graph.microsoft.io',
                     type: 'build',
                     label: 'Enrichir l\'expérience de vos utilisateurs avec leurs données'
-                }, /*
+                }, 
                 {
-                    title: 'Bing Map platform',
-                    image: 'images/cardslogo/bing.png',
-                    content: 'De nombreuses APIs pour intégrer une dimention spaciale et géographique dans vos applications : Geocoding, calcul d\'itinéraire, cartographie, cartes routières, et plus encore.',
+                    title: 'Visual Studio Mobile Center',
+                    image: 'images/cardslogo/VSMC.png',
+                    content: 'Le nouveau centre de contrôle pour construire, tester, distribuer et contrôler le fonctionnement de vos applications mobiles, quel que soit votre language !',
                     list: [],
-                    link: 'https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx',
+                    link: 'https://www.visualstudio.com/vs/mobile-center/',
                     type: 'build',
-                    label: 'Créer'
+                    label: 'Le portail qui va tout connecter !'
+                },/*
+                {
+                    title: 'Visual Studio Mobile Center',
+                    image: 'images/cardslogo/bing.png',
+                    content: '',
+                    list: [],
+                    link: 'https://www.visualstudio.com/vs/mobile-center/',
+                    type: 'build',
+                    label: 'Le portail qui va tout connecter !'
                 },
 
                   {
@@ -89,7 +98,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Développez, distribuez et testez vos applications mobiles. Recueillez les commentaires de vos utilisateurs, obtenez des rapports sur les incidents, etc...',
                     list: [],
                     link: 'https://www.hockeyapp.net/features/',
-                    type: 'test',
+                    type: 'build',
                     label: 'Développez, distribuez et testez vos applis'
                 },
                 {
@@ -98,7 +107,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Testez votre application sur plus de 2000 types de devices à la demande. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
                     list: [],
                     link: 'https://www.xamarin.com/test-cloud',
-                    type: 'test',
+                    type: 'build',
                     label: 'Testez l\'interface de vos applis sur 2000 devices'
                 },
 
@@ -108,7 +117,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre IDE.',
                     list: [],
                     link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
-                    type: 'test',
+                    type: 'build',
                     label: 'Partager son code et suivre ses projets efficacement'
                 },
                      {
@@ -117,7 +126,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Optimisez l\’utilisation des applications et la rétention des utilisateurs.',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/services/mobile-engagement/',
-                    type: 'test',
+                    type:'build',
                     label: 'Analysez comment vos utilisateurs utilisent votre application'
                 },
 
@@ -146,14 +155,23 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'outil',
                     label: 'Plug-in de Visual Studio pour Android Studio'
                 },
-                    {
-                    title: 'Xamarin',
-                    image: 'images/cardslogo/xamagon.png',
-                    content: 'Construisez des applications Android, iOS et Windows natives, avec une seule base de code C# partagée.',
+                {
+                    title: 'Visual Studio Code',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'L\'éditeur de code gratuit, léger et cross-plateforme de Microsoft. Le tout en open source !',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/xamarin-vs.aspx',
+                    link: 'https://code.visualstudio.com/',
                     type: 'plateforme',
-                    label: 'L\'outil ultime pour faire du cross-plateforme'
+                    label: 'Un éditeur de code léger pour développer en Node.js'
+                },
+                {
+                    title: 'Visual Studio',
+                    image: 'images/cardslogo/vsts.png',
+                    content: 'Le meilleur IDE du marché, au service de vos projets de backend.',
+                    list: [ ],
+                    link: 'https://www.visualstudio.com/vs/',
+                    type: 'plateforme',
+                    label: 'Développez votre backend en .NET'
                 },
                     {
                     title: 'Apache Cordova Tools',
@@ -175,7 +193,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Ou bien partagez et réutilisez du code C++ existant. La fonction débug est aussi dispo.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/fr-fr/features/cplusplus-mdd-vs.aspx',
+                    link: 'https://www.visualstudio.com/fr/vs/cplusplus-mdd/',
                     type: 'plateforme',
                     label: 'Développez du code mobile interplateforme en C++'
                 },
@@ -188,6 +206,21 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'plateforme',
                     label: 'L\'extension React Native Tools pour VSCode'
                 },
+                {
+                    title: 'Xamarin for Visual Studio',
+                    image: 'images/cardslogo/xamagon.png',
+                    content: 'Construisez des applications Android, iOS et Windows natives, avec une seule base de code C# partagée. Disponible sur PC et Mac !',
+                    list: [ 
+                        {
+                            link: 'https://www.visualstudio.com/vs/visual-studio-mac/',
+                            list: 'Disponible sur Mac',
+                            icon: 'fa-download'
+                        },
+                    ],
+                    link: 'https://www.visualstudio.com/xamarin/',
+                    type: 'plateforme',
+                    label: 'L\'outil ultime pour faire du développement cross-plateforme'
+                },
             ];
 
 
@@ -195,7 +228,7 @@ $('a[data-toggle="tooltip"]').tooltip();
         cards[i].list_html = '';
                 if (cards[i].list.length) {
                     for (var z = 0; z < cards[i].list.length; z++) {
-                        cards[i].list_html += '<li><a href="'+ cards[i].list[z].link +'" title="'+ cards[i].list[z].list +'">'+ cards[i].list[z].list +'</a></li>';
+                        cards[i].list_html += '<li><a href="'+ cards[i].list[z].link +'" target="_blank" title="'+ cards[i].list[z].list +'">'+ cards[i].list[z].list +'</a></li>';
                     }
                 } else {
                     cards[i].list_html = '';
