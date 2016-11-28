@@ -120,7 +120,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: 'images/cardslogo/vsts.png',
                     content: 'Il n\'a jamais été aussi simple de développer son backend ou de démarrer des projets cross-plateforme en C# !',
                     list: [ ],
-                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    link: 'https://www.visualstudio.com/vs/visual-studio-mac/',
                     type: 'outil',
                     label: 'Visual Studio for Mac: élargissez votre champ des possibles'
                 },

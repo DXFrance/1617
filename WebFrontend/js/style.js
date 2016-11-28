@@ -1,170 +1,160 @@
 $(document).ready(function () {
-$('a[data-toggle="tooltip"]').tooltip();
-            var cards = [
-               {
-                    title: 'Angular 2',
-                    image: 'images/cardslogo/angular.png',
-                    content: 'Découvrez comment construire des applications en profitant des dernières fonctionalités du web moderne.',
-                    list: [
-                       
-                    ],
-                    link: 'https://angular.io/',
-                    type: 'build',
-                    label: 'Créez des applications riches'
-                },
+    $('a[data-toggle="tooltip"]').tooltip();
+    var cards = [
+
+        {
+            title: 'Microsoft EDGE',
+            image: 'images/cardslogo/edge.png',
+            content: 'Pensé dans le but de simplifier la vie des developpeurs.',
+            list: [],
+            link: 'https://www.microsoft.com/fr-fr/windows/microsoft-edge',
+            type: 'build',
+            label: 'Un navigateur créé pour le web moderne'
+        },
+        {
+            title: 'best practice',
+            image: 'images/cardslogo/lwm.png',
+            content: 'Aujourd\'hui le web est suffisament mature pour qu\'un ensemble de bonnes pratiques émergent. En les respectant vous assurez la pérénité de votre site.',
+            list: [],
+            link: 'http://www.lewebmoderne.fr/',
+            type: 'build',
+            label: 'Développez pour le web moderne'
+        },
+        {
+            title: 'TypeScript',
+            image: 'images/cardslogo/ts.png',
+            content: 'Profitez de l\'efficacité d\'un language typé pour générer du javascript moderne.',
+            list: [
+
+            ],
+            link: 'http://www.typescriptlang.org/',
+            type: 'build',
+            label: 'Le futur de javascript, aujourd\'hui'
+        },
+        {
+            title: 'Angular 2',
+            image: 'images/cardslogo/angular.png',
+            content: 'Créez des applications riches et modulaires en utilisant la puisance de Visual Studio Code et TypeScript',
+            list: [
+
+            ],
+            link: 'https://angular.io/',
+            type: 'build',
+            label: 'Votre framework favori dans Visual Studio Code'
+        },
+        {
+            title: 'Babylon.js',
+            image: 'images/cardslogo/babylon.png',
+            content: 'Le framework qui vous permet d\'utiliser WebGL pour obtenir une expérience 3D digne d\'un jeu vidéo.',
+            list: [
+
                 {
-                    title: 'TypeScript',
-                    image: 'images/cardslogo/ts.png',
-                    content: 'Profitez de l\'efficacité d\'un language typé pour générer du javascript moderne.',
-                    list: [
-                        
-                    ],
-                    link: 'http://www.typescriptlang.org/',
-                    type: 'build',
-                    label: 'Le futur de javascript, aujourd\'hui'
-                }, 
-                        {
-                    title: 'React',
-                    image: 'images/cardslogo/react.png',
-                    content: 'La librairie légère qui permet de créer des intefaces web modulaires.',
-                    list: [],
-                    link: 'https://facebook.github.io/react/',
-                    type: 'build',
-                    label: 'L\'efficacité à son maximum'
+                    link: 'https://xboxdesignlab.xbox.com/en-US/customize',
+                    list: 'Exemple',
+                    icon: 'fa-download'
                 },
-                {
-                    title: 'Babylon.js',
-                    image: 'images/cardslogo/babylon.png',
-                    content: 'Le framework qui vous permet d\'utiliser WebGL pour obtenir une expérience 3D digne d\'un jeu vidéo.',
-                    list: [
-                       
-                        {
-                            link: 'https://xboxdesignlab.xbox.com/en-US/customize',
-                            list: 'Exemple',
-                            icon: 'fa-download'
-                        },
-                        ],
-                    link: 'http://babylonjs.com/',
-                    type: 'build',
-                    label: 'La 3D dans le navigateur sans plugin'
-                },
-           
-                 {
-                    title: 'Microsoft EDGE',
-                    image: 'images/cardslogo/edge.png',
-                    content: 'Pensé dans le but de simplifier la vie des developpeurs.',
-                    list: [],
-                    link: 'https://www.microsoft.com/fr-fr/windows/microsoft-edge',
-                    type: 'build',
-                    label: 'Un navigateur créé pour le web moderne'
-                },
-                     {
-                    title: 'best practice',
-                    image: 'images/cardslogo/lwm.png',
-                    content: 'Aujourd\'hui le web est suffisament mature pour qu\'un ensemble de bonnes pratiques émergent. En les respectant vous assurez la pérénité de votre site.',
-                    list: [],
-                    link: 'http://www.lewebmoderne.fr/',
-                    type: 'build',
-                    label: 'Développez pour le web moderne'
-                },
+            ],
+            link: 'http://babylonjs.com/',
+            type: 'build',
+            label: 'La 3D dans le navigateur sans plugin'
+        },
+        {
+            title: 'NativeScript',
+            image: 'images/cardslogo/native.png',
+            content: 'Créez des application natives pour mobile avec Angular et TypeScript. Le tout sans web views !',
+            list: [
 
-                    {
-                    title: 'React Native',
-                    image: 'images/cardslogo/react.png',
-                    content: 'Vous permet de construire des applications en utilisant Javascript et React. Le tout en bénéficiant de la puissance de la techno sous-jacente.',
-                    list: [
-                         
-                    ],
-                    link: 'https://facebook.github.io/react-native/',
-                    type: 'outil',
-                    label: 'Le web au service du natif'
-                },
+            ],
+            link: 'https://www.nativescript.org/',
+            type: 'outil',
+            label: 'Le web au service du natif'
+        },
 
-                        {
-                    title: 'Addins office',
-                    image: 'images/cardslogo/office.png',
-                    content: 'Développez des addins pour office en mode web pour toutes les plateformes et les devices.',
-                    list: [ ],
-                    link: 'http://dev.office.com/',
-                    type: 'outil',
-                    label: 'Etendez les possibilités d\'office'
-                },
-                 {
-                    title: 'Manifold.js',
-                    image: 'images/cardslogo/manifold.png',
-                    content: 'Packagez votre application web de manière simple pour créer des applications natives Cordova ou Hosted Web App.',
-                    list: [ ],
-                    link: 'http://manifoldjs.com/',
-                    type: 'outil',
-                    label: 'Transformez votre site web en application'
-                },
-                    {
-                    title: 'Visual studio code',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Un éditeur de code léger, open source et cross plateforme. Le tout avec des fonctionnalités de débogage, une intégration Git et un système d’extensions.',
-                    list: [ ],
-                    link: 'https://code.visualstudio.com/',
-                    type: 'plateforme',
-                    label: 'Un éditeur de code tout neuf !'
-                },
-                    {
-                    title: 'Vorlon.js',
-                    image: 'images/cardslogo/vorlon.png',
-                    content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Déboguez à distance téléphones, tablettes et autres voitures connectées.',
-                    list: [
-                    ],
-                    link: 'http://vorlonjs.io/',
-                    type: 'plateforme',
-                    label: 'Déboguez votre site web, partout'
-                },
-                  {
-                    title: 'Visual studio',
-                    image: 'images/cardslogo/vsts.png',
-                    content: 'Utilisez le meilleur IDE du marché pour développer votre site web en utilisant les dernières technologies ASP.NET.',
-                    list: [ ],
-                    link: 'https://www.visualstudio.com/',
-                    type: 'plateforme',
-                    label: 'Un éditeur professionel pour votre site web'
-                },
-                 
-            ];
+        {
+            title: 'Addins office',
+            image: 'images/cardslogo/office.png',
+            content: 'Développez des addins pour office en mode web pour toutes les plateformes et les devices.',
+            list: [],
+            link: 'http://dev.office.com/',
+            type: 'outil',
+            label: 'Etendez les possibilités d\'office'
+        },
+        {
+            title: 'Manifold.js',
+            image: 'images/cardslogo/manifold.png',
+            content: 'Packagez votre application web de manière simple pour créer des applications natives Cordova ou Hosted Web App.',
+            list: [],
+            link: 'http://manifoldjs.com/',
+            type: 'outil',
+            label: 'Transformez votre site web en application'
+        },
+        {
+            title: 'Visual studio code',
+            image: 'images/cardslogo/vsts.png',
+            content: 'Un éditeur de code léger, open source et cross plateforme. Le tout avec des fonctionnalités de débogage, une intégration Git et un système d’extensions.',
+            list: [],
+            link: 'https://code.visualstudio.com/',
+            type: 'plateforme',
+            label: 'Un éditeur de code tout neuf !'
+        },
+        {
+            title: 'Vorlon.js',
+            image: 'images/cardslogo/vorlon.png',
+            content: 'Découvrez une alternative aux outils de développement F12 qui fonctionnent vers n\'importe quel navigateur à travers le réseau. Déboguez à distance téléphones, tablettes et autres voitures connectées.',
+            list: [
+            ],
+            link: 'http://vorlonjs.io/',
+            type: 'plateforme',
+            label: 'Déboguez votre site web, partout'
+        },
+        {
+            title: 'Visual studio',
+            image: 'images/cardslogo/vsts.png',
+            content: 'Utilisez le meilleur IDE du marché pour développer votre site web en utilisant les dernières technologies ASP.NET.',
+            list: [],
+            link: 'https://www.visualstudio.com/',
+            type: 'plateforme',
+            label: 'Un éditeur professionel pour votre site web'
+        },
+
+    ];
 
 
-            for (var i = 0; i < cards.length; i++) {
-                if (cards[i].list.length) {
-                    cards[i].list_html = '';
-                    for (var z = 0; z < cards[i].list.length; z++) {
-                        cards[i].list_html += '<a href="'+ cards[i].list[z].link +'" target="_blank" title="'+ cards[i].list[z].list +'">'+ cards[i].list[z].list +'</a>';
-                    }
-                    cards[i].list_html += '';
-
-                } else {
-                    cards[i].list_html = '';
-                }
-                $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="'+ cards[i].image +'" alt="'+ cards[i].label +'"> <span>'+ cards[i].label +'</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>'+ cards[i].list_html +'<a target="_blank" href="'+ cards[i].link +'" title="'+ cards[i].title +'">En savoir plus</a> </div> <span class="label">' + cards[i].title +'</span>'+ cards[i].content +' </div> </div> </div> </div> </div> </div>');
+    for (var i = 0; i < cards.length; i++) {
+        if (cards[i].list.length) {
+            cards[i].list_html = '';
+            for (var z = 0; z < cards[i].list.length; z++) {
+                cards[i].list_html += '<a href="' + cards[i].list[z].link + '" target="_blank" title="' + cards[i].list[z].list + '">' + cards[i].list[z].list + '</a>';
             }
-            cardShowed = false;
-            var targetOffset = $(".card").offset().top - 490;
+            cards[i].list_html += '';
 
-            $w = $(window).scroll(function() {
-                if(cardShowed){ return; }
-                if ( $w.scrollTop() > targetOffset ) {
-                    cardShowed = true;
-                    $('.card .card-top span').css('top', 0);
-                    $('.card .card-content').css('height', 210);
-                    setTimeout(function() {
-                        $('.card .card-bottom').css('height', 40);
-                        $('.card .card-abs').css('opacity', 1);
-                    }, 400);
-                }
-            });
+        } else {
+            cards[i].list_html = '';
+        }
+        $('.cards .row-' + cards[i].type + '').append(' <div class="col col-md-4 col-sm-6"> <div class="card"> <div class="card-top"> <img src="' + cards[i].image + '" alt="' + cards[i].label + '"> <span>' + cards[i].label + '</span> </div> <div class="card-content"> <div class="card-content-div"> <div class="card-abs"><div class="sep"></div>' + cards[i].list_html + '<a target="_blank" href="' + cards[i].link + '" title="' + cards[i].title + '">En savoir plus</a> </div> <span class="label">' + cards[i].title + '</span>' + cards[i].content + ' </div> </div> </div> </div> </div> </div>');
+    }
+    cardShowed = false;
+    var targetOffset = $(".card").offset().top - 490;
+
+    $w = $(window).scroll(function () {
+        if (cardShowed) { return; }
+        if ($w.scrollTop() > targetOffset) {
+            cardShowed = true;
+            $('.card .card-top span').css('top', 0);
+            $('.card .card-content').css('height', 210);
+            setTimeout(function () {
+                $('.card .card-bottom').css('height', 40);
+                $('.card .card-abs').css('opacity', 1);
+            }, 400);
+        }
+    });
     jQuery('img.icone').each(function () {
         var $img = jQuery(this);
         var imgID = $img.attr('id');
         var imgClass = $img.attr('class');
         var imgURL = $img.attr('src');
 
-         jQuery.get(imgURL, function (data) {
+        jQuery.get(imgURL, function (data) {
             var $svg = jQuery(data).find('svg');
 
             if (typeof imgID !== 'undefined') {
@@ -179,7 +169,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
             $img.replaceWith($svg);
 
-            }, 'xml');
+        }, 'xml');
     });
 
 
@@ -192,7 +182,7 @@ $('a[data-toggle="tooltip"]').tooltip();
     });
 
 
-    if($('footer')){
+    if ($('footer')) {
 
         $('footer').waypoint(function () {
             if ($('.firstTransition')) {
@@ -296,7 +286,7 @@ $('a[data-toggle="tooltip"]').tooltip();
             }
 
 
-        }, { offset: '50%'});
+        }, { offset: '50%' });
 
     });
 
@@ -361,17 +351,17 @@ $('a[data-toggle="tooltip"]').tooltip();
     $.scrollTo(0);
 
 
-    $(window).scroll(function(){
-      checkHeader();
+    $(window).scroll(function () {
+        checkHeader();
     });
 
     var checkHeader = function () {
-      var height_header = $('#header').height();
-       if ($(this).scrollTop() > height_header) {
-           $('div.sticky-wrapper.is-sticky nav').show('drop', { direction: 'up' }, 400);
-       } else {
-           $('div.sticky-wrapper.is-sticky nav').hide('drop', { direction: 'up' }, 400);
-       }
+        var height_header = $('#header').height();
+        if ($(this).scrollTop() > height_header) {
+            $('div.sticky-wrapper.is-sticky nav').show('drop', { direction: 'up' }, 400);
+        } else {
+            $('div.sticky-wrapper.is-sticky nav').hide('drop', { direction: 'up' }, 400);
+        }
     }
 
 });
