@@ -34,7 +34,7 @@ $(document).ready(function () {
         {
             title: 'Angular 2',
             image: 'images/cardslogo/angular.png',
-            content: 'Créez des applications riches et modulaires en utilisant la puisance de Visual Studio Code et TypeScript',
+            content: 'Créez des applications riches et modulaires en utilisant la puisance de Visual Studio Code et TypeScript.',
             list: [
 
             ],
