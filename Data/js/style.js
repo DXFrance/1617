@@ -1,5 +1,5 @@
 $(document).ready(function () {
-$('a[data-toggle="tooltip"]').tooltip();
+    $('a[data-toggle="tooltip"]').tooltip();
 
     jQuery('img.icone').each(function () {
         var $img = jQuery(this);
@@ -7,7 +7,7 @@ $('a[data-toggle="tooltip"]').tooltip();
         var imgClass = $img.attr('class');
         var imgURL = $img.attr('src');
 
-         jQuery.get(imgURL, function (data) {
+        jQuery.get(imgURL, function (data) {
             var $svg = jQuery(data).find('svg');
 
             if (typeof imgID !== 'undefined') {
@@ -22,7 +22,7 @@ $('a[data-toggle="tooltip"]').tooltip();
 
             $img.replaceWith($svg);
 
-            }, 'xml');
+        }, 'xml');
     });
 
 
@@ -35,7 +35,7 @@ $('a[data-toggle="tooltip"]').tooltip();
     });
 
 
-    if($('footer')){
+    if ($('footer')) {
 
         $('footer').waypoint(function () {
             if ($('.firstTransition')) {
@@ -139,7 +139,7 @@ $('a[data-toggle="tooltip"]').tooltip();
             }
 
 
-        }, { offset: '50%'});
+        }, { offset: '50%' });
 
     });
 
@@ -204,40 +204,40 @@ $('a[data-toggle="tooltip"]').tooltip();
     $.scrollTo(0);
 
 
-    $(window).scroll(function(){
-      checkHeader();
+    $(window).scroll(function () {
+        checkHeader();
     });
 
     var checkHeader = function () {
-      var height_header = $('#header').height();
-       if ($(this).scrollTop() > height_header) {
-           $('div.sticky-wrapper.is-sticky nav').show('drop', { direction: 'up' }, 400);
-       } else {
-           $('div.sticky-wrapper.is-sticky nav').hide('drop', { direction: 'up' }, 400);
-       }
+        var height_header = $('#header').height();
+        if ($(this).scrollTop() > height_header) {
+            $('div.sticky-wrapper.is-sticky nav').show('drop', { direction: 'up' }, 400);
+        } else {
+            $('div.sticky-wrapper.is-sticky nav').hide('drop', { direction: 'up' }, 400);
+        }
     }
 
     var tabs = [
 
 
-     '<table style="width:100%"><th><tr><td><img style="width:55%" src="images/general/slide-1-dessin-1.png"></td><td style="width:60%">Données poussées vers un broker: approche de type streaming / « hot path »</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Données poussées vers un stockage: approche compatible avec la plupart des systèmes existants, souvent de type batch / « cold path »</td></tr></table>',
+        '<table style="width:100%"><th><tr><td><img style="width:55%" src="images/general/slide-1-dessin-1.png"></td><td style="width:60%">Données poussées vers un broker: approche de type streaming / « hot path »</td></tr><tr><td><img style="width:60%" src="images/general/slide-1-dessin-2.png"></td><td>Données poussées vers un stockage: approche compatible avec la plupart des systèmes existants, souvent de type batch / « cold path »</td></tr></table>',
 
 
-     '<table style="width:100%" text-align="left"><tr><td><img style="width:65%" src="images/general/slide-2-dessin-1.png"></td><td>Plusieurs instances de traitement peuvent travailler sur le même « broker ». Cas d’usages: indexation pour tableau de bord, transformation, curation, file d\'attente avant stockage, …</td></tr><tr><td><img style="width:80%" src="images/general/slide-2-dessin-2.png"></td><td>Plusieurs instances de traitement peuvent travailler sur le stockage non structuré. Cas d’usages: requêtes ad-hoc sur donnée non préparée, Transformation, …</td></tr></table>',
+        '<table style="width:100%" text-align="left"><tr><td><img style="width:65%" src="images/general/slide-2-dessin-1.png"></td><td>Plusieurs instances de traitement peuvent travailler sur le même « broker ». Cas d’usages: indexation pour tableau de bord, transformation, curation, file d\'attente avant stockage, …</td></tr><tr><td><img style="width:80%" src="images/general/slide-2-dessin-2.png"></td><td>Plusieurs instances de traitement peuvent travailler sur le stockage non structuré. Cas d’usages: requêtes ad-hoc sur donnée non préparée, Transformation, …</td></tr></table>',
 
 
-     '<table style="width:100%"></th></tr><tr><td rowspan="2"><img style="width:100%" src="images/general/slide-3V2.png"></td><td>Le broker peut être vu comme un “log” que plusieurs solutions peuvent traiter. Cas d’usages: ETL, traitement en continu pour réduction de la latence d’observation</td></tr><tr><td>En mettant la donnée dans du stockage non structuré, on peut disposer de toute la donnée (pas de schéma), afin d’alimenter les bases SQL et noSQL dont le schéma peut évoluer en ajoutant des champs qui recevront aussi la donnée passée.</td></tr></table>',
+        '<table style="width:100%"></th></tr><tr><td rowspan="2"><img style="width:100%" src="images/general/slide-3V2.png"></td><td>Le broker peut être vu comme un “log” que plusieurs solutions peuvent traiter. Cas d’usages: ETL, traitement en continu pour réduction de la latence d’observation</td></tr><tr><td>En mettant la donnée dans du stockage non structuré, on peut disposer de toute la donnée (pas de schéma), afin d’alimenter les bases SQL et noSQL dont le schéma peut évoluer en ajoutant des champs qui recevront aussi la donnée passée.</td></tr></table>',
 
 
-    '<table style="width:100%" text-align="left"><tr><td><img style="width:65%" src="images/general/slide-2-dessin-1.png"></td><td>La mise à disposition via des bases SQL ou noSQL est optimisée ici pour la latence d’observation, mais peut avoir d’autres contraintes.</td></tr><tr><td><img style="width:80%" src="images/general/slide-2-dessin-2.png"></td><td>La mise à disposition via des bases SQL, noSQL ou sur les données brutes permet un plus grand nombre de scénarios, au prix d’une latence un peu plus importante.</td></tr></table>',
+        '<table style="width:100%" text-align="left"><tr><td><img style="width:65%" src="images/general/slide-2-dessin-1.png"></td><td><img style="width:70%" src="images/general/schema1.png"></td><td>La mise à disposition via des bases SQL ou noSQL est optimisée ici pour la latence d’observation, mais peut avoir d’autres contraintes.</td></tr><tr><td><img style="width:80%" src="images/general/slide-2-dessin-2.png"></td><td><img style="width:70%" src="images/general/schema2.png"></td><td>La mise à disposition via des bases SQL, noSQL ou sur les données brutes permet un plus grand nombre de scénarios, au prix d’une latence un peu plus importante.</td></tr></table>',
 
 
-   ];
+    ];
 
-    $('.tab-data').click(function() {
-      $('.arrow-up').hide();
-      $(this).find('.arrow-up').show();
-      $('.tabs-content .container').html(tabs[$('.tab-data').index(this)]);
+    $('.tab-data').click(function () {
+        $('.arrow-up').hide();
+        $(this).find('.arrow-up').show();
+        $('.tabs-content .container').html(tabs[$('.tab-data').index(this)]);
     });
 
 });
