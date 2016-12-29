@@ -3,8 +3,72 @@
 	margin:0;
 	padding:0
 }
+div.sticky-wrapper nav .container .image a {
+	display: block;
+	width: 100%;
+	height: 100%;
+} 
+.mapcontainer {
+	max-width: 500px;
+	margin: auto;
+	}
+.mapael .map {
+            position: relative;
+        }
+
+        .mapael .mapTooltip {
+            position: absolute;
+            background-color: #fff;
+            moz-opacity: 0.70;
+            opacity: 0.70;
+            filter: alpha(opacity=70);
+            border-radius: 10px;
+            padding: 10px;
+            z-index: 1000;
+            max-width: 200px;
+            display: none;
+            color: #343434;
+        }
+
+.badge-home {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    z-index: 123;
+    color: #1da1f2;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    -moz-box-shadow: 0px 0px 5px 0px #656565;
+    -webkit-box-shadow: 0px 0px 5px 0px #656565;
+    -o-box-shadow: 0px 0px 5px 0px #656565;
+    box-shadow: 0px 0px 5px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+		transition: linear all 0.2s;
+}
+
+.badge-home:hover {
+	bottom: 25px;
+}
+
+.badge-home a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.badge-home i {
+	color: #1da1f2;
+}
+
 .circle:hover {
-    background: #3f3f3f;
+    background: #2980b9;
 	color:black;
     -webkit-animation: pulse 0.7s;
     animation: pulse 0.7s;
@@ -13,7 +77,7 @@
 	text-align: left;
 	display: inline-block;
 }
-.circle {
+.cercle {
     width: 40px;
     height: 40px;
 	color:#3f3f3f;
@@ -21,18 +85,36 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin: auto 5px;
-position: relative;
+	position: relative;
 }
-.circle i {
+.circle {
+    width: 120px;
+    height: 120px;
+	color:#fff;
+    background: #3498db;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+	position: relative;
+}
+.circle i { 
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cercle i { 
     font-size: 25px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
-
 
 .badge-link .tooltiptext {
     visibility: hidden;
@@ -154,7 +236,6 @@ fa {
 {
 	background-color:#A2C438;
 	color:#fff;
-	margin-right:1em;
 	text-transform: uppercase;
 	font-weight:bold;
 	transition: .2s ease-out;
@@ -423,7 +504,7 @@ li.w3-card-4
 }
 section.services
 {
-	background-color:#ECF0F1;
+	background-color:#d8dfe2;
 	text-align:center
 }
 }
@@ -635,25 +716,62 @@ section.content_with_pictures_2
 {
 	padding-bottom:0
 }
-	section.newsletter,footer
+	section.newsletter
 {
 	min-height:0;
 	max-height:none;
 /*	height:27em; */
-	background-color:#3f3f3f;
-	color:#fff
+	background-color:#d8dfe2;
+	color:#3f3f3f
 }
 	section.content_with_pictures_1 h2,section.content_with_pictures_1 p
 {
 	color:#2a2a2a;
 }
-	section.newsletter h2,footer h2
+	section.newsletter h2
+{
+	color:#3f3f3f
+}
+	section.newsletter p
+{
+	color:#3f3f3f
+}
+	section.newsletter ul
+{
+	margin:0 auto;
+	display:table
+}
+	section.newsletter ul li
+{
+	display:inline-block;
+	list-style:none;
+	margin-right:3em
+}
+	section.newsletter ul li svg,section.newsletter ul li img.icone
+{
+	width:67px;
+	height: 67px;
+	text-decoration:none;
+	fill:#fff
+}
+	section.newsletter ul li:last-child
+{
+	margin-right:0
+}
+	section.newsletter ul svg:hover,section.newsletter ul img.icone
+{
+	-webkit-animation:pulse 0.7s;
+	animation:pulse 0.7s
+}
+	footer h2
 {
 	color:#fff
 }
-	section.newsletter p,footer p
+	footer p
 {
 	color:#fff;
+	margin-top: 30px;
+    text-align: center;
 }
 	section.newsletter .newsletter-form,footer .newsletter-form
 {
@@ -691,7 +809,7 @@ section.content_with_pictures_2
 }
 	footer
 {
-	background-color:#3f3f3f;
+	background-color:#22313F;
 	height:auto;
 	/*padding-top:5em; */
 	padding-bottom:2em
@@ -700,13 +818,6 @@ section.content_with_pictures_2
 {
 	padding-top:0;
 	background-color:transparent
-}
-	footer p
-{
-	margin:4em;
-	line-height:5em;
-	text-align:left;
-	margin-bottom:1em
 }
 	footer ul
 {
