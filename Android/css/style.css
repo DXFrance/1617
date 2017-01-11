@@ -47,7 +47,6 @@ div.sticky-wrapper nav .container .image a {
 
 .circle:hover {
     background: #2980b9;
-	color:black;
     -webkit-animation: pulse 0.7s;
     animation: pulse 0.7s;
 }
