@@ -17,7 +17,7 @@ $(document).ready(function () {
                     content: 'Offrez de l\'intelligence à vos projets : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
                     list: [
                            {
-                            link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
+                            link: 'https://experiences.microsoft.fr/Video/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#hwittXkUsBLsowx9.97',
                             list: 'Vidéo',
                             icon: 'fa-film'
                         },
