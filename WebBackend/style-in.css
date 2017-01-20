@@ -159,7 +159,8 @@ fa {
 
 	section.header-dev
 {
-	
+	padding:5em;
+	padding-top: 3.5em;
 	background-color:#34495e;
 	color: #fff;
 }
@@ -194,6 +195,11 @@ section.newsletter h2 {
 section.newsletter p {
     color: #3f3f3f;
 }
+
+section.header-dev .container {
+    width: auto;
+}
+
 	footer
 {
 	background-color:#3f3f3f;

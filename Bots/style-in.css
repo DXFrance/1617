@@ -182,6 +182,9 @@ nav .content a.active {
   top: 0px;
 	display:none;
 }
+    section.header{
+         background-image: url(../images/general/bg.jpg);
+    }
 	section.header .slogan-bots
 {
 	font-size:2.7em;

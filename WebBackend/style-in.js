@@ -185,7 +185,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: '../images/cardslogo/windows.png',
                     content: 'Publiez vers IIS avec Web Deploy en utilisant Visual Studio.',
                     list: [ ],
-                    link: 'https://docs.asp.net/en/latest/publishing/iis-with-msdeploy.html',
+                    link: 'https://www.iis.net/downloads/microsoft/web-deploy',
                     type: 'plateforme',
                     label: 'Et ça marche aussi sous Windows'
                 },

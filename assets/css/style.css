@@ -668,6 +668,14 @@ section.content_with_pictures_2
 	padding-top:0;
 	background-color:transparent
 }
+	footer p > a{
+		text-decoration: none !important;
+	}
+
+	footer p > a:hover{
+		text-decoration: underline !important;
+	}
+
 	footer .copyright
 {
 	margin:4em;

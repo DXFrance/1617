@@ -191,6 +191,16 @@ nav .content a.active {
 	color: #fff;
 	font-size: 40px;
 }
+section#header .container{
+	width: auto;
+}
+
+
+section#header .subtitle {
+	font-size: 1.1em;
+	margin-top: 1em;
+}
+
 section#header.cloud {
     padding: 5em;
     padding-top: 3.5em;

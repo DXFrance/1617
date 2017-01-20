@@ -394,8 +394,12 @@ section.services
     animation: pulse 0.7s;
 }
 .fa{
-	color: #f2f2f2 !important;
+	color: #f2f2f2 ;
 }
+.fa-angle-down{
+    color:#0088CC;
+}
+
 .fa-twitter{
 	color: #1da1f2 !important;
 }
@@ -412,7 +416,6 @@ div ul li svg, div ul li img.icone {
     width: 67px;
     height: 67px;
     text-decoration: none;
-    fill: #fff;
 }
 @media only screen and (max-width: 1080px)
 {
