@@ -1,0 +1,564 @@
+	*
+{
+	margin:0;
+	padding:0
+}
+.circle:hover {
+    background: #3f3f3f;
+	color:black;
+    -webkit-animation: pulse 0.7s;
+    animation: pulse 0.7s;
+}
+.crossSell {
+	text-align: left;
+	display: inline-block;
+}
+.circle {
+    width: 40px;
+    height: 40px;
+	color:#3f3f3f;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: auto 5px;
+position: relative;
+}
+.circle i {
+    font-size: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.badge-link .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.ui-tooltip {
+	z-index: 5182749837214097219 !important;
+}
+
+.badge-link .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.badge-link:hover .tooltiptext {
+    visibility: visible;
+}
+fa {
+    color: #3f3f3f;
+}
+	body,html
+{
+
+	font-family:"Segoe UI",sans-serif;
+	
+}
+
+.card-abs {
+	position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 1px 30px;
+    left: 0px;
+	opacity: 0;
+	transition: linear all 0.3s;
+}
+
+.item a {
+	display: block;
+    max-width: 100%;
+    height: 344px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 299px;
+    width: 100%;
+    background-size: cover !important;
+}
+
+	ul,li
+{
+	margin:0;
+	padding:0;
+	list-style-type:none
+}
+	a,a:hover,a:active,a:visited,a:focus
+{
+	color:#fff;
+	text-decoration:none
+}
+.animated
+{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity:1;
+	opacity:1
+}
+	img.icone,svg
+{
+	fill:#3f3f3f;
+	display:block;
+	margin:0 auto
+}
+.logoWhite
+{
+	background-color:transparent;
+	background-image:url("../images/general/logowhite.png");
+	width:102px;
+	height:59px;
+	background-position:center center;
+	background-repeat:no-repeat
+}
+.logo
+{
+	background-color:transparent;
+	background-image:url("../images/general/logo.png");
+	width:102px;
+	height:59px;
+	background-position:center center;
+	background-repeat:no-repeat
+}
+	input
+{
+	color:#3f3f3f
+}
+.btn
+{
+	background-color:#A2C438;
+	
+}
+.btn:hover
+{
+	
+	background-color:#669900;
+	
+}
+.btn:focus
+{
+	color:#fff
+}
+.social-link:hover
+{
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+	-webkit-animation:pulse 0.7s;
+	animation:pulse 0.7s
+}
+nav .content a {
+    transition: 0.2s linear all;
+    position: relative;
+    bottom: -5px;
+		background: #3F3F3F;
+		color: white;
+		padding: 5px 11px;
+		border-radius: 4px;
+}
+
+nav .content a.active {
+	  background: white;
+    color: #3F3F3F;
+    font-weight: bold;
+}
+
+nav .content a:hover {
+    bottom: -10px;
+}
+
+.linkressource {
+fill: #fff;
+width: 1em;
+height: 1em;
+margin: 1px;
+}
+li.w3-card-4
+{
+	margin-bottom: 0px;
+}
+	nav
+{
+	background-color:#3f3f3f;
+}
+	div.sticky-wrapper
+{
+	background-color:#fff
+}
+	div.sticky-wrapper nav
+{
+	display:none;
+	height:1px;
+	z-index:99;
+	color:#fff;
+	top:0;
+	width:100%;
+	font-size:0.95em
+}
+	div.sticky-wrapper nav svg,div.sticky-wrapper nav img.icone
+{
+	fill:#fff
+}
+	div.sticky-wrapper nav .container
+{
+	position:relative;
+	padding:10px 13px 10px;
+	width:90%
+}
+	div.sticky-wrapper nav .container .image
+{
+	height:55px;
+	display:inline-block
+}
+	div.sticky-wrapper nav .container .content
+{
+	display:inline-block;
+	margin:0 auto;
+    float:right;
+	padding:15px 13px 15px
+}
+	div.sticky-wrapper nav .container .content ul
+{
+	float:right
+}
+	div.sticky-wrapper nav .container .content ul li
+{
+	float:left;
+	margin-right:2em
+}
+	div.sticky-wrapper nav .container .content ul li:last-child
+{
+	margin-right:0
+}
+	div.sticky-wrapper nav .logo
+{
+	margin-top:0em
+}
+	div.sticky-wrapper nav .menu-button
+{
+	cursor:pointer;
+	display:none;
+	width:130px;
+	float:right
+}
+	div.sticky-wrapper nav .menu-button p
+{
+	display:inline-block;
+	margin:0;
+	line-height:2.5em
+}
+	div.sticky-wrapper nav .menu-button svg,div.sticky-wrapper nav .menu-button img
+{
+	display:inline-block;
+	float:left;
+	margin-right:1em;
+}
+	div.sticky-wrapper.is-sticky nav
+{
+	display:block;
+	height:83px;
+	position: fixed;
+  top: 0px;
+	display:none;
+}
+.secondTransition,.firstTransition,img.firstTransition,img.secondTransition
+{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity:0
+}
+	h2
+{
+	margin-bottom:0;
+	color:#3f3f3f;
+	text-align:center
+}
+	h3
+{
+
+	font-size: 2.8em;
+	
+}
+.carousel-caption h3
+{
+
+	font-size: 45px;
+
+}
+	p
+{
+	text-align:center
+}
+	p.content_description
+{
+	margin:1em;
+	font-size: 1.2em;
+	text-align:center;
+	line-height:130%;
+	/*font-size:1.2em*/
+}
+	section
+{
+	
+/*	overflow:hidden; */
+	
+}
+	section:first-child
+{
+	padding-top:1em
+}
+	section .container
+{
+	height:100%
+}
+.pictures-gallery .item
+{
+	margin:0.5em
+}
+.pictures-gallery .item div.img
+{
+	height:80px;
+	width:80px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	display:block;
+	background-size:auto 80px;
+	background-repeat:no-repeat;
+	background-position:center center
+}
+.partners-logo .item
+{
+	margin:0.7em;
+	display:block
+}
+.partners-logo .item img
+{
+	width:80px
+}
+	section.header
+{
+
+	background-color:#95a5a6;
+}
+.banderole {
+	width: 30%;
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+}
+	section.header img
+{
+
+	bottom:10px;
+	
+}
+	section.header .slogan-devops
+{
+	font-size:3.7em;
+	font-family:"Segoe UI",sans-serif;
+	/*width:11em; */
+	
+	margin-top:0.1em;
+	margin-bottom:0.1em
+}
+
+	section.items h2
+{
+	font-family:"Segoe UI",sans-serif
+}
+
+	section.content_middle_picture h2
+{
+	font-family:"Segoe UI",sans-serif
+}
+	
+	section.text_and_dates ul li small
+{
+	color:#3f3f3f
+}
+	
+	section.newsletter,footer
+{
+	min-height:0;
+	max-height:none;
+/*	height:27em; */
+	background-color:#d8dfe2;
+	color:#3f3f3f
+}
+section.newsletter h2 {
+    color: #3f3f3f;
+}
+section.newsletter p {
+    color: #3f3f3f;
+}
+	footer
+{
+	background-color:#3f3f3f;
+	
+}
+	footer p
+{
+	margin-top: 30px;
+    text-align: center;
+}
+.footer-circle {
+    width: 120px;
+    height: 120px;
+	color:#fff;
+    background: #3498db;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+	position: relative;
+}
+.footer-circle i { 
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-circle:hover {
+    background: #2980b9;
+    -webkit-animation: pulse 0.7s;
+    animation: pulse 0.7s;
+}
+div ul {
+    margin: 0 auto;
+    display: table;
+}
+div ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 3em;
+}
+div ul li svg, div ul li img.icone {
+    width: 67px;
+    height: 67px;
+    text-decoration: none;
+    fill: #fff;
+}
+
+	@media only screen and (max-width: 1080px)
+{
+.carousel-caption h3 {
+	font-size: 50px;
+}
+}
+	@media only screen and (max-width: 1200px)
+{
+	
+.carousel-caption h3 {
+	font-size: 59px;
+}
+
+
+}
+	@media only screen and (max-width: 1000px)
+{
+	
+.carousel-caption h3 {
+	font-size: 50px;
+}
+	
+}
+	@media only screen and (max-width: 850px)
+{
+.carousel-caption h3 {
+	font-size: 40px;
+}
+	
+}
+	@media only screen and (max-width: 510px)
+{
+
+.carousel-caption h3 {
+	font-size: 30px;
+}
+
+}
+@media only screen and (max-width: 1200px)
+{
+	.carousel-caption h3 {
+	font-size: 59px;
+}
+	@media only screen and (max-width: 1000px)
+{
+	.carousel-caption h3 {
+	font-size: 50px;
+}
+
+	section.header .slogan-devops
+{
+	text-align:center;
+	line-height:normal;
+	width:auto
+}
+
+}
+	@media only screen and (max-width: 850px)
+{
+	section.header .btn
+{
+	width:13em;
+	/*margin-top:2em;*/
+	display:block
+}
+
+.carousel-caption h3 {
+	font-size: 40px;
+}
+}
+	@media only screen and (max-width: 510px)
+{
+	section
+{
+	padding:0;
+	padding-top:5px;
+	padding-bottom:15px
+}
+section.header {
+    padding: 0em;
+    padding-top: 0em;
+	padding-bottom: 2.5em;
+}
+
+.carousel-caption h3 {
+	font-size: 30px;
+}
+	section.header .btn
+{
+	width:auto;
+	margin-top:2em;
+	display:block
+}
+	section.header .slogan-devops
+{
+	width:100%;
+	font-size:2em
+}
+}
+

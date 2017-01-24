@@ -1,0 +1,388 @@
+	*
+{
+	margin:0;
+	padding:0
+}
+.circle:hover {
+    background: #3498db;
+    -webkit-animation: pulse 0.7s;
+    
+}
+.crossSell {
+	text-align: left;
+	display: inline-block;
+}
+
+div.sticky-wrapper nav .container .image a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.badge-home {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    z-index: 123;
+    color: #1da1f2;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    -moz-box-shadow: 0px 0px 5px 0px #656565;
+    -webkit-box-shadow: 0px 0px 5px 0px #656565;
+    -o-box-shadow: 0px 0px 5px 0px #656565;
+    box-shadow: 0px 0px 5px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+		transition: linear all 0.2s;
+}
+
+.badge-home:hover {
+	bottom: 25px;
+}
+
+.badge-home a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.badge-home i {
+	color: #1da1f2;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: auto 5px;
+position: relative;
+}
+.circle i {
+    font-size: 25px;
+    
+}
+
+
+.badge-link .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.ui-tooltip {
+	z-index: 5182749837214097219 !important;
+}
+
+.badge-link .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.badge-link:hover .tooltiptext {
+    visibility: visible;
+}
+	body,html
+{
+	
+	font-family:"Segoe UI";
+	
+}
+
+.logo
+{
+
+	background-image:url("../images/general/logo.png");
+    width: 92px;
+    height: 25px;
+	
+}
+	
+.btn
+{
+	background-color:#89c402;
+	    border-radius:0px;
+	
+	
+}
+.btn:hover
+{
+	
+	background-color:#89c402;
+
+}
+
+nav .content a {
+   
+		font-weight: bold;
+		color: #FFF;
+		background: #1a1a1a;
+		
+	/*	border-radius: 4px; */
+}
+
+nav .content a.active {
+	background: white;
+    
+}
+
+
+	nav
+{
+	background-color:#1a1a1a;
+}
+	
+	div.sticky-wrapper nav .container .content
+{
+	
+	padding:0px 13px 15px
+}
+	
+	div.sticky-wrapper.is-sticky nav
+{
+	
+	height:50px;
+	
+}
+
+.carousel-caption h3
+{
+	
+	font-size: 40px;
+}
+
+	section.header
+{
+	
+	background-image: url(../images/general/bg2.jpg);
+}
+	
+	section.header .slogan-net
+{
+	
+	font-family:"Segoe UI",sans-serif;
+	/*width:11em; */
+	font-size: 2.7em;
+	margin-top:0.1em;
+	margin-bottom:0.1em
+}
+	
+	section.items h2
+{
+	font-family:"Segoe UI",sans-serif
+}
+
+	section.content_middle_picture h2
+{
+	font-family:"Segoe UI",sans-serif
+}
+	
+	section.text_and_dates ul li small
+{
+	color:#1a1a1a
+}
+	
+	section.newsletter,footer
+{
+	
+	background-color:#ECF0F1;
+	
+}
+	section.content_with_pictures_1 h2,section.content_with_pictures_1 p
+{
+	color:#1a1a1a;
+}
+	section.newsletter h2
+{
+	color:#3f3f3f
+}
+	section.newsletter p
+{
+	color:#3f3f3f;
+}
+	section.newsletter .newsletter-form,footer .newsletter-form
+{
+	width:19.9em;
+	position:relative;
+	margin:0 auto
+}
+	section.newsletter .newsletter-form input,footer .newsletter-form input
+{
+	border:0;
+	padding:1em;
+	font-size:1.2em;
+	height:3em;
+	padding-left:1em
+}
+	section.newsletter .newsletter-form input#email,footer .newsletter-form input#email
+{
+	
+	/* border-radius:15px; */
+	
+}
+	
+	footer
+{
+	background-color:#1a1a1a;
+	
+}
+	footer p
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-circle {
+    width: 120px;
+    height: 120px;
+	color:#fff;
+    background: #3498db;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+	position: relative;
+}
+.footer-circle i { 
+    font-size: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-circle:hover {
+    background: #2980b9;
+    -webkit-animation: pulse 0.7s;
+    animation: pulse 0.7s;
+}
+div ul {
+    margin: 0 auto;
+    display: table;
+}
+div ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 3em;
+}
+div ul li svg, div ul li img.icone {
+    width: 67px;
+    height: 67px;
+    text-decoration: none;
+    fill: #fff;
+}
+
+.carousel-caption h3 {
+	font-size: 50px;
+}
+
+	div.sticky-wrapper nav .container .content .menu-button
+{
+	top:0em;
+
+}
+
+.carousel-caption h3 {
+	font-size: 59px;
+}
+
+.carousel-caption h3 {
+	font-size: 50px;
+}
+
+.carousel-caption h3 {
+	font-size: 40px;
+}
+
+	section.header .slogan
+{
+	width:100%;
+	font-size:2em
+}
+.carousel-caption h3 {
+	font-size: 40px;
+}
+	@media only screen and (max-width: 1200px)
+{
+	.carousel-caption h3 {
+	font-size: 59px;
+}
+	@media only screen and (max-width: 1000px)
+{
+	.carousel-caption h3 {
+	font-size: 50px;
+}
+
+	section.header .slogan-net
+{
+	text-align:center;
+	line-height:normal;
+	width:auto
+}
+
+}
+	@media only screen and (max-width: 850px)
+{
+	section.header .btn
+{
+	width:13em;
+	/*margin-top:2em;*/
+	display:block
+}
+
+.carousel-caption h3 {
+	font-size: 40px;
+}
+}
+	@media only screen and (max-width: 510px)
+{
+	section
+{
+	padding:0;
+	padding-top:5px;
+	padding-bottom:15px
+}
+section.header {
+    padding: 0em;
+    padding-top: 0em;
+	padding-bottom: 2.5em;
+}
+
+.carousel-caption h3 {
+	font-size: 30px;
+}
+	section.header .btn
+{
+	width:auto;
+	margin-top:2em;
+	display:block
+}
+	section.header .slogan-net
+{
+	width:100%;
+	font-size:2em
+}
+}
