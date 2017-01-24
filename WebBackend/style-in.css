@@ -673,3 +673,64 @@ div ul li svg, div ul li img.icone {
 body.sidebar nav .content ul {
     width: 150px !important;
 }
+@media only screen and (max-width: 1200px)
+{
+	.carousel-caption h3 {
+	font-size: 59px;
+}
+	@media only screen and (max-width: 1000px)
+{
+	.carousel-caption h3 {
+	font-size: 50px;
+}
+
+	section#header.header-dev .slogan-webbackend
+{
+	text-align:center;
+	line-height:normal;
+	width:auto
+}
+
+}
+	@media only screen and (max-width: 850px)
+{
+	section#header.header-dev .btn
+{
+	width:13em;
+	/*margin-top:2em;*/
+	display:block
+}
+
+.carousel-caption h3 {
+	font-size: 40px;
+}
+}
+	@media only screen and (max-width: 510px)
+{
+	section
+{
+	padding:0;
+	padding-top:5px;
+	padding-bottom:15px
+}
+section#header.header-dev {
+    padding: 0em;
+    padding-top: 0em;
+	padding-bottom: 2.5em;
+}
+
+.carousel-caption h3 {
+	font-size: 30px;
+}
+	section#header.header-dev .btn
+{
+	width:auto;
+	margin-top:2em;
+	display:block
+}
+	section#header.header-dev .slogan-webbackend
+{
+	width:100%;
+	font-size:2em
+}
+}
