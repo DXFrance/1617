@@ -295,6 +295,14 @@ div ul li svg, div ul li img.icone {
     fill: #fff;
 }
 
+.mapcontainer{
+	float:left;
+}
+
+.myLegend{
+	float:right;
+}
+
 .carousel-caption h3 {
 	font-size: 50px;
 }
@@ -384,5 +392,4 @@ section.header {
 {
 	width:100%;
 	font-size:2em
-}
 }
