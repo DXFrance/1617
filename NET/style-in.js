@@ -3,68 +3,68 @@ $(document).ready(function () {
             $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                   {
-                    title: '.NET Core',
-                    image: '../images/cardslogo/azure.png',
-                    content: 'Un Shell, un éditeur de code, 10 minutes, et vous avez tout pour créer votre 1er projet pour Windows, Linux ou Mac.',
+                    title: 'Multi plateformes, modulaire & open source',
+                    image: '../images/cardslogo/dotnet.png',
+                    content: '    .NET Core est la nouvelle plateforme de dev adaptée aux besoins du développement modene.',
                     list: [
 
                     ],
-                    link: 'https://www.microsoft.com/net/core',
+                    link: 'https://dotnet.github.io/',
                     type: 'build',
-                    label: 'Des applis cross-plateforme'
+                    label: '.Net Core'
                 },
                                   {
-                    title: '.NET Core',
-                    image: '../images/cardslogo/azure.png',
-                    content: 'Léger, rapide et modulaire. Les librairies, le compilateur et les outils sont disponibles sur GitHub où les contributions sont acceptées, testées et supportées :-)',
+                    title: 'Historique, app universelles ou win 32',
+                    image: '../images/cardslogo/dotnet.png',
+                    content: '  .NET Framework est la plateforme historique  ',
                     list: [
                     ],
-                    link: 'https://github.com/dotnet',
+                    link: 'https://www.microsoft.com/en-us/download/details.aspx?id=53344',
                     type: 'build',
-                    label: '100% open source'
+                    label: '.NET Framework'
                 },
                {
-                    title: 'ASP.NET Core',
-                    image: '../images/cardslogo/azure.png',
-                    content: 'Profitez d\'un framework léger et modulable, pour créer des applications web hébergées sur Linux, Mac ou Windows.',
+                    title: 'App natives IOS et Android',
+                    image: '../images/cardslogo/xamagon.png',
+                    content: '  Profitez de vos compétences en C# pour développer des applications complètes sur IOS et Android. ',
                     list: [
                     ],
-                    link: 'http://www.asp.net/core',
+                    link: 'https://www.xamarin.com/platform',
                     type: 'build',
-                    label: 'Une nouvelle façon de créer des applis web'
+                    label: 'Xamarin'
                 },
 
 
 
                   {
-                    title: 'UWA',
-                    image: '../images/cardslogo/sql.png',
-                    content: 'Développez des applications pour tous les périphériques Windows et: mobiles, tablettes, desktop, HoloLens, Surface Hub et Xbox et profitez d\'un écosystème de plus de 200 millions de périphériques Windows.',
+                    title: 'Visual studio',
+                    image: '../images/cardslogo/MS.png',
+                    content: 'Pro, Entreprise, Community, Code ... Quelque soit la taille de votre équipe il existe une version de Visual Studio qui répond à vos besoins. ',
                     list: [ ],
-                    link: 'https://developer.microsoft.com/fr-fr/windows/getstarted',
+                    link: 'https://www.visualstudio.com/fr/downloads/',
                     type: 'plateforme',
-                    label: 'Applications universelles'
+                    label: 'Windows '
                 },
                  {
 
-                    title: 'WPF',
-                    image: '../images/cardslogo/azure.png',
-                    content: 'Profitez des API natives Windows pour développer des applications client WPF (Windows Presentation Foundation).',
+                    title: 'Visual studio pour mac',
+                    image: '../images/cardslogo/apple.png',
+                    content: 'Elargissez votre champ des possibles et démarrez des projets cross-plateformes en C# avec Visual Studio pour Mac.',
                     list: [
 
                      ],
-                    link: 'https://developer.microsoft.com/fr-fr/windows/desktop/getstarted',
+                    link: 'https://www.visualstudio.com/vs/visual-studio-mac/',
                     type: 'plateforme',
-                    label: 'Applications desktop win32'
+                    label: 'Mac '
                 },
                      {
-                    title: 'WEB',
-                    image: '../images/cardslogo/azure.png',
-                    content: 'Creez des applications web HTML, CSS et JavaScript supportées par un ensemble d\'API riches et d\'un écosystème éprouvé grace à ASP.NET 4.6.',
+                    title: 'Visual studio code',
+                    image: '../images/cardslogo/linux.png',
+                    content: 'Un éditeur de code léger, cross-plateforme (Linux, macOS, Windows), open source et 100% gratuit.',
                     list: [ ],
-                    link: 'http://www.asp.net/get-started/framework',
+                    link: 'https://code.visualstudio.com/docs/setup/linux',
                     type: 'plateforme',
-                    label: 'ASP.NET web app'
+                    label: 'Linux '
                 },
                                                   {
                     title: 'Xamarin',

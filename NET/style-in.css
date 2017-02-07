@@ -178,16 +178,94 @@ nav .content a.active {
 
 	section.header
 {
+	padding: 5em;
+	padding-top:3.5em;
+	padding-bottom:3.5em;
+	color:#fff;
+	    background-image: url(http://www.10wallpaper.com/wallpaper/medium/1311/falling_star-Night_sky_HD_wallpaper_medium.jpg);
 	
-	background-image: url(../images/general/bg2.jpg);
 }
+.item2 a {
+	display: block;
+    max-width: 100%;
+    height: 344px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 320px;
+    width: 100%;
+    background-size: cover !important;
+}
+
+.header-img {
 	
+	top:102px;
+}
+
+.img-net{
+    width: 142px;
+    height: 254px;
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 100px;
+}
+.img-vs{
+    width: 142px;
+    height: 54px;
+    margin-left:-500px;
+    position: absolute;
+    margin-top: 1px;
+}
+.img-left{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+	margin-left: 60px;
+    position: absolute;
+    
+}
+.img-netstandard2
+{
+	display: block;
+	margin-left: 130px;
+	margin-right: 130px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.img-netstandard3
+{
+	display: block;
+	margin-left: 130px;
+	margin-right: 130px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+}
+.img-net-standard{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    
+}
+	.img-right-IDE
+	{
+        width: 200px;
+    height: 100px;
+    margin-left: 1300px;
+    margin-top: 35px;
+    position: absolute;
+    
+}
+.firstTransition > #link-logoWhite{
+	width: 102px;
+	height: 59px;
+
+}
 	section.header .slogan-net
 {
 	
 	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
-	font-size: 2.7em;
+	font-size: 4.7em;
 	margin-top:0.1em;
 	margin-bottom:0.1em
 }
@@ -210,7 +288,7 @@ nav .content a.active {
 	section.newsletter,footer
 {
 	
-	background-color:#ECF0F1;
+	background-color:#d8dfe2;
 	
 }
 	section.content_with_pictures_1 h2,section.content_with_pictures_1 p
@@ -248,7 +326,7 @@ nav .content a.active {
 	
 	footer
 {
-	background-color:#1a1a1a;
+	background-color:#22313F;
 	
 }
 	footer p
@@ -294,13 +372,27 @@ div ul li svg, div ul li img.icone {
     text-decoration: none;
     fill: #fff;
 }
-
+.event{
+	margin-top: 60px;
+}
 .mapcontainer{
 	float:left;
 }
 
 .myLegend{
 	float:right;
+	margin-top: 60px;
+}
+
+.mylegendimg{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+}
+
+section.header  .subtitle {
+	font-size: 2.1em;
+    margin-top: 0.5em;
 }
 
 .carousel-caption h3 {
@@ -333,17 +425,45 @@ div ul li svg, div ul li img.icone {
 .carousel-caption h3 {
 	font-size: 40px;
 }
+section.header img {
+    position: absolute;
+    right: 0;
+    bottom: 0em;
+    display: block;
+    padding-top: 70px;
+}
 	@media only screen and (max-width: 1200px)
 {
 	.carousel-caption h3 {
 	font-size: 59px;
+}
+	section.header .slogan-net
+{
+	width:100%;
+	font-size:2.7em
+}
+.img-left{
+    width: 100px;
+    height: 50px;
+}
+section.header  .subtitle {
+	font-size: 1.1em;
+    margin-top: 0.5em;
+	text-align: left;
+}
+section.header img {
+    position: absolute;
+    right: 0;
+    bottom: 0em;
+    display: none !important;
+    padding-top: 70px;
+}
 }
 	@media only screen and (max-width: 1000px)
 {
 	.carousel-caption h3 {
 	font-size: 50px;
 }
-
 	section.header .slogan-net
 {
 	text-align:center;
@@ -351,6 +471,14 @@ div ul li svg, div ul li img.icone {
 	width:auto
 }
 
+section.header  .subtitle {
+	font-size: 1.1em;
+    margin-top: 0.5em;
+	text-align: center;
+}
+.img-left{
+   display: none !important;
+}
 }
 	@media only screen and (max-width: 850px)
 {
@@ -360,7 +488,9 @@ div ul li svg, div ul li img.icone {
 	/*margin-top:2em;*/
 	display:block
 }
-
+.img-net{
+    display:none !important;
+}
 .carousel-caption h3 {
 	font-size: 40px;
 }
@@ -378,6 +508,10 @@ section.header {
     padding-top: 0em;
 	padding-bottom: 2.5em;
 }
+h1 {
+  font-size: 1.5em;
+
+}
 
 .carousel-caption h3 {
 	font-size: 30px;
@@ -385,7 +519,7 @@ section.header {
 	section.header .btn
 {
 	width:auto;
-	margin-top:2em;
+	margin-top:0em;
 	display:block
 }
 	section.header .slogan-net

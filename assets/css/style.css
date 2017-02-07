@@ -70,7 +70,7 @@
     height: 344px;
     margin: 0 auto;
     overflow: hidden;
-    height: 299px;
+    height: 249px;
     width: 100%;
     background-size: cover !important;
 }
@@ -278,8 +278,9 @@ li.w3-card-4
 	h2
 {
 	margin-bottom:0;
-	color:#3f3f3f;
-	text-align:center
+	color:#fff;
+	text-align:center;
+	font-size: 2.5em
 }
 	h3
 {
@@ -294,7 +295,8 @@ li.w3-card-4
 }
 	p
 {
-	text-align:center
+	text-align:center;
+	font-size: 1.2em;
 }
 	p.content_description
 {
@@ -399,6 +401,8 @@ section.services
 	background-color:#fff;
 	text-align:center
 }
+
+
 	section.items h2
 {
 	font-family:"Open Sans",sans-serif
