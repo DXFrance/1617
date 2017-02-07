@@ -3,18 +3,18 @@ $(document).ready(function () {
             $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                                   {
-                    title: 'Historique, app universelles ou win 32',
+                    title: 'Développer pour Windows',
                     image: '../images/cardslogo/dotnet.png',
-                    content: '  .NET Framework est la plateforme historique  ',
+                    content: '.Net Framework vous aide à créer facilement des applications mobiles, web, desktop et serveurs avec un ensemble d’APIS robustes et éprouvées depuis de nombreuses années !  ',
                     list: [
                     ],
-                    link: 'https://www.microsoft.com/en-us/download/details.aspx?id=53344',
+                    link: 'https://www.microsoft.com/net/framework ',
                     type: 'build',
                     label: '.NET Framework'
                 },
                    {
                     title: 'Multi plateformes, modulaire & open source',
-                    image: '../images/cardslogo/dotnet.png',
+                    image: '../images/general/assets_dotnet/dotnetcore.png',
                     content: '    .NET Core est la nouvelle plateforme de dev adaptée aux besoins du développement moderne.',
                     list: [
 
@@ -62,7 +62,7 @@ $(document).ready(function () {
                     image: '../images/cardslogo/linux.png',
                     content: 'Un éditeur de code léger, cross-plateforme (Linux, macOS, Windows), open source et 100% gratuit.',
                     list: [ ],
-                    link: 'https://code.visualstudio.com/docs/setup/linux',
+                    link: 'https://code.visualstudio.com/',
                     type: 'plateforme',
                     label: 'Linux '
                 },

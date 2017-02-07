@@ -182,7 +182,7 @@ nav .content a.active {
 	padding-top:3.5em;
 	padding-bottom:3.5em;
 	color:#fff;
-	    background-image: url(http://www.10wallpaper.com/wallpaper/medium/1311/falling_star-Night_sky_HD_wallpaper_medium.jpg);
+	    background-image: url(https://www.xmple.com/wallpaper/gradient-linear-purple-blue-1920x1080-c2-8b008b-00ced1-a-0-f-14.svg);
 	
 }
 .item2 a {
@@ -376,6 +376,7 @@ div ul li svg, div ul li img.icone {
 .myLegend{
 	float:right;
 	margin-top: 60px;
+	text-align: left;
 }
 
 .mylegendimg{
