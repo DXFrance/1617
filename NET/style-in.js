@@ -2,17 +2,6 @@ $(document).ready(function () {
 
             $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-                  {
-                    title: 'Multi plateformes, modulaire & open source',
-                    image: '../images/cardslogo/dotnet.png',
-                    content: '    .NET Core est la nouvelle plateforme de dev adaptée aux besoins du développement modene.',
-                    list: [
-
-                    ],
-                    link: 'https://dotnet.github.io/',
-                    type: 'build',
-                    label: '.Net Core'
-                },
                                   {
                     title: 'Historique, app universelles ou win 32',
                     image: '../images/cardslogo/dotnet.png',
@@ -22,6 +11,17 @@ $(document).ready(function () {
                     link: 'https://www.microsoft.com/en-us/download/details.aspx?id=53344',
                     type: 'build',
                     label: '.NET Framework'
+                },
+                   {
+                    title: 'Multi plateformes, modulaire & open source',
+                    image: '../images/cardslogo/dotnet.png',
+                    content: '    .NET Core est la nouvelle plateforme de dev adaptée aux besoins du développement moderne.',
+                    list: [
+
+                    ],
+                    link: 'https://dotnet.github.io/',
+                    type: 'build',
+                    label: '.Net Core'
                 },
                {
                     title: 'App natives IOS et Android',
