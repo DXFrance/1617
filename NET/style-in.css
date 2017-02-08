@@ -240,6 +240,9 @@ nav .content a.active {
     position: absolute;
     
 }
+.card .card-top span {
+    font-size: larger;
+}
 	.img-right-IDE
 	{
         width: 200px;
