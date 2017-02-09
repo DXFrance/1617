@@ -144,12 +144,12 @@ section.header img {
 }
 .eyebrow {
     display: block;
-    font-size: 28px;
+    font-size: 38px;
     line-height: 1.14286;
     font-weight: 300;
     letter-spacing: 0em;
     margin-bottom: 21px;
-    color: #888;
+    color: black;
 }
 .imageCross
  {
@@ -300,7 +300,8 @@ nav .content a.active {
 	/*width:11em; */
 	line-height:110%;
 	margin-top:0.1em;
-	margin-bottom:0.1em
+	margin-bottom:0.1em;
+	text-align: left
 }
 	section.header .subtitle
 {
