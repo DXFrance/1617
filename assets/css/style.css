@@ -75,6 +75,8 @@
     background-size: cover !important;
 }
 
+
+
 	ul,li
 {
 	margin:0;
@@ -301,7 +303,7 @@ li.w3-card-4
 	p.content_description
 {
 	margin:1em;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-align:center;
 	line-height:130%;
 	/*font-size:1.2em*/
@@ -623,6 +625,12 @@ section.content_with_pictures_2
 	color:#fff
 }
 	section.newsletter p,footer p
+{
+	color:#fff;
+
+}
+
+	.cross-selling p
 {
 	color:#fff;
 }
