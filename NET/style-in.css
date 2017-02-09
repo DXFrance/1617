@@ -3,6 +3,11 @@
 	margin:0;
 	padding:0
 }
+
+	a,a:hover,a:active,a:visited,a:focus
+{
+	font-size: 20px;
+}
 .circle:hover {
     background: #3498db;
     -webkit-animation: pulse 0.7s;
@@ -182,7 +187,7 @@ nav .content a.active {
 	padding-top:3.5em;
 	padding-bottom:3.5em;
 	color:#fff;
-	    background-image: url(https://www.xmple.com/wallpaper/gradient-linear-purple-blue-1920x1080-c2-8b008b-00ced1-a-0-f-14.svg);
+	    background-image: url(http://www.headsub.com/attachment/hkd4urec/templates/textures/background_blue01.jpg);
 	
 }
 .item2 a {
@@ -378,14 +383,15 @@ div ul li svg, div ul li img.icone {
 
 .myLegend{
 	float:right;
-	margin-top: 60px;
+	padding-left: 30px;
 	text-align: left;
 }
 
 .mylegendimg{
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	border-radius: 30px;
+	margin-bottom: 5px;
 }
 
 section.header  .subtitle {
