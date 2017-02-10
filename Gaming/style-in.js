@@ -1,79 +1,42 @@
 $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
-               {
-                    title: 'UWP (Universal Windows Platform)',
-                    image: '../images/cardslogo/UWP.png',
-                    content: 'La plateforme contient une collection d\'API communes pour tous vos développements windows. Plus d\'outils et d\'options pour une experience optimale sur chaque appareil.',
-                    list: [
-                           {
-                            link: 'https://channel9.msdn.com/Events/GDC/GDC-2015/The-Future-of-Gaming-Across-the-Microsoft-Ecosystem',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-
-                    ],
-                    link: 'https://msdn.microsoft.com/windows/uwp/gaming/e2e',
-                    type: 'build',
-                    label: 'Une seule manière de développer'
-                },
-               {
-                    title: 'ID @ XBOX',
-                    image: '../images/cardslogo/xbox.png',
-                    content: 'Permet aux studios de toute taille et aux indépendants de libérer leur créativité en publiant leurs contenus digitaux sur Windows 10 et sur Xbox One par le Xbox Live.',
-                    list: [
-                        {
-                            link: 'https://youtu.be/NAWouIYfK7w',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                    ],
-                    link: 'http://www.xbox.com/en-us/developers/id',
-                    type: 'build',
-                    label: 'Pour les développeurs indépendants'
-                },
-                 /*
-               {
-                    title: '',
-                    image: '../images/cardslogo/office.png',
-                    content: 'Chiffres sur le store.',
-                    list: [
-
-                    ],
-                    link: 'https://graph.microsoft.io',
-                    type: 'build',
-                    label: 'Un store riche en opportunités'
-                },
-
-                  {
-                    title: 'Microsoft Translator',
-                    image: '../images/cardslogo/translator.png',
-                    content: 'Une API de traduction automatique de texte et voix sur le Cloud (Machine Translation). Elle supporte plus de 50 langages pour la traduction de textes et 8 pour la voix.',
-                    list: [],
-                    link: 'https://www.microsoft.com/en-us/translator/default.aspx',
-                    type: 'build',
-                    label: 'Créer'
-                },
-                {
-                    title: 'Groove Service',
-                    image: '../images/cardslogo/groove.svg',
-                    content: 'Intégrez de la musique dans votre application. Accéder au catalogue musical de Groove et en particulier sa riche banque d\'images.',
-                    list: [],
-                    link: 'https://music.microsoft.com/developer?NewToGroove=true',
-                    type: 'build',
-                    label: 'Créer'
-                }, */
-
+               
+           
+        
               {
-                    title: 'Visual Studio',
-                    image: '../images/cardslogo/vsts.png',
-                    content: 'La Rolls des IDE :-) Quels que soient vos projets de jeu, il sera votre ami pour la vie.',
+                    title: 'Monogame',
+                    image: '../images/general/monogame.png',
+                    content: '...',
                     list: [ ],
                     link: 'https://www.visualstudio.com/',
-                    type: 'outil',
-                    label: 'Un IDE complet pour vos projets.'
+                    type: 'plateforme',
+                    label: 'Monogame'
                 },
 
+  {
+                    title: 'Unity 3D',
+                    image: '../images/general/unity.png',
+                    content: '...',
+                    list: [ ],
+                    link: 'https://www.visualstudio.com/',
+                    type: 'plateforme',
+                    label: 'Unity 3D'
+                },
+
+                      {
+                    title: 'Babylon JS',
+                    image: '../images/general/babylon.png',
+                    content: '...',
+                    list: [
+
+                    ],
+                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
+                    type: 'plateforme',
+                    label: 'Babylon JS'
+                },
+
+                /*
                     {
                     title: 'DirectX 12',
                     image: '../images/cardslogo/windows.png',
@@ -82,55 +45,89 @@ $('a[data-toggle="tooltip"]').tooltip();
 
                     ],
                     link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
-                    type: 'outil',
-                    label: 'Des graphismes de fou.'
-                },
-
-             {
-                    title: 'Microsoft AZURE',
-                    image: '../images/cardslogo/azure.png',
-                    content: 'Puissance, élasticité et agilité: au service de l\'hébergement et du déploiment multiplayer, de l\'intelligence de vos jeux et d\'optimisation de vos coûts.',
-                    list: [ ],
-                    link: 'https://azure.microsoft.com/fr-fr/',
-                    type: 'outil',
-                    label: 'Exploitez la puissance du cloud.'
-                },
-
-
-
-
-
-
-
-                    {
-                    more: false,
-                    title: 'VR',
-                    image: '../images/cardslogo/holo.png',
-                    content: 'Sur HTC Vive ou Oculus Rift, créez de nouvelles expériences grâce à Windows.',
-                    list: [{
-                            link: 'http://www.htcvive.com/fr/',
-                            list: 'HTC',
-                            icon: 'fa-download'
-                        },{
-                            link: 'https://www3.oculus.com/en-us/rift/',
-                            list: 'Oculus',
-                            icon: 'fa-download'
-                        }, ],
-                    link: '',
                     type: 'plateforme',
-                    label: 'Windows <3 VR'
+                    label: 'Unreal engine'
                 },
-                    {
-                    title: 'HoloLens',
-                    image: '../images/cardslogo/holo.png',
-                    content: 'Offrez des expriences de jeu étendues et inédites grace à la réalité mixte.',
+                     {
+                    title: 'DirectX 12',
+                    image: '../images/cardslogo/windows.png',
+                    content: 'Plus d\'objets, des scènes plus riches, des effets améliorés pour le matériel le plus récent.',
                     list: [
 
                     ],
-                    link: 'https://www.microsoft.com/microsoft-hololens/en-us',
+                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
                     type: 'plateforme',
-                    label: 'Des jeux au-delà l\'écran'
-                }
+                    label: 'Coco 2D'
+                },
+                     {
+                    title: 'DirectX 12',
+                    image: '../images/cardslogo/windows.png',
+                    content: 'Plus d\'objets, des scènes plus riches, des effets améliorés pour le matériel le plus récent.',
+                    list: [
+
+                    ],
+                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
+                    type: 'plateforme',
+                    label: 'Coco 2DX'
+                },
+            
+                        */
+
+                     {
+                    title: 'Le streaming comme futur du gaming',
+                    image: '../images/cardslogo/vsts.png',
+                    content: '...',
+                    list: [ ],
+                    link: 'https://www.visualstudio.com/',
+                    type: 'azure-gaming',
+                    label: 'Hébergement'
+                },
+
+                    {
+                    title: 'Exploitez la puissance du cloud.',
+                    image: '../images/cardslogo/windows.png',
+                    content: '...',
+                    list: [
+
+                    ],
+                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
+                    type: 'azure-gaming',
+                    label: 'GPU rendering'
+                },
+
+             {
+                    title: 'Gagnez un +2 en jet de sagesse',
+                    image: '../images/cardslogo/azure.png',
+                    content: '...',
+                    list: [ ],
+                    link: 'https://azure.microsoft.com/fr-fr/',
+                    type: 'azure-gaming',
+                    label: 'Intelligence'
+                },
+                
+                    {
+                    title: 'DirectX 12',
+                    image: '../images/cardslogo/windows.png',
+                    content: '...',
+                    list: [
+
+                    ],
+                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
+                    type: 'directx',
+                    label: 'Une optimisation aux petits oignons'
+                },
+
+                 {
+                    title: 'PIX sur Windows',
+                    image: '../images/cardslogo/vsts.png',
+                    content: '...',
+                    list: [ ],
+                    link: 'https://www.visualstudio.com/',
+                    type: 'directx',
+                    label: 'Débugguer facilement DirectX12'
+                },
+
+                            
             ];
 
 

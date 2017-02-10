@@ -4,33 +4,24 @@ $(document).ready(function () {
                   {
                     title: 'Bot Builder',
                     image: '../images/cardslogo/tool.png',
-                    content: 'Ce SDK pour Node.js permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
-                    list: [
+                    content: 'Cliquez sur votre langage préféré pour découvrir notre guide sur Bot Framework. Ce SDK permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
+                    list:  [
+                         {
+                            link: 'http://docs.botframework.com/sdkreference/csharp/',
+                            list: 'Node.js',
+                            icon: 'fa-film'
+                        },
                            {
-                            link: 'https://experiences.microsoft.fr/channel/prenez-votre-pied-avec-les-bots/9e6aa5d5-14e6-4d2b-ab6a-14f8032a638b#8R2CEPaRCxdViL8I.97',
-                            list: 'Vidéo',
+                            link: 'http://docs.botframework.com/builder/node/overview/',
+                            list: 'ASP.NET',
                             icon: 'fa-film'
                         },
                     ],
-                    link: 'http://docs.botframework.com/builder/node/overview/',
+                    link:'http://www.slideshare.net/Developpeurs/crer-un-bot-de-a-z?ref=https://experiences.microsoft.fr/Video/creer-un-bot-de-a-a-z/f81e9f12-02b3-4330-bc22-777740cd7145',
                     type: 'build',
-                    label: 'Vous faites du Node.js ?'
+                    label: 'Plutôt Node.js ou ASP.NET ?'
                 },
-                                  {
-                    title: 'Bot Builder',
-                    image: '../images/cardslogo/tool.png',
-                    content: 'Ce SDK pour ASP.NET permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
-                    list: [
-                           {
-                            link: 'https://experiences.microsoft.fr/channel/prenez-votre-pied-avec-les-bots/9e6aa5d5-14e6-4d2b-ab6a-14f8032a638b#8R2CEPaRCxdViL8I.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                    ],
-                    link: 'http://docs.botframework.com/sdkreference/csharp/',
-                    type: 'build',
-                    label: 'Vous êtes plutôt ASP.NET ?'
-                },
+                  
                 {
                     title: 'Azure Bot Service',
                     image: '../images/cardslogo/azure.png',
@@ -47,17 +38,13 @@ $(document).ready(function () {
                     content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
                     list: [
                            {
-                            link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
-                            list: 'Vidéo',
+                            link: 'http://www.slideshare.net/Developpeurs/prenez-votre-pied-avec-les-bots-et-cognitive-services?ref=https://experiences.microsoft.fr/Video/prenez-votre-pied-avec-les-bots-et-cognitive-services/7af0a135-ace8-4491-b4f7-2a5a4f91b62c',
+                            list: 'slideshare',
                             icon: 'fa-film'
                         },
-                         {
-                            link: 'https://www.microsoft.com/cognitive-services/en-us/luis-api/documentation/home',
-                            list: 'Doc',
-                            icon: 'fa-film'
-                        },
+                      
                     ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/luis-api/documentation/home',
                     type: 'build',
                     label: 'Rendez votre bot plus intelligent'
                 },

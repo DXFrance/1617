@@ -8,6 +8,38 @@ div.sticky-wrapper nav .container .image a {
 	width: 100%;
 	height: 100%;
 } 
+
+.item-bot-2lines {
+	display: block;
+    max-width: 100%;
+    height: 344px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 199px;
+    width: 100%;
+	background-color: #22313F;
+    background-size: cover !important;
+}
+.item-bot-2lines p
+{
+	color:  #fff
+}
+
+.item-bot-3lines {
+	display: block;
+    max-width: 100%;
+    height: 344px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 269px;
+    width: 100%;
+	background-color: #22313F;
+    background-size: cover !important;
+}
+.item-bot-3lines p,h1
+{
+	color:  #fff
+}
 .carousel-caption h3
 {
 	margin-bottom: 0;
