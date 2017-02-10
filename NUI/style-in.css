@@ -84,11 +84,39 @@ fa {
 	background-color:#2ecc71;
 	
 }
+
 .btn:hover
 {
 	
 	background-color:#27ae60;
 
+}
+
+.btn2
+{
+	background-color:dodgerblue;
+	color:#fff;
+	margin-right:1em;
+	padding: 9px;;
+	transition: .2s ease-out;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+	letter-spacing: .5px;
+	font-size:1.1em;
+	border-radius: 5px;
+	
+}
+.btn2:hover
+{
+	color:#fff;
+	background-color:darkblue;
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+	-webkit-animation:pulse 0.7s;
+	animation:pulse 0.7s
+}
+.btn2:focus
+{
+	color:#fff
 }
 
 nav .content a {
@@ -131,22 +159,30 @@ nav .content a.active {
 	section.header
 {
 	
-	background-image: url('../images/general/UI.jpg');
+	background-image: url('../images/general/UImitch2.jpg');
 }
 	
 	section.header .slogan-nui
 {
 	color:#fff;
-	font-size:3.7em;
+	font-size:3.4em;
 	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
 	margin-top:0.1em;
-	margin-bottom:0.1em
+	margin-bottom:0.1em;
+	text-align: left;
+	text-shadow: 1px 1px #000
+;
 }
 	section.header .subtitle
 {
 	color:#fff;
 	
+}
+.subtitle
+{
+	text-align: center;
+	font-size:3.4em;
 }
 
 
@@ -187,7 +223,11 @@ nav .content a.active {
 	color: #1da1f2;
 }
 
-
+.item a {
+	
+    height: 200px;
+    ;
+}
 
 	section.items h2
 {
@@ -219,7 +259,7 @@ section.newsletter p {
 }
 	footer
 {
-	background-color:#3f3f3f;
+	background-color:#22313F;
 
 }
 	
