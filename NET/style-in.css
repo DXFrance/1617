@@ -128,17 +128,43 @@ position: relative;
 	
 }
 	
-.btn
+.btn.explorer
 {
 	background-color:#89c402;
 	    border-radius:0px;
 	
 	
 }
-.btn:hover
+.btn.explorer:hover
 {
 	
 	background-color:#89c402;
+
+}
+.btn.meetup
+{
+	background-color:#D30018;
+	    border-radius:0px;
+	
+	
+}
+.btn.meetup:hover
+{ 
+	
+	background-color:#D30018;
+
+}
+.btn.facebook
+{
+	background-color:#3b5998;
+	    border-radius:0px;
+	
+	
+}
+.btn.facebook:hover
+{
+	
+	background-color:#3b5998;
 
 }
 
@@ -269,7 +295,9 @@ nav .content a.active {
 	/*width:11em; */
 	font-size: 4.7em;
 	margin-top:0.1em;
-	margin-bottom:0.1em
+	margin-bottom:0.1em;
+	text-align: left !important;
+	
 }
 	
 	section.items h2
@@ -397,6 +425,7 @@ div ul li svg, div ul li img.icone {
 section.header  .subtitle {
 	font-size: 2.1em;
     margin-top: 0.5em;
+	text-align: left;
 }
 
 .carousel-caption h3 {
@@ -434,8 +463,47 @@ section.header img {
     right: 0;
     bottom: 0em;
     display: block;
+    padding-top: 58px;
+}
+	@media only screen and (max-width: 1330px)
+{
+	.carousel-caption h3 {
+	font-size: 59px;
+}
+.img-left{
+   display: none !important;
+}
+	section.header .slogan-net
+{
+	width:100%;
+	font-size:2.7em
+}
+.img-left{
+    width: 100px;
+    height: 50px;
+}
+section.header  .subtitle {
+	font-size: 1.1em;
+    margin-top: 0.5em;
+	text-align: left;
+}
+section.header img {
+    position: absolute;
+    right: 0;
+    bottom: 0em;
+    display: none !important;
     padding-top: 70px;
 }
+.img-netstandard2
+{
+	display: none !important;
+}
+.item2 a {
+    height: 130px;
+}
+
+}
+
 	@media only screen and (max-width: 1330px)
 {
 	.carousel-caption h3 {
