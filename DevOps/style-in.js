@@ -34,6 +34,7 @@ $(document).ready(function () {
             type: 'build',
             label: 'Mettez en place un cercle vertueux'
         },
+       /*
         {
             more: false,
             title: '',
@@ -44,13 +45,14 @@ $(document).ready(function () {
             type: 'test',
             label: 'DevOps ❤ Cloud'
         },
+        */
         {
             title: 'Devops by microsoft',
             image: '../images/cardslogo/devops.png',
             content: 'La division développement de Microsoft vous explique sa transformation vers des méthodes plus agiles et DevOps.',
             list: [],
             link: 'https://experiences.microsoft.fr/channel/transformation-agile-et-devops-chez-microsoft/f8fb48e3-b0ab-4860-99d0-2fd1c3a77e94#17uhVTQCEMKojRj9.97',
-            type: 'plateforme',
+            type: 'outils',
             label: 'DevOps by Microsoft: ',
         },
 
@@ -101,7 +103,7 @@ $(document).ready(function () {
             content: 'Retrouvez dans une série d\'articles l\'aventure devops vu à travers le prisme d\'un cas pratique !',
             list: [],
             link: 'https://blogs.technet.microsoft.com/devops/2016/01/12/vorlonjs-a-journey-to-devops-introducing-the-blog-post-series/',
-            type: 'plateforme',
+            type: 'outils',
             label: 'Retours d\'expérience sur un cas pratique',
         },
         {
@@ -122,7 +124,7 @@ $(document).ready(function () {
                 },
             ],
             link: '',
-            type: 'plateforme',
+            type: 'outils',
             label: 'Rencontres à DevOps day',
         },
 
