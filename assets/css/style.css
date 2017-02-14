@@ -985,7 +985,15 @@ section.content_with_pictures_2
 	text-align:center;
 	line-height:normal
 }
-
+	section.header div.secondTransition .btn
+{
+	text-align:center
+}
+	section.header .buttons
+{
+	margin:0 auto;
+	display:table
+}
 	section.content_with_pictures_1 .container .col-sm-6,section.content_with_pictures_1 .container .col-md-6,section.content_with_pictures_1 .container .col-lg-6,section.content_with_pictures_2 .container .col-sm-6,section.content_with_pictures_2 .container .col-md-6,section.content_with_pictures_2 .container .col-lg-6
 {
 	width:100%
