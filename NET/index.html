@@ -139,16 +139,16 @@
 
     <!--Début Bandeau 1 -->
     <div id="Tour-de-France-menu">
-        <div class="item">
-            <a style="background-color: #22313F" />
+        <div class="item row">
 
-            <div class="img-left">
+            <div class="col-md-5">
                 <img class="" src="../images/general/assets_dotnet/date-event.png" alt="date" />
             </div>
-            <h2>Tour de France .Net Standard</h2>
-            <p>Microsoft se déplace dans toute la France pour vous :<br><br> Paris, Bordeaux, Lille, Lyon, Toulouse, Strasbourg
-                ... et ce n'est que le début !</p> <br><br>
-
+            <div class="col-md-7">
+                <h2>Tour de France .Net Standard</h2>
+                <p>Microsoft se déplace dans toute la France pour vous :<br><br> Paris, Bordeaux, Lille, Lyon, Toulouse, Strasbourg
+                    ... et ce n'est que le début !</p> <br><br>
+            </div>
         </div>
         </a>
     </div>
@@ -159,12 +159,12 @@
     <section id="items" style="background-color:#ecf0f1" class="items">
         <div class="row-outil row">
             <div class="container event" style="width:100%;">
-
-                <div class="mapcontainer col-md-5 " style="height: 500px;">
-                    <div class="map"><span>The map is loading</span>
-
+                <div class="mapcontainerparent">
+                    <div class="mapcontainer col-md-5 ">
+                        <div class="map">
+                            <span>The map is loading</span>
+                        </div>
                     </div>
-
                 </div>
                 <div class="myLegend col-md-7 ">
                     <div>
@@ -248,8 +248,7 @@ Standard et outils pour les devs</a> <br>
 
         <div class="item">
             <a style="background-color: #22313F" />
-            <div class="img-left">
-            </div>
+
 
             <br>
             <h2>Choisissez votre OS, choisissez votre IDE</h2> <br>
@@ -568,7 +567,7 @@ Standard et outils pour les devs</a> <br>
                 $(".mapcontainer").mapael({
                     map: {
                         name: "france_departments",
-                        width: 400,
+                        // width: 400,
                         defaultArea: {
                             attrsHover: {
                                 fill: "#343434",
@@ -653,7 +652,6 @@ Standard et outils pour les devs</a> <br>
                     }
                 });
             });
-
         </script>
 
 

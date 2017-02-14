@@ -182,7 +182,10 @@ nav .content a.active {
     
 }
 
-
+.item.row{
+	background-color: #22313F;
+	color:#fff;
+}
 	nav
 {
 	background-color:#1a1a1a;
@@ -246,14 +249,7 @@ nav .content a.active {
     position: absolute;
     margin-top: 1px;
 }
-.img-left{
-    width: 200px;
-    height: 100px;
-    margin-top: 20px;
-	margin-left: 60px;
-    position: absolute;
-    
-}
+
 .img-netstandard2
 {
 	display: block;
@@ -405,8 +401,14 @@ div ul li svg, div ul li img.icone {
 .event{
 	margin-top: 60px;
 }
+
+.mapcontainerparent{
+	float: left;
+}
+
 .mapcontainer{
-	float:left;
+	width: 600px;
+	height: 600px;
 }
 
 .myLegend{
@@ -471,18 +473,26 @@ section.header img {
 	.carousel-caption h3 {
 	font-size: 59px;
 }
-.img-left{
-   display: none !important;
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
 }
+/*.img-left .imgdateevent{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+	margin-left: 20px;
+    position: absolute;
+    
+}*/
+
 	section.header .slogan-net
 {
 	width:100%;
 	font-size:2.7em
 }
-.img-left{
-    width: 100px;
-    height: 50px;
-}
+
 section.header  .subtitle {
 	font-size: 1.1em;
     margin-top: 0.5em;
@@ -521,7 +531,11 @@ section.header .buttons
 	line-height:normal;
 	width:auto
 }
-
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
+}
 section.header  .subtitle {
 	font-size: 1.1em;
     margin-top: 0.5em;
@@ -530,7 +544,14 @@ section.header  .subtitle {
 section.header img {
     display: none !important;
 }
-	
+.img-left .imgdateevent{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+	margin-left: 20px;
+    position: absolute;
+    
+}
 }
 	@media only screen and (max-width: 850px)
 {
@@ -547,6 +568,16 @@ h2 {
 p {
 	font-size: 20px;
 }
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
+}
+.mapcontainer{
+	width: 400px;
+	height: 400px;
+}
+
 }
 	@media only screen and (max-width: 510px)
 {
@@ -565,6 +596,7 @@ h1 {
   font-size: 1.5em;
 }
 
+
 .carousel-caption h3 {
 	font-size: 30px;
 }
@@ -580,3 +612,9 @@ h1 {
 	width:100%;
 	font-size:2em
 }
+
+.mapcontainer{
+	width: 400px;
+	height: 400px;
+}
+
