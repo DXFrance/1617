@@ -249,7 +249,12 @@ nav .content a.active {
     position: absolute;
     margin-top: 1px;
 }
-
+.imgdateevent{
+	vertical-align: middle;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .img-netstandard2
 {
 	display: block;
@@ -409,6 +414,7 @@ div ul li svg, div ul li img.icone {
 .mapcontainer{
 	width: 600px;
 	height: 600px;
+	padding-left: 60px;
 }
 
 .myLegend{
@@ -539,7 +545,7 @@ section.header .buttons
 section.header  .subtitle {
 	font-size: 1.1em;
     margin-top: 0.5em;
-	text-align: center;
+	text-align: left;
 }
 section.header img {
     display: none !important;
@@ -550,7 +556,6 @@ section.header img {
     margin-top: 10px;
 	margin-left: 20px;
     position: absolute;
-    
 }
 }
 	@media only screen and (max-width: 850px)
@@ -563,7 +568,7 @@ section.header img {
 	font-size: 40px;
 }
 h2 {
-	font-size: 30px;
+	font-size: 30px; 
 }
 p {
 	font-size: 20px;
