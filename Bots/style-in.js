@@ -25,7 +25,7 @@ $(document).ready(function () {
                 {
                     title: 'VM',
                     image: '../images/cardslogo/azure.png',
-                    content: 'Créer des machines virtuelles Linux et Windows en quelques minutes. Sécurité, rapidité d\'exécution et scalibilité garanties.',
+                    content: 'Créez des machines virtuelles Linux et Windows en quelques minutes. Sécurité, rapidité d\'exécution et scalibilité garanties.',
                     list: [
                     ],
                     link: 'https://azure.microsoft.com/en-us/services/virtual-machines/',
