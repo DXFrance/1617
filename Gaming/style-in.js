@@ -5,9 +5,9 @@ $('a[data-toggle="tooltip"]').tooltip();
            
         
               {
-                    title: 'Monogame',
+                    title: ' ',
                     image: '../images/general/monogame.png',
-                    content: '...',
+                    content: 'Développez une fois, déployez partout.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/',
                     type: 'plateforme',
@@ -15,9 +15,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
 
   {
-                    title: 'Unity 3D',
+                    title: ' ',
                     image: '../images/general/unity.png',
-                    content: '...',
+                    content: 'L\'outil par excellence pour vos jeux. ',
                     list: [ ],
                     link: 'https://www.visualstudio.com/',
                     type: 'plateforme',
@@ -25,9 +25,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
 
                       {
-                    title: 'Babylon JS',
+                    title: ' ',
                     image: '../images/general/babylon.png',
-                    content: '...',
+                    content: 'La 3D universelle par le web.',
                     list: [
 
                     ],
@@ -74,19 +74,19 @@ $('a[data-toggle="tooltip"]').tooltip();
                         */
 
                      {
-                    title: 'Le streaming comme futur du gaming',
+                    title: '',
                     image: '../images/cardslogo/vsts.png',
-                    content: '...',
+                    content: 'Créez vos solutions serveurs robustes et fiables pour vos jeux : expériences multijoueurs, Sauvegardes automatiques sur le cloud et applications multi-écrans .',
                     list: [ ],
                     link: 'https://www.visualstudio.com/',
                     type: 'azure-gaming',
-                    label: 'Hébergement'
+                    label: 'High scale computing'
                 },
 
                     {
-                    title: 'Exploitez la puissance du cloud.',
+                    title: '',
                     image: '../images/cardslogo/windows.png',
-                    content: '...',
+                    content: ' Exploitez la puissance des GPUs dans le cloud et vivez cette expérience en streaming.',
                     list: [
 
                     ],
@@ -96,9 +96,9 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
 
              {
-                    title: 'Gagnez un +2 en jet de sagesse',
+                    title: '',
                     image: '../images/cardslogo/azure.png',
-                    content: '...',
+                    content: 'Rendez vos jeux plus intelligents avec les cognitives services et le machine learning. ',
                     list: [ ],
                     link: 'https://azure.microsoft.com/fr-fr/',
                     type: 'azure-gaming',
@@ -106,25 +106,25 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
                 
                     {
-                    title: 'DirectX 12',
+                    title: '',
                     image: '../images/cardslogo/windows.png',
-                    content: '...',
+                    content: 'DirectX 12 optimise vos jeux pour le PC et Xbox One.',
                     list: [
 
                     ],
                     link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
                     type: 'directx',
-                    label: 'Une optimisation aux petits oignons'
+                    label: 'Toujours plus de performance'
                 },
 
                  {
-                    title: 'PIX sur Windows',
+                    title: '',
                     image: '../images/cardslogo/vsts.png',
-                    content: '...',
+                    content: 'Avec Visual studio et Pix développez, débugguez, déployez facilement vos jeux.',
                     list: [ ],
                     link: 'https://www.visualstudio.com/',
                     type: 'directx',
-                    label: 'Débugguer facilement DirectX12'
+                    label: 'Développez facilement avec DirectX 12'
                 },
 
                             

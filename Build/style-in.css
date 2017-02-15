@@ -13,6 +13,17 @@
     -webkit-animation: pulse 0.7s;
     
 }
+.item-build {
+	display: block;
+    max-width: 100%;
+    height: 144px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 110px;
+    width: 100%;
+    background-size: cover !important;
+	background-color: #22313F;
+}
 .crossSell {
 	text-align: left;
 	display: inline-block;
@@ -449,7 +460,8 @@ section.header img {
 	section.header .slogan-net
 {
 	width:100%;
-	font-size:2.7em
+	font-size:2.7em;
+	text-align: left;
 }
 .img-left{
     width: 100px;
