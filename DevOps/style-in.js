@@ -67,6 +67,7 @@ $(document).ready(function () {
             type: 'plateforme',
             label: 'Un service de collaboration pour vos projets !'
         },
+       
         {
             more: false,
             title: 'REPLAY',

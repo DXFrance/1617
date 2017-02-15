@@ -23,30 +23,26 @@ $(document).ready(function () {
                 },
                   
                 {
-                    title: 'Azure Bot Service',
+                    title: 'VM',
                     image: '../images/cardslogo/azure.png',
-                    content: 'Accélérez votre développement et enrichissez vos bots dans un environnement serverless. Azure Bot Service: le meilleur d\'Azure Functions et de Microsoft Bot Framework !',
+                    content: 'Créer des machines virtuelles Linux et Windows en quelques minutes. Sécurité, rapidité d\'exécution et scalibilité garanties.',
                     list: [
                     ],
-                    link: 'https://azure.microsoft.com/en-us/services/bot-service/',
-                    type: 'build',
-                    label: 'Une solution clé en main pour le développement de votre bot !'
+                    link: 'https://azure.microsoft.com/en-us/services/virtual-machines/',
+                    type: 'plateforme',
+                    label: 'Machines Virtuelles'
                 },
                {
-                    title: 'Cognitive Services',
-                    image: '../images/cardslogo/cerveau.png',
-                    content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
+                    title: 'Web App',
+                    image: '../images/cardslogo/appservice.png',
+                    content: 'Du Platform As A Service facile à déployer et compatible avec Windows et Linux.',
                     list: [
-                           {
-                            link: 'http://www.slideshare.net/Developpeurs/prenez-votre-pied-avec-les-bots-et-cognitive-services?ref=https://experiences.microsoft.fr/Video/prenez-votre-pied-avec-les-bots-et-cognitive-services/7af0a135-ace8-4491-b4f7-2a5a4f91b62c',
-                            list: 'slideshare',
-                            icon: 'fa-film'
-                        },
+                    
                       
                     ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/luis-api/documentation/home',
-                    type: 'build',
-                    label: 'Rendez votre bot plus intelligent'
+                    link: 'https://azure.microsoft.com/en-us/services/app-service/web/',
+                    type: 'plateforme',
+                    label: 'Web App'
                 },
 
                     {
@@ -61,19 +57,19 @@ $(document).ready(function () {
                         },
                     ],
                     link: 'http://docs.botframework.com/connector/getstarted/',
-                    type: 'plateforme',
+                    type: 'build',
                     label: 'Rendre votre bot accessible au plus grand nombre'
                 },
 
                         {
-                    title: 'Azure Web App',
-                    image: '../images/cardslogo/webapp.png',
-                    content: 'Déployez votre bot node.js ou ASP.NET dans une web app simplement.',
+                    title: 'Bot services',
+                    image: '../images/cardslogo/bot-service.png',
+                    content: 'Service en preview. Le serverless qui monte en charge à la demande.',
                     list: [
                      ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
+                    link: 'https://azure.microsoft.com/en-us/services/bot-service/',
                     type: 'plateforme',
-                    label: 'Hébergez simplement votre bot dans le cloud'
+                    label: 'Bot services'
                 },
                     {
                     title: 'Bot Directory',
@@ -82,43 +78,39 @@ $(document).ready(function () {
                     list: [
                      ],
                     link: 'https://bots.botframework.com/',
-                    type: 'plateforme',
+                    type: 'build',
                     label: 'Diffuser son bot pour accroitre sa visibilité'
                 },
 {
-                    title: 'Bot Framework Emulator',
-                    image: '../images/cardslogo/tool.png',
-                    content: 'L\'emulateur open source qui permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows, Mac et Linux !',
+                    title: 'QnA Maker',
+                    image: '../images/cardslogo/qna.png',
+                    content: 'Créez une FAQ intelligente rapidement avec cet API dédié.',
                     list: [
-                     {
-                            link: 'https://aka.ms/bf-bc-emulator',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
+                
                      ],
-                    link: 'https://github.com/microsoft/botframework-emulator/wiki/Getting-Started',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/qnamaker',
                     type: 'outil',
-                    label: 'Tester son bot facilement avec l\'émulateur'
+                    label: 'QnA Maker'
                 },
                 
                     {
-                    title: 'Visual Studio',
-                    image: '../images/cardslogo/vsts.png',
-                    content: 'Téléchargez-le gratuitement dès maintenant !',
+                    title: 'LUIS',
+                    image: '../images/cardslogo/luis.png',
+                    content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
                     list: [
                     ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#getting-started-in-net',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis',
                     type: 'outil',
-                    label: 'Télécharger le template .NET pour Visual Studio'
+                    label: 'Language Understanding Intelligent Service'
                 },
                   {
-                    title: 'VS Code',
-                    image: '../images/cardslogo/vsts.png',
-                    content: 'L\'éditeur de code gratuit, léger et cross-plateforme de Microsoft. En plus c\'est Open Source !',
+                    title: 'Bing Speech API',
+                    image: '../images/cardslogo/bing-api.png',
+                    content: 'Reconnaissance vocale, conversion de l\'audio en texte (en plusieurs langues) et réponses vocales naturelles. ',
                     list: [ ],
-                    link: 'https://code.visualstudio.com/',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/speech-api',
                     type: 'outil',
-                    label: 'Un éditeur de code léger pour développer en Node.js'
+                    label: 'Speech'
                 },
                  
             ];

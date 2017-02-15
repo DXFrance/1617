@@ -397,7 +397,8 @@ li.w3-card-4
 }
 	section.header .slogan-devops
 {
-	font-size:3.2em;
+	font-size:3.5em;
+	text-align: left;
 	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
 	

@@ -8,18 +8,50 @@ div.sticky-wrapper nav .container .image a {
 	width: 100%;
 	height: 100%;
 } 
+.subtitle-bot
+{
+    font-size: 2em;
+    font-family: "Open Sans",sans-serif;
+       margin-bottom: 1.1em;
+    margin-right: 45%;
+   	
+}
 
+.belfastHome-subsection .belfastHome-panel:first-child
+{
+    float: right;
+    font-size: 0;
+    text-align: right;	}
+
+.belfastHome-panel {
+	    float: right;
+    font-size: 0;
+    position: absolute;
+	margin-left: 65%;
+
+}
+
+.intro-video
+{
+    border-radius: 12px 12px 0 0;
+    border: 6px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 537px;
+    width: 380px;
+}
+	
 .item-bot-2lines {
 	display: block;
     max-width: 100%;
     height: 344px;
     margin: 0 auto;
     overflow: hidden;
-    height: 199px;
+    height: 145px;
     width: 100%;
 	background-color: #22313F;
     background-size: cover !important;
 }
+
 .item-bot-2lines p
 {
 	color:  #fff
@@ -219,12 +251,12 @@ nav .content a.active {
     }
 	section.header .slogan-bots
 {
-	font-size:2.7em;
-	font-family:"Open Sans",sans-serif;
-	/*width:11em; */
-	line-height:110%;
-	margin-top:0.1em;
-	margin-bottom:0.1em
+	    font-size: 2.9em;
+    font-family: "Open Sans",sans-serif;
+   
+    margin-bottom: 1.1em;
+    margin-right: 45%;
+    font-weight: bold;
 }
 	section.text_and_dates ul li small
 {
