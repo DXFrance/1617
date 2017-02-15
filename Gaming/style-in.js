@@ -9,7 +9,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: '../images/general/monogame.png',
                     content: 'Développez une fois, déployez partout.',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/',
+                    link: 'http://www.monogame.net/',
                     type: 'plateforme',
                     label: 'Monogame'
                 },
@@ -19,7 +19,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: '../images/general/unity.png',
                     content: 'L\'outil par excellence pour vos jeux. ',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/',
+                    link: 'https://unity3d.com/fr',
                     type: 'plateforme',
                     label: 'Unity 3D'
                 },
@@ -31,7 +31,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [
 
                     ],
-                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
+                    link: 'http://babylonjs.com/',
                     type: 'plateforme',
                     label: 'Babylon JS'
                 },
@@ -78,7 +78,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: '../images/cardslogo/vsts.png',
                     content: 'Créez vos solutions serveurs robustes et fiables pour vos jeux : expériences multijoueurs, Sauvegardes automatiques sur le cloud et applications multi-écrans .',
                     list: [ ],
-                    link: 'https://www.visualstudio.com/',
+                    link: 'https://azure.microsoft.com/en-us/solutions/gaming/',
                     type: 'azure-gaming',
                     label: 'High scale computing'
                 },
@@ -90,7 +90,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [
 
                     ],
-                    link: 'https://msdn.microsoft.com/fr-fr/library/windows/desktop/dn899121',
+                    link: 'https://azure.microsoft.com/en-us/blog/azure-n-series-general-availability-on-december-1/',
                     type: 'azure-gaming',
                     label: 'GPU rendering'
                 },
@@ -100,7 +100,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     image: '../images/cardslogo/azure.png',
                     content: 'Rendez vos jeux plus intelligents avec les cognitives services et le machine learning. ',
                     list: [ ],
-                    link: 'https://azure.microsoft.com/fr-fr/',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/apis',
                     type: 'azure-gaming',
                     label: 'Intelligence'
                 },
