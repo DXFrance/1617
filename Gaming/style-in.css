@@ -17,10 +17,14 @@
     height: 344px;
     margin: 0 auto;
     overflow: hidden;
-    height: 199px;
+    height: 169px;
     width: 100%;
 	background-color: #22313F;
     background-size: cover !important;
+}
+.MS-VR
+{
+	margin-right: 4%;
 }
 .item-gaming-2lines p
 {
@@ -32,7 +36,7 @@
     height: 344px;
     margin: 0 auto;
     overflow: hidden;
-    height: 269px;
+    height: 200px;
     width: 100%;
 	background-color: #22313F;
     background-size: cover !important;
