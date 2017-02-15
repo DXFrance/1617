@@ -11,6 +11,13 @@
 {
 	font-size: 1.3em;
 }
+
+.card .card-top span {
+    font-size: larger;
+}
+a, a:hover, a:active, a:visited, a:focus {
+    font-size: 20px;
+}
 .item-gaming-2lines {
 	display: block;
     max-width: 100%;

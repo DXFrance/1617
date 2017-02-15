@@ -11,7 +11,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [ ],
                     link: 'http://www.monogame.net/',
                     type: 'plateforme',
-                    label: 'Monogame'
+                    label: 'Monogame',
                 },
 
   {
