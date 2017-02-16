@@ -12,8 +12,8 @@ div.sticky-wrapper nav .container .image a {
 {
     font-size: 2em;
     font-family: "Open Sans",sans-serif;
-       margin-bottom: 1.1em;
-    margin-right: 45%;
+    margin-bottom: 1.1em;
+    text-align: left;
    	
 }
 
@@ -255,8 +255,8 @@ nav .content a.active {
     font-family: "Open Sans",sans-serif;
    
     margin-bottom: 1.1em;
-    margin-right: 45%;
     font-weight: bold;
+    text-align: left;
 }
 	section.text_and_dates ul li small
 {
@@ -321,6 +321,7 @@ div ul li {
     list-style: none;
     margin-right: 3em;
 }
+
 div ul li svg, div ul li img.icone {
     width: 67px;
     height: 67px;
@@ -354,7 +355,7 @@ div ul li svg, div ul li img.icone {
 
 	section.header .slogan-bots
 {
-	text-align:center;
+	text-align:left;
 	line-height:normal;
 	width:auto
 }
@@ -369,9 +370,23 @@ div ul li svg, div ul li img.icone {
 	display:block
 }
 
+.intro-video {
+    display: none !important;
+}
 .carousel-caption h3 {
 	font-size: 40px;
 }
+section.header .slogan-bots {
+    font-size: 2.2em;
+    text-align: center;
+    }
+
+
+.subtitle-bot {
+    font-size: 1.5em;
+    text-align: center;
+      }
+    
 }
 	@media only screen and (max-width: 510px)
 {
@@ -401,4 +416,6 @@ section.header {
 	width:100%;
 	font-size:2em
 }
+h2 {
+    font-size: 1.5em;
 }
