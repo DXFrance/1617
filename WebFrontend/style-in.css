@@ -15,7 +15,7 @@
 }
 
 .box {
-background-image: url('../images/general/old.jpg')
+background-image: url('../images/general/webfront/sphereblue.jpg')
 }
 
 .btn-w3c {
@@ -184,7 +184,7 @@ fa {
 	section.header
 {
 	
-	background-image: url('../images/general/logonuage.png')
+	background-color: #22313f;
 }
 	
 	section.header .slogan-webfrontend

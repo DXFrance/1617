@@ -70,10 +70,12 @@
     height: 344px;
     margin: 0 auto;
     overflow: hidden;
-    height: 299px;
+    height: 249px;
     width: 100%;
     background-size: cover !important;
 }
+
+
 
 	ul,li
 {
@@ -278,8 +280,9 @@ li.w3-card-4
 	h2
 {
 	margin-bottom:0;
-	color:#3f3f3f;
-	text-align:center
+	color:#fff;
+	text-align:center;
+	font-size: 2.5em
 }
 	h3
 {
@@ -294,12 +297,13 @@ li.w3-card-4
 }
 	p
 {
-	text-align:center
+	text-align:center;
+	font-size: 1.2em;
 }
 	p.content_description
 {
 	margin:1em;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	text-align:center;
 	line-height:130%;
 	/*font-size:1.2em*/
@@ -399,6 +403,8 @@ section.services
 	background-color:#fff;
 	text-align:center
 }
+
+
 	section.items h2
 {
 	font-family:"Open Sans",sans-serif
@@ -619,6 +625,12 @@ section.content_with_pictures_2
 	color:#fff
 }
 	section.newsletter p,footer p
+{
+	color:#fff;
+
+}
+
+	.cross-selling p
 {
 	color:#fff;
 }
@@ -980,7 +992,7 @@ section.content_with_pictures_2
 	section.header .buttons
 {
 	margin:0 auto;
-	display:table
+	display:table;
 }
 	section.content_with_pictures_1 .container .col-sm-6,section.content_with_pictures_1 .container .col-md-6,section.content_with_pictures_1 .container .col-lg-6,section.content_with_pictures_2 .container .col-sm-6,section.content_with_pictures_2 .container .col-md-6,section.content_with_pictures_2 .container .col-lg-6
 {

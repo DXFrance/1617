@@ -4,62 +4,45 @@ $(document).ready(function () {
                   {
                     title: 'Bot Builder',
                     image: '../images/cardslogo/tool.png',
-                    content: 'Ce SDK pour Node.js permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
-                    list: [
+                    content: 'Cliquez sur votre langage préféré pour découvrir notre guide sur Bot Framework. Ce SDK permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
+                    list:  [
+                         {
+                            link: 'http://docs.botframework.com/sdkreference/csharp/',
+                            list: 'Node.js',
+                            icon: 'fa-film'
+                        },
                            {
-                            link: 'https://experiences.microsoft.fr/channel/prenez-votre-pied-avec-les-bots/9e6aa5d5-14e6-4d2b-ab6a-14f8032a638b#8R2CEPaRCxdViL8I.97',
-                            list: 'Vidéo',
+                            link: 'http://docs.botframework.com/builder/node/overview/',
+                            list: 'ASP.NET',
                             icon: 'fa-film'
                         },
                     ],
-                    link: 'http://docs.botframework.com/builder/node/overview/',
+                    link:'http://www.slideshare.net/Developpeurs/crer-un-bot-de-a-z?ref=https://experiences.microsoft.fr/Video/creer-un-bot-de-a-a-z/f81e9f12-02b3-4330-bc22-777740cd7145',
                     type: 'build',
-                    label: 'Vous faites du Node.js ?'
+                    label: 'Plutôt Node.js ou ASP.NET ?'
                 },
-                                  {
-                    title: 'Bot Builder',
-                    image: '../images/cardslogo/tool.png',
-                    content: 'Ce SDK pour ASP.NET permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
-                    list: [
-                           {
-                            link: 'https://experiences.microsoft.fr/channel/prenez-votre-pied-avec-les-bots/9e6aa5d5-14e6-4d2b-ab6a-14f8032a638b#8R2CEPaRCxdViL8I.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                    ],
-                    link: 'http://docs.botframework.com/sdkreference/csharp/',
-                    type: 'build',
-                    label: 'Vous êtes plutôt ASP.NET ?'
-                },
+                  
                 {
-                    title: 'Azure Bot Service',
+                    title: 'VM',
                     image: '../images/cardslogo/azure.png',
-                    content: 'Accélérez votre développement et enrichissez vos bots dans un environnement serverless. Azure Bot Service: le meilleur d\'Azure Functions et de Microsoft Bot Framework !',
+                    content: 'Créez des machines virtuelles Linux et Windows en quelques minutes. Sécurité, rapidité d\'exécution et scalibilité garanties.',
                     list: [
                     ],
-                    link: 'https://azure.microsoft.com/en-us/services/bot-service/',
-                    type: 'build',
-                    label: 'Une solution clé en main pour le développement de votre bot !'
+                    link: 'https://azure.microsoft.com/en-us/services/virtual-machines/',
+                    type: 'plateforme',
+                    label: 'Machines Virtuelles'
                 },
                {
-                    title: 'Cognitive Services',
-                    image: '../images/cardslogo/cerveau.png',
-                    content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
+                    title: 'Web App',
+                    image: '../images/cardslogo/appservice.png',
+                    content: 'Du Platform As A Service facile à déployer et compatible avec Windows et Linux.',
                     list: [
-                           {
-                            link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
-                            list: 'Vidéo',
-                            icon: 'fa-film'
-                        },
-                         {
-                            link: 'https://www.microsoft.com/cognitive-services/en-us/luis-api/documentation/home',
-                            list: 'Doc',
-                            icon: 'fa-film'
-                        },
+                    
+                      
                     ],
-                    link: 'https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis',
-                    type: 'build',
-                    label: 'Rendez votre bot plus intelligent'
+                    link: 'https://azure.microsoft.com/en-us/services/app-service/web/',
+                    type: 'plateforme',
+                    label: 'Web App'
                 },
 
                     {
@@ -74,19 +57,19 @@ $(document).ready(function () {
                         },
                     ],
                     link: 'http://docs.botframework.com/connector/getstarted/',
-                    type: 'plateforme',
+                    type: 'build',
                     label: 'Rendre votre bot accessible au plus grand nombre'
                 },
 
                         {
-                    title: 'Azure Web App',
-                    image: '../images/cardslogo/webapp.png',
-                    content: 'Déployez votre bot node.js ou ASP.NET dans une web app simplement.',
+                    title: 'Bot services',
+                    image: '../images/cardslogo/bot-service.png',
+                    content: 'Service en preview. Le serverless qui monte en charge à la demande.',
                     list: [
                      ],
-                    link: 'https://azure.microsoft.com/fr-fr/services/app-service/web/',
+                    link: 'https://azure.microsoft.com/en-us/services/bot-service/',
                     type: 'plateforme',
-                    label: 'Hébergez simplement votre bot dans le cloud'
+                    label: 'Bot services'
                 },
                     {
                     title: 'Bot Directory',
@@ -95,43 +78,39 @@ $(document).ready(function () {
                     list: [
                      ],
                     link: 'https://bots.botframework.com/',
-                    type: 'plateforme',
+                    type: 'build',
                     label: 'Diffuser son bot pour accroitre sa visibilité'
                 },
 {
-                    title: 'Bot Framework Emulator',
-                    image: '../images/cardslogo/tool.png',
-                    content: 'L\'emulateur open source qui permet de simuler un chat pour tester votre bot facilement. Disponible pour Windows, Mac et Linux !',
+                    title: 'QnA Maker',
+                    image: '../images/cardslogo/qna.png',
+                    content: 'Créez une FAQ intelligente rapidement avec cet API dédié.',
                     list: [
-                     {
-                            link: 'https://aka.ms/bf-bc-emulator',
-                            list: 'Télécharger',
-                            icon: 'fa-download'
-                        },
+                
                      ],
-                    link: 'https://github.com/microsoft/botframework-emulator/wiki/Getting-Started',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/qnamaker',
                     type: 'outil',
-                    label: 'Tester son bot facilement avec l\'émulateur'
+                    label: 'QnA Maker'
                 },
                 
                     {
-                    title: 'Visual Studio',
-                    image: '../images/cardslogo/vsts.png',
-                    content: 'Téléchargez-le gratuitement dès maintenant !',
+                    title: 'LUIS',
+                    image: '../images/cardslogo/luis.png',
+                    content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
                     list: [
                     ],
-                    link: 'http://docs.botframework.com/connector/getstarted/#getting-started-in-net',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis',
                     type: 'outil',
-                    label: 'Télécharger le template .NET pour Visual Studio'
+                    label: 'Language Understanding Intelligent Service'
                 },
                   {
-                    title: 'VS Code',
-                    image: '../images/cardslogo/vsts.png',
-                    content: 'L\'éditeur de code gratuit, léger et cross-plateforme de Microsoft. En plus c\'est Open Source !',
+                    title: 'Bing Speech API',
+                    image: '../images/cardslogo/bing-api.png',
+                    content: 'Reconnaissance vocale, conversion de l\'audio en texte (en plusieurs langues) et réponses vocales naturelles. ',
                     list: [ ],
-                    link: 'https://code.visualstudio.com/',
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/speech-api',
                     type: 'outil',
-                    label: 'Un éditeur de code léger pour développer en Node.js'
+                    label: 'Speech'
                 },
                  
             ];

@@ -9,7 +9,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                         
                     ],
                     link: 'https://www.microsoft.com/en-us/design',
-                    type: 'build',
+                    type: 'demarche',
                     label: 'La déclaration d\'intention du design Microsoft'
                 },
                
@@ -21,8 +21,19 @@ $('a[data-toggle="tooltip"]').tooltip();
                      
                     ],
                     link: 'https://developer.microsoft.com/fr-fr/windows/design',
-                    type: 'build',
+                    type: 'demarche',
                     label: 'Concevez des expériences enrichies'
+                }, 
+                {
+                    title: 'Creators Update',
+                    image: '../images/cardslogo/windows.png',
+                    content: 'Suivez les nouveautés de la Creators Update',
+                    list: [
+                     
+                    ],
+                    link: 'https://www.microsoft.com/en-us/windows/upcoming-features',
+                    type: 'demarche',
+                    label: 'Creators Update'
                 }, 
 
                         {
@@ -40,7 +51,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                             icon: 'fa-download'
                         },],
                     link: 'https://www.hockeyapp.net/features/',
-                    type: 'build',
+                    type: 'outil',
                     label: 'Le language humain au coeur de vos interfaces'
                 },
                 {
@@ -49,7 +60,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Un moyen plus naturel d\'interagir avec le futur. Découvrez les interfaces holographiques.',
                     list: [],
                     link: 'https://www.microsoft.com/microsoft-hololens/en-us',
-                    type: 'test',
+                    type: 'outil',
                     label: 'De nouveaux mondes, de nouvelles interfaces'
                 },
            
@@ -83,7 +94,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     content: 'Une API pour construire rapidement des applications natives iOS, Android et Windows complètement C#.',
                     list: [ ],
                     link: 'https://www.xamarin.com/forms',
-                    type: 'outil',
+                    type: 'test',
                     label: 'Déployez vos interfaces quelle que soit votre plateforme'
                 },
 

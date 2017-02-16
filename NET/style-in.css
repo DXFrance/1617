@@ -3,6 +3,11 @@
 	margin:0;
 	padding:0
 }
+
+	a,a:hover,a:active,a:visited,a:focus
+{
+	font-size: 20px;
+}
 .circle:hover {
     background: #3498db;
     -webkit-animation: pulse 0.7s;
@@ -123,17 +128,43 @@ position: relative;
 	
 }
 	
-.btn
+.btn.explorer
 {
 	background-color:#89c402;
 	    border-radius:0px;
 	
 	
 }
-.btn:hover
+.btn.explorer:hover
 {
 	
 	background-color:#89c402;
+
+}
+.btn.meetup
+{
+	background-color:#D30018;
+	    border-radius:0px;
+	
+	
+}
+.btn.meetup:hover
+{ 
+	
+	background-color:#D30018;
+
+}
+.btn.facebook
+{
+	background-color:#3b5998;
+	    border-radius:0px;
+	
+	
+}
+.btn.facebook:hover
+{
+	
+	background-color:#3b5998;
 
 }
 
@@ -151,7 +182,10 @@ nav .content a.active {
     
 }
 
-
+.item.row{
+	background-color: #22313F;
+	color:#fff;
+}
 	nav
 {
 	background-color:#1a1a1a;
@@ -178,18 +212,93 @@ nav .content a.active {
 
 	section.header
 {
+	padding: 5em;
+	padding-top:3.5em;
+	padding-bottom:3.5em;
+	color:#fff;
+	    background-image: url(http://www.headsub.com/attachment/hkd4urec/templates/textures/background_blue01.jpg);
 	
-	background-image: url(../images/general/bg2.jpg);
 }
+.item2 a {
+	display: block;
+    max-width: 100%;
+    height: 344px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    background-size: cover !important;
+}
+
+.header-img {
 	
+	top:102px;
+}
+
+.img-net{
+    width: 142px;
+    height: 254px;
+    margin-left: 90px;
+    position: absolute;
+    margin-top: 100px;
+}
+.img-vs{
+    width: 142px;
+    height: 54px;
+    margin-left:-500px;
+    position: absolute;
+    margin-top: 1px;
+}
+.imgdateevent{
+	vertical-align: middle;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-netstandard2
+{
+	display: block;
+	width: 1455px;
+	height: 139px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.img-net-standard{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    
+}
+.card .card-top span {
+    font-size: larger;
+}
+	.img-right-IDE
+	{
+        width: 200px;
+    height: 100px;
+    margin-left: 1300px;
+    margin-top: 35px;
+    position: absolute;
+    
+}
+.firstTransition > #link-logoWhite{
+	width: 102px;
+	height: 59px;
+
+}
 	section.header .slogan-net
 {
 	
 	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
-	font-size: 2.7em;
+	font-size: 4.7em;
 	margin-top:0.1em;
-	margin-bottom:0.1em
+	margin-bottom:0.1em;
+	text-align: left !important;
+	
 }
 	
 	section.items h2
@@ -210,7 +319,7 @@ nav .content a.active {
 	section.newsletter,footer
 {
 	
-	background-color:#ECF0F1;
+	background-color:#d8dfe2;
 	
 }
 	section.content_with_pictures_1 h2,section.content_with_pictures_1 p
@@ -248,7 +357,7 @@ nav .content a.active {
 	
 	footer
 {
-	background-color:#1a1a1a;
+	background-color:#22313F;
 	
 }
 	footer p
@@ -294,6 +403,38 @@ div ul li svg, div ul li img.icone {
     text-decoration: none;
     fill: #fff;
 }
+.event{
+	margin-top: 60px;
+}
+
+.mapcontainerparent{
+	float: left;
+}
+
+.mapcontainer{
+	width: 600px;
+	height: 600px;
+	padding-left: 60px;
+}
+
+.myLegend{
+	float:right;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.mylegendimg{
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	margin-bottom: 5px;
+}
+
+section.header  .subtitle {
+	font-size: 2.1em;
+    margin-top: 0.5em;
+	text-align: left;
+}
 
 .carousel-caption h3 {
 	font-size: 50px;
@@ -325,37 +466,123 @@ div ul li svg, div ul li img.icone {
 .carousel-caption h3 {
 	font-size: 40px;
 }
-	@media only screen and (max-width: 1200px)
+section.header img {
+    position: absolute;
+    right: 0;
+    bottom: 0em;
+    display: block;
+    padding-top: 58px;
+}
+
+	@media only screen and (max-width: 1330px)
 {
 	.carousel-caption h3 {
 	font-size: 59px;
+}
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
+}
+/*.img-left .imgdateevent{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+	margin-left: 20px;
+    position: absolute;
+    
+}*/
+
+	section.header .slogan-net
+{
+	width:100%;
+	font-size:2.7em
+}
+
+section.header  .subtitle {
+	font-size: 1.1em;
+    margin-top: 0.5em;
+	text-align: left;
+}
+section.header img {
+    position: absolute;
+    right: 0;
+    bottom: 0em;
+    width: 450px !important;
+    padding-top: 40px;
+}
+
+section.header .buttons
+{
+	margin:0;
+	display:block;
+}
+.img-netstandard2
+{
+	display: none !important;
+}
+.item2 a {
+    height: 130px;
+}
+
 }
 	@media only screen and (max-width: 1000px)
 {
 	.carousel-caption h3 {
 	font-size: 50px;
 }
-
 	section.header .slogan-net
 {
 	text-align:center;
 	line-height:normal;
 	width:auto
 }
-
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
+}
+section.header  .subtitle {
+	font-size: 1.1em;
+    margin-top: 0.5em;
+	text-align: left;
+}
+section.header img {
+    display: none !important;
+}
+.img-left .imgdateevent{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+	margin-left: 20px;
+    position: absolute;
+}
 }
 	@media only screen and (max-width: 850px)
 {
-	section.header .btn
-{
-	width:13em;
-	/*margin-top:2em;*/
-	display:block
-}
 
+.img-net{
+    display:none !important;
+}
 .carousel-caption h3 {
 	font-size: 40px;
 }
+h2 {
+	font-size: 30px; 
+}
+p {
+	font-size: 20px;
+}
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
+}
+.mapcontainer{
+	width: 400px;
+	height: 400px;
+}
+
 }
 	@media only screen and (max-width: 510px)
 {
@@ -370,6 +597,10 @@ section.header {
     padding-top: 0em;
 	padding-bottom: 2.5em;
 }
+h1 {
+  font-size: 1.5em;
+}
+
 
 .carousel-caption h3 {
 	font-size: 30px;
@@ -377,12 +608,18 @@ section.header {
 	section.header .btn
 {
 	width:auto;
-	margin-top:2em;
-	display:block
+	margin-top:0em;
+	display:block;
+
 }
 	section.header .slogan-net
 {
 	width:100%;
 	font-size:2em
 }
+
+.mapcontainer{
+	width: 400px;
+	height: 400px;
 }
+

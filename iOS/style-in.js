@@ -4,7 +4,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                {
                     title: 'Cognitive Services',
                     image: '../images/cardslogo/cerveau.png',
-                    content: 'Offrez de l\'intelligence à vos applications : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
+                    content: 'Offrez de l\'intelligence à vos applications : détection des visages, reconnaissance vocale, interprétation du language … 22 API à votre disposition !',
                     list: [
                            {
                             link: 'https://experiences.microsoft.fr/channel/cognitive-services-offrez-de-lintelligence-a-vos-applications/f2a617ea-9852-4fbb-b971-373d35fb0456#iXI6S3fPK1pGC6Mh.97',
@@ -33,7 +33,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 {
                     title: 'Microsoft graph',
                     image: '../images/cardslogo/office.png',
-                    content: 'Offrez une expérience personalisée en vous basant sur les informations qui comptent pour vos utilisateurs : leurs emails, rendez-vous, tâches ou notes d’Office.',
+                    content: 'Offrez une expérience personalisée en vous basant sur les informations qui comptent pour vos utilisateurs : leurs emails, rdv, tâches ou notes d’Office.',
                     list: [
                         {
                             link: 'https://experiences.microsoft.fr/channel/le-microsoft-graph-ou-comment-developper-en-utilisant-ce-big-data-de-lorganisation/ebab200a-4fbf-4f6c-8b33-26f52c56e023#EjoYTR3PPRDkPlPl.97',
@@ -58,7 +58,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                 {
                     title: 'Visual Studio Mobile Center',
                     image: '../images/cardslogo/VSMC.png',
-                    content: 'Le nouveau centre de contrôle pour construire, tester, distribuer et contrôler le fonctionnement de vos applications mobiles, quel que soit votre language !',
+                    content: 'Bâti pour construire, tester, distribuer et contrôler le fonctionnement de vos applications mobiles, quel que soit votre language.',
                     list: [],
                     link: 'https://www.visualstudio.com/vs/mobile-center/',
                     type: 'build',
@@ -74,15 +74,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     label: 'Le portail qui va tout connecter !'
                 },
 
-                  {
-                    title: 'Microsoft Translator',
-                    image: '../images/cardslogo/translator.png',
-                    content: 'Une API de traduction automatique de texte et voix sur le Cloud (Machine Translation). Elle supporte plus de 50 langages pour la traduction de textes et 8 pour la voix.',
-                    list: [],
-                    link: 'https://www.microsoft.com/en-us/translator/default.aspx',
-                    type: 'build',
-                    label: 'Créer'
-                },
+              
                 {
                     title: 'Groove Service',
                     image: '../images/cardslogo/groove.svg',
@@ -92,6 +84,15 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Créer'
                 }, */
+                    {
+                    title: 'Microsoft Translator',
+                    image: '../images/cardslogo/translator.png',
+                    content: 'Une API de traduction automatique de texte et voix sur le Cloud. Elle supporte plus de 50 langages pour la traduction de textes et 8 pour la voix.',
+                    list: [],
+                    link: 'https://www.microsoft.com/en-us/translator/default.aspx',
+                    type: 'build',
+                    label: 'Cassez la barrière de la langue en direct'
+                },
                         {
                     title: 'HockeyApp',
                     image: '../images/cardslogo/hockeyapp.png',
@@ -127,7 +128,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/services/mobile-engagement/',
                     type:'build',
-                    label: 'Analysez comment vos utilisateurs utilisent votre application'
+                    label: 'Améliorez votre engagement mobile'
                 },
 
                     {

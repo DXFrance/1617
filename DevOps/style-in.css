@@ -13,6 +13,27 @@
 	text-align: left;
 	display: inline-block;
 }
+
+.item-devops-2lines {
+	display: block;
+    max-width: 100%;
+    height: 344px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 199px;
+    width: 100%;
+	background-color: #22313F;
+    background-size: cover !important;
+}
+.item-devops-2lines p
+{
+	color:  #fff
+}
+.item-devops-2lines h2
+{
+	color:  #fff
+}
+
 .circle {
     width: 40px;
     height: 40px;
@@ -360,7 +381,7 @@ li.w3-card-4
 	section.header
 {
 
-	background-color:#95a5a6;
+	background-color:lightcoral;
 }
 .banderole {
 	width: 30%;
@@ -376,7 +397,8 @@ li.w3-card-4
 }
 	section.header .slogan-devops
 {
-	font-size:3.7em;
+	font-size:3.5em;
+	text-align: left;
 	font-family:"Segoe UI",sans-serif;
 	/*width:11em; */
 	

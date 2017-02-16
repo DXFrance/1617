@@ -8,7 +8,7 @@ $(document).ready(function () {
             content: 'Pensé dans le but de simplifier la vie des developpeurs.',
             list: [],
             link: 'https://www.microsoft.com/fr-fr/windows/microsoft-edge',
-            type: 'build',
+            type: 'brouillon',
             label: 'Un navigateur créé pour le web moderne'
         },
         {
@@ -50,12 +50,12 @@ $(document).ready(function () {
 
                 {
                     link: 'https://xboxdesignlab.xbox.com/en-US/customize',
-                    list: 'Exemple',
+                    list: 'brouillon',
                     icon: 'fa-download'
                 },
             ],
             link: 'http://babylonjs.com/',
-            type: 'build',
+            type: 'brouillon',
             label: 'La 3D dans le navigateur sans plugin'
         },
         {
