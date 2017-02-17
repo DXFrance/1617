@@ -94,7 +94,7 @@ fa {
 
 .btn2
 {
-	background-color:dodgerblue;
+	background-color:#2980b9;
 	color:#fff;
 	margin-right:1em;
 	padding: 9px;;
@@ -113,6 +113,11 @@ fa {
 	box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
 	-webkit-animation:pulse 0.7s;
 	animation:pulse 0.7s
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+	font-size: 18px;
+}
 }
 .btn2:focus
 {
