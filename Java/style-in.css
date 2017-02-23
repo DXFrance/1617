@@ -398,6 +398,11 @@ div ul li {
     list-style: none;
     margin-right: 3em;
 }
+.devoxx-img {
+	
+	width: 100%;
+	height:auto;
+}
 div ul li svg, div ul li img.icone {
     width: 67px;
     height: 67px;
