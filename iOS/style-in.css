@@ -124,6 +124,7 @@ div.sticky-wrapper nav .container .image a {
 section.items
 {
     background-color: #fafafa;
+	    height: 350px;
 }
 section.header img {
     position: absolute;
