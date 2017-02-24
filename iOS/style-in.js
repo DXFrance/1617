@@ -67,34 +67,34 @@ $('a[data-toggle="tooltip"]').tooltip();
                     list: [ ],
                     link: 'https://www.microsoft.com/cognitive-services/en-us/speech-api',
                     type: 'build2',
-                    label: 'Speech'
+                    label: 'Bing Speech API'
                 },
                 {
                     title: 'Azure Mobile Apps',
                     image: '../images/cardslogo/azure.png',
-                    content: 'Authentification, connexion et synchronisation offline de votre base de données, notifications push : tout ce dont vous avez besoin !',
+                    content: 'Connectez votre application aux ressources locales et rendez là disponible à des millions de clients dans plusieurs régions.',
                     list: [],
                     link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
                     type: 'build3',
-                    label: 'Un backend complet pour vos applications'
+                    label: 'Connexion, notifications Push et synchronisation des données'
                 },
                  {
                     title: 'Web Apps',
                     image: '../images/cardslogo/azure.png',
-                    content: 'Web Apps',
+                    content: 'Donnez la priorité à votre logique métier pendant qu’Azure gère l’infrastructure servant à exécuter et à faire évoluer vos applications.',
                     list: [],
                     link: 'https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-overview',
                     type: 'build3',
-                    label: 'Azure Web Apps'
+                    label: 'Optimisez l\'hébergement de vos applications web'
                 },
                  {
-                    title: 'Logic App',
+                    title: 'Logic Apps',
                     image: '../images/cardslogo/azure.png',
-                    content: 'Logic App',
+                    content: 'Simplifiez et implémentez des intégrations et des workflows évolutifs dans le cloud. Gain de temps et mise en route rapide à partir de modèles',
                     list: [],
                     link: 'https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-what-are-logic-apps',
                     type: 'build3',
-                    label: 'Logic App'
+                    label: 'Automatisez vos processus métiers'
                 },
                  {
                     title: 'Azure Mobile Apps',

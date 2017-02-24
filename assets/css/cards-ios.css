@@ -26,6 +26,7 @@
     color: #2980b9;
     text-decoration: none;
     display: block;
+   
 }
 .card-content .label {
     color: #3F3F3F;
@@ -41,6 +42,7 @@
 }
 
 .card .card-top {
+      min-height: 89px;
       font: roboto, sans-serif;
     position: relative;
     text-align: left;
@@ -90,6 +92,7 @@
 
 .card .card-content  a {
     color: #2980b9;
+     text-transform: uppercase;
 }
 
 .card .card-content  a:hover {

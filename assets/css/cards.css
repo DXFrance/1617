@@ -39,7 +39,7 @@
 }
 
 .card .card-top {
-  min-height: 70px;
+  min-height: 80px;
       font: roboto, sans-serif;
     position: relative;
     text-align: left;
@@ -57,6 +57,7 @@ section.items
     position: relative;
     top: -5px;
     transition: 0.3s ease-out all;
+    left: 15px;
 }
 
 .card .card-top img {

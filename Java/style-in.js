@@ -18,7 +18,7 @@ $(document).ready(function () {
             list: [],
             link: 'https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux',
             type: 'build',
-            label: 'SQL server disponible sur Linux !'
+            label: 'SQL server sur Linux !'
         },
         {
             title: 'azure',
@@ -30,8 +30,17 @@ $(document).ready(function () {
                 icon: 'fa-download'
             },],
             link: 'https://docs.microsoft.com/fr-fr/azure/azure-toolkit-for-eclipse',
-            type: 'build',
+            type: 'brouillon',
             label: 'Azure Toolkit pour IntelliJ et Eclipse'
+        },
+          {
+            title: 'Jenkins',
+            image: '../images/cardslogo/jenkins.png',
+            content: 'Intégrer Jenkins avec Visual Studio Team Services pour gérer le déployement continu de vos applications',
+            list: [],
+            link: 'https://www.visualstudio.com/en-us/docs/marketplace/integrate/service-hooks/services/jenkins ',
+            type: 'build',
+            label: 'Jenkins et Visual Studio Team Services'
         },
         {
             title: 'azure',
@@ -65,7 +74,7 @@ $(document).ready(function () {
             more: false,
             title: 'VM',
             image: '../images/cardslogo/azure.png',
-            content: 'Créez une machine virtuelle dans Azure pour héberger vos services Java, avec un serveur Tomcat sur une machine Ubuntu',
+            content: 'Créez une machine virtuelle dans Azure pour héberger vos services Java, avec par exemple un serveur Tomcat sur une machine Ubuntu',
             list: [
                 {
                     link: 'https://easycreate.azure.com/dockerVM',
