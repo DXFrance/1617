@@ -2,6 +2,130 @@ $(document).ready(function () {
 $('a[data-toggle="tooltip"]').tooltip();
             var cards = [
                {
+                    title: 'Visual Studio Team Services',
+                    image: '../images/cardslogo/vsts.png',
+                    content: 'Outils de collaboration pour partager du code en équipe et assurer le suivi de vos projets en mode agile. Le parfait complément de votre IDE.',
+                    list: [],
+                    link: 'https://www.visualstudio.com/fr-fr/products/visual-studio-team-services-vs.aspx',
+                    type: 'build1',
+                    label: 'Partager son code et suivre ses projets efficacement'
+                },
+                  {
+                    title: 'Xamarin test cloud',
+                    image: '../images/cardslogo/xamagon.png',
+                    content: 'Testez votre application sur plus de 2000 types de devices à la demande. Effectuez des tests d\'interface automatisés, et bénéficiez d\'un rapport détaillé.',
+                    list: [],
+                    link: 'https://www.xamarin.com/test-cloud',
+                    type: 'build1',
+                    label: 'Testez l\'interface de vos applis sur 2000 devices'
+                },
+                  {
+                    title: 'HockeyApp',
+                    image: '../images/cardslogo/hockeyapp.png',
+                    content: 'Développez, distribuez et testez vos applications mobiles. Recueillez les commentaires de vos utilisateurs, obtenez des rapports sur les incidents, etc...',
+                    list: [],
+                    link: 'https://www.hockeyapp.net/features/',
+                    type: 'build1',
+                    label: 'Développez, distribuez et testez vos applis'
+                },
+
+{
+                    title: 'Visual Studio for mac',
+                    image: '../images/cardslogo/vsts.png',
+                    content: 'Il n\'a jamais été aussi simple de développer son backend ou de démarrer des projets cross-plateforme en C# !',
+                    list: [ ],
+                    link: 'https://www.visualstudio.com/vs/visual-studio-mac/',
+                    type: 'outilandroid',
+                    label: 'Visual Studio for Mac: élargissez votre champ des possibles'
+                },
+                    {
+                    title: 'Émulateur Android',
+                    image: '../images/cardslogo/vsts.png',
+                    content: 'Déployez, testez et débuguez des applications avec notre émulateur Android gratuit et rapide.',
+                    list: [
+                          {
+                            link: 'http://aka.ms/vscomemudownload',
+                            list: 'Télécharger',
+                            icon: 'fa-download'
+                        },
+                    ],
+                    link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
+                    type: 'outilandroid',
+                    label: 'L\'émulateur Android gratuit, basé sur Hyper-V'
+                },
+
+                    {
+                    title: 'VSTS Plug-in Android Studio',
+                    image: '../images/cardslogo/vsts.png',
+                    content: 'Le plug-in de Visual Studio Team Services pour IntelliJ IDEA et Android Studio',
+                    list: [ ],
+                    link: 'http://java.visualstudio.com/Downloads/intellijplugin/Index',
+                    type: 'outilandroid',
+                    label: 'Plug-in de VSTS pour Android Studio'
+                },
+
+                    {
+                    title: 'Microsoft Translator',
+                    image: '../images/cardslogo/translator.png',
+                    content: 'Une API de traduction automatique de texte et voix sur le Cloud. Elle supporte plus de 50 langages pour la traduction de textes et 8 pour la voix.',
+                    list: [],
+                    link: 'https://www.microsoft.com/en-us/translator/default.aspx',
+                    type: 'build2',
+                    label: 'Cassez la barrière de la langue en direct'
+                },
+                 
+                    {
+                    title: 'LUIS',
+                    image: '../images/cardslogo/luis.png',
+                    content: 'Les APIs Cognitive Services intègrent LUIS, un outil de Natural Language Processing qui permet à votre Bot de "comprendre" le langage humain.',
+                    list: [
+                    ],
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis',
+                    type: 'build2',
+                    label: 'Language Understanding Intelligent Service'
+                },
+                  {
+                    title: 'Bing Speech API',
+                    image: '../images/cardslogo/bing-api.png',
+                    content: 'Reconnaissance vocale, conversion de l\'audio en texte (en plusieurs langues) et réponses vocales naturelles. ',
+                    list: [ ],
+                    link: 'https://www.microsoft.com/cognitive-services/en-us/speech-api',
+                    type: 'build2',
+                    label: 'Bing Speech API'
+                },
+                {
+                    title: 'Azure Mobile Apps',
+                    image: '../images/cardslogo/azure.png',
+                    content: 'Connectez votre application aux ressources locales et rendez là disponible à des millions de clients dans plusieurs régions.',
+                    list: [],
+                    link: 'https://azure.microsoft.com/fr-fr/documentation/learning-paths/appservice-mobileapps/',
+                    type: 'build3',
+                    label: 'Connexion, notifications Push et synchronisation des données'
+                },
+                 {
+                    title: 'Web Apps',
+                    image: '../images/cardslogo/azure.png',
+                    content: 'Donnez la priorité à votre logique métier pendant qu’Azure gère l’infrastructure servant à exécuter et à faire évoluer vos applications.',
+                    list: [],
+                    link: 'https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-overview',
+                    type: 'build3',
+                    label: 'Optimisez l\'hébergement de vos applications web'
+                },
+                 {
+                    title: 'Logic Apps',
+                    image: '../images/cardslogo/azure.png',
+                    content: 'Simplifiez et implémentez des intégrations et des workflows évolutifs dans le cloud. Gain de temps et mise en route rapide à partir de modèles',
+                    list: [],
+                    link: 'https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-what-are-logic-apps',
+                    type: 'build3',
+                    label: 'Automatisez vos processus métiers'
+                },
+              
+
+ ];
+
+
+/*
                     title: 'Cognitive Services',
                     image: '../images/cardslogo/azure.png',
                     content: 'Offrez de l\'intelligence à vos applications : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
@@ -77,7 +201,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     link: 'https://music.microsoft.com/developer?NewToGroove=true',
                     type: 'build',
                     label: 'Créer'
-                }, */
+                }, 
                         {
                     title: 'HockeyApp',
                     image: '../images/cardslogo/hockeyapp.png',
@@ -215,7 +339,8 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'plateforme',
                     label: 'L\'extension React Native Tools pour VSCode'
                 },
-            ];
+                */
+           
 
 
             for (var i = 0; i < cards.length; i++) {

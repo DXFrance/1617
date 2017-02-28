@@ -53,6 +53,26 @@ div.sticky-wrapper nav .container .image a {
 	text-align: left;
 	display: inline-block;
 }
+
+.android-img {
+    width: 100%;
+    height: auto;
+}
+
+.card .card-top img {
+    width: 50px !important;
+}
+
+.item-android-2lines {
+	display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 199px;
+    width: 100%;
+	background-color: #22313F;
+    background-size: cover !important;
+}
 .cercle {
     width: 40px;
     height: 40px;
@@ -182,7 +202,7 @@ fa {
 	padding: 5em;
 	padding-top:3.5em;
 	color:#fff;
-	background-color:#34495e;
+	background-image: url(../images/general/android1.png);
 }
 	section.header .slogan-android
 {
@@ -257,6 +277,8 @@ fa {
 	font-size: 59px;
 }
 @media only screen and (max-width: 1200px)
+
+
 {
 	.carousel-caption h3 {
 	font-size: 59px;
@@ -295,6 +317,13 @@ fa {
 	padding:0;
 	padding-top:5px;
 	padding-bottom:15px
+}
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2em !important;
 }
 section.header {
     padding: 0em;

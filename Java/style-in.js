@@ -3,7 +3,7 @@ $(document).ready(function () {
     var cards = [
         {
             title: 'Bash',
-            image: 'images/cardslogo/bash.png',
+            image: '../images/cardslogo/bash.png',
             content: 'Découvrez une distribution Linux dans Windows, avec Bash !',
             list: [
             ],
@@ -13,27 +13,49 @@ $(document).ready(function () {
         },
         {
             title: 'SQL Server',
-            image: 'images/cardslogo/sql.png',
+            image: '../images/cardslogo/sql.png',
             content: 'Téléchargez et installez la prochaine version de SQL Server sur une distribution Ubuntu ou Red Hat !',
             list: [],
             link: 'https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux',
             type: 'build',
-            label: 'SQL server disponible sur Linux !'
+            label: 'SQL server sur Linux !'
         },
         {
             title: 'azure',
-            image: 'images/cardslogo/azure.png',
+            image: '../images/cardslogo/azure.png',
+            content: 'Intégration d\'un plugin Azure pour Eclipse et IntelliJ.',
+            list: [{
+                link: 'https://github.com/microsoft/azure-tools-for-java',
+                list: 'GitHub',
+                icon: 'fa-download'
+            },],
+            link: 'https://docs.microsoft.com/fr-fr/azure/azure-toolkit-for-eclipse',
+            type: 'brouillon',
+            label: 'Azure Toolkit pour IntelliJ et Eclipse'
+        },
+          {
+            title: 'Jenkins',
+            image: '../images/cardslogo/jenkins.png',
+            content: 'Intégrer Jenkins avec Visual Studio Team Services pour gérer le déployement continu de vos applications',
+            list: [],
+            link: 'https://www.visualstudio.com/en-us/docs/marketplace/integrate/service-hooks/services/jenkins ',
+            type: 'build',
+            label: 'Jenkins et Visual Studio Team Services'
+        },
+        {
+            title: 'azure',
+            image: '../images/cardslogo/azure.png',
             content: 'Récupérez l\'ensemble des ressources, tutoriaux et SDK pour vos futurs développement Java hébergés dans Azure.',
             list: [
             ],
             link: 'https://azure.microsoft.com/fr-fr/develop/java/ ',
-            type: 'build',
+            type: 'azure',
             label: 'Le centre de developpement pour Java dans Azure'
         },
         {
             more: false,
             title: 'Hello world',
-            image: 'images/cardslogo/azure.png',
+            image: '../images/cardslogo/azure.png',
             content: 'Créez votre première application Java hébergée dans Azure avec Eclipse ou IntelliJ.',
             list: [{
                 link: 'https://docs.microsoft.com/fr-fr/azure/app-service-web/app-service-web-eclipse-create-hello-world-web-app',
@@ -45,14 +67,14 @@ $(document).ready(function () {
                 icon: 'fa-download'
             },],
             link: 'https://www.visualstudio.com/vs/visual-studio-mac/',
-            type: 'outil',
+            type: 'azure',
             label: 'Codez votre 1ère application web Java dans Azure'
         },
         {
             more: false,
             title: 'VM',
-            image: 'images/cardslogo/azure.png',
-            content: 'Créez une machine virtuelle dans Azure pour héberger vos services Java, avec un serveur Tomcat sur une machine Ubuntu',
+            image: '../images/cardslogo/azure.png',
+            content: 'Créez une machine virtuelle dans Azure pour héberger vos services Java, avec par exemple un serveur Tomcat sur une machine Ubuntu',
             list: [
                 {
                     link: 'https://easycreate.azure.com/dockerVM',
@@ -66,31 +88,21 @@ $(document).ready(function () {
                 },
             ],
             link: 'https://www.visualstudio.com/fr-fr/features/msft-android-emulator-vs.aspx',
-            type: 'outil',
+            type: 'azure',
             label: 'Créez une VM en quelques clics !'
         },
 
-        {
+      
+        
+
+          {
             title: 'AZURE CHAT',
-            image: 'images/cardslogo/azure.png',
+            image: '../images/cardslogo/azure.png',
             content: 'Un exemple complet codé en JAVA, utilisant les services AZURE comme Azure SQL Database, Authentification, Azure Media Services.',
             list: [],
             link: 'https://github.com/Microsoft/azure-chat-for-java',
             type: 'outil',
             label: 'Un exemple complet OSS utilisant les SDKs Java Pour Azure '
-        },
-        {
-            title: 'azure',
-            image: 'images/cardslogo/azure.png',
-            content: 'Intégration d\'un plugin Azure pour Eclipse et IntelliJ.',
-            list: [{
-                link: 'https://github.com/microsoft/azure-tools-for-java',
-                list: 'GitHub',
-                icon: 'fa-download'
-            },],
-            link: 'https://docs.microsoft.com/fr-fr/azure/azure-toolkit-for-eclipse',
-            type: 'plateforme',
-            label: 'Azure Toolkit pour IntelliJ et Eclipse'
         },
         {
             title: 'titre',
@@ -103,7 +115,7 @@ $(document).ready(function () {
         },
         {
             title: 'Cognitive Services',
-            image: 'images/cardslogo/azure.png',
+            image: '../images/cardslogo/azure.png',
             content: 'Offrez de l\'intelligence à vos applications : détection des visages, des émotions, reconnaissance et synthèse vocale, interprétation du language … 22 API à votre disposition !',
             list: [
                 {
@@ -118,7 +130,7 @@ $(document).ready(function () {
         },
         {
             title: 'GitHub',
-            image: 'images/cardslogo/github.png',
+            image: '../images/cardslogo/github.png',
             content: 'Description à compléter',
             list: [],
             link: 'https://github.com/azure?utf8=%E2%9C%93&q=Java',

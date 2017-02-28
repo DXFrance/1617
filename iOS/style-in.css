@@ -7,6 +7,9 @@
 	text-align: left;
 	display: inline-block;
 }
+p {
+	font-size:1em;
+}
 .circle {
     width: 40px;
     height: 40px;
@@ -124,6 +127,7 @@ div.sticky-wrapper nav .container .image a {
 section.items
 {
     background-color: #fafafa;
+	    height: 350px;
 }
 section.header img {
     position: absolute;
@@ -492,6 +496,7 @@ section.header {
 	margin-top:2em;
 	display:block
 }
+
 	section.header .slogan-ios
 {
 	width:100%;
