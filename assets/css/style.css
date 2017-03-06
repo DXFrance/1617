@@ -75,7 +75,16 @@
     background-size: cover !important;
 }
 
-
+.item-short {
+	display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 199px;
+    width: 100%;
+	background-color: #22313F;
+    background-size: cover !important;
+}
 
 	ul,li
 {

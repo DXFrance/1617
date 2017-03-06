@@ -199,6 +199,7 @@ nav .content a:hover {
     bottom: -10px;
 }
 
+
 .linkressource {
 fill: #fff;
 width: 1em;
@@ -385,15 +386,16 @@ li.w3-card-4
 	padding: 5em;
 	padding-top:3.5em;
 	color:#fff;
-	background-image: url('../images/general/data.png');
+	background-image: url('../images/general/java4.png');
 }
 	section.header img
 {
-	position:absolute;
-	right:0;
-	bottom:-5em;
-	display:block
+	position: absolute;
+    right: 90px;
+    margin-bottom: 40px;
+    display: block;
 }
+
 	section.header .slogan-data
 {
 	font-size:3.7em;
@@ -403,6 +405,7 @@ li.w3-card-4
 	margin-top:0.1em;
 	margin-bottom:0.1em
 }
+
 	section.header .subtitle
 {
 	font-size:1.1em;
@@ -419,9 +422,14 @@ li.w3-card-4
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+.img-data{
+	height: auto;
+	width: 100%;
+}
 section.services
 {
-	background-color:#ECF0F1;
+	background-color:#ffffff;
 	text-align:center
 }
 }
@@ -433,6 +441,10 @@ section.services
 	section.items h2
 {
 	font-family:"Segoe UI",sans-serif
+}
+
+.flotte{
+	float:left;
 }
 div.w3-card-4
 {
@@ -998,11 +1010,7 @@ section.newsletter p {
 	line-height:normal;
 	width:auto
 }
-	section.header .subtitle
-{
-	text-align:center;
-	line-height:normal
-}
+
 	section.header div.secondTransition .btn
 {
 	text-align:center
@@ -1607,24 +1615,63 @@ fa {
 .carousel-caption h3 {
 	font-size: 30px;
 }
+	@media only screen and (max-width: 1330px)
+{
+	.carousel-caption h3 {
+	font-size: 59px;
+}
+
+.myLegend{
+	float:left;
+	padding-left: 50px;
+	text-align: left;
+}
+
+	section.header .slogan-data
+{
+	width:100%;
+	font-size:2.7em
+}
+
+section.header  .subtitle {
+	font-size: 1.1em;
+    margin-top: 0.5em;
+	text-align: left;
+}
+
 	@media only screen and (max-width: 1200px)
 {
 	.carousel-caption h3 {
 	font-size: 59px;
+}
+	
 }
 	@media only screen and (max-width: 1000px)
 {
 	.carousel-caption h3 {
 	font-size: 50px;
 }
+section.header .subtitle
+{
+	text-align: center;
+}
 
+.powerbi{
+	width:600px;
+	height:1000px;
+}
 	section.header .slogan-data
 {
 	text-align:center;
 	line-height:normal;
 	width:auto
 }
-
+h2 {
+	font-size: 25px; 
+}
+p {
+	font-size: 20px;
+}
 }
 	@media only screen and (max-width: 850px)
 {
@@ -1634,9 +1681,20 @@ fa {
 	/*margin-top:2em;*/
 	display:block
 }
+h2 {
+	font-size: 20px; 
+}
+.powerbi{
+	width:400px;
+	height:800px;
+}
 
 .carousel-caption h3 {
 	font-size: 40px;
+}
+
+p {
+	font-size: 15px;
 }
 }
 	@media only screen and (max-width: 510px)
@@ -1646,6 +1704,13 @@ fa {
 	padding:0;
 	padding-top:5px;
 	padding-bottom:15px
+}
+h2 {
+	font-size: 20px; 
+}
+.powerbi{
+	width:300px;
+	height:600px;
 }
 section.header {
     padding: 0em;
@@ -1662,6 +1727,11 @@ section.header {
 	margin-top:2em;
 	display:block
 }
+
+h1 {
+  font-size: 1.5em;
+}
+
 	section.header .slogan-data
 {
 	width:100%;
