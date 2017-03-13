@@ -63,16 +63,7 @@ div.sticky-wrapper nav .container .image a {
     width: 50px !important;
 }
 
-.item-android-2lines {
-	display: block;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 199px;
-    width: 100%;
-	background-color: #22313F;
-    background-size: cover !important;
-}
+
 .cercle {
     width: 40px;
     height: 40px;
