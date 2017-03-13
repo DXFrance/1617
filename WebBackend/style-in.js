@@ -41,6 +41,8 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Gérez tous les aspects de vos APIs simplement'
                 },
+
+                 /*
                  {
                     title: 'Azure SQL Database',
                     image: '../images/cardslogo/sql.png',
@@ -105,7 +107,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'build',
                     label: 'Détectez, hiérarchisez et diagnostiquez les problèmes dans vos applications et services web'
                 },
-
+  */
                     {
                     title: 'Shell Bash',
                     image: '../images/cardslogo/windows.png',
@@ -135,6 +137,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'outil',
                     label: 'Un éditeur de code tout neuf !'
                 },
+                  /*
                     {
                     more: false,
                     title: 'Visual Studio',
@@ -161,6 +164,7 @@ $('a[data-toggle="tooltip"]').tooltip();
                     type: 'outil',
                     label: 'Les extensions web pour Visual Studio'
                 },
+                  */
 
                   {
                     title: 'macOS',
