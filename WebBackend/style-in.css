@@ -119,7 +119,7 @@ fa {
 	
 .btn
 {
-	background-color:#A2C438;
+	background-color:red;
 	
 }
 .toto 
@@ -161,7 +161,8 @@ fa {
 {
 	padding:5em;
 	padding-top: 3.5em;
-	background-color: #33495e;
+	height:450px;
+	background-image: url("../images/general/headerwebback4.png");
 	color: #fff;
 }
 
