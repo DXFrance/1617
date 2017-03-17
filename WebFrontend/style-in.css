@@ -15,11 +15,12 @@
 }
 
 .box {
-background-image: url('../images/general/webfront/sphereblue.jpg')
+    height: 230px;
+    background-color: #22313f;
 }
 
 .btn-w3c {
-  background-color: #34495e !important;
+  background-color: #34495e;
 }
 
 .btn-w3c:hover {
@@ -183,8 +184,7 @@ fa {
 
 	section.header
 {
-	
-	background-color: #22313f;
+    background-image: url(../images/general/java4.png);
 }
 	
 	section.header .slogan-webfrontend
@@ -230,10 +230,15 @@ section.newsletter p {
 
 }
 .footer__sitecta__form {
-    text-align: center;
-    padding: 4rem 0;
+   text-align: center;
+    padding-top: 35px;
 }
 	
+ .modernsite {
+	margin: 0.1em 0;
+    margin-bottom: 10px;
+	}
+
 	footer p
 {
 	color:#fff;

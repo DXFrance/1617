@@ -155,7 +155,7 @@ position: relative;
 }
 .btn
 {
-	background-color:#e74c3c;
+	background-color:seagreen;
 	    border-radius:0px;
 	color:#fff;
 	margin-right:1em;
@@ -419,6 +419,11 @@ li.w3-card-4
 	margin:0.7em;
 	display:block
 }
+
+.card .card-top img {
+    width: 45px !important;
+}
+
 .partners-logo .item img
 {
 	width:80px
@@ -428,7 +433,7 @@ li.w3-card-4
 	padding: 5em;
 	padding-top:3.5em;
 	color:#fff;
-	background-image: url(../images/general/robot.jpg);
+	background-image: url(../images/general/maker2.png);
 }
 	section.header img
 {

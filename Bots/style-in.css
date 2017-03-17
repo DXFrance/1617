@@ -245,6 +245,10 @@ nav .content a.active {
   top: 0px;
 	display:none;
 }
+
+.card .card-top img {
+    width: 50px !important;
+}
     section.header{
          background-image: url(../images/general/bg.jpg);
     }
