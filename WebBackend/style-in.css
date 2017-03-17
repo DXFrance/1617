@@ -119,7 +119,7 @@ fa {
 	
 .btn
 {
-	background-color:red;
+	background-color:#1c888d;
 	
 }
 .toto 
@@ -131,7 +131,7 @@ fa {
 .btn:hover
 {
 	
-	background-color:#669900;
+	background-color:dodgerblue;
 	
 }
 
@@ -156,13 +156,16 @@ fa {
 /*	overflow:hidden; */
 	
 }
+.card .card-top img {
+    width: 50px !important;
+}
 
 	section.header-dev
 {
 	padding:5em;
 	padding-top: 3.5em;
 	height:450px;
-	background-image: url("../images/general/headerwebback4.png");
+	background-image: url("../images/general/headerwebback1.png");
 	color: #fff;
 }
 

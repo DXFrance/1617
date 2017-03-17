@@ -215,6 +215,10 @@ nav .content a.active {
 
 }
 	
+	.card .card-top img {
+    width: 40px !important;
+    position: absolute;
+}
 	section.header
 {
 
