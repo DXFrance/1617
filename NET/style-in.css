@@ -112,10 +112,15 @@ position: relative;
 .badge-link:hover .tooltiptext {
     visibility: visible;
 }
+@font-face {
+  font-family: 'Eggs';
+  src: url('../assets/DJB Eggsellent.ttf');
+
+}
 	body,html
 {
 	
-	font-family:"Segoe UI";
+	font-family: "Segoe UI";
 	
 }
 
