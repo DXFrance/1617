@@ -28,30 +28,19 @@ $('a[data-toggle="tooltip"]').tooltip();
                 },
 
                  {
-                    more: false,
-                    title: 'Une vingtaine de services clé en main',
+                    title: 'Azure API Management',
                     image: '../images/cardslogo/api.png',
-                    content: 'De la base de données NoSQL Mongo au service de streaming adaptatif en passant par le cache distribué Redis, ne réinventez pas la roue et utilisez les services gérés automatiquement par la plateforme.',
+                    content: 'Créez une passerelle d’API aux fonctionnalités avancées (cache, throttling, transformations, sécurité, portail développeur, …) en quelques minutes.',
                     list: [{
-                           link: 'https://azure.microsoft.com/fr-fr/services/documentdb/',
-                            list: 'NoSQL',
-                            icon: 'fa-film'
-                        },
-                        {
-                           link: 'https://azure.microsoft.com/fr-fr/services/cache/',
-                            list: 'Redis',
-                            icon: 'fa-film'
-                        },
-                        {
-                           link: 'https://azure.microsoft.com/fr-fr/services/',
-                            list: 'Tous les services',
+                           link: 'https://experiences.microsoft.fr/channel/amliorez-vos-apis-avec-azure-api-management/13d56210-eb20-4ac8-9f1b-b6595d23491c#rlkoe4Otx2Yf684Z.97',
+                            list: 'Vidéo',
                             icon: 'fa-film'
                         },
                         ],
+                    link: 'https://azure.microsoft.com/fr-fr/services/api-management/',
                     type: 'build',
-                    label: 'Utilisez les services applicatifs Azure pour gagner en efficacité.'
+                    label: 'Gérez tous les aspects de vos APIs simplement'
                 },
-
 
                  /*
                  {
@@ -207,7 +196,7 @@ $('a[data-toggle="tooltip"]').tooltip();
             ];
 
 
-             for (var i = 0; i < cards.length; i++) {
+            for (var i = 0; i < cards.length; i++) {
                 if (cards[i].list.length) {
                     cards[i].list_html = '';
                     for (var z = 0; z < cards[i].list.length; z++) {
