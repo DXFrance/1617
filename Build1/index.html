@@ -35,7 +35,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/ico" href="../favicon.ico">
-    <title>Les Frenchies à Build</title>
+    <title>Les Frenchies @ Build</title>
 
     <!-- Google Web Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
@@ -94,9 +94,6 @@
                         <p class="subtitle">Suivez avec nous toutes les infos de la build 2017 à Seattle.</p>
                         <br/>
                     </div>
-                    <div class="buttons transitionFadeInUp secondTransition"><br/>
-                        <a href="#Tour-de-France-menu" class="btn btn-explorer">Explorer</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -140,24 +137,31 @@
     <!--Début Bandeau H1 -->
     <div id="Tour-de-France-menu">
         <div class="item-build">
-            <a style="background-color: #22313F" />
 
-            <h2>Les Podcats</h2>
-
+            <h2>Podcasts</h2>
 
         </div>
-        </a>
     </div>
     </div>
     <!--Fin Bandeau H1 -->
 
 
     <div style="background-color:#ecf0f1" class="items">
-
-        <div class="mapcontainer col-md-5 " style="height: 500px;">
-
-
-        </div>
+        <div class="mapcontainerparent">
+                    <div class="mapcontainer col-md-5 ">
+                        <div class="map">
+                            <div class="build-podcast"><img src="../images/general/logo-build-small.png" alt="logo build"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="myLegend col-md-7 ">
+                    <div>
+                        <audio controls>
+                        <source src="xxx.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                        </audio>
+                        <br>
+                    </div>
 
     </div>
 
@@ -168,13 +172,13 @@
     <!-- Début section .NET standard -->
 
     <!--Début Bandeau 2 -->
-    <div id="dotnet-standard-menu">
+    <div id="dotnet-standard-menu" style="display: none">
         <div class="item-build">
             <a style="background-color: #22313F" />
 
             <h2>Tous les liens Facebook</h2>
 
-
+            <h2>Venez discuter avec nous sur Facebook</h2>
         </div>
         </a>
     </div>
@@ -185,23 +189,22 @@
 
     <!-- Début section ITEMS -->
 
-    <div id="items" class="items">
+    <div id="items" class="items" style="display: none">
 
 
-        <div class="col-md-12">
-
+        <div class="col-md-12" style="display: none">
             <!--  AFFICHAGE DES CARDS (ressources) listés dans /JS/style.js -->
 
         </div>
     </div>
-    <div class="row-test row">
-        <div class="col-md-12">
+    <div class="row-test row" style="display: none">
+        <div class="col-md-12" style="display: none">
 
         </div>
     </div>
     </div>
 
-
+<section style="display: none">
 
     <h3 style="color: black;"> Tous les français à Build </h3>
     <a href="https://www.facebook.com/groups/1620505774910930/?fref=ts" target=blank class="btn btn-explorer">Rejoindre</a>
@@ -212,7 +215,7 @@
     <div id="votre-ide-menu">
         <!--Début Bandeau H2 Votre OS : votre IDE -->
 
-        <div class="item">
+        <div class="item" style="display: none">
             <a style="background-color: #22313F" />
             <div class="img-left">
             </div>
@@ -230,8 +233,8 @@
 
 
 
-    <section id="items" style="background-color:#ECF0F1;" class=" items ">
-        <div class="container cards ">
+    <section id="items" style="background-color:#ECF0F1;" class=" items " style="display: none">
+        <div class="container cards " style="display: none">
             <div class="row-plateforme row ">
                 <div class="col-md-12 ">
                 </div>
@@ -248,7 +251,7 @@
 
     <!-- Début section CONTACT -->
 
-    <div id="newsletter-menu">
+    <div id="newsletter-menu" style="display: none">
         <section id="newsletter" class="newsletter">
 
             <div class="container">
@@ -297,141 +300,7 @@
 
     <!-- Début  FOOTER -->
 
-    <footer>
-        <div class="container">
-            <div class="row row-centered">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-centered">
-                    <h2>Microsoft parle à TOUS les développeurs</h2>
-                    <p class="content_description">Vous y êtes forcément !</p>
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../WIP.html" alt="Java">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-coffee"></i>
-                            </div>
-                            <p>Java</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../Android/index.html" alt="Android">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-android"></i>
-                            </div>
-                            <p>Android</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../Bots/index.html" alt="Bots">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-comment"></i>
-                            </div>
-                            <p>Bots</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-
-
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../Makers/index.html" alt="Makers">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-wrench"></i>
-                            </div>
-                            <p>Makers</p>
-                        </a>
-                    </div>
-
-
-
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../data/index.html" alt="Data">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-bar-chart"></i>
-                            </div>
-                            <p>Data</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../devops/index.html" alt="DevOps">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-cogs"></i>
-                            </div>
-                            <p>DevOps</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../gaming/index.html" alt="Gaming">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-gamepad"></i>
-                            </div>
-                            <p>Gaming</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../iOS/index.html" alt="iOS">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-mobile"></i>
-                            </div>
-                            <p>iOS</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../Cloud/index.html" alt="Cloud Architecture">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-cloud"></i>
-                            </div>
-                            <p>Cloud Architecture</p>
-                        </a>
-                    </div>
-
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../NUI/index.html" alt="New User Interface">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-hand-pointer-o"></i>
-                            </div>
-                            <p>Interfaces naturelles</p>
-                        </a>
-                    </div>
-                    <!-- Fin Planete -->
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../webfrontend/index.html" alt="Web Frontend">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-code"></i>
-                            </div>
-                            <p>Web Frontend</p>
-                        </a>
-                    </div>
-                    <!-- Début Planete -->
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <a href="../WebBackend/index.html" alt="Web Backend">
-                            <div class="footer-circle">
-                                <i class="fa-fw fa fa-server"></i>
-                            </div>
-                            <p>Web Backend</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+    <footer style="display: none">
         <p>© 2017 Microsoft -
             <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;" target=":blank">Contactez Microsoft</a>            -
             <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;"
@@ -496,106 +365,6 @@
     <script type="text/javascript" src="style-in.js"></script>
 
 
-
-
-    <!-- Ajout pour la map -->
-
-
-    <script type="text/javascript">
-        $(function () {
-            $(".mapcontainer").mapael({
-                map: {
-                    name: "france_departments",
-                    width: 400,
-                    defaultArea: {
-                        attrsHover: {
-                            fill: "#343434",
-                            stroke: "#5d5d5d",
-                            "stroke-width": 1,
-                            "stroke-linejoin": "round"
-                        }
-                    }
-                },
-
-                plots: {
-                    "town-75056": {
-                        value: "2268265",
-                        latitude: 48.86,
-                        longitude: 2.3444444444444,
-                        href: "https://www.meetup.com/fr-FR/altnetfr/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Paris (26/01/2017)</span><br />Alt.NET"
-                        }
-                    },
-                    "town-69123": {
-                        value: "492578",
-                        latitude: 45.758888888889,
-                        longitude: 4.8413888888889,
-                        href: "https://www.meetup.com/fr-FR/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Lyon (--/--/17)</span><br />A venir"
-                        }
-                    },
-                    "town-31555": {
-                        value: "449328",
-                        latitude: 43.604444444444,
-                        longitude: 1.4419444444444,
-                        href: "https://www.meetup.com/fr-FR/Meetup-NET-Toulouse/events/237038711/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Toulouse (20/02/2017)</span><br />.NET Standard et outils pour les devs"
-                        }
-                    },
-                    "town-67482": {
-                        value: "276401",
-                        latitude: 48.583611111111,
-                        longitude: 7.7480555555556,
-                        href: "https://www.meetup.com/fr-FR/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Strasbourg (--/--/17)</span><br />A venir"
-                        }
-                    },
-                    "town-33063": {
-                        value: "142945",
-                        latitude: 44.837777777778,
-                        longitude: -0.57944444444444,
-                        href: "https://www.meetup.com/fr-FR/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Bordeaux (--/--/17)</span><br />A venir"
-                        }
-                    },
-                    "town-59350": {
-                        value: "234058",
-                        latitude: 50.631944444444,
-                        longitude: 3.0575,
-                        href: "https://www.meetup.com/fr-FR/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Lille (--/--/17)</span><br />A venir"
-                        }
-                    },
-                    "town-59352": {
-                        value: "234058",
-                        latitude: 43.29,
-                        longitude: -1.5667,
-                        href: "https://www.meetup.com/fr-FR/Meetup-NET-Biarritz/events/237422817/",
-                        target: "blank",
-                        tooltip: {
-                            content: "<span style=\"font-weight:bold;\">Biarritz (23/03/17)</span><br />ASP .NET Core/.NET Standard 2.0"
-                        }
-                    },
-                }
-            });
-        });
-    </script>
-
-
-
-
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js "></script>
       <script src="js/respond.min.js "></script>
@@ -606,7 +375,16 @@
         <script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js' " + " '><\/script>");
 </script>
 <noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx" /></noscript>
-
+<script>
+    twttr.widgets.createTimeline(
+  {
+    sourceType: "list",
+    ownerScreenName: "TwitterDev",
+    slug: "national-parks"
+  },
+  document.getElementById("container")
+);
+</script>
 
 </body>
 
