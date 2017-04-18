@@ -197,13 +197,14 @@ fa {
 }
 	section.header .slogan-android
 {
-	font-size:3.7em;
+	font-size:2.7em;
 	font-family:"Open Sans",sans-serif;
 	/*width:11em; */
 	line-height:110%;
 	margin-top:0.1em;
 	margin-bottom:0.1em
 }
+
 	section.text_and_dates ul li small
 {
 	color:#3f3f3f
