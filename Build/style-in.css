@@ -4,14 +4,25 @@
 	padding:0
 }
 
+
 .build-podcast{
-	background-color: #e9e9E9;
     margin-left: auto;
     margin-right: auto;
     width: 350px;
     height: 350px;
 }
 
+.build-twitter{
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.build-fb{
+	width: 450px;
+	height: 350px;
+}
 	a,a:hover,a:active,a:visited,a:focus
 {
 	font-size: 20px;
@@ -27,14 +38,122 @@
     height: 144px;
     margin: 0 auto;
     overflow: hidden;
-    height: 110px;
+    height: 80px;
     width: 100%;
     background-size: cover !important;
-	background-color: #22313F;
+	background-color: #414141;
+}
+.block-image{
+	margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    height: 240px;
+}
+.image-cshaw{
+	height: 240px;
+    width: 240px;
+}
+.chsaw-word{
+	padding-left: 50px;
 }
 .crossSell {
 	text-align: left;
 	display: inline-block;
+}
+
+/*grid photo*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.photo-container {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photo-grid {
+  position: relative;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.photo-grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid #bbb;*/
+}
+
+.photo-grid li {
+  float: center;
+  position: relative;
+  /**/
+}
+
+.photo-grid li > a {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+  .photo-container {
+    max-width: 960px;
+  }
+  
+  .photo-grid li {
+    /*width: 33.333%;*/
+  }
+  
+  .photo-grid li:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .photo-container {
+    max-width: 600px;
+  }  
+
+  .photo-grid li {
+    /*width: 33.333%;*/
+  }
+  
+  .photo-grid li:last-child {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .photo-container {
+    max-width: 300px;
+  } 
+
+  .photo-grid li {
+    /*width: 33.333%;*/
+  }
+  
+  .photo-grid li:last-child {
+    display: inline-block;
+  }
 }
 
 div.sticky-wrapper nav .container .image a {
@@ -136,9 +255,10 @@ position: relative;
 	body,html
 {
 	
-	font-family:"Segoe UI";
-	
+	font-family:font70878,'Segoe UI','Segoe WP',Tahoma,Arial,sans-serif !important;
+    display: none; /*Erase this line*/
 }
+
 
 .logo
 {
@@ -286,21 +406,22 @@ nav .content a.active {
 	section.header .slogan-net
 {
 	
-	font-family:"Segoe UI",sans-serif;
+	font-family:font70878,sans-serif;
 	/*width:11em; */
 	font-size: 4.7em;
 	margin-top:0.1em;
-	margin-bottom:0.1em
+	margin-bottom:0.1em;
+    text-align: left;
 }
 	
 	section.items h2
 {
-	font-family:"Segoe UI",sans-serif
+	font-family:font70878,'Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
 }
 
 	section.content_middle_picture h2
 {
-	font-family:"Segoe UI",sans-serif
+	font-family:font70878,'Segoe UI','Segoe WP',Tahoma,Arial,sans-serif;
 }
 	
 	section.text_and_dates ul li small
@@ -349,7 +470,7 @@ nav .content a.active {
 	
 	footer
 {
-	background-color:#22313F;
+	background-color:#414141;
 	
 }
 	footer p
@@ -387,19 +508,41 @@ div ul {
 div ul li {
     display: inline-block;
     list-style: none;
-    margin-right: 3em;
 }
 div ul li svg, div ul li img.icone {
-    width: 67px;
-    height: 67px;
+    width: 70px;
+    height: 70px;
     text-decoration: none;
     fill: #fff;
 }
+
+
+/*.photo-grid ul .block span {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.8s ease;
+  display:none;
+}
+
+.photo-grid ul .block:hover span {
+  height: 100%;
+  display: block;
+}*/
+
 .event{
 	margin-top: 60px;
 }
 .mapcontainer{
 	float:left;
+    padding-left: 30px;
 }
 
 .myLegend{
