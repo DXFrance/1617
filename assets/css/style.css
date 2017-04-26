@@ -21,7 +21,17 @@
 	margin-top: 15px;
 	text-align: center;
 }
-
+.bg-headerh {
+	 background-image:url("../../images/general/seattle.png") !important;
+	height: 200px;
+    background-position: center center;
+}
+.slogan-build{
+	color: #FFF;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 200px;
+}
 .badge-link {
 	display: block;
 	color: black;
