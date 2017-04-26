@@ -540,6 +540,9 @@ div ul li svg, div ul li img.icone {
 .event{
 	margin-top: 60px;
 }
+.news-build br{
+    display: none;
+}
 .mapcontainer{
 	float:left;
     padding-left: 30px;
@@ -605,6 +608,11 @@ section.header img {
 	.carousel-caption h3 {
 	font-size: 59px;
 }
+
+.news-build br{
+    display: none;
+}
+
 .img-left{
    display: none !important;
 }
@@ -651,6 +659,10 @@ section.header img {
 	width:auto
 }
 
+.news-build br{
+    display: none;
+}
+
 section.header  .subtitle {
 	font-size: 1.1em;
     margin-top: 0.5em;
@@ -669,6 +681,10 @@ section.header  .subtitle {
 .img-net{
     display:none !important;
 }
+
+.news-build br{
+    display: none;
+}
 .carousel-caption h3 {
 	font-size: 40px;
 }
@@ -680,6 +696,17 @@ section.header  .subtitle {
 	padding:0;
 	padding-top:5px;
 	padding-bottom:15px
+}
+.news-build{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: normal !important;
+}
+.build-podcast {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
 }
 section.header {
     padding: 0em;
