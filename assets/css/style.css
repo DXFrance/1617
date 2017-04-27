@@ -23,8 +23,9 @@
 }
 .bg-headerh {
 	 background-image:url("../../images/general/seattlejour.jpg") !important;
-	height: 300px;
-	background-position: center center;
+	height: 400px;
+	width: 2100px;
+	background-position: 58% 63%;
 	
 }
 .slogan-build{
