@@ -325,8 +325,7 @@ nav .content a.active {
 	section.header
 {
 	padding: 5em;
-	padding-top:3.5em;
-	padding-bottom:3.5em;
+		padding-bottom:10.5em;
 	color:#fff;
 	    background-image: url(http://www.headsub.com/attachment/hkd4urec/templates/textures/background_blue01.jpg);
 	
@@ -540,8 +539,9 @@ div ul li svg, div ul li img.icone {
 .event{
 	margin-top: 60px;
 }
-.news-build br{
-    display: none;
+.news-build{
+    
+    font-size: 30px;
 }
 .mapcontainer{
 	float:left;
