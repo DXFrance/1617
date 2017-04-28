@@ -24,7 +24,8 @@
 .bg-headerh {
 	 background-image:url("../../images/general/seattlejour.jpg") !important;
 	height: 400px;
-	width: 2100px;
+	background-repeat: no-repeat;
+	
 	background-position: 58% 63%;
 	
 }
