@@ -8,12 +8,12 @@ $(document).ready(function () {
                     content: 'Cliquez sur votre langage préféré pour découvrir notre guide sur Bot Framework. Ce SDK permet de gérer facilement une discussion entre votre Bot et son interlocuteur.',
                     list:  [
                          {
-                            link: 'http://docs.botframework.com/sdkreference/csharp/',
+                            link: 'http://docs.botframework.com/builder/node/overview/',
                             list: 'Node.js',
                             icon: 'fa-film'
                         },
                            {
-                            link: 'http://docs.botframework.com/builder/node/overview/',
+                            link: 'http://docs.botframework.com/sdkreference/csharp/',
                             list: 'ASP.NET',
                             icon: 'fa-film'
                         },
