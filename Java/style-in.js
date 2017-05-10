@@ -34,10 +34,19 @@ $(document).ready(function () {
             label: 'Azure Toolkit pour IntelliJ et Eclipse'
         },
           {
+            more: false,
             title: 'Jenkins',
             image: '../images/cardslogo/jenkins.png',
             content: 'Intégrer Jenkins avec Visual Studio Team Services pour gérer le déployement continu de vos applications',
-            list: [],
+             list: [{
+                link: 'https://microsoft.github.io/techcasestudies/devops/2017/05/09/automotive-leader-devops.html',
+                list: 'Retour d\'experience',
+                icon: 'fa-download'
+                 }, {
+                link: 'https://www.visualstudio.com/en-us/docs/marketplace/integrate/service-hooks/services/jenkins',
+                list: 'DOCS',
+                icon: 'fa-download'
+             },],
             link: 'https://www.visualstudio.com/en-us/docs/marketplace/integrate/service-hooks/services/jenkins ',
             type: 'build',
             label: 'Jenkins et Visual Studio Team Services'
