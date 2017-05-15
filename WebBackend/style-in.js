@@ -453,4 +453,23 @@ $('a[data-toggle="tooltip"]').tooltip();
        }
     }
 
+  var tabs = [
+
+"<div class='col-md-7'><br><p style='text-align: left'><B><u>Start-up:</u></B> Mapwize, plateforme de cartographie d’intérieur pour les Smart Buildings.<br><B><u>Date de création:</u></B> 2014 <br><B><u>Problématique: </u></B>Comment passer d'une architecture monolithique sur Heroku à une architecture microservices sans passer par un orchestrateur complexe?<br><b><u>Technos de la start-up:</u></b> Open-source, Node.js</p><br><a href='https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html' target=blank class='btn facebook'>Découvrir sur github</a><br> </div><div class='col-md-5'><a href=https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html'><img style='width:90%' src='../images/general/architecturemapwize.png'></a></div>",
+
+"<div class='col-md-7'><br><p style='text-align: left'><B><u>Start-up:</u></B> Content Avenue, plateforme collaborative pour les pros du contenu digital<br><B><u>Date de création:</u></B> 2016 <br><B><u>Problématique: </u></B>Comment déveloper une architecture agile et managée pour héberger une application PHP/Drupal dans le cloud? <br><b><u>Technos de la start-up:</u></b> Open-source, PHP, Drupal, MySQL</p><br><a href='https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html' target=blank class='btn facebook' >Découvrir sur github</a><br> </div><div class='col-md-5'><a href=https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html'><img style='width:90%' src='../images/general/architecturediagram2.png'></a></div>",
+
+"<div class='col-md-7'><br><p style='text-align: left'><B><u>Start-up:</u></B> People Eyes, sondages à grande échelle basés sur des photos<br><B><u>Date de création:</u></B> 2016 <br><B><u>Problématique: </u></B>Passer d'une architecture monolithique basée sur Ubuntu Virtual Machine à une architecture micro-services pérenne pour gagner en agilité et en flexibilité. <br><b><u>Technos de la start-up:</u></b> Open-source, Meteor.js, Python, MongoDB</p><br><a href='https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html' target=blank class='btn facebook' >Découvrir sur github</a><br> </div><div class='col-md-5'><a href=https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html'><img style='width:90%' src='../images/general/architecturemapwize.png'></a></div>",
+
+"<div class='col-md-7'><br><p style='text-align: left'><B><u>Start-up:</u></B> Mixit Music, application de playlists collaboratives pour écouter de la musique en groupe <br><B><u>Date de création:</u></B> 2016 <br><B><u>Problématique: </u></B>Comment héberger une application B2C dans le cloud pour garantir une expérience plus agréable et fluide à des milliers d'utilisateurs <br><b><u>Technos de la start-up:</u></b> Open-source, Node.js, Python, MongoDB, Redis Cache, Celery, Stream Framework. </p><br><a href='https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html' target=blank class='btn facebook' >Découvrir sur github</a><br> </div><div class='col-md-5'><a href=https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html'><img style='width:90%' src='../images/general/architecturemixit.png'></a></div>",
+
+"<div class='col-md-7'><br><p style='text-align: left'><B><u>Start-up:</u></B> AllSkreen, plateforme de conception, diffusion et hébergement de BDs numériques<br><B><u>Date de création:</u></B> 2016 <br><B><u>Problématique: </u></B>Comment héberger une application 100% PHP dans le cloud et créer une architecture managée flexible et évolutive <br><b><u>Technos de la start-up:</u></b> Open-source, PHP</p><br><a href='https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html' target=blank class='btn facebook' >Découvrir sur github</a><br> </div><div class='col-md-5'><a href=https://microsoft.github.io/techcasestudies/azure%20app%20service/2017/05/08/contentavenue.html'><img style='width:90%' src='../images/general/architectureallskreen.png'></a></div>",
+
+    ];
+
+    $('.tab-data').click(function () {
+        $('.arrow-up').hide();
+        $(this).find('.arrow-up').show();
+        $('.tabs-content .container').html(tabs[$('.tab-data').index(this)]);
+    });
 });
