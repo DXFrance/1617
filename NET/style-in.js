@@ -15,13 +15,13 @@ $(document).ready(function () {
                    {
                     title: 'Multi plateformes, modulaire & open source',
                     image: '../images/general/assets_dotnet/dotnetcore.png',
-                    content: '    .NET Core est la nouvelle plateforme de dev adaptée aux besoins du développement moderne.',
+                    content: '    .NET Core 2.0 est la nouvelle plateforme de dev adaptée aux besoins du développement moderne.',
                     list: [
 
                     ],
                     link: 'https://dotnet.github.io/',
                     type: 'build',
-                    label: '.Net Core'
+                    label: '.Net Core 2.0'
                 },
                {
                     title: 'App natives IOS et Android',
@@ -64,7 +64,7 @@ $(document).ready(function () {
                     list: [ ],
                     link: 'https://code.visualstudio.com/',
                     type: 'plateforme',
-                    label: 'Linux '
+                    label: 'Linux Windows Mac'
                 },
                                                   {
                     title: 'Xamarin',
