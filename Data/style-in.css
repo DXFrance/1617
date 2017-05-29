@@ -161,6 +161,38 @@ fa {
 	letter-spacing: .5px;
 	font-size:1.1em
 }
+
+.btnbuild
+{
+	background-color:steelblue;
+	color:#fff;
+	margin-right:1em;
+	font-weight:bold;
+	transition: .2s ease-out;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    cursor: pointer;
+	letter-spacing: .5px;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btnbuild:hover
+{
+	color:#fff;
+	background-color:dodgerblue;
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+	-webkit-animation:pulse 0.7s;
+	animation:pulse 0.7s
+}
 .btn:hover
 {
 	color:#fff;
