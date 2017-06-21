@@ -22,18 +22,16 @@
 	text-align: center;
 }
 .bg-headerh {
-	 background-image:url("../../images/general/seattlejour.jpg") !important;
-	height: 400px;
-	background-repeat: no-repeat;
-	
-	background-position: 58% 63%;
+	 background-image:url("../../images/general/seattlejour2.png") !important;
+	height: 280px;
+	background-position: 45% 87%;
 	
 }
 .slogan-build{
-	color: #FFF;
-    font-weight: bold;
+	color: #22313F;
+   
     font-size: 3em;
-    line-height: 200px;
+    line-height: 0px;
 }
 .badge-link {
 	display: block;
@@ -98,6 +96,7 @@
 	background-color: #22313F;
     background-size: cover !important;
 }
+
 
 	ul,li
 {
@@ -1174,9 +1173,7 @@ section.content_with_pictures_2
 	/*margin-top:2em;*/
 	display:block
 }
-.slogan-build{
-	font-size: 1.5em;
-}
+
 
 
 	nav #menu-button svg
