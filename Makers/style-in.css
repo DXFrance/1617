@@ -455,6 +455,8 @@ li.w3-card-4
 {
 	font-size:1.1em;
 	margin-top:1em;
+	text-align: left;
+	font-weight: normal;
 }
 	section.header .container
 {
