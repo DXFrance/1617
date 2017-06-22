@@ -435,9 +435,10 @@ div ul li svg, div ul li img.icone {
 }
 
 section.header  .subtitle {
-	font-size: 2.1em;
-    margin-top: 0.5em;
+	font-size: 1.5em;
+    margin-top: 0.9em;
 	text-align: left;
+	font-weight: initial;
 }
 
 .carousel-caption h3 {
