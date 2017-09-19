@@ -60,3 +60,5 @@ jspm_packages
 !.vscode/extensions.json
 
 # End of https://www.gitignore.io/api/node,visualstudiocode
+/.vs/slnx.sqlite
+*.sqlite-journal
