@@ -42,43 +42,78 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold"
-        title="roboto">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+          title="roboto">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-        <!-- Bootstrap -->
-        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <!-- Bootstrap -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 
-        <!-- Animate.css -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
 
-        <!-- Lightbox -->
-        <link href="../assets/css/lightbox.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="../assets/css/lightbox.css" rel="stylesheet">
 
-        <!-- Normalize -->
-        <link href="../assets/css/normalize.css" rel="stylesheet">
+    <!-- Normalize -->
+    <link href="../assets/css/normalize.css" rel="stylesheet">
 
-        <!-- Owl stylesheets -->
-        <link href="../assets/css/owl.carousel.css" rel="stylesheet" rel="stylesheet">
-        <link href="../assets/css/owl.theme.css" rel="stylesheet" rel="stylesheet">
+    <!-- Owl stylesheets -->
+    <link href="../assets/css/owl.carousel.css" rel="stylesheet" rel="stylesheet">
+    <link href="../assets/css/owl.theme.css" rel="stylesheet" rel="stylesheet">
 
-        <!-- CSS file -->
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="style-in.css" rel="stylesheet">
-        <link href="../assets/css/cards.css" rel="stylesheet">
-        <script type="text/javascript" src="//nexus.ensighten.com/msft_frcmo/FR-Local-ITDEv/Bootstrap.js"></script> 
+    <!-- CSS file -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="style-in.css" rel="stylesheet">
+    <link href="../assets/css/cards.css" rel="stylesheet">
+    
+
+    <!--cookies-->
+    <link rel="stylesheet" type="text/css" href="https://uhf.microsoft.com/mscc/statics/mscc-0.2.2.min.css">
+    <script src="https://uhf.microsoft.com/mscc/statics/mscc-0.2.2.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var addNexusTag = function () {
+                var ne = document.createElement('script'); ne.type = 'text/javascript'; ne.async = true;
+                ne.src = 'https://nexus.ensighten.com/msft_frcmo/FR-Local-ITDEv/Bootstrap.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ne, s);
+            };
+
+            if (!mscc || mscc.hasConsent()) {
+                addNexusTag();
+            } else {
+                mscc.on('consent', addNexusTag);
+            }
+
+        })();
+
+    </script>
+
+
 </head>
-
-
-
-
 <body>
+
+    <div ms.cmpgrp='cookiebanner'>
+        <div id="uhfCookieAlert">
+            <div id='msccBanner' dir='ltr' data-site-name='Microsoft.OneRenderFramework.Core' data-mscc-version='0.2.2' data-nver='aspnet-2.0.5'
+                 data-sver='0.1.2' class='cc-banner' role='alert'>
+                <div class='cc-container'>
+                    <svg class='cc-icon cc-v-center' x='0px' y='0px' viewBox='0 0 44 44' height='30px' fill='none' stroke='currentColor'>
+                        <circle cx='22' cy='22' r='20' stroke-width='2'></circle>
+                        <line x1='22' x2='22' y1='18' y2='33' stroke-width='3'></line>
+                        <line x1='22' x2='22' y1='12' y2='15' stroke-width='3'></line>
+                    </svg> <span class='cc-v-center cc-text'>Ce site utilise des cookies pour l'analyse, ainsi pour que les contenus et les publicités personnalisés. En continuant à naviguer sur ce site, vous acceptez cette utilisation.</span>                            <a href='https://go.microsoft.com/fwlink/?linkid=845480' aria-label='En savoir plus sur la politique relative aux cookies de Microsoft'
+                                                                                                                                                                                                                                                                                  id='msccLearnMore' class='cc-link cc-v-center cc-float-right'>En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="badge-home">
         <a onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
-            href="https://twitter.com/home?status=Créer, tester, déployer son bot avec Microsoft. http://aka.ms/hellobot" title="Partagez cette page sur twitter">
+           href="https://twitter.com/home?status=Créer, tester, déployer son bot avec Microsoft. http://aka.ms/hellobot" title="Partagez cette page sur twitter">
             <i class="fa fa-twitter"></i>
-            </a>
+        </a>
     </div>
 
 
@@ -94,14 +129,15 @@
                 <div class="col-sm-9 col-md-9 col-lg-9">
                     <div class="transitionFadeInDown firstTransition">
                         <a href="../index.html" alt="Home page">
-                           <div class="logoWhite" href="../index.html"></div>
+                            <div class="logoWhite" href="../index.html"></div>
                         </a>
-                       
+
                         <h1 class="slogan-bots">Prendre son pied avec les bots</h1>
                         <p class="subtitle-bot">La nouvelle génération de Bots depuis IRC</p>
-                        <br/>
+                        <br />
                     </div>
-                    <div class="buttons transitionFadeInUp secondTransition"><br/>
+                    <div class="buttons transitionFadeInUp secondTransition">
+                        <br />
                         <a href="#services" class="btn btn-explorer">Explorer</a>
 
                     </div>
@@ -111,7 +147,6 @@
     </section>
 
     <!-- Fin section HEADER -->
-
     <!-- Début navigation MENU -->
     <div class="sticky-wrapper is-sticky">
         <nav>
@@ -143,9 +178,7 @@
     <div class="cache" id="cache"></div>
     <!-- Fin de l'opacité -->
     <!-- Fin navigation -->
-
     <!-- Début section ITEMS -->
-
     <!--Début Bandeau H2 -->
 
     <div class="item-bot-2lines">
@@ -171,13 +204,12 @@
                 </div>
                 <div style="text-align:center;">
                     <iframe src="https://channel9.msdn.com/Blogs/tdo-web/dev-class-piedbots/player?format=html5" width="720" height="410" allowFullScreen
-                        frameBorder="0"></iframe>
+                            frameBorder="0"></iframe>
                 </div>
             </div>
     </section>
     <!-- SERVICES POUR TESTER LAPP -->
     <!-- FIN SECTION SERVICES -->
-
     <!-- Début section plateformes -->
     <!--Début Bandeau H2 -->
     <div id="tester-menu">
@@ -198,21 +230,20 @@
                     </div>
                 </div>
             </div>
-             <p style="color: black; font-weight: bold;"> Et bien plus encore : détection d'images, d'émotions, interprétation du langage, synthèse vocale... </p><br>
-        <a href="https://www.microsoft.com/cognitive-services/en-us/apis" target=blank class="btn facebook">Découvrez les 23 APIs</a>
+            <p style="color: black; font-weight: bold;"> Et bien plus encore : détection d'images, d'émotions, interprétation du langage, synthèse vocale... </p><br>
+            <a href="https://www.microsoft.com/cognitive-services/en-us/apis" target=blank class="btn facebook">Découvrez les 23 APIs</a>
     </div>
-   
+
     </section>
     </div>
 
     <!-- Début section OUTILS -->
-
     <!--Début Bandeau H2 -->
     <div id="diffuser-menu">
         <div class="item-bot-2lines">
 
             <br>
-              <p style="margin-TOP: 10px; color: #fff;text-align: center;font-size: 2.5em;">Héberger</p> <br <br><br>
+            <p style="margin-TOP: 10px; color: #fff;text-align: center;font-size: 2.5em;">Héberger</p> <br <br><br>
         </div>
 
         </a>
@@ -230,10 +261,7 @@
     </div>
     </div>
     <!-- Fin section OUTILS -->
-
-
     <!-- FOOTER -->
-
     <!-- Début section CONTACT -->
     <div id="newsletter-menu">
         <section id="newsletter" class="newsletter">
@@ -256,7 +284,6 @@
                                 </a>
                             </div>
                             <!-- Fin ID Contact TE référent -->
-
                             <!-- Début ID Contact TE référent -->
 
                             <div class="contact-people">
@@ -271,7 +298,8 @@
                         <br />
                         <!-- Fin ID Contact TE référent -->
 
-                        <p class="content_description">Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
+                        <p class="content_description">
+                            Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
                             <br /><br />
                             <a class="btn" href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" alt="S'inscrire à la NL MSDN" target=":blank">En savoir plus</a>
                         </p>
@@ -283,19 +311,22 @@
                                     <p class="content_description">Et aussi ...</p>
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/Developpeurs.net/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeFacebook.png" alt="Icone Facebook"
-                                                /></a>
+                                            <a href="https://www.facebook.com/Developpeurs.net/" target=":blank" alt="Gardons contact autrement" class="social-link">
+                                                <img class="icone" src="../images/icons/IconeFacebook.png" alt="Icone Facebook" />
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/msdev_fr" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeTwitter.png" alt="Icone Twitter"
-                                                /></a>
+                                            <a href="https://twitter.com/msdev_fr" target=":blank" alt="Gardons contact autrement" class="social-link">
+                                                <img class="icone" src="../images/icons/IconeTwitter.png" alt="Icone Twitter" />
+                                            </a>
                                         </li>
                                         <li>
                                             <a href="http://experiences.microsoft.fr/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/play-button.png" alt="Icone Video" /></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/company/microsoft" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeLinkedin.png" alt="Icone Linkedin"
-                                                /></a>
+                                            <a href="https://www.linkedin.com/company/microsoft" target=":blank" alt="Gardons contact autrement" class="social-link">
+                                                <img class="icone" src="../images/icons/IconeLinkedin.png" alt="Icone Linkedin" />
+                                            </a>
                                         </li>
                                         <li>
                                             <a href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/mail.png" alt="Icone site" /></a>
@@ -315,7 +346,6 @@
 
     </div>
     <!-- Fin section CONTACT -->
-
     <!-- Début section FOOTER -->
 
     <footer>
@@ -395,7 +425,6 @@
                         </a>
                     </div>
                     <!-- Fin Planete -->
-
                     <!-- Début Planete -->
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <a href="../Makers/index.html" alt="Makers">
@@ -447,18 +476,19 @@
             </div>
         </div>
 
-        <p>© 2017 Microsoft -
+        <p>
+            © 2017 Microsoft -
             <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;" target=":blank">Contactez Microsoft</a>            -
             <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;"
-                target=":blank">Confidentialité et Cookies</a> -
-                <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation" style="text-decoration:underline;"
-                    target=":blank">Conditions d'utilisation</a> -
-                    <a href="https://www.microsoft.com/trademarks" alt="Marques" style="text-decoration:underline;" target=":blank">Marques</a>                    -
-                    <a href="http://choice.microsoft.com/" alt="A propos" style="text-decoration:underline;" target=":blank">À propos de nos annonces</a></p>
+               target=":blank">Confidentialité et Cookies</a> -
+            <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation" style="text-decoration:underline;"
+               target=":blank">Conditions d'utilisation</a> -
+            <a href="https://www.microsoft.com/trademarks" alt="Marques" style="text-decoration:underline;" target=":blank">Marques</a>                    -
+            <a href="http://choice.microsoft.com/" alt="A propos" style="text-decoration:underline;" target=":blank">À propos de nos annonces</a>
+        </p>
     </footer>
 
     <!-- Fin section FOOTER -->
-
     <!-- jQuery -->
     <script type="text/javascript" src="../assets/js/jquery-1.11.1.min.js"></script>
 
@@ -491,28 +521,18 @@
 
     <!-- Navigation -->
     <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8="
-        crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script>
 
-        <script type="text/javascript" src="../assets/js/nav.js"></script>
+    <script type="text/javascript" src="../assets/js/nav.js"></script>
 
-        <!-- Style -->
-        <script type="text/javascript" src="style-in.js"></script>
+    <!-- Style -->
+    <script type="text/javascript" src="style-in.js"></script>
 
 
-        <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
       <script src="../assets/js/respond.min.js"></script>
     <![endif]-->
-
-     <script type="text/JavaScript">
-    var varSegmentation = 0;
-    var varClickTracking = 1;
-    var varCustomerTracking = 1;
-    var Route = "17825";
-    var Ctrl = "";
-    document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
-</script>
-        <noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx" /></noscript>
 
 
 </body>

@@ -42,7 +42,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold"
-        title="roboto">
+          title="roboto">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <!-- Bootstrap -->
@@ -65,10 +65,48 @@
     <link href="../assets/css/style.css" rel="stylesheet">
     <link href="style-in.css" rel="stylesheet">
     <link href="../assets/css/cards.css" rel="stylesheet">
-    <script type="text/javascript" src="//nexus.ensighten.com/msft_frcmo/FR-Local-ITDEv/Bootstrap.js"></script> 
-</head>
+    
 
+    <!--cookies-->
+    <link rel="stylesheet" type="text/css" href="https://uhf.microsoft.com/mscc/statics/mscc-0.2.2.min.css">
+    <script src="https://uhf.microsoft.com/mscc/statics/mscc-0.2.2.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var addNexusTag = function () {
+                var ne = document.createElement('script'); ne.type = 'text/javascript'; ne.async = true;
+                ne.src = 'https://nexus.ensighten.com/msft_frcmo/FR-Local-ITDEv/Bootstrap.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ne, s);
+            };
+
+            if (!mscc || mscc.hasConsent()) {
+                addNexusTag();
+            } else {
+                mscc.on('consent', addNexusTag);
+            }
+
+        })();
+
+    </script>
+
+
+</head>
 <body>
+
+    <div ms.cmpgrp='cookiebanner'>
+        <div id="uhfCookieAlert">
+            <div id='msccBanner' dir='ltr' data-site-name='Microsoft.OneRenderFramework.Core' data-mscc-version='0.2.2' data-nver='aspnet-2.0.5'
+                 data-sver='0.1.2' class='cc-banner' role='alert'>
+                <div class='cc-container'>
+                    <svg class='cc-icon cc-v-center' x='0px' y='0px' viewBox='0 0 44 44' height='30px' fill='none' stroke='currentColor'>
+                        <circle cx='22' cy='22' r='20' stroke-width='2'></circle>
+                        <line x1='22' x2='22' y1='18' y2='33' stroke-width='3'></line>
+                        <line x1='22' x2='22' y1='12' y2='15' stroke-width='3'></line>
+                    </svg> <span class='cc-v-center cc-text'>Ce site utilise des cookies pour l'analyse, ainsi pour que les contenus et les publicités personnalisés. En continuant à naviguer sur ce site, vous acceptez cette utilisation.</span>                            <a href='https://go.microsoft.com/fwlink/?linkid=845480' aria-label='En savoir plus sur la politique relative aux cookies de Microsoft'
+                                                                                                                                                                                                                                                                                  id='msccLearnMore' class='cc-link cc-v-center cc-float-right'>En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Début section HEADER -->
 
@@ -77,30 +115,31 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="col-md-7">
-                    <div class="transitionFadeInDown firstTransition">
-                        <a href="../index.html" alt="Home page">
-                            <div class="logoWhite"></div>
-                        </a>
-                         
-                        <h1 style="font-family:Segoe UI;font-size:40px;line-height: 110%; margin-top: 0.1em;text-align:left;">Big Data et Machine learning avec Azure</h1>
-                        <div class="subtitle" style="font-size:20px">Des solutions variées à chaque étape du traitement de vos données</div>
-                        <br>
-                    <div class="buttons transitionFadeInUp secondTransition"><br/>
-                        <a href="#services" class="btn btn-explorer">Explorer</a><br>
+                        <div class="transitionFadeInDown firstTransition">
+                            <a href="../index.html" alt="Home page">
+                                <div class="logoWhite"></div>
+                            </a>
+
+                            <h1 style="font-family:Segoe UI;font-size:40px;line-height: 110%; margin-top: 0.1em;text-align:left;">Big Data et Machine learning avec Azure</h1>
+                            <div class="subtitle" style="font-size:20px">Des solutions variées à chaque étape du traitement de vos données</div>
+                            <br>
+                            <div class="buttons transitionFadeInUp secondTransition">
+                                <br />
+                                <a href="#services" class="btn btn-explorer">Explorer</a><br>
+                            </div>
+                        </div>
                     </div>
-                     </div>
+                    <div class="col-md-5">
+                        <br> <a class="twitter-timeline" data-lang="fr" data-width="800" data-height="400" data-theme="light" href="https://twitter.com/dxfrdata">Tweets by dxfrdata</a>
+                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
-                     <div class="col-md-5" >
-       <br> <a class="twitter-timeline" data-lang="fr" data-width="800" data-height="400" data-theme="light" href="https://twitter.com/dxfrdata">Tweets by dxfrdata</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-                
+
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Fin section HEADER -->
-
     <!-- Début navigation MENU -->
     <div class="sticky-wrapper is-sticky">
         <nav>
@@ -115,9 +154,9 @@
                     <div class="content">
                         <ul>
                             <li><a href="#build-menu" class="build" data-menu="build-menu">Build 2017</a></li>
-                           <!-- <li><a href="#services-menu" class="services" data-menu="services-menu">Le Big Data</a></li> -->
+                            <!-- <li><a href="#services-menu" class="services" data-menu="services-menu">Le Big Data</a></li> -->
                             <li><a href="#outils-menu" class="outils" data-menu="outils-menu">Les solutions Azure</a></li>
-                               <li><a href="#boontadata-menu" class="boontadata" data-menu="boontadata-menu">Boontadata</a></li>
+                            <li><a href="#boontadata-menu" class="boontadata" data-menu="boontadata-menu">Boontadata</a></li>
                             <li><a href="#newsletter-menu" class="newsletter" data-menu="newsletter-menu">Contact</a></li>
                         </ul>
                         <div class="menu-button" id="menu-button">
@@ -134,372 +173,356 @@
     <div class="cache" id="cache"></div>
     <!-- Fin de l'opacité -->
     <!-- Fin navigation -->
-
     <!-- Début section build -->
 
     <div id="build-menu">
-       
-         <section id="services" class="services" style="padding-top: 0px;background-color:#d8dfe2;";>
-        
+
+        <section id="services" class="services" style="padding-top: 0px;background-color:#d8dfe2;" ;>
+
             <br><h2 style="color:black;">Les dernières innovations Data issues de la Build 2017 à Seattle</h2> <br><br>
-       <div class="col-md-4">
-        <a href="https://blogs.technet.microsoft.com/dataplatforminsider/2017/05/10/serving-ai-with-data-a-summary-of-build-2017-data-innovations/" target=blank><img class="img-data" src="../images/general/aidata2.png" style="padding-bottom: 20px;"></a> <br> <br>
-       
-        </div> <div class="col-md-4">
-        <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/introduction" target=blank><img class="img-data" src="../images/general/azurecosmosdb3.png" style="padding-bottom: 20px;width:300px;"></a> <br> <br>
-       
-        </div>
-        <div class="col-md-4">
-        <a href="https://azure.microsoft.com/en-us/blog/microsoft-extends-azure-managed-database-services-with-introduction-of-mysql-and-postgresql/" target=blank><img class="img-data" src="../images/general/postgresql3.png" style="padding-bottom: 20px;width:300px;"> </a><br> <br>
-        </div>
-        <br>
-           <a href="https://blogs.technet.microsoft.com/dataplatforminsider/2017/05/10/serving-ai-with-data-a-summary-of-build-2017-data-innovations/" target=blank class="btnbuild" >Article complet en anglais [SQL Server Blog]</a>
-        <br>
-        
-       </div>
-    
+            <div class="col-md-4">
+                <a href="https://blogs.technet.microsoft.com/dataplatforminsider/2017/05/10/serving-ai-with-data-a-summary-of-build-2017-data-innovations/" target=blank><img class="img-data" src="../images/general/aidata2.png" style="padding-bottom: 20px;"></a> <br> <br>
+
+            </div> <div class="col-md-4">
+                <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/introduction" target=blank><img class="img-data" src="../images/general/azurecosmosdb3.png" style="padding-bottom: 20px;width:300px;"></a> <br> <br>
+
+            </div>
+            <div class="col-md-4">
+                <a href="https://azure.microsoft.com/en-us/blog/microsoft-extends-azure-managed-database-services-with-introduction-of-mysql-and-postgresql/" target=blank><img class="img-data" src="../images/general/postgresql3.png" style="padding-bottom: 20px;width:300px;"> </a><br> <br>
+            </div>
+            <br>
+            <a href="https://blogs.technet.microsoft.com/dataplatforminsider/2017/05/10/serving-ai-with-data-a-summary-of-build-2017-data-innovations/" target=blank class="btnbuild">Article complet en anglais [SQL Server Blog]</a>
+            <br>
+
+    </div>
+
 
     <!-- Fin section build-->
-
     <!-- Début section plateformes
 
-<div id="services-menu">
-        <div class="item-short" style="height:140px">
-            <br><h2 style="color:white;"> Les différents composants de l'architecture Big Data </h2> <br>
-        </div>
-         <section id="services" class="services" style="padding-top: 0px;background-color: white" ;="">
-        
-        <br><br>
-        <div class="col-md-8">
-        <img class="img-data" src="../images/general/schemabigdata.png" style="padding-bottom: 20px;"> <br> <br>
-        <a href="https://channel9.msdn.com/Events/Build/2016/B813" target="blank" class="btn facebook">Plus de détails en vidéo</a>
-        </div>
-        <div class="col-md-4" style="padding-left: 50px">
-        <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="500" data-theme="dark" href="https://twitter.com/dxfrdata">Tweets by dxfrdata</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <br>
-        
-       </section></div>  -->
+    <div id="services-menu">
+            <div class="item-short" style="height:140px">
+                <br><h2 style="color:white;"> Les différents composants de l'architecture Big Data </h2> <br>
+            </div>
+             <section id="services" class="services" style="padding-top: 0px;background-color: white" ;="">
 
-           <!-- Fin section plateformes -->
+            <br><br>
+            <div class="col-md-8">
+            <img class="img-data" src="../images/general/schemabigdata.png" style="padding-bottom: 20px;"> <br> <br>
+            <a href="https://channel9.msdn.com/Events/Build/2016/B813" target="blank" class="btn facebook">Plus de détails en vidéo</a>
+            </div>
+            <div class="col-md-4" style="padding-left: 50px">
+            <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="500" data-theme="dark" href="https://twitter.com/dxfrdata">Tweets by dxfrdata</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <br>
 
-
+           </section></div>  -->
+    <!-- Fin section plateformes -->
     <!-- Début section OUTILS -->
     <div id="outils-menu">
-      
+
         <div class="item-short" style="height:140px">
             <br><h2 style="color:white;"> Des solutions Azure à chaque étape du traitement de vos données</h2> <br>
         </div>
 
         <section id="items" style="background-color:#d8dfe2;" class="items">
             <div class="container cards">
-                <center>         
-                   <iframe class="powerbi" width="900" height="1400" align="center" src="https://msit.powerbi.com/view?r=eyJrIjoiYzc2NDkxMjQtMGY3YS00ZDg1LTlhY2EtNzExZDgyZjEyZWNmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
-                  </center>  
+                <center>
+                    <iframe class="powerbi" width="900" height="1400" align="center" src="https://msit.powerbi.com/view?r=eyJrIjoiYzc2NDkxMjQtMGY3YS00ZDg1LTlhY2EtNzExZDgyZjEyZWNmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+                </center>
             </div>
         </section>
     </div>
     <!-- Fin section OUTILS -->
-
     <!-- Début section Boontadata -->
 
- <div id="boontadata-menu">
-           
+    <div id="boontadata-menu">
+
         <div class="item-short" style="height:140px">
             <br><h2 style="color:white;"> Le projet Boontadata </h2> <br>
         </div>
- <section id="items" style="background-color:white;" class="items">
-     <h3 style="font-size:30px"> Comparez des moteurs de traitement pour le « Hot Path » </h3>
+        <section id="items" style="background-color:white;" class="items">
+            <h3 style="font-size:30px"> Comparez des moteurs de traitement pour le « Hot Path » </h3>
 
-    <div class="col-md-5">
-         <img class="img-data"  src="../images/general/schemaboontadata.png">
-     
-     </div>
-     <div class="col-md-7">
-    <p style="text-align: left;padding-right: 30px;"> Les projets open source boontadata (<a style="color:blue" href="https://github.com/boontadata">Github Boontadata</a>) vous permettent de le faire, que ce soit pour des moteurs <a style="color:blue" href="http://github.com/boontadata">open source</a> ou <a style="color:blue" href="https://github.com/boontadata/boontadata-paas">Paas Azure</a>. <br /><br>
-    Les derniers logs d’exécutions sur un scénario commun sont disponibles dans doc/sample_execution_log.txt dans chacun des deux projets. <br /><br>
-    Le code est disponible dans code comme par exemple <u>code/spark/master/code/StreamingJob.scala</u> dans le premier projet ou <u>code/paas-artifacts/StreamAnalytics/query.sql dans le second.</u>  </p> 
-    <h3 style="font-size: 20px;">Vous ne trouvez pas votre moteur?</h3>
-    <a href="https://github.com/boontadata" target=blank class="btn facebook" >Contribuez !</a>
+            <div class="col-md-5">
+                <img class="img-data" src="../images/general/schemaboontadata.png">
+
+            </div>
+            <div class="col-md-7">
+                <p style="text-align: left;padding-right: 30px;">
+                    Les projets open source boontadata (<a style="color:blue" href="https://github.com/boontadata">Github Boontadata</a>) vous permettent de le faire, que ce soit pour des moteurs <a style="color:blue" href="http://github.com/boontadata">open source</a> ou <a style="color:blue" href="https://github.com/boontadata/boontadata-paas">Paas Azure</a>. <br /><br>
+                    Les derniers logs d’exécutions sur un scénario commun sont disponibles dans doc/sample_execution_log.txt dans chacun des deux projets. <br /><br>
+                    Le code est disponible dans code comme par exemple <u>code/spark/master/code/StreamingJob.scala</u> dans le premier projet ou <u>code/paas-artifacts/StreamAnalytics/query.sql dans le second.</u>
+                </p>
+                <h3 style="font-size: 20px;">Vous ne trouvez pas votre moteur?</h3>
+                <a href="https://github.com/boontadata" target=blank class="btn facebook">Contribuez !</a>
+            </div>
+        </section>
     </div>
-  </section>
- </div>
-    
 
-<!-- Fin section Boontadata -->
 
+    <!-- Fin section Boontadata -->
     <!-- FOOTER -->
-
     <!-- Début section CONTACT -->
     <div id="newsletter-menu">
         <section id="newsletter" class="newsletter">
             <div class="container">
                 <div class="row row-centered">
                     <div class="col-sm-12 col-md-12 col-lg-12 col-centered">
-                      
-                            <h2>Data scientists, Microsoft France à votre écoute</h2>
-                            <p class="content_description">2 personnes vous sont dédiées</p>
-                            <br />
+
+                        <h2>Data scientists, Microsoft France à votre écoute</h2>
+                        <p class="content_description">2 personnes vous sont dédiées</p>
+                        <br />
+                        <!-- Début ID Contact TE référent -->
+
+                        <div class="contact-team">
+                            <div class="contact-people">
+                                <a target=":blank" href="https://twitter.com/benjguin">
+                                    <div class="contact-img"><img src="../images/general/benjaming.png" alt="Benjamin Guinebertière"></div>
+                                    <div class="contact-name">
+                                        <p>Benjamin</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Fin ID Contact TE référent -->
                             <!-- Début ID Contact TE référent -->
 
-                            <div class="contact-team">
-                                <div class="contact-people">
-                                    <a target=":blank" href="https://twitter.com/benjguin">
-                                        <div class="contact-img"><img src="../images/general/benjaming.png" alt="Benjamin Guinebertière"></div>
-                                        <div class="contact-name">
-                                            <p>Benjamin</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Fin ID Contact TE référent -->
-
-                                <!-- Début ID Contact TE référent -->
-
-                                <div class="contact-people">
-                                    <a target=":blank" href="https://twitter.com/gLescure">
-                                        <div class="contact-img"><img src="../images/general/guillaume.png" alt="Guillaume Lescure"></div>
-                                        <div class="contact-name">
-                                            <p>Guillaume</p>
-                                        </div>
-                                    </a>
-                                </div>
+                            <div class="contact-people">
+                                <a target=":blank" href="https://twitter.com/gLescure">
+                                    <div class="contact-img"><img src="../images/general/guillaume.png" alt="Guillaume Lescure"></div>
+                                    <div class="contact-name">
+                                        <p>Guillaume</p>
+                                    </div>
+                                </a>
                             </div>
-                            <br />
-                            <!-- Fin ID Contact TE référent -->
-
-                            <p class="content_description">Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
-                                <br /><br /><a class="btn" href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" alt="S'inscrire à la NL MSDN"
-                                    target=":blank">En savoir plus</a></p>
                         </div>
-                        <div class="container">
-                <div class="row row-centered">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-centered">
-                        <p class="content_description">Et aussi ...</p>
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/Developpeurs.net/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeFacebook.png" alt="Icone Facebook" /></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/msdev_fr" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeTwitter.png" alt="Icone Twitter" /></a>
-                            </li>
-                            <li>
-                                <a href="http://experiences.microsoft.fr/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/play-button.png" alt="Icone Video" /></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/microsoft" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeLinkedin.png" alt="Icone Linkedin" /></a>
-                            </li>
-                            <li>
-                                <a href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/mail.png" alt="Icone site" /></a>
-                            </li>
-                            <li>
-                                <a href="https://msdn.microsoft.com/fr-fr/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/menu.png" alt="Icone site" /></a>
-                            </li>
-                        </ul>
                         <br />
+                        <!-- Fin ID Contact TE référent -->
+
+                        <p class="content_description">
+                            Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
+                            <br /><br /><a class="btn" href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" alt="S'inscrire à la NL MSDN"
+                                           target=":blank">En savoir plus</a>
+                        </p>
+                    </div>
+                    <div class="container">
+                        <div class="row row-centered">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-centered">
+                                <p class="content_description">Et aussi ...</p>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/Developpeurs.net/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeFacebook.png" alt="Icone Facebook" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/msdev_fr" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeTwitter.png" alt="Icone Twitter" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://experiences.microsoft.fr/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/play-button.png" alt="Icone Video" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/microsoft" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/IconeLinkedin.png" alt="Icone Linkedin" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/mail.png" alt="Icone site" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://msdn.microsoft.com/fr-fr/" target=":blank" alt="Gardons contact autrement" class="social-link"><img class="icone" src="../images/icons/menu.png" alt="Icone site" /></a>
+                                    </li>
+                                </ul>
+                                <br />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-                    </div>
-                </div>
         </section>
-        </div>
-        <!-- Fin section CONTACT -->
+    </div>
+    <!-- Fin section CONTACT -->
+    <!-- Début section FOOTER -->
 
-        <!-- Début section FOOTER -->
-
-        <footer>
-            <div class="container">
-                <div class="row row-centered">
-                    <div class="col-sm-12 col-md-12 col-lg-12 col-centered">
-                        <h2>Microsoft parle à TOUS les développeurs</h2>
-                        <p class="content_description">Vous y êtes forcément !</p>
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../Java/index.html" alt="Java">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-coffee"></i>
-                                </div>
-                                <p>Java</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../Android/index.html" alt="Android">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-android"></i>
-                                </div>
-                                <p>Android</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../Bots/index.html" alt="Bots">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-comment"></i>
-                                </div>
-                                <p>Bots</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                   
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../devops/index.html" alt="DevOps">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-cogs"></i>
-                                </div>
-                                <p>DevOps</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../gaming/index.html" alt="Gaming">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-gamepad"></i>
-                                </div>
-                                <p>Gaming</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../iOS/index.html" alt="iOS">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-mobile"></i>
-                                </div>
-                                <p>iOS</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../Makers/index.html" alt="Makers">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-wrench"></i>
-                                </div>
-                                <p>Makers</p>
-                            </a>
-                        </div>
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../NET/index.html" alt=".NET">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-windows"></i>
-                                </div>
-                                <p>.NET</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../NUI/index.html" alt="New User Interface">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-hand-pointer-o"></i>
-                                </div>
-                                <p>Interfaces naturelles</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                          <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../Cloud/index.html" alt="Cloud Architecture">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-cloud"></i>
-                                </div>
-                                <p>Cloud Architecture</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../webfrontend/index.html" alt="Web Frontend">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-code"></i>
-                                </div>
-                                <p>Web Frontend</p>
-                            </a>
-                        </div>
-                        <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../WebBackend/index.html" alt="Web Backend">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-server"></i>
-                                </div>
-                                <p>Web Backend</p>
-                            </a>
-                        </div>
+    <footer>
+        <div class="container">
+            <div class="row row-centered">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-centered">
+                    <h2>Microsoft parle à TOUS les développeurs</h2>
+                    <p class="content_description">Vous y êtes forcément !</p>
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../Java/index.html" alt="Java">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-coffee"></i>
+                            </div>
+                            <p>Java</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../Android/index.html" alt="Android">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-android"></i>
+                            </div>
+                            <p>Android</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../Bots/index.html" alt="Bots">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-comment"></i>
+                            </div>
+                            <p>Bots</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../devops/index.html" alt="DevOps">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-cogs"></i>
+                            </div>
+                            <p>DevOps</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../gaming/index.html" alt="Gaming">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-gamepad"></i>
+                            </div>
+                            <p>Gaming</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../iOS/index.html" alt="iOS">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-mobile"></i>
+                            </div>
+                            <p>iOS</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../Makers/index.html" alt="Makers">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-wrench"></i>
+                            </div>
+                            <p>Makers</p>
+                        </a>
+                    </div>
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../NET/index.html" alt=".NET">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-windows"></i>
+                            </div>
+                            <p>.NET</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../NUI/index.html" alt="New User Interface">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-hand-pointer-o"></i>
+                            </div>
+                            <p>Interfaces naturelles</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../Cloud/index.html" alt="Cloud Architecture">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-cloud"></i>
+                            </div>
+                            <p>Cloud Architecture</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../webfrontend/index.html" alt="Web Frontend">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-code"></i>
+                            </div>
+                            <p>Web Frontend</p>
+                        </a>
+                    </div>
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../WebBackend/index.html" alt="Web Backend">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-server"></i>
+                            </div>
+                            <p>Web Backend</p>
+                        </a>
                     </div>
                 </div>
             </div>
-            <p>© 2017 Microsoft - <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;"
-                    target=":blank">Contactez Microsoft</a> -
-                <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;"
-                    target=":blank">Confidentialité et Cookies</a> -
-                <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation" style="text-decoration:underline;"
-                    target=":blank">Conditions d'utilisation</a> -
-                <a href="https://www.microsoft.com/trademarks" alt="Marques" style="text-decoration:underline;" target=":blank">Marques</a>                -
-                <a href="http://choice.microsoft.com/" alt="A propos" style="text-decoration:underline;" target=":blank">À propos de nos annonces</a></p>
-        </footer>
+        </div>
+        <p>
+            © 2017 Microsoft - <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;"
+                                  target=":blank">Contactez Microsoft</a> -
+            <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;"
+               target=":blank">Confidentialité et Cookies</a> -
+            <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation" style="text-decoration:underline;"
+               target=":blank">Conditions d'utilisation</a> -
+            <a href="https://www.microsoft.com/trademarks" alt="Marques" style="text-decoration:underline;" target=":blank">Marques</a>                -
+            <a href="http://choice.microsoft.com/" alt="A propos" style="text-decoration:underline;" target=":blank">À propos de nos annonces</a>
+        </p>
+    </footer>
 
-        <!-- Fin section FOOTER -->
+    <!-- Fin section FOOTER -->
+    <!-- jQuery -->
+    <script type="text/javascript" src="../assets/js/jquery-1.11.1.min.js"></script>
 
-       <!-- jQuery -->
-        <script type="text/javascript" src="../assets/js/jquery-1.11.1.min.js"></script>
+    <!-- Caroussel -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+    <!-- Hands.js -->
+    <script type="text/javascript" src="../assets/js/hand-1.3.8.js"></script>
 
-        <!-- Caroussel -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-        <!-- Hands.js -->
-        <script type="text/javascript" src="../assets/js/hand-1.3.8.js"></script>
+    <!-- Lightbox -->
+    <script type="text/javascript" src="../assets/js/lightbox.min.js"></script>
 
-        <!-- Lightbox -->
-        <script type="text/javascript" src="../assets/js/lightbox.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="../assets/js/waypoints.min.js"></script>
 
-        <!-- Waypoints -->
-        <script type="text/javascript" src="../assets/js/waypoints.min.js"></script>
+    <!-- Include Owl Carousel plugin -->
+    <script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
 
-        <!-- Include Owl Carousel plugin -->
-        <script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
+    <!-- IE specific files -->
+    <script type="text/javascript" src="../assets/js/modernizr.custom.js"></script>
 
-        <!-- IE specific files -->
-        <script type="text/javascript" src="../assets/js/modernizr.custom.js"></script>
+    <!-- countUp -->
+    <script type="text/javascript" src="../assets/js/countUp.min.js"></script>
 
-        <!-- countUp -->
-        <script type="text/javascript" src="../assets/js/countUp.min.js"></script>
+    <!-- Sticky -->
+    <script type="text/javascript" src="../assets/js/jquery.sticky.js"></script>
 
-        <!-- Sticky -->
-        <script type="text/javascript" src="../assets/js/jquery.sticky.js"></script>
+    <!-- ScrollTo -->
+    <script type="text/javascript" src="../assets/js/jquery.scrollTo.min.js"></script>
 
-        <!-- ScrollTo -->
-        <script type="text/javascript" src="../assets/js/jquery.scrollTo.min.js"></script>
-
-        <!-- Navigation -->
-        <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8="
+    <!-- Navigation -->
+    <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8="
             crossorigin="anonymous"></script>
 
-        <script type="text/javascript" src="../assets/js/nav.js"></script>
+    <script type="text/javascript" src="../assets/js/nav.js"></script>
 
-        <!-- Style -->
-        <script type="text/javascript" src="style-in.js"></script>
+    <!-- Style -->
+    <script type="text/javascript" src="style-in.js"></script>
 
-        <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-        <script type="text/JavaScript">
-    var varSegmentation = 0;
-    var varClickTracking = 1;
-    var varCustomerTracking = 1;
-    var Route = "17825";
-    var Ctrl = "";
-    document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
-</script>
-        <noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx" /></noscript>
-
+  
 </body>
 
 </html>
