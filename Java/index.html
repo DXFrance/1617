@@ -43,44 +43,80 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:light,regular,medium,thin,italic,mediumitalic,bold"
-        title="roboto">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+          title="roboto">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-        <!-- Bootstrap -->
-        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <!-- Bootstrap -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 
-        <!-- Animate.css -->
-        <link href="../assets/css/animate.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
 
-        <!-- Lightbox -->
-        <link href="../assets/css/lightbox.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="../assets/css/lightbox.css" rel="stylesheet">
 
-        <!-- Normalize -->
-        <link href="../assets/css/normalize.css" rel="stylesheet">
+    <!-- Normalize -->
+    <link href="../assets/css/normalize.css" rel="stylesheet">
 
-        <!-- Owl stylesheets -->
-        <link href="../assets/css/owl.carousel.css" rel="stylesheet" rel="stylesheet">
-        <link href="../assets/css/owl.theme.css" rel="stylesheet" rel="stylesheet">
+    <!-- Owl stylesheets -->
+    <link href="../assets/css/owl.carousel.css" rel="stylesheet" rel="stylesheet">
+    <link href="../assets/css/owl.theme.css" rel="stylesheet" rel="stylesheet">
 
-        <!-- CSS file -->
-        <link href="../assets/css/style.css" rel="stylesheet">
-        <link href="style-in.css" rel="stylesheet">
-        <link href="../assets/css/cards.css" rel="stylesheet">
-        <script type="text/javascript" src="//nexus.ensighten.com/msft_frcmo/FR-Local-ITDEv/Bootstrap.js"></script>
+    <!-- CSS file -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="style-in.css" rel="stylesheet">
+    <link href="../assets/css/cards.css" rel="stylesheet">
+    
+
+    <!--cookies-->
+    <link rel="stylesheet" type="text/css" href="https://uhf.microsoft.com/mscc/statics/mscc-0.2.2.min.css">
+    <script src="https://uhf.microsoft.com/mscc/statics/mscc-0.2.2.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var addNexusTag = function () {
+                var ne = document.createElement('script'); ne.type = 'text/javascript'; ne.async = true;
+                ne.src = 'https://nexus.ensighten.com/msft_frcmo/FR-Local-ITDEv/Bootstrap.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ne, s);
+            };
+
+            if (!mscc || mscc.hasConsent()) {
+                addNexusTag();
+            } else {
+                mscc.on('consent', addNexusTag);
+            }
+
+        })();
+
+    </script>
+
+
 </head>
-
-
-
 <body>
+
+    <div ms.cmpgrp='cookiebanner'>
+        <div id="uhfCookieAlert">
+            <div id='msccBanner' dir='ltr' data-site-name='Microsoft.OneRenderFramework.Core' data-mscc-version='0.2.2' data-nver='aspnet-2.0.5'
+                 data-sver='0.1.2' class='cc-banner' role='alert'>
+                <div class='cc-container'>
+                    <svg class='cc-icon cc-v-center' x='0px' y='0px' viewBox='0 0 44 44' height='30px' fill='none' stroke='currentColor'>
+                        <circle cx='22' cy='22' r='20' stroke-width='2'></circle>
+                        <line x1='22' x2='22' y1='18' y2='33' stroke-width='3'></line>
+                        <line x1='22' x2='22' y1='12' y2='15' stroke-width='3'></line>
+                    </svg> <span class='cc-v-center cc-text'>Ce site utilise des cookies pour l'analyse, ainsi pour que les contenus et les publicités personnalisés. En continuant à naviguer sur ce site, vous acceptez cette utilisation.</span>                            <a href='https://go.microsoft.com/fwlink/?linkid=845480' aria-label='En savoir plus sur la politique relative aux cookies de Microsoft'
+                                                                                                                                                                                                                                                                                  id='msccLearnMore' class='cc-link cc-v-center cc-float-right'>En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Début section HEADER -->
 
     <div class="badge-home">
         <a onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"
-            href="https://twitter.com/home?status=Je%20suis%20sur%20la%20page%20.NET%20de%20Microsoft%20!%20Viens%20faire%20un%20tour%20http://dev.microsoft.fr/NET/"
-            title="Partage la page sur twitter!">
+           href="https://twitter.com/home?status=Je%20suis%20sur%20la%20page%20.NET%20de%20Microsoft%20!%20Viens%20faire%20un%20tour%20http://dev.microsoft.fr/NET/"
+           title="Partage la page sur twitter!">
             <i class="fa fa-twitter"></i>
-            </a>
+        </a>
     </div>
 
     <section id="header" class="header">
@@ -92,10 +128,11 @@
                             <div class="logoWhite"></div>
                         </a>
                         <div class="slogan-net">public class HelloJavaDev {</div>
-                        <h1 style= "text-align: left;font-size: 25px;"> Boostez vos développements Java avec les outils et le cloud Microsoft </h1>
-                 <br>
+                        <h1 style="text-align: left;font-size: 25px;"> Boostez vos développements Java avec les outils et le cloud Microsoft </h1>
+                        <br>
                     </div>
-                    <div class="buttons transitionFadeInUp secondTransition"><br/>
+                    <div class="buttons transitionFadeInUp secondTransition">
+                        <br />
                         <a href="#Tour-de-France-menu" class="btn explorer">Explorer</a>
                     </div>
                     <img class="header-img" src="../images/general/java.png" alt="Java" />
@@ -105,9 +142,8 @@
     </section>
 
     <!-- Fin section HEADER -->
-
     <!-- Début navigation MENU -->
-     
+
     <div class="sticky-wrapper is-sticky">
         <nav>
             <div class="container">
@@ -134,90 +170,87 @@
             </div>
         </nav>
     </div>
-  </div>
+    </div>
 
     <!--  Début de l'opacité pour la navigation responsive  -->
     <div class="cache" id="cache"></div>
     <!-- Fin de l'opacité -->
-
     <!-- Début section Microsoft Devoxx -->
-  <a target="blank" href="http://open.microsoft.com/2017/02/17/microsoft-sponsor-platinium-de-la-6eme-edition-du-devoxx-france-du-5-au-7-avril-2017/"><img class="devoxx-img" src="../images/general/devoxx.png" ></a>
+    <a target="blank" href="http://open.microsoft.com/2017/02/17/microsoft-sponsor-platinium-de-la-6eme-edition-du-devoxx-france-du-5-au-7-avril-2017/"><img class="devoxx-img" src="../images/general/devoxx.png"></a>
     <!-- Fin section Microsoft Devoxx -->
-        
-<!-- Début MAP -->
+    <!-- Début MAP -->
 
- <div id="Tour-de-France-menu">
-    <section id="items" style="background-color:#ECF0F1" class="items">
-        <div class="row-outil row">
-            <div class="container event" style="width:100%;">
-                <div class="mapcontainerparent">
-                    <div class="mapcontainer col-md-5 ">
-                        <div class="map">
-                            <span>The map is loading</span>
+    <div id="Tour-de-France-menu">
+        <section id="items" style="background-color:#ECF0F1" class="items">
+            <div class="row-outil row">
+                <div class="container event" style="width:100%;">
+                    <div class="mapcontainerparent">
+                        <div class="mapcontainer col-md-5 ">
+                            <div class="map">
+                                <span>The map is loading</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="myLegend col-md-7 ">
+                        <div>
+                            <h2 style="color:black;text-align:left;font-size: 35px;"><u>TOUR DE FRANCE JUG</u></h2><br><br>
+                            <h3 style="color:black;text-align: left;margin-bottom: 1em;margin-top:1em;">Evénements passés</h3>
+                            <a target=":blank " href="https://twitter.com/StephRagazzi"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Thomas Bolon"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/Toulouse-Java-User-Group/events/234761650/">Toulouse (26/10/2016) - Java EE, Micro Profile, TypeScript et Angular 2</a> <br>
+                            <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="https://twitter.com/c2iClark"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Thomas Bolon"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/BordeauxJUG/events/234702577/">Bordeaux (27/10/2016) - Java EE, Micro Profile, TypeScript et Angular 2</a><br>
+                            <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Antonio Goncalves"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.youtube.com/watch?v=ki2ZgosjVyw"> Anvers (10/11/2016) - Devoxx Belgium - Java EE, TypeScript et Angular 2 </a><br>
+                            <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Antonio Goncalves"></a>
+
+                            <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/ElsassJUG/events/236359338/"> Strasbourg (11/01/2017) - Soirée Java EE, TypeScript et Angular 2 </a><br>
+                            <a target=":blank " href="https://twitter.com/dupuyjs"><img class="mylegendimg" src="../images/general/jsd.png " alt="Jean Sébastien Dupuy"></a>
+                            <a target=":blank " href="https://twitter.com/jcorioland"><img class="mylegendimg" src="../images/general/julien.png " alt="Julien Corioland"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.devoxx.fr/"> Paris (5-7 avril 2017) - DEVOXX france 2017</a><br>
+                            <a target=":blank " href="https://twitter.com/fbouteruche"><img class="mylegendimg" src="../images/general/François-Bouteruche.jpg " alt="Francois Bouteruche"></a>
+                            <a target=":blank " href="#"><img class="mylegendimg" src="../images/general/noone.png " alt="A venir"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x17651016f75"> Paris (09/05/2017) - Découvrez les outils DevOps pour les développeurs Java !</a><br>
+                            <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/noone.png " alt="A venir"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/GDG-Lille/events/236254549/?eventId=236254549&chapter_analytics_code=UA-7950928-4"> DevFest Lille (09/06/2017) - Entreprise Java Microprofile, TypeScript et Angular 2 </a><br>
+                            <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Antonio Goncalves"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/Lyon-Java-User-Group-LyonJUG/"> Lyon (15/06/2017) - Entreprise Java Microprofile, TypeScript et Angular 2 </a><br>
+                            <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
+                            <a target=":blank " href="#"><img class="mylegendimg" src="../images/general/noone.png " alt="A venir"></a>
+                            <a style="color:#2980b9" target=":blank" href="https://www.eclipsecon.org/france2017/conference/schedule/session/2017-06-21"> Toulouse (21/06/2017) - EclipseCon </a><br>
+                            <br>
+                        </div>
+                        <div>
+                            <h3 style="color:black;text-align: left;;margin-bottom: 1em;margin-top:1em;">Evénements à venir</h3>
+                            <br>
                         </div>
                     </div>
                 </div>
-                <div class="myLegend col-md-7 ">
-                    <div>
-                        <h2 style="color:black;text-align:left;font-size: 35px;"><u>TOUR DE FRANCE JUG</u></h2><br><br>
-                        <h3 style="color:black;text-align: left;margin-bottom: 1em;margin-top:1em;">Evénements passés</h3>
-                        <a target=":blank " href="https://twitter.com/StephRagazzi"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                        <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Thomas Bolon"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/Toulouse-Java-User-Group/events/234761650/">Toulouse (26/10/2016) - Java EE, Micro Profile, TypeScript et Angular 2</a> <br>
-                        <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                        <a target=":blank " href="https://twitter.com/c2iClark"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Thomas Bolon"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/BordeauxJUG/events/234702577/">Bordeaux (27/10/2016) - Java EE, Micro Profile, TypeScript et Angular 2</a><br>
-                        <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                        <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Antonio Goncalves"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.youtube.com/watch?v=ki2ZgosjVyw"> Anvers (10/11/2016) - Devoxx Belgium - Java EE, TypeScript et Angular 2 </a><br>
-                         <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                        <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Antonio Goncalves"></a>
-                        
-                        <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/ElsassJUG/events/236359338/"> Strasbourg (11/01/2017) - Soirée Java EE, TypeScript et Angular 2 </a><br>
-                        <a target=":blank " href="https://twitter.com/dupuyjs"><img class="mylegendimg" src="../images/general/jsd.png " alt="Jean Sébastien Dupuy"></a>
-                        <a target=":blank " href="https://twitter.com/jcorioland"><img class="mylegendimg" src="../images/general/julien.png " alt="Julien Corioland"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.devoxx.fr/"> Paris (5-7 avril 2017) - DEVOXX france 2017</a><br>
-                        <a target=":blank " href="https://twitter.com/fbouteruche"><img class="mylegendimg" src="../images/general/François-Bouteruche.jpg " alt="Francois Bouteruche"></a>
-                         <a target=":blank " href="#"><img class="mylegendimg" src="../images/general/noone.png "alt="A venir"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x17651016f75"> Paris (09/05/2017) - Découvrez les outils DevOps pour les développeurs Java !</a><br>
-                           <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                          <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/noone.png " alt="A venir"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/GDG-Lille/events/236254549/?eventId=236254549&chapter_analytics_code=UA-7950928-4"> DevFest Lille (09/06/2017) - Entreprise Java Microprofile, TypeScript et Angular 2 </a><br>
-                        <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                          <a target=":blank " href="https://twitter.com/styx31"><img class="mylegendimg" src="../images/general/antonio.jpg " alt="Antonio Goncalves"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.meetup.com/fr-FR/Lyon-Java-User-Group-LyonJUG/"> Lyon (15/06/2017) - Entreprise Java Microprofile, TypeScript et Angular 2 </a><br>
-                         <a target=":blank " href="https://twitter.com/sebastienpertus"><img class="mylegendimg" src="../images/general/sebastien.png " alt="Sébastien Pertus"></a>
-                         <a target=":blank " href="#"><img class="mylegendimg" src="../images/general/noone.png "alt="A venir"></a>
-                        <a style="color:#2980b9" target=":blank" href="https://www.eclipsecon.org/france2017/conference/schedule/session/2017-06-21"> Toulouse (21/06/2017) - EclipseCon </a><br>
-                        <br>
-                    </div>
-                    <div>
-                        <h3 style="color:black;text-align: left;;margin-bottom: 1em;margin-top:1em;">Evénements à venir</h3>
-                        <br>
-                    </div>
-                </div>
             </div>
-        </div>
-        
-        
-        
-         <div style="text-align:center;">
-             <p style="color: black;"> Vous voulez accueillir une étape du tour de France JUG dans votre ville ? <p>
-             <a href="https://www.aka.ms/meetupdesk" target=blank class="btn meetup">Contactez-nous</a>
-             <br><br><br> <iframe width="720" height="410" src="https://www.youtube.com/embed/SBVzANQKTEY?ecver=2" frameborder="0" allowfullscreen></iframe>
-             <br><br>
-        </div>
-    </section>
-</div>
 
-<!-- Fin MAP -->
 
+
+            <div style="text-align:center;">
+                <p style="color: black;"> Vous voulez accueillir une étape du tour de France JUG dans votre ville ? <p>
+                    <a href="https://www.aka.ms/meetupdesk" target=blank class="btn meetup">Contactez-nous</a>
+                    <br><br><br> <iframe width="720" height="410" src="https://www.youtube.com/embed/SBVzANQKTEY?ecver=2" frameborder="0" allowfullscreen></iframe>
+                    <br><br>
+            </div>
+        </section>
+    </div>
+
+    <!-- Fin MAP -->
     <!-- Début section Java et Microsoft -->
     <!--Début Bandeau H2  -->
     <div id="javaetmicrosoft-menu">
         <div class="item" style="height: 180px">
             <a style="background-color: #22313F" />
-           <br><h2>Microsoft vous aide à booster vos applications Java</h2> <br>
+            <br><h2>Microsoft vous aide à booster vos applications Java</h2> <br>
         </div>
         </a>
     </div>
@@ -229,11 +262,10 @@
                 <div class="col-md-12">
                 </div>
             </div>
-            </div>
+        </div>
         </div>
     </section>
     <!-- Fin section Java et Microsoft -->
-
     <!-- Début section Azure -->
     <div id="azure-menu">
         <!--Début Bandeau H2 Votre OS : votre IDE -->
@@ -255,11 +287,10 @@
 
     </div>
     <!-- Fin section Azure -->
-
     <!-- Fin navigation -->
-   
-    <a target="blank" href="https://www.microsoft.com/fr-fr/cloud-platform/containers"><img class="android-img" style="width:100%;height:auto" src="../images/general/containers6.png" ></a>
-   
+
+    <a target="blank" href="https://www.microsoft.com/fr-fr/cloud-platform/containers"><img class="android-img" style="width:100%;height:auto" src="../images/general/containers6.png"></a>
+
 
     <!-- Début section CONTACT -->
 
@@ -275,20 +306,21 @@
                         <div class="contact-people ">
                             <a target=":blank " href="https://twitter.com/sebastienpertus ">
                                 <div class="contact-img ">
-                                    <img src="../images/general/Sebastien.png " alt="Sébastien Pertus "></div>
+                                    <img src="../images/general/Sebastien.png " alt="Sébastien Pertus ">
+                                </div>
                                 <div class="contact-name ">
                                     <p>Sébastien</p>
                                 </div>
                             </a>
                         </div>
                         <!-- Fin ID Contact TE référent -->
-
                         <!-- Début ID Contact TE référent -->
 
                         <div class="contact-people ">
                             <a target=":blank " href="https://twitter.com/gLescure ">
                                 <div class="contact-img ">
-                                    <img src="../images/general/Guillaume.png " alt="Guillaume Lescure "></div>
+                                    <img src="../images/general/Guillaume.png " alt="Guillaume Lescure ">
+                                </div>
                                 <div class="contact-name ">
                                     <p>Guillaume</p>
                                 </div>
@@ -298,7 +330,8 @@
                     <br />
                     <!-- Fin ID Contact TE référent -->
 
-                    <p class="content_description">Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
+                    <p class="content_description">
+                        Ne manquez aucune actu dev avec la newsletter MSDN ! (2 emails par mois, et c'est tout.)
                         <br /><br />
                         <a class="btn explorer" href="https://formulaires.microsoft.fr/page/HGKINT-NL-MSDN/" alt="S 'inscrire à la NL MSDN" target=":blank">En savoir plus</a>
                     </p>
@@ -336,7 +369,6 @@
     </section>
     </div>
     <!-- Fin section CONTACT -->
-
     <!-- Début  FOOTER -->
 
     <footer>
@@ -415,8 +447,6 @@
                         </a>
                     </div>
                     <!-- Fin Planete -->
-                 
-
                     <!-- Début Planete -->
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <a href="../Makers/index.html" alt="Makers">
@@ -437,16 +467,16 @@
                         </a>
                     </div>
                     <!-- Fin Planete -->
-                      <!-- Début Planete -->
-                        <div class="col-md-2 col-sm-4 col-xs-6">
-                            <a href="../Cloud/index.html" alt="Cloud Architecture">
-                                <div class="footer-circle">
-                                    <i class="fa-fw fa fa-cloud"></i>
-                                </div>
-                                <p>Cloud Architecture</p>
-                            </a>
-                        </div>
-                        <!-- Fin Planete -->
+                    <!-- Début Planete -->
+                    <div class="col-md-2 col-sm-4 col-xs-6">
+                        <a href="../Cloud/index.html" alt="Cloud Architecture">
+                            <div class="footer-circle">
+                                <i class="fa-fw fa fa-cloud"></i>
+                            </div>
+                            <p>Cloud Architecture</p>
+                        </a>
+                    </div>
+                    <!-- Fin Planete -->
                     <!-- Début Planete -->
                     <div class="col-md-2 col-sm-4 col-xs-6">
                         <a href="../webfrontend/index.html" alt="Web Frontend">
@@ -469,20 +499,20 @@
             </div>
         </div>
         </div>
-        <p>© 2017 Microsoft -
+        <p>
+            © 2017 Microsoft -
             <a href="http://support.microsoft.com/contactus/?ln=fr" alt="Contactez Microsoft" style="text-decoration:underline;" target=":blank">Contactez Microsoft</a>            -
             <a href="https://go.microsoft.com/fwlink/?LinkId=521839" alt="Confidentialité et Cookies" style="text-decoration:underline;"
-                target=":blank">Confidentialité et Cookies</a> -
-                <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation " style="text-decoration:underline; "
-                    target=":blank ">Conditions d'utilisation</a> -
-                    <a href="https://www.microsoft.com/trademarks " alt="Marques " style="text-decoration:underline;
+               target=":blank">Confidentialité et Cookies</a> -
+            <a href="http://go.microsoft.com/fwlink/?LinkID=206977" alt="Conditions d'utilisation " style="text-decoration:underline; "
+               target=":blank ">Conditions d'utilisation</a> -
+            <a href="https://www.microsoft.com/trademarks " alt="Marques " style="text-decoration:underline;
                 " target=":blank ">Marques</a> -
-                        <a href="http://choice.microsoft.com/ " alt="A propos " style="text-decoration:underline; " target=":blank ">À propos de nos annonces</a>
+            <a href="http://choice.microsoft.com/ " alt="A propos " style="text-decoration:underline; " target=":blank ">À propos de nos annonces</a>
         </p>
     </footer>
 
     <!-- Fin section FOOTER -->
-
     <!-- jQuery -->
     <script type="text/javascript" src="../assets/js/jquery-1.11.1.min.js"></script>
 
@@ -497,8 +527,6 @@
     <script src="../assets/maps/france_departments.js" charset="utf-8"></script>
     <!--<script src="../assets/maps/world_countries.js" charset="utf-8"></script>-->
     <!--<script src="../assets/maps/usa_states.js" charset="utf-8"></script> -->
-
-
     <!-- Hands.js -->
     <script type="text/javascript" src="../assets/js/hand-1.3.8.js"></script>
 
@@ -525,123 +553,113 @@
 
     <!-- Navigation -->
     <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8="
-        crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script>
 
-        <script type="text/javascript" src="../assets/js/nav.js"></script>
+    <script type="text/javascript" src="../assets/js/nav.js"></script>
 
-        <!-- Style -->
-        <script type="text/javascript" src="style-in.js"></script>
-
-
+    <!-- Style -->
+    <script type="text/javascript" src="style-in.js"></script>
 
 
-        <!-- Ajout pour la map -->
 
 
-        <script type="text/javascript">
-            $(function () {
-                $(".mapcontainer").mapael({
-                    map: {
-                        name: "france_departments",
-                        // width: 400,
-                        defaultArea: {
-                            attrsHover: {
-                                fill: "#343434",
-                                stroke: "#5d5d5d",
-                                "stroke-width": 1,
-                                "stroke-linejoin": "round"
-                            }
+    <!-- Ajout pour la map -->
+
+
+    <script type="text/javascript">
+        $(function () {
+            $(".mapcontainer").mapael({
+                map: {
+                    name: "france_departments",
+                    // width: 400,
+                    defaultArea: {
+                        attrsHover: {
+                            fill: "#343434",
+                            stroke: "#5d5d5d",
+                            "stroke-width": 1,
+                            "stroke-linejoin": "round"
+                        }
+                    }
+                },
+
+                plots: {
+                    "town-75056": {
+                        value: "2268265",
+                        latitude: 48.86,
+                        longitude: 2.3444444444444,
+                        href: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x17651016f75",
+                        target: "blank",
+                        tooltip: {
+                            content: "<span style=\"font-weight:bold;\"> Paris (09/05/2017) </span><br />Découvrez les outils DevOps pour les développeurs Java !"
+                        }
+
+                    },
+                    "town-31555": {
+                        value: "449328",
+                        latitude: 43.604444444444,
+                        longitude: 1.4419444444444,
+                        href: "https://www.eclipsecon.org/france2017/conference/schedule/session/2017-06-21",
+                        target: "blank",
+                        tooltip: {
+                            content: "<span style=\"font-weight:bold;\">Toulouse (21/06/2017) </span><br />EclipseCon"
+                        }
+                    },
+                    "town-67482": {
+                        value: "276401",
+                        latitude: 48.583611111111,
+                        longitude: 7.7480555555556,
+                        href: "https://www.meetup.com/fr-FR/ElsassJUG/events/236359338/",
+                        target: "blank",
+                        tooltip: {
+                            content: "<span style=\"font-weight:bold;\">Strasbourg (11/01/17)</span><br />Soirée Java EE, TypeScript et Angular2"
+                        }
+                    },
+                    "town-33063": {
+                        value: "142945",
+                        latitude: 44.837777777778,
+                        longitude: -0.57944444444444,
+                        href: "https://www.meetup.com/fr-FR/BordeauxJUG/events/234702577/",
+                        target: "blank",
+                        tooltip: {
+                            content: "<span style=\"font-weight:bold;\">Bordeaux (27/10/16)</span><br />Java EE, Micro Profile, TypeScript et Angular 2"
+                        }
+                    },
+                    "town-33088": {
+                        value: "142945",
+                        latitude: 45.74846,
+                        longitude: 4.84671,
+                        href: "https://www.meetup.com/fr-FR/Lyon-Java-User-Group-LyonJUG/",
+                        target: "blank",
+                        tooltip: {
+                            content: "<span style=\"font-weight:bold;\">Lyon (15/06/17)</span><br />Entreprise Java Microprofile, TypeScript et Angular 2"
                         }
                     },
 
-                    plots: {
-                        "town-75056": {
-                            value: "2268265",
-                            latitude: 48.86,
-                            longitude: 2.3444444444444,
-                            href: "https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x17651016f75",
-                            target: "blank",
-                            tooltip: {
-                                content: "<span style=\"font-weight:bold;\"> Paris (09/05/2017) </span><br />Découvrez les outils DevOps pour les développeurs Java !"
-                            }
-                       
-                        },
-                        "town-31555": {
-                            value: "449328",
-                            latitude: 43.604444444444,
-                            longitude: 1.4419444444444,
-                            href: "https://www.eclipsecon.org/france2017/conference/schedule/session/2017-06-21",
-                            target: "blank",
-                            tooltip: {
-                                content: "<span style=\"font-weight:bold;\">Toulouse (21/06/2017) </span><br />EclipseCon"
-                            }
-                        },
-                        "town-67482": {
-                            value: "276401",
-                            latitude: 48.583611111111,
-                            longitude: 7.7480555555556,
-                            href: "https://www.meetup.com/fr-FR/ElsassJUG/events/236359338/",
-                            target: "blank",
-                            tooltip: {
-                                content: "<span style=\"font-weight:bold;\">Strasbourg (11/01/17)</span><br />Soirée Java EE, TypeScript et Angular2"
-                            }
-                        },
-                      "town-33063": {
-                            value: "142945",
-                            latitude: 44.837777777778,
-                            longitude: -0.57944444444444,
-                            href: "https://www.meetup.com/fr-FR/BordeauxJUG/events/234702577/",
-                            target: "blank",
-                            tooltip: {
-                                content: "<span style=\"font-weight:bold;\">Bordeaux (27/10/16)</span><br />Java EE, Micro Profile, TypeScript et Angular 2"
-                            }
-                        },
-                           "town-33088": {
-                            value: "142945",
-                            latitude: 45.74846,
-                            longitude: 4.84671,
-                            href: "https://www.meetup.com/fr-FR/Lyon-Java-User-Group-LyonJUG/",
-                            target: "blank",
-                            tooltip: {
-                                content: "<span style=\"font-weight:bold;\">Lyon (15/06/17)</span><br />Entreprise Java Microprofile, TypeScript et Angular 2"
-                            }
-                        },
-            
-                        "town-59350": {
-                            value: "234058",
-                            latitude: 50.9158,
-                            longitude: 2.3537,
-                            href: "https://www.meetup.com/fr-FR/GDG-Lille/events/236254549/?eventId=236254549&chapter_analytics_code=UA-7950928-4",
-                            target: "blank",
-                            tooltip: {
-                                content: "<span style=\"font-weight:bold;\">DevFest Lille (09/06/17)</span><br /> Java EE, TypeScript et Angular2"
-                            }
-                        },
-                        
-                    }
-                });
+                    "town-59350": {
+                        value: "234058",
+                        latitude: 50.9158,
+                        longitude: 2.3537,
+                        href: "https://www.meetup.com/fr-FR/GDG-Lille/events/236254549/?eventId=236254549&chapter_analytics_code=UA-7950928-4",
+                        target: "blank",
+                        tooltip: {
+                            content: "<span style=\"font-weight:bold;\">DevFest Lille (09/06/17)</span><br /> Java EE, TypeScript et Angular2"
+                        }
+                    },
+
+                }
             });
-        </script>
+        });
+    </script>
 
-
-
-
-        <!--[if lt IE 9]>
+    
+    <!--[if lt IE 9]>
       <script src="js/html5shiv.js "></script>
       <script src="js/respond.min.js "></script>
     <![endif]-->
 
-        <script type="text/JavaScript">
-    var varSegmentation = 0;
-    var varClickTracking = 1;
-    var varCustomerTracking = 1;
-    var Route = "17825";
-    var Ctrl = "";
-    document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
-</script>
-<noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx" /></noscript>
-
 
 </body>
+
+
 
 </html>

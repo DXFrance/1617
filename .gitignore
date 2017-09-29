@@ -62,3 +62,9 @@ jspm_packages
 # End of https://www.gitignore.io/api/node,visualstudiocode
 /.vs/slnx.sqlite
 *.sqlite-journal
+
+
+### VisualStudio ###
+.suo
+VSWorkspaceState.json
+applicationhost.config
